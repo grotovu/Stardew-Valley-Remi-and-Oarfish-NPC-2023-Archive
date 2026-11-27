@@ -1,0 +1,25 @@
+{
+"Changes": [
+
+	// Any thoughts? (some date specific in Dynamic Tokens)
+	{
+	"Action": "EditData",
+	"Target": "spacechase0.BackstoryQuestionsFramework/Questions",
+	"TargetField": [ "Remi" ],
+	"When": {
+		"Hearts:Remi": "{{Range: 4, 14}}",
+	},
+	"Entries": {
+		"remi.thoughts": {
+			"ID": "remithoughts",
+			"Weight": 10,
+			"QuestionText": "{{RemiThoughtsQuestion}}",
+			"AnswerText": "{{RemiThoughtsAnswer}}",
+			"CanRepeatQuestion": true,
+			"FriendshipModifier": 0,
+		},
+	}
+	},
+
+]
+}

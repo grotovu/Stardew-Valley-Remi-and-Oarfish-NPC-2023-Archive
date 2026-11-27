@@ -1,0 +1,403 @@
+{
+"Changes": [
+
+	// Before Intro Dialogue
+	{
+	"LogName":"Oarfish's Regular Dialogue",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Oarfish",
+	"Entries": {
+		"Introduction": "...?",
+		"Mon": "...",
+		"Tue": "...?",
+		"Wed": "........",
+		"Thu": "??",
+		"Fri": "...",
+		"Sat": "...",
+		"Sun": ".."
+	},
+	},
+
+
+	// Regular Dialogue
+	{
+	"LogName":"Oarfish's Regular Dialogue",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Oarfish",
+	"When": { "HasSeenEvent": "10310002", },
+	"Entries": {
+		//OARFISH DIALOGUE
+		"Introduction": "{{i18n:DIALOGUE.oarfish.Introduction}}",
+		"Mon": "{{i18n:DIALOGUE.oarfish.0Hearts.{{dayofweek}}}}",
+		"Tue": "{{i18n:DIALOGUE.oarfish.0Hearts.{{dayofweek}}}}",
+		"Wed": "{{i18n:DIALOGUE.oarfish.0Hearts.{{dayofweek}}}}",
+		"Thu": "{{i18n:DIALOGUE.oarfish.0Hearts.{{dayofweek}}}}",
+		"Fri": "{{i18n:DIALOGUE.oarfish.0Hearts.{{dayofweek}}}}",
+		"Sat": "{{i18n:DIALOGUE.oarfish.0Hearts.{{dayofweek}}}}",
+		"Sun": "{{i18n:DIALOGUE.oarfish.0Hearts.{{dayofweek}}}}",
+
+		//4 hearts
+		"Thu4": "{{i18n:DIALOGUE.oarfish.4Hearts.{{dayofweek}}}}",
+		"Sun4": "{{i18n:DIALOGUE.oarfish.4Hearts.{{dayofweek}}}}",
+
+		//8 hearts:
+		"Mon8": "{{i18n:DIALOGUE.oarfish.8Hearts.{{season}}.{{dayofweek}}}}",
+		"Tue8": "{{i18n:DIALOGUE.oarfish.8Hearts.{{season}}.{{dayofweek}}}}",
+		"Wed8": "{{i18n:DIALOGUE.oarfish.8Hearts.{{season}}.{{dayofweek}}}}",
+		"Fri8": "{{i18n:DIALOGUE.oarfish.8Hearts.{{season}}.{{dayofweek}}}}",
+		"Sat8": "{{i18n:DIALOGUE.oarfish.8Hearts.{{season}}.{{dayofweek}}}}",
+
+		//Oarfish fishing on Thursdays and Sundays on Beach coordinate 52 24
+		"Beach_52_24": "{{i18n:FISHING.oarfish.beach.{{season}}}}",
+	},
+	},
+
+
+	//RAINY DIALOGUE
+	{
+	"LogName": "NPC Rainy Dialogue",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/rainy",
+	"Entries": {
+		"Oarfish": "{{i18n:DIALOGUE.oarfish.rainy}}",
+	}
+	},
+
+
+	//Engagement Dialogue
+	{
+	"LogName": "Engagement Dialogue",
+	"Action": "EditData",
+	"Target": "Data/EngagementDialogue",
+	"Entries": {
+		"Oarfish0": "{{i18n:DIALOGUE.oarfish.engagement0}}",
+		"Oarfish1": "{{i18n:DIALOGUE.oarfish.engagement1}}",
+	}
+	},
+
+
+	//Proposal Acceptance Dialogue
+	{
+	"LogName": "Oarfish proposal acceptance",
+	"Action": "EditData",
+	"Target": "Strings/StringsFromCSFiles",
+	"Entries": {
+		"Oarfish_Engaged": "{{i18n:DIALOGUE.oarfish.engaged}}",
+		"Oarfish_EngagedRoommate": "{{i18n:DIALOGUE.oarfish.engagedRoommate}}",
+		"Oarfish_AfterWedding": "{{i18n:DIALOGUE.oarfish.afterWedding}}",
+	},
+	},
+
+
+	//wedding vows fix
+	{
+	"Action": "EditData",
+	"Target": "strings/StringsFromCSFiles",
+	"Entries": {
+		"Utility.cs.5371": "{{i18n:WEDDING.oarfish.1}}",
+		"Utility.cs.5377": "{{i18n:WEDDING.oarfish.2}}",
+
+		"Utility.cs.5367": "{{i18n:WEDDING.oarfish.3}}",
+		"Utility.cs.5369": "{{i18n:WEDDING.oarfish.4}}",
+		"Utility.cs.5379": "{{i18n:WEDDING.oarfish.5}}",
+		"Utility.cs.5381": "{{i18n:WEDDING.oarfish.6}}",
+		"Utility.cs.5383": "{{i18n:WEDDING.oarfish.7}}",
+	},
+	"When": {"Relationship:Oarfish": "Engaged"},
+	},
+
+
+	//Monsters in the FarmHouse
+	{
+	"Action": "EditData",
+	"Target": "strings/Locations",
+	"Update": "OnTimeChange",
+	"Entries": {
+		"FarmHouse_SpouseAttacked1": "{{i18n:FARMHOUSE.oarfish.SpouseAttacked1}}",
+		"FarmHouse_SpouseAttacked2": "{{i18n:FARMHOUSE.oarfish.SpouseAttacked2}}",
+		"FarmHouse_SpouseAttacked3": "{{i18n:FARMHOUSE.oarfish.SpouseAttacked3}}",
+		"FarmHouse_SpouseAttacked4": "{{i18n:FARMHOUSE.oarfish.SpouseAttacked4}}",
+		"FarmHouse_SpouseAttacked5": "{{i18n:FARMHOUSE.oarfish.SpouseAttacked5}}",
+		"FarmHouse_SpouseAttacked6": "{{i18n:FARMHOUSE.oarfish.SpouseAttacked6}}",
+		"FarmHouse_SpouseAttacked7": "{{i18n:FARMHOUSE.oarfish.SpouseAttacked7}}",
+		"FarmHouse_SpouseAttacked8": "{{i18n:FARMHOUSE.oarfish.SpouseAttacked8}}",
+		"FarmHouse_SpouseAttacked9": "{{i18n:FARMHOUSE.oarfish.SpouseAttacked9}}",
+		"FarmHouse_SpouseAttacked10": "{{i18n:FARMHOUSE.oarfish.SpouseAttacked10}}",
+		"FarmHouse_SpouseAttacked11": "{{i18n:FARMHOUSE.oarfish.SpouseAttacked11}}",
+		"FarmHouse_SpouseAttacked12": "{{i18n:FARMHOUSE.oarfish.SpouseAttacked12}}",
+	},
+	"When": {
+		"Spouse": "Oarfish",
+	},
+	},
+
+
+	//GIFT REACTIOMS
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Oarfish",
+	"Entries": {
+		//Love
+		"GiftReaction_Pizza": "{{i18n:GIFT.oarfish.Pizza.1}}",
+		"GiftReaction_Pizza_Birthday": "{{i18n:GIFT.oarfish.Pizza.Birthday}}",
+
+		"GiftReaction_Pearl": "{{i18n:GIFT.oarfish.Pearl.1}}",
+		"GiftReaction_Pearl_Birthday": "{{i18n:GIFT.oarfish.Pearl.Birthday}}",
+
+		"GiftReaction_Ancient_Doll": "{{i18n:GIFT.oarfish.AncientDoll.1}}",
+		"GiftReaction_Spook_Fish": "{{i18n:GIFT.oarfish.SpookFish.1}}",
+		"GiftReaction_Blobfish": "{{i18n:GIFT.oarfish.BlobFish.1}}",
+
+		"GiftReaction_Tempura": "{{i18n:GIFT.oarfish.Tempura.1}}",
+		"GiftReaction_Tempura_Birthday": "{{i18n:GIFT.oarfish.Tempura.Birthday}}",
+
+		//Like
+		"GiftReaction_Joja_Cola": "{{i18n:GIFT.oarfish.JojaCola.1}}",
+		"GiftReactionCategory_-12": "{{i18n:GIFT.oarfish.Mineral.1}}",
+		"GiftReactionCategory_-4": "{{i18n:GIFT.oarfish.Fish.1}}",
+
+		//Hate
+		"GiftReactionCategory_-75": "{{i18n:GIFT.oarfish.Vegetables.1}}",
+	},
+	},
+
+
+	//Has seen 7 hearts for both Remi and Oarfish. Oarfish gives a piece every friday.
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Oarfish",
+	"Update": "OnTimeChange, OnLocationChange",
+	"When": {
+		"HasSeenEvent": "10314003",
+	},
+	"Entries": {
+		"Mine_Fri": "{{i18n:DIALOGUE.oarfish.mine.friday}}",
+		"Mine_Fri_old": "{{i18n:DIALOGUE.oarfish.mine.friday.old}}",
+		"Mine_Fri_Yes": "{{i18n:DIALOGUE.oarfish.mine.friday.yes}}",
+		"Mine_Fri_No": "{{i18n:DIALOGUE.oarfish.mine.friday.no}}",
+	},
+	},
+
+
+	//Birthday Dialogues after 8 heart event with Oarfish
+	{
+	"LogName":"Oarfish Birthday Dialogue Inclusion after 8th heart event",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Oarfish",
+	"When": {
+		"HasSeenEvent": "10312013",
+	},
+	"Entries": {
+		//Birthday Gifts
+		"spring_2": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"spring_4": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"spring_7": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"summer_8": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"spring_10": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"spring_14": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"spring_18": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"spring_20": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"spring_26": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"spring_27": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+
+		"summer_4": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"summer_10": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"summer_13": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"summer_17": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"summer_22": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"summer_24": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"summer_26": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+
+		"fall_2": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"fall_5": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"fall_11": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"fall_13": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"fall_15": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"fall_18": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"fall_21": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"fall_24": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+
+		"winter_1": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"winter_3": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"winter_7": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"winter_10": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"winter_14": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"winter_17": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"winter_20": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"winter_23": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"winter_26": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+	},
+	},
+
+
+	// Marriage Dialogue
+	{
+	"LogName":"Oarfish's Marriage Dialogue",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/MarriageDialogueOarfish",
+	"Entries": {
+		"patio_Oarfish": "{{i18n:MARRIAGE.oarfish.patio}}",
+		"funLeave_Oarfish": "{{i18n:MARRIAGE.oarfish.funLeave}}",
+		"funReturn_Oarfish": "{{i18n:MARRIAGE.oarfish.funReturn}}",
+		"jobReturn_Oarfish": "{{i18n:MARRIAGE.oarfish.jobLeave}}",
+		"jobLeave_Oarfish": "{{i18n:MARRIAGE.oarfish.jobReturn}}",
+		"spouseRoom_Oarfish": "{{i18n:MARRIAGE.oarfish.spouseRoom}}",
+
+		"Rainy_Day_0": "{{i18n:MARRIAGE.oarfish.rainy_day.1}}",
+		"Rainy_Day_1": "{{i18n:MARRIAGE.oarfish.rainy_day.2}}",
+		"Rainy_Day_2": "{{i18n:MARRIAGE.oarfish.rainy_day.3}}",
+		"Rainy_Day_3": "{{i18n:MARRIAGE.oarfish.rainy_day.4}}",
+		"Rainy_Day_4": "{{i18n:MARRIAGE.oarfish.rainy_day.5}}",
+		"Rainy_Day_5": "{{i18n:MARRIAGE.oarfish.rainy_day.6}}",
+		"Rainy_Day_Oarfish": "{{i18n:MARRIAGE.oarfish.rainy_day.7}}",
+
+		"Rainy_Night_0": "{{i18n:MARRIAGE.oarfish.rainy_night.1}}",
+		"Rainy_Night_1": "{{i18n:MARRIAGE.oarfish.rainy_night.2}}",
+		"Rainy_Night_2": "{{i18n:MARRIAGE.oarfish.rainy_night.3}}",
+		"Rainy_Night_3": "{{i18n:MARRIAGE.oarfish.rainy_night.4}}",
+		"Rainy_Night_4": "{{i18n:MARRIAGE.oarfish.rainy_night.5}}",
+		"Rainy_Night_5": "{{i18n:MARRIAGE.oarfish.rainy_night.6}}",
+		"Rainy_Night_Oarfish": "{{i18n:MARRIAGE.oarfish.rainy_night.7}}",
+
+		"Indoor_Day_0": "{{i18n:MARRIAGE.oarfish.indoor_day.1}}",
+		"Indoor_Day_1": "{{i18n:MARRIAGE.oarfish.indoor_day.2}}",
+		"Indoor_Day_2": "{{i18n:MARRIAGE.oarfish.indoor_day.3}}",
+		"Indoor_Day_3": "{{i18n:MARRIAGE.oarfish.indoor_day.4}}",
+		"Indoor_Day_4": "{{i18n:MARRIAGE.oarfish.indoor_day.5}}",
+		"Indoor_Day_5": "{{i18n:MARRIAGE.oarfish.indoor_day.6}}",
+		"Indoor_Day_Oarfish": "{{i18n:MARRIAGE.oarfish.indoor_day.7}}",
+
+		"Indoor_Night_0": "{{i18n:MARRIAGE.oarfish.indoor_night.1}}",
+		"Indoor_Night_1": "{{i18n:MARRIAGE.oarfish.indoor_night.2}}",
+		"Indoor_Night_2": "{{i18n:MARRIAGE.oarfish.indoor_night.3}}",
+		"Indoor_Night_3": "{{i18n:MARRIAGE.oarfish.indoor_night.4}}",
+		"Indoor_Night_4": "{{i18n:MARRIAGE.oarfish.indoor_night.5}}",
+		"Indoor_Night_5": "{{i18n:MARRIAGE.oarfish.indoor_night.6}}",
+		"Indoor_Night_Oarfish": "{{i18n:MARRIAGE.oarfish.indoor_night.7}}",
+
+		"Outdoor_0": "{{i18n:MARRIAGE.oarfish.outdoor.1}}",
+		"Outdoor_1": "{{i18n:MARRIAGE.oarfish.outdoor.2}}",
+		"Outdoor_2": "{{i18n:MARRIAGE.oarfish.outdoor.3}}",
+		"Outdoor_3": "{{i18n:MARRIAGE.oarfish.outdoor.4}}",
+		"Outdoor_4": "{{i18n:MARRIAGE.oarfish.outdoor.5}}",
+		"Outdoor_5": "{{i18n:MARRIAGE.oarfish.outdoor.6}}",
+		"Outdoor_Oarfish": "{{i18n:MARRIAGE.oarfish.outdoor.7}}",
+
+		"OneKid_0": "{{i18n:MARRIAGE.oarfish.OneKid.1}}",
+		"OneKid_1": "{{i18n:MARRIAGE.oarfish.OneKid.2}}",
+		"OneKid_2": "{{i18n:MARRIAGE.oarfish.OneKid.3}}",
+		"OneKid_3": "{{i18n:MARRIAGE.oarfish.OneKid.4}}",
+		"TwoKid_0": "{{i18n:MARRIAGE.oarfish.TwoKid.1}}",
+		"TwoKid_1": "{{i18n:MARRIAGE.oarfish.TwoKid.2}}",
+		"TwoKid_2": "{{i18n:MARRIAGE.oarfish.TwoKid.3}}",
+		"TwoKid_3": "{{i18n:MARRIAGE.oarfish.TwoKid.4}}",
+
+		"Good_0": "{{i18n:MARRIAGE.oarfish.Good.1}}",
+		"Good_1": "{{i18n:MARRIAGE.oarfish.Good.2}}",
+		"Good_2": "{{i18n:MARRIAGE.oarfish.Good.3}}",
+		"Good_3": "{{i18n:MARRIAGE.oarfish.Good.4}}",
+		"Good_4": "{{i18n:MARRIAGE.oarfish.Good.5}}",
+		"Good_5": "{{i18n:MARRIAGE.oarfish.Good.6}}",
+		"Good_6": "{{i18n:MARRIAGE.oarfish.Good.7}}",
+		"Good_7": "{{i18n:MARRIAGE.oarfish.Good.8}}",
+		"Good_8": "{{i18n:MARRIAGE.oarfish.Good.9}}",
+		"Good_9": "{{i18n:MARRIAGE.oarfish.Good.10}}",
+
+		"Neutral_0": "{{i18n:MARRIAGE.oarfish.Neutral.1}}",
+		"Neutral_2": "{{i18n:MARRIAGE.oarfish.Neutral.2}}",
+		"Neutral_1": "{{i18n:MARRIAGE.oarfish.Neutral.3}}",
+		"Neutral_3": "{{i18n:MARRIAGE.oarfish.Neutral.4}}",
+		"Neutral_4": "{{i18n:MARRIAGE.oarfish.Neutral.5}}",
+		"Neutral_5": "{{i18n:MARRIAGE.oarfish.Neutral.6}}",
+		"Neutral_6": "{{i18n:MARRIAGE.oarfish.Neutral.7}}",
+		"Neutral_7": "{{i18n:MARRIAGE.oarfish.Neutral.8}}",
+		"Neutral_8": "{{i18n:MARRIAGE.oarfish.Neutral.9}}",
+		"Neutral_9": "{{i18n:MARRIAGE.oarfish.Neutral.10}}",
+
+		"Bad_0": "{{i18n:MARRIAGE.oarfish.Bad.1}}",
+		"Bad_1": "{{i18n:MARRIAGE.oarfish.Bad.2}}",
+		"Bad_2": "{{i18n:MARRIAGE.oarfish.Bad.3}}",
+		"Bad_3": "{{i18n:MARRIAGE.oarfish.Bad.4}}",
+		"Bad_4": "{{i18n:MARRIAGE.oarfish.Bad.5}}",
+		"Bad_5": "{{i18n:MARRIAGE.oarfish.Bad.6}}",
+		"Bad_6": "{{i18n:MARRIAGE.oarfish.Bad.7}}",
+		"Bad_7": "{{i18n:MARRIAGE.oarfish.Bad.8}}",
+		"Bad_8": "{{i18n:MARRIAGE.oarfish.Bad.9}}",
+		"Bad_9": "{{i18n:MARRIAGE.oarfish.Bad.10}}",
+
+		"NoBed_0": "{{i18n:MARRIAGE.oarfish.NoBed.1}}",
+		"NoBed_1": "{{i18n:MARRIAGE.oarfish.NoBed.2}}",
+		"NoBed_2": "{{i18n:MARRIAGE.oarfish.NoBed.3}}",
+		"NoBed_3": "{{i18n:MARRIAGE.oarfish.NoBed.4}}",
+
+		"Spring_Oarfish": "{{i18n:MARRIAGE.oarfish.{{season}}}}",
+		"Summer_Oarfish": "{{i18n:MARRIAGE.oarfish.{{season}}}}",
+		"Fall_Oarfish": "{{i18n:MARRIAGE.oarfish.{{season}}}}",
+		"Winter_Oarfish": "{{i18n:MARRIAGE.oarfish.{{season}}}}",
+
+		//Seasonal dialogue
+		"spring_1": "{{i18n:MARRIAGE.oarfish.{{season}}.{{day}}}}",
+		"spring_8": "{{i18n:MARRIAGE.oarfish.{{season}}.{{day}}}}",
+		"spring_13": "{{i18n:MARRIAGE.oarfish.{{season}}.{{day}}}}",
+		"spring_23": "{{i18n:MARRIAGE.oarfish.{{season}}.{{day}}}}",
+		"spring_24": "{{i18n:MARRIAGE.oarfish.{{season}}.{{day}}}}",
+
+		"summer_1": "{{i18n:MARRIAGE.oarfish.{{season}}.{{day}}}}",
+		"summer_11": "{{i18n:MARRIAGE.oarfish.{{season}}.{{day}}}}",
+		"summer_15": "{{i18n:MARRIAGE.oarfish.{{season}}.{{day}}}}",
+
+		"fall_1": "{{i18n:MARRIAGE.oarfish.{{season}}.{{day}}}}",
+		"fall_8": "{{i18n:MARRIAGE.oarfish.{{season}}.{{day}}}}",
+		"fall_16": "{{i18n:MARRIAGE.oarfish.{{season}}.{{day}}}}",
+		"fall_26": "{{i18n:MARRIAGE.oarfish.{{season}}.{{day}}}}",
+		"fall_27": "{{i18n:MARRIAGE.oarfish.{{season}}.{{day}}}}",
+
+		"winter_8": "{{i18n:MARRIAGE.oarfish.{{season}}.{{day}}}}",
+		"winter_25": "{{i18n:MARRIAGE.oarfish.{{season}}.{{day}}}}",
+		"winter_28": "{{i18n:MARRIAGE.oarfish.{{season}}.{{day}}}}",
+
+
+
+		//BIRTHDAYS
+		"spring_2": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"spring_4": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"spring_7": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"spring_10": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"spring_14": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"spring_18": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"spring_20": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"spring_26": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"spring_27": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+
+		"summer_4": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"summer_8": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"summer_10": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"summer_13": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"summer_17": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"summer_22": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"summer_24": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"summer_26": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+
+		"fall_2": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"fall_5": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"fall_11": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"fall_13": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"fall_15": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"fall_18": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"fall_21": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"fall_24": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+
+		"winter_1": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"winter_3": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"winter_7": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"winter_10": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"winter_14": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"winter_17": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"winter_20": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"winter_23": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+		"winter_26": "{{i18n:DIALOGUE.oarfish.birthdayGift.{{season}}.{{day}}}}",
+	},
+	},
+
+]
+}

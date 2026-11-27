@@ -1,0 +1,12 @@
+{
+   "Name": "[JA] Remi and Oarfish",
+   "Author": "grotovu",
+   "Description": "JsonAssets for Remi and Oarfish NPC",
+   "Version": "1.0.0",
+   "UniqueID": "JA.grotovu.remiandoarfishnpc",
+   "ContentPackFor": {
+      "UniqueID": "spacechase0.JsonAssets"
+    },
+}
+
+

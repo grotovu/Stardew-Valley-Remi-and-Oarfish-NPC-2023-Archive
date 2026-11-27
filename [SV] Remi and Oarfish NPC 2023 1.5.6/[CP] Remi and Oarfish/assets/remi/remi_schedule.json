@@ -1,0 +1,84 @@
+{
+"Changes": [
+
+	// Remi's spring schedule fallback
+	{
+	"Action": "EditData",
+	"Target": "Characters/schedules/Remi",
+	"Entries": {
+		"spring": "610 Railroad 41 41 2 remi_idle \"Strings\\schedules\\Remi:sleep.000\"/900 Railroad 39 40 2 remi_sitting",
+	},
+	},
+
+	// Remi's Reguale schedule after Intro at railroad
+	{
+	"LogName": "Remi Regular Schedule",
+	"Action": "EditData",
+	"Target": "Characters/schedules/Remi",
+	"When": {
+		"HasSeenEvent": "10310001",
+	},
+	"Entries": {
+		// Mondays: Just sitting on the bench by the Beach with Oarfish.
+		"Mon": "610 Railroad 41 41 2 remi_idle \"Strings\\schedules\\Remi:sleep.000\"/800 Railroad 39 40 2 remi_sitting/1200 Beach 54 6 2 remi_sitting \"Strings\\schedules\\Remi:Mon.000\"",
+		"marriage_Mon": "1200 Beach 54 6 2 remi_sitting \"Strings\\schedules\\Remi:marriage_Mon.000\"/1900 Beach 54 7 3/1910 BusStop -1 23 3",
+
+		// Tuesdays: Dining in the saloon.
+		"Tue": "610 Railroad 41 41 2 remi_idle \"Strings\\schedules\\Remi:sleep.000\"/800 Railroad 39 40 2 remi_sitting/1200 Beach 54 6 2 remi_sitting/1800 Saloon 9 5 3 remi_sittingfaceleft \"Strings\\schedules\\Remi:Tue.000\"/2300 Beach 54 6 2 remi_sitting",
+		"marriage_Tue": "1800 Saloon 9 5 3 remi_sittingfaceleft \"Strings\\schedules\\Remi:marriage_Tue.000\"/2210 BusStop -1 23 3",
+
+		// Wednesdays: Docks with different things to say this season
+		"Wed": "610 Railroad 41 41 2 remi_idle \"Strings\\schedules\\Remi:sleep.000\"/800 Railroad 39 40 2 remi_sitting/1200 Beach 54 6 2 remi_sitting/1600 Forest 34 25 2 \"Strings\\schedules\\Remi:Wed.000\"",
+		"marriage_Wed": "1800 Forest 34 25 2 \"Strings\\schedules\\Remi:marriage_Wed.000\"/2410 BusStop -1 23 3",
+
+		// Fridays: Mining day
+		"Fri": "610 Railroad 41 41 2 remi_idle \"Strings\\schedules\\Remi:sleep.000\"/800 Railroad 39 40 2 remi_sitting/1600 Mine 13 5 2 \"Strings\\schedules\\Remi:mine.000\"",
+		"marriage_Fri": "1800 Mine 13 5 2 \"Strings\\schedules\\Remi:mine.000\"/2210 BusStop -1 23 3",
+
+		// Saturdays: Remi's dialogue is in her normal dialogue, triggering the saloon menu question
+		"Sat": "610 Railroad 41 41 2 remi_idle \"Strings\\schedules\\Remi:sleep.000\"/800 Railroad 39 40 2 remi_sitting/1400 Beach 54 6 2 remi_sitting/1800 Saloon 34 17 2/2300 Beach 54 6 2 remi_sitting",
+		"marriage_Sat": "1800 Saloon 34 17 2/2210 BusStop -1 23 3",
+	},
+	},
+
+	// Unlocks after seeing Remi and Oarfish 5 Hearts Event
+	{
+	"LogName": "Remi Schedule Mondays Unlock",
+	"Action": "EditData",
+	"Target": "Characters/schedules/Remi",
+	"When": {
+		"HasSeenEvent": "10314002",
+	},
+	"Entries": {
+		"Mon": "610 Railroad 41 41 2 remi_idle \"Strings\\schedules\\Remi:sleep.000\"/800 Railroad 39 40 2 remi_sitting/1200 Beach 54 6 2 remi_sitting \"Strings\\schedules\\Remi:unlock_Mon.000\"",
+	},
+	},
+
+	// Unlocks after seeing Oarfish's 8 Heart event gifting pierre
+	{
+	"LogName": "Remi Schedule Tuesdays Unlock",
+	"Action": "EditData",
+	"Target": "Characters/schedules/Remi",
+	"When": {
+		"HasSeenEvent": "10312013",
+	},
+	"Entries": {
+		"Tue": "610 Railroad 41 41 2 remi_idle \"Strings\\schedules\\Remi:sleep.000\"/800 Railroad 39 40 2 remi_sitting/1200 Beach 54 6 2 remi_sitting/1800 Saloon 9 5 3 remi_sittingfaceleft \"Strings\\schedules\\Remi:unlock_Tue.000\"/2300 Beach 54 6 2 remi_sitting",
+	},
+	},
+
+	// Unlocks after seeing Remi and Oarfish 9 Hearts Event
+	{
+	"LogName": "Remi Schedule Wednesdays Unlock",
+	"Action": "EditData",
+	"Target": "Characters/schedules/Remi",
+	"When": {
+		"HasSeenEvent": "10314004",
+	},
+	"Entries": {
+		"Wed": "610 Railroad 41 41 2 remi_idle \"Strings\\schedules\\Remi:sleep.000\"/800 Railroad 39 40 2 remi_sitting/1200 Beach 54 6 2 remi_sitting/1600 Forest 34 25 2 \"Strings\\schedules\\Remi:unlock_Wed.000\"",
+	},
+	},
+
+]
+}

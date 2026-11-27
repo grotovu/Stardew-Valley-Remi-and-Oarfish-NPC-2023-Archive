@@ -1,0 +1,15 @@
+{
+  "Name": "[CP] Remi and Oarfish Questions",
+  "Author": "grotovu",
+  "Version": "1.0.0",
+  "Description": "Some questions to ask to Remi and Oarfish.",
+  "UniqueID": "grotovu.remiandoarfishquestions",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "spacechase0.BackstoryQuestionsFramework"
+    }
+  ]
+}

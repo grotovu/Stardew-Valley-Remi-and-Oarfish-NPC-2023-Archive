@@ -1,0 +1,14 @@
+{
+"Changes": [
+
+	{
+	"Action": "EditData",
+	"Target": "Data/Events/Mine",
+	"Entries": {
+		//Remi and Oarfish - 7 Hearts: at the mines
+		"10314003/e 10310002/f Remi 1750 Oarfish 1750/d Mon Tue Wed Thu Sat Sun/c 1": "MarlonsTheme/-1000 -1000/farmer 1000 1000 0 Remi 1000 1000 2 Oarfish 1000 1000 2/skippable/makeInvisible 12 4 13 10/viewport 19 7 true/pause 2000/playSound stairsdown/warp farmer 18 12/pause 500/move farmer 0 -3 0/move farmer 4 0 1/pause 400/playSound stairsdown/warp farmer 1000 1000/faceDirection farmer 2/pause 2000/playSound crystal/warp Remi 17 4/pause 300/move Remi 0 2 0/pause 300/playSound crystal/warp Oarfish 17 4/pause 300/move Oarfish 1 0 1/move Oarfish 0 2 3/faceDirection Remi 1/pause 800/speak Remi \"{{i18n:both.minesOnFridays.1}}\"/pause 100/emote Oarfish 32/pause 100/speak Oarfish \"{{i18n:both.minesOnFridays.2}}\"/pause 500/speak Remi \"{{i18n:both.minesOnFridays.3}}\"/pause 100/speak Oarfish \"{{i18n:both.minesOnFridays.4}}\"/pause 500/advancedMove Oarfish false 0 3 4 0/pause 200/advancedMove Remi false 0 3 4 0/pause 500/globalFade/viewport -1000 -1000/stopAdvancedMoves/halt/faceDirection Remi 2/faceDirection Oarfish 2/warp Remi 1000 1000/warp Oarfish 1000 1000/pause 200/playSound stairsdown/pause 1000/playSound stairsdown/pause 1000/globalFade/viewport 19 7 true/pause 1000/playSound crystal/warp farmer 17 4/pause 500/move farmer 0 4 2/move farmer 1 0 1/playSound crystal/warp Remi 17 4/pause 100/faceDirection farmer 0/pause 100/emote farmer 16/pause 200/speak Remi \"{{i18n:both.minesOnFridays.5}}\"/pause 500/playSound crystal/pause 400/playSound hammer/jump Remi 8/move Remi 0 1 2/warp Oarfish 17 4/pause 500/move Oarfish 1 0 1/move Oarfish 0 1 2/pause 1000/speak Remi \"{{i18n:both.minesOnFridays.6}}\"/pause 1000/viewport -1000 -1000 true/warp farmer 18 9/faceDirection farmer 3/positionOffset farmer 0 20/warp Remi 17 8/warp Oarfish 18 8/addObject 17 9 166 1/pause 1000/viewport 19 7 true/pause 1000/speak Remi \"{{i18n:both.minesOnFridays.7}}\"/pause 100/speak Oarfish \"{{i18n:both.minesOnFridays.8}}\"/pause 1000/speak Remi \"{{i18n:both.minesOnFridays.9}}\"/pause 500/speak Remi \"{{i18n:both.minesOnFridays.10}}\"/pause 100/emote farmer 40/pause 500/speak Remi \"{{i18n:both.minesOnFridays.11}}\"/pause 100/faceDirection Oarfish 3/pause 100/speak Oarfish \"{{i18n:both.minesOnFridays.12}}\"/pause 400/shake Oarfish 200/playSound clubhit/pause 100/shake Remi 400/pause 100/textAboveHead Remi \"{{i18n:both.minesOnFridays.13}}\"/pause 500/speak Remi \"{{i18n:both.minesOnFridays.14}}\"/pause 300/faceDirection farmer 2/pause 100/emote farmer 28/pause 1000/globalFade/viewport -1000 -1000/removeTemporarySprites/pause 500/message \"{{i18n:both.minesOnFridays.15}}\"/speak Remi \"{{i18n:both.minesOnFridays.16}}\"/pause 1000/end",
+	},
+	},
+
+]
+}

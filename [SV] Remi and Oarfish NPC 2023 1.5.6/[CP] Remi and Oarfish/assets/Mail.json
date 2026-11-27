@@ -1,0 +1,17 @@
+{
+"Changes": [
+
+	//MAIL
+	{
+	"LogName": "Remi and Oarfish Mail",
+	"Action": "EditData",
+	"Target": "Data/mail",
+	"Entries": {
+		//Gifts mail
+		"Remi": "{{i18n:MAIL.General.Remi}}",
+		"Oarfish": "{{i18n:MAIL.General.Oarfish}}",
+	},
+	},
+
+]
+}

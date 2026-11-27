@@ -1,0 +1,89 @@
+﻿{
+	"events":
+	[
+		{
+			"name": "Beach Prank (2 Hearts)",
+			"location": "Beach",
+			"eventId":"10312001",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Beach Prank II (4 Hearts)",
+			"location": "Beach",
+			"eventId":"10312002",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Town (6 Hearts Part 1)",
+			"location": "Town",
+			"eventId":"10312003",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Mountains (6 Hearts Part 2)",
+			"location": "Mountain",
+			"eventId":"10312004",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Railroad (6 Hearts Part 3)",
+			"location": "Railroad",
+			"eventId":"10312005",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Mines (6 Hearts Part 4)",
+			"location": "Mine",
+			"eventId":"10312006",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Town Mess (6 Hearts Part 5)",
+			"location": "Town",
+			"eventId":"10312007",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Confrontation (6 Hearts Part 6)",
+			"location": "Beach",
+			"eventId":"10312008",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Confrontation II (6 Hearts Part 7)",
+			"location": "Mine",
+			"eventId":"10312009",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Preparing a Gift (8 Hearts)",
+			"location": "Beach",
+			"eventId":"10312013",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "A Gift for You (10 Hearts)",
+			"location": "Beach",
+			"eventId":"10312016",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Stop Disturbing Us (14 Hearts)",
+			"location": "FarmHouse",
+			"eventId":"10312017",
+      			"night": false,
+     			"mail": null
+		},
+	]
+}

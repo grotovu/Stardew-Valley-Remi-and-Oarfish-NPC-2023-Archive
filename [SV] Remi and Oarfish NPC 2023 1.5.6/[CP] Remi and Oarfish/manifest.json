@@ -1,0 +1,23 @@
+{
+  "Name": "Remi and Oarfish NPC",
+  "Author": "grotovu",
+  "Description": "Adds Remi and Oarfish as NPCs",
+  "Version": "0.0.1",
+  "UniqueID": "grotovu.remiandoarfishnpc",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    { "UniqueID": "PurrplingCat.CustomGiftDialogue", "IsRequired": true},
+    { "UniqueID": "misscoriel.eventrepeater", "IsRequired": true},
+    { "UniqueID": "aedenthorn.CustomFixedDialogue", "IsRequired": true },
+    { "UniqueID": "Esca.CustomNPCExclusions", "IsRequired": true },
+	{ "UniqueID": "spacechase0.JsonAssets", "IsRequired": true },
+	{ "UniqueID": "DIGUS.MailFrameworkMod", "IsRequired": true },
+	{ "UniqueID": "PurrplingCat.QuestFramework", "IsRequired": true },
+	{ "UniqueID": "Amaranthacyan.PPAFSMAPI", "IsRequired": false },
+  ],
+  "UpdateKeys": [
+    "Nexus: "
+  ]
+}

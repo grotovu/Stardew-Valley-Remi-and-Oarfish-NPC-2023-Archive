@@ -1,0 +1,30 @@
+{
+"Changes": [
+
+	// ***** OARFISH NPC DISPOSITION *****
+	{
+	"LogName": "NPC Manifestation",
+	"Action": "EditData",
+	"Target": "Data/NPCDispositions",
+	"Entries": {
+		//Oarfish arrives at the start of the game
+		"Oarfish": "adult/rude/shy/neutral/female/datable/null/Town/fall 1/ PregnancyRole adopt/Beach 55 15/{{i18n:NPCDisposition.Oarfish}}",
+	},
+	},
+
+	// ***** REMI NPC DISPOSITION *****
+	{
+	"LogName": "NPC Manifestation",
+	"Action": "EditData",
+	"Target": "Data/NPCDispositions",
+	"Entries": {
+		//Remi arrives at least Summer 3
+		"Remi": "teen/polite/outgoing/positive/female/datable/null/Town/spring 2/ PregnancyRole adopt/Railroad 41 41/{{i18n:NPCDisposition.Remi}}",
+	},
+	"When": {
+		"HasSeenEvent": "10310001",
+	},
+	},
+
+],
+}

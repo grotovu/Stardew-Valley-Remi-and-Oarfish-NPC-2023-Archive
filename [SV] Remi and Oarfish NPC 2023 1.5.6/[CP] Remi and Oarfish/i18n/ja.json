@@ -1,0 +1,1739 @@
+{
+	
+// Table of Contents
+// [NNPCD] NAMES in NPC DISPOSITION
+// [DGT] DEFAULT GIFT TASTE
+// [EV] EVENTS
+// [MAIL] MAIL CONTENTS
+// [DIAL] GENERAL DIALOGUE
+// [MARR] MARRIAGE DIALOGUE
+// [CUST] CUSTOM FIXED DIALOGUE
+// [SCHED] SCHEDULE DIALOGUE
+// [MOVIE] MOVIE DIALOGUE
+// [ADD] ADDITIONAL DIALOGUE FROM OTHER MODS
+	
+
+// ***** [NNPCD] NAMES in NPC DISPOSITION *****
+"NPCDisposition.Remi": "レミ",
+"NPCDisposition.Oarfish": "オールフィシゥ",
+	
+
+// ***** [DGT] DEFAULT GIFT TASTE *****
+"remi.giftlove": "Haha! This speaks to my truest desires! Thanks a ton!$h",
+"remi.giftlike": "Hm! I like it. Thank you.",
+"remi.giftdislike": "Uhh, I'm not into this kind of thing, just so you know...",
+"remi.gifthate": "Smells awful... Sorry, but I might not keep this.",
+"remi.giftneutral": "Oh, thanks.",
+
+"oarfish.giftlove": "...!!$h#$b#%Oarfish loves your gift!",
+"oarfish.giftlike": "...$7#$b#%Oarfish likes your gift.",
+"oarfish.giftdislike": "...#$b#%Oarfish dislikes your gift.",
+"oarfish.gifthate": "...#$b#%Oarfish hates your gift...",
+"oarfish.giftneutral": "...",
+
+
+// ********** [EV] EVENTS **********************************************************
+// EVENT REMI: Railroad Intro CODE: 10310001
+"remi.railroadIntro.1": "。。。$6#$b#見える? 変だねぇぇ。",
+"remi.railroadIntro.2": "ここにいれば、また外に出られるだね。#$b#いつでも私が下トラックに歩けて町に行くでも怠けすぎんだぁぁ。#$b#だから、何時間ここに立ってか誰もが知らなかった、何か起きるまで。$11",
+"remi.railroadIntro.3": "変と思う？うん、さすが思った。#$b#人間の匂いな人ので人間のように考える。$11",
+"remi.railroadIntro.4": "聞いて、私を目をそうらすれば、全部私の事や言った言葉が忘れたんだ。$6#$b#だから、問題がない。",
+"remi.railroadIntro.5": "とにかく、今道路が開いていて好きれば私が町にぶらぶら歩けるんなぁぁ。#$b#誰も知らない、多分またあなたの匂いと会う。　ふふ。。。$11",
+
+
+// EVENT Remi and Oarfish at the Beach after Intro CODE: 10310002
+"both.beachAfterIntro.1": "Hey.#$b#Smelled ya coming from a mile away.$9",
+"both.beachAfterIntro.2": "...$7#$b#%She waved at you.",
+"both.beachAfterIntro.3": "Heh, let me guess. She ignored you until now.$11#$b#Yup. That's Oarfish.",
+"both.beachAfterIntro.4": "By the way, thanks for poking me awake back at the railroad.$11#$b#I'd never know the path down to the mountain would be open otherwise.#$b#For all I know, I'd be standing there sleeping until the end of time.$9",
+"both.beachAfterIntro.5": "Hey, I just noticed now. You remember me, don't you?$10",
+"both.beachAfterIntro.6": "Well, that's great news! I hope it lasts, though.$h#$b#You really are something special...#$b#Your scent gives it away$11.",
+"both.beachAfterIntro.7": "Haha, is the smelling thing getting too weird?$9#$b#I might as well tell you since you can see and remember me. I'm blind and deaf.",
+"both.beachAfterIntro.8": "...!$h",
+"both.beachAfterIntro.9": "And Fish here is mute.$11",
+"both.beachAfterIntro.10": "You probably got a lot of questions on your mind right now.#$b#Let's just say, aside from how you smell, I can sense your general desires. Kind of like mind reading, but not really.#$b#It's how I can make assumptions about what people are thinking or feeling, but I can be wrong sometimes.#$b#I'll elaborate further one day, when I feel like it.$11",
+"both.beachAfterIntro.11": "Hehe, don't think much of it right now. Just treat us like you would to anybody else.$11#$b#And remember that you're free to hang out with us anytime.#$b#Fish will definitely be a lot nicer to you from now on.$9",
+
+
+// EVENT Remi and Oarfish 3 Hearts at the Saloon on Saturday CODE: 10314001
+"both.saloonOnSaturday.1": "Heya, smelled you coming in.$11#$b#So, you here on your own? You can hang out with us.",
+"both.saloonOnSaturday.2": ".....$a",
+"both.saloonOnSaturday.3": "Hmm? Oh yeah.#$b#Fish is really upset about something.#$b#Hehe, is she losing too many lives?$11",
+"both.saloonOnSaturday.4": "...!!$a#$b#%Oarfish is deeply engrossed in the arcade game.",
+"both.saloonOnSaturday.5": "Just so you know, Fish and I come here on Tuesdays and Saturdays.#$b#By the time the air feels a tad cooler, that's when I know it's evening.$11",
+"both.saloonOnSaturday.6": "...$u#$b#...!!$6#$b#%Oarfish advanced to the next level!",
+"both.saloonOnSaturday.7": "How do I know if it's Tuesday or Saturday?$11#$b#Well, I've been working on trying to tell which day of the week it is through patterns that happen on a daily and weekly basis.#$b#But I'm not gonna bore you about the details. Let's eat!$9",
+"both.saloonOnSaturday.8": "...#$b#%It seems like she's out of lives.",
+"both.saloonOnSaturday.9": "[206]We ordered pizza. Feel free to take a slice.#$q 10311013 null#You want beer to go with that?#$r 10311013 100 Event_saloonTakeBeer#Free beer? Sure!#$r 10311014 50 Event_saloonStaySobber#No thanks. Still got work to do and I need to stay sobber.#$r 10311015 50 Event_saloonNotADrinker#No thanks. I don't drink alcohol.",
+"both.saloonOnSaturday.10": "...We steer clear of this place on Fridays. Smells awful on those nights.$7#$b#Have I ever told you I hate the way humans smell? I don't know why either, I just don't like it.$6",
+"both.saloonOnSaturday.11": "The smell of beer masks the odor quite well, though.#$b#It's probably why I love the stuff, hehehe.$11",
+
+"both.saloonOnSaturday.Answer1": "[346] Here ya go.$9#$b#Looks like you and I are gonna be getting along pretty well.#$b#Oh? Fish is fine. She'll need a clear head if she wants to beat the game, hehe.$11",
+"both.saloonOnSaturday.Answer2": "Gotcha. Fish is the same. She'll needs a clear head to beat this thing.#$b#Must be a pretty tough arcade game, huh?.$11",
+"both.saloonOnSaturday.Answer3": "Oh? Okay, I'll try to remember that.#$b#...I hope. If I offer you the stuff again, it's not out of malice or anything. I just got a really bad head on my shoulders.$6",
+
+
+// EVENT Remi and Oarfish 5 Hearts at the Beach, Remi drowning CODE: 10314002
+"both.beachRemiDrowning.1": "WaaaAAAaaaHHH!$13",
+"both.beachRemiDrowning.2": "...$8",
+"both.beachRemiDrowning.3": "Fiiiiiiiish!$13",
+"both.beachRemiDrowning.4": "Bwah! Huh!?$13#$b#@! Is that you? Help meeee!!$13",
+"both.beachRemiDrowning.5": "Huh, it's actually not that deep.$10",
+"both.beachRemiDrowning.6": "...ugh.$7",
+"both.beachRemiDrowning.7": "...$a",
+"both.beachRemiDrowning.8": "...?$7",
+"both.beachRemiDrowning.9": "...$a",
+"both.beachRemiDrowning.10": "...$6#$b#...sigh.$7",
+"both.beachRemiDrowning.11": "Oarfish. That was mean.$6#$b#...You know I'm scared of the ocean.$7",
+"both.beachRemiDrowning.12": "...",
+"both.beachRemiDrowning.13": "...$10",
+"both.beachRemiDrowning.14": "...sigh.$7#$b#Sorry you had to see that.$6",
+"both.beachRemiDrowning.15": "It's all good. Fish and I have always been this way.#$b#In fact, our first contact with each other involves her submerging me in really deep waters.$11#$b#...it's why I'm scared of the ocean.$7",
+"both.beachRemiDrowning.16": "It isn't like we can drown. I just get very nervous in deep waters since it's difficult to navigate.$7",
+"both.beachRemiDrowning.17": "What if I end up in the middle of nowhere? Of nothing but the endless smell of salty seas?$8",
+"both.beachRemiDrowning.18": "...Uwaahh, so scary...$13",
+
+
+// EVENT Remi and Oarfish 7 Hearts at the Mines CODE: 10314003
+"both.minesOnFridays.1": "Well, that was good exercise.$11#$b#As always, you, my sweet, kick a lot of butt.",
+"both.minesOnFridays.2": "...$7#$b#%Oarfish beams with pride.",
+"both.minesOnFridays.3": "So...#$b#Another round?$12",
+"both.minesOnFridays.4": "...$8",
+"both.minesOnFridays.5": "Whoo! That was great!$h#$b#...?$10#$b#Oh. Hi, @. You smell like you've been through hell and back.",
+"both.minesOnFridays.6": "Wanna take a look at our haul?$9",
+"both.minesOnFridays.7": "Ehehe. Impressive, no?$11#$b#I sniff and dig out the rocks and she covers my six. We're a pretty good team.",
+"both.minesOnFridays.8": "...!$h",
+"both.minesOnFridays.9": "[72]Have a freebie.#$b#Fish and I don't really need much of this stuff. We come to the mines for the fun and excitement of it.$11",
+"both.minesOnFridays.10": "Although, sometimes we gotta sell the shiny stuff to humans for coin.$6#$b#We know that in this planet, we can't just take the goods off the shelves as we please.",
+"both.minesOnFridays.11": "Even then, *I* can always take the goods as I please. The shopkeep wouldn't remember me anyways.$11#$b#It's always a perfect crime.$12",
+"both.minesOnFridays.12": "...",
+"both.minesOnFridays.13": "Ow!!",
+"both.minesOnFridays.14": "Yeah, yeah okay! We'll be good citizens, Fish. I promise! Oww, ow ow, stop!$13",
+"both.minesOnFridays.15": "Remi: Ow... Oh right!",
+"both.minesOnFridays.16": "By the way, Fish and I go mine here every Friday night.#$b#If you catch us then, we'll be sure to have a piece for you.$9",
+
+
+// EVENT Remi and Oarfish 9 Hearts at the Forest CODE: 10314004
+"both.forestOnWednesdays.1": "...$6#$b#Fish?$6",
+"both.forestOnWednesdays.2": "...?$7",
+"both.forestOnWednesdays.3": "We've been on Earth for a while now, and I've gotten used to the smell...$6",
+"both.forestOnWednesdays.4": "Have you ever thought of going back home?$6#$b#I mean, we can always come back here whenever we want, but what I meant is home-home, y'know?",
+"both.forestOnWednesdays.5": "...$6#$b#Yeah, a little longer, I think.",
+"both.forestOnWednesdays.6": "...Fish.$6#$b#I really don't want to forget.$6#$b#We're here because I had to lengthen my sentence, right?",
+"both.forestOnWednesdays.7": "...",
+"both.forestOnWednesdays.8": "I was afraid you'd forget me soon, even if it was for another 500 years.$6#$b#I don't feel time passing, but I just have to make sure I get you to never forget me.$6#$b#And what other way to make sure I'm a convict forever other than staying in a place I shouldn't be in?$9",
+"both.forestOnWednesdays.9": "Is all that correct, Oarfish?$6#$b#I wanted to make sure.$6",
+"both.forestOnWednesdays.10": "...$7",
+"both.forestOnWednesdays.11": "I'm glad.",
+"both.forestOnWednesdays.12": "sigh...<",
+"both.forestOnWednesdays.13": "@, I know you're there.$6#$b#Come out from that bush and stand here with us, why don't 'cha?$11",
+"both.forestOnWednesdays.14": "I bet you heard things?#$b#Great, you're up to speed.$9",
+"both.forestOnWednesdays.15": "Fish and I were just doing our routine memory check.#$b#Don't wanna forget the reason why we're here.$11",
+"both.forestOnWednesdays.16": "If I did, I'd simply wonder why I'm on a stinky planet and immediately take myself back home.$6",
+"both.forestOnWednesdays.17": "...",
+"both.forestOnWednesdays.18": "Of course I'd find you first before going home, haha! Silly Fish, I wouldn't forget about you!$h#$b#...$8",
+"both.forestOnWednesdays.19": "Phew....",
+"both.forestOnWednesdays.20": "Hm? Yeah. I'm a convict.#$b#My crime? Being too adorable.$11",
+"both.forestOnWednesdays.21": "Ouch! Ahaha, okay it's almost *accidentally* destroying Earth.$11",
+"both.forestOnWednesdays.22": "Long story short, I'm sentenced to over 500 years of not being allowed to enter this planet.#$b#And as you can see, I went against that order.",
+"both.forestOnWednesdays.23": "Oarfish can only see and remember me purely because I'm a criminal. It comes with her job as a court executioner back home.$6",
+"both.forestOnWednesdays.24": "What? Oarfish is super nice!$9#$b#She's a real sweetheart outside of her job.",
+"both.forestOnWednesdays.25": "...",
+"both.forestOnWednesdays.26": "...?$u#$b#%Oarfish pulled out a small pocket watch and read the time.",
+"both.forestOnWednesdays.27": "...$7#$b#%Oarfish waves at you to call your attention.",
+"both.forestOnWednesdays.28": "...$7#$b#%Oarfish gestures to trade places with her.",
+"both.forestOnWednesdays.29": "Hey, you guys are shuffling around.$6#$b#It's kinda making me nervous.$6",
+"both.forestOnWednesdays.30": "Fiiiiiish!!!$13",
+"both.forestOnWednesdays.31": "Ug!! Uwaah! The pond's actually deep this time!!!$13",
+"both.forestOnWednesdays.32": "These two...",
+
+
+
+
+// EVENT Remi 2 Hearts: Meeting again at the Railroad CODE: 10310003
+"remi.2Hearts.1": "...$6#$b#Oh, it's you again.",
+"remi.2Hearts.2": "So, do you just come here to talk to me for a bit,$6#$b#and maybe hand me a few goodies before running off to whatever you gotta do?$6",
+"remi.2Hearts.3": "Not that I mind.#$b#It's nice to have some fleeting company sometimes.#$b#And the gifts you shove in my hands are really nice, too.$9",
+"remi.2Hearts.4": "I'm just wondering if that's how this planet goes about things.$6#$b#Talking and sometimes giving gifts that build fondness towards a person...$6",
+"remi.2Hearts.5": "It's not that different from where I came from.#$b#At least, from the very few friends I had back there.#$b#Fish is the only one that followed me here...#$b#I think.$7",
+"remi.2Hearts.6": "Yeah, you probably know by now that me and Fish aren't from around here.$11#$b#Surely, you've noticed there's a little something off about us.",
+"remi.2Hearts.7": "Hey, I appreciate you just coming here to see me.#$b#I know I said that you'd forget me the first time you found me here, but you proved me wrong.$9",
+"remi.2Hearts.8": "So... yeah. I'm not sure how else I'm going to entertain you.$6#$b#And you might have some other things you gotta do.#$b#Go on. I won't be keeping you for much longer.$11",
+
+
+// EVENT Remi 4 Hearts: Stealing from Pierre Parte 1 CODE: 10310004
+// Pierre
+"remi.4HeartsPart1.1": "YOU!!$3",
+// Remi
+"remi.4HeartsPart1.2": "Oops! Hehe.$11",
+// Pierre
+"remi.4HeartsPart1.3": "You haven't paid for those! You think you can just steal from my store?$3#$b#Get back here!$3",
+"remi.4HeartsPart1.4": "Oh, farmer @! Good to see you.$1#$b#Here to buy some seeds, I bet. Feel free to browse.",
+"remi.4HeartsPart1.5": "...Why am I standing out here?$4#$b#What was I doing again?$2",
+"remi.4HeartsPart1.6": "Oh, don't mind me!$1#$b#I think I'm just having one of those days where you space out and forget things, know what I mean?#$b#I'll be right behind the counter when you need me.",
+// Remi
+"remi.4HeartsPart1.7": "Psst! @, over here.",
+"remi.4HeartsPart1.8": "Hehe, he completely forgot about me.$11",
+"remi.4HeartsPart1.9": "Meet me outside when you're done shopping. I got something to show you.",
+"remi.4HeartsPart1.10": "Bye, Mr. Shopkeep!$h",
+// Pierre
+"remi.4HeartsPart1.11": "Erm, umm,$4#$b#Sure! Come back anytime.$1",
+
+// EVENT Remi 4 Hearts: Stealing from Pierre Parte 2 CODE: 10310005
+//Remi
+"remi.4HeartsPart2.1": "There you are. Follow me.",
+"remi.4HeartsPart2.2": "Here, take this.#$b#I sniffed this one out from an aisle. [485]The seed packet smells abandoned for a long time.",
+"remi.4HeartsPart2.3": "Yeah, yeah, I stole this one from the shop. It was about to go to waste anyways.$11#$q 10311009 null#So are you gonna tell me off about it?#$r 10311009 0 Event_remisteal1#Remi, stealing is against the law.#$r 10311010 0 Event_remisteal2#Free seeds? I'll take it.",
+"remi.4HeartsPart2.Answer1": "Aww, what a goodie two-shoes~!.$11#$b#It's too late to return it now, though. He'll be confused.#$b#I guess you can always give him a tip the next time you shop there.",
+"remi.4HeartsPart2.Answer2": "Oh? That's a surprise. I like your style!$9#$b#I only take low value items, though. Especially the ones that smell like they're going to rot soon.",
+// Refer to remi_dialogue.json for "Event_remisteal1" and "Event_remisteal2"
+"remi.4HeartsPart2.4": "Anyways, you noticed how Mr. Shopkeep was standing there when you came in, right?#$b#That's because he was trying to catch me for not paying for that seed packet I gave you.#$b#I went around the aisle and as soon as he lost sight of me, his memories of me are erased.$11",
+"remi.4HeartsPart2.5": "It just happened that I smelled you coming in right at that moment.#$b#And I found that to be the perfect opportunity to demonstrate what I meant by people either not seeing me or forgetting me immediately.",
+// Harvey
+"remi.4HeartsPart2.6": "Oh, it's farmer @. Good to see you.#$b#Don't overwork yourself, alright?$1",
+//Remi
+"remi.4HeartsPart2.7": "See? He noticed only you.",
+"remi.4HeartsPart2.8": "Some people see me, some don't see me at all.#$b#It doesn't matter if posters of my face are plastered everywhere.#$b#In the end, the moment they look away, I am forgotten. That's how it always happened.",
+"remi.4HeartsPart2.9": "But that's the thing. You remember me!$h#$b#It's a pretty big deal to me that, aside from Fish, another person can see and remember my existence.$9#$b#As you'd guess, something like that is super rare for me.",
+"remi.4HeartsPart2.10": "Sorry if I come off as too eager to be buddies with you.$11#$b#I mean, if the people that can remember me are the only ones I can be friends with, then I gotta cherish them, right?#$b#Well, I do have standards, of course.#$b#If you were nasty to me, who knows if you'd still be standing there.$9",
+"remi.4HeartsPart2.11": "So yeah. In short, I want to be your friend.#$b#And I'll put in effort to keep this friendship with you. Just as how you've been talking to me and giving me gifts sometimes.$9#$b#I'm glad you found me. And that you're a nice enough person for me to try and get to know better.",
+
+// EVENT Remi 6 Hearts: Dream Warping CODE: 10310006
+"remi.6Hearts.1": "...hm?",
+"remi.6Hearts.2": "I knew something smells off.#$b#@, what are you doing here?$9",
+"remi.6Hearts.3": "So you just went to your farm and then you're here?$6#$b#Hmm... Are you sure you're not dreaming?$6",
+"remi.6Hearts.4": "Still, I think I should explain what's going on.$11#$b#I'm doing some rearrangements. Nothing too big. Just something me and Fish could use in the future.",
+"remi.6Hearts.5": "I'll admit. For the likes of you, this place is pretty boring. Nothing to see here or anything.$6",
+"remi.6Hearts.6": "Hmm...$6#$b#Yeah, that'll work.",
+"remi.6Hearts.7": "Since we're \"dreaming\", how about we go somewhere fun?$9#$b#Come closer to this thingy here why don't 'cha?",
+"remi.6Hearts.8": "Alright, we're ready to go.#$b#On three. One... Two...$11",
+"remi.6Hearts.9": "Hmmm...$6#$b#Nope.",
+"remi.6Hearts.10": "Oops, uh oh...$8#$b#...m-my head...$8",
+"remi.6Hearts.11": "Right. Let's get out of here.$6",
+"remi.6Hearts.12": "Hm! This place smells nice!$9",
+"remi.6Hearts.13": "...!$8",
+"remi.6Hearts.14": "Aaaahh... No no no no nonononono NO!!$13",
+"remi.6Hearts.15": "Hah... Hah... That was scary...$13",
+"remi.6Hearts.16": "*sniff* *sniff*$10#$b#Oh, hey Fish!$h",
+"remi.6Hearts.17": "Ehehe...$l#$b#Yep. You're \"dream\" Oarfish.",
+"remi.6Hearts.18": "Right. Let's go.",
+"remi.6Hearts.19": "Hey, you're standing on my spot.$9",
+"remi.6Hearts.20": "Nah, we don't need to trade places.$11",
+"remi.6Hearts.21": "I think that's enough dream warping for now.",
+"remi.6Hearts.22": "So yeah, I'm rearranging some stuff.$11#$b#And when I'm done, I'll show you.",
+"remi.6Hearts.23": "I'm still not sure how you stumbled into my dream void, though.$6#$b#I swear you're something magical, @!$9",
+"remi.6Hearts.24": "I get the feeling you want to \"wake up\" now.#$b#Here, I'll warp you back home.",
+
+// EVENT Remi 8 Hearts Part 1: Backwoods Invitation CODE: 10310007
+"remi.8HeartsPart1.1": "*sniiiiff...*",
+"remi.8HeartsPart1.2": "Aaaahhh...",
+"remi.8HeartsPart1.3": "Hiya, your farm smells nice.",
+"remi.8HeartsPart1.4": "Anyways, ermm...#$b#Why am I here again?$11",
+"remi.8HeartsPart1.5": "Oh, right!$10#$b#This is about what I was working on when we were dream warping.$9#$b#If you got the time, could you come to the woods behind your farm? Any day would do.#$b#It doesn't matter how long it would take you. I can literally wait for an eternity.$11",
+"remi.8HeartsPart1.6": "*whiiiiffff...*",
+"remi.8HeartsPart1.7": "Aaaahhh...",
+"remi.8HeartsPart1.8": "Right. See ya.$9",
+
+// EVENT Remi 8 Hearts Part 2: Lost Garden CODE: 10310008
+"remi.8HeartsPart2.1": "Here you are!$h#$b#I just got here, too. I think.",
+"remi.8HeartsPart2.2": "Right. The thing I want to show you.",
+"remi.8HeartsPart2.3": "Fish told me this spot is very out of the way for anyone else to find.$11#$b#Dunno if your human eyes can see it right now or not, but it's right here.",
+"remi.8HeartsPart2.4": "C'mon over here, why don't 'cha!$h",
+"remi.8HeartsPart2.5": "Now watch closely.#$b#I've set this warp crystal to only respond to me, Fish, and you.",
+"remi.8HeartsPart2.6": "Just place your palm right at the top of this spot here, aaaand...",
+"remi.8HeartsPart2.7": "Hey, you gotta come with me to the other side. I promise it's nothing dangerous.#$b#Come on, let's go!$9",
+"remi.8HeartsPart2.8": "So, what do you think?",
+"remi.8HeartsPart2.9": "...Yeah, there's nothing much to see here.#$b#Nothing much for me to smell, either.$11",
+"remi.8HeartsPart2.10": "This platform is all that's left of this place.#$b#There used to be a garden here. And it was so overgrown that I got buried beneath the roots.#$b#Mom, er... sort of my \"mom\" had to cut them off of me.$11",
+"remi.8HeartsPart2.11": "Long ago, something went wrong in my creation process, and I ended up like this.#$b#Blind, deaf, forgetful... forgettable...$11#$b#The only ones that could keep track of me are my mom and my creator.",
+"remi.8HeartsPart2.12": "Since I am originally designed to be my mom's replacement container in case she's badly damaged, my er... quirks were hardly a problem.#$b#My creator figured it would be much safer to keep me somewhere isolated, like this garden.",
+"remi.8HeartsPart2.13": "And so, I happily stood here for who knows how long.$9#$b#Due to my incomplete consciousness, I am incapable of sensing the passing of time.#$b#Which means I could stand here for all of eternity, until something happens.$11",
+"remi.8HeartsPart2.14": "No one ever comes here, so no one would ever find me.#$b#Which is good. Because that means I'll always be intact by the time mom needs me.$9",
+"remi.8HeartsPart2.15": "...Mom didn't like that idea.$6#$b#Whenever she finds me here, she'd drag me out of it.$6#$b#But I just kept coming back here so stubbornly, I can imagine how that drove her mad.$11",
+"remi.8HeartsPart2.16": "So, one day, she blasted this place into... well, this.",
+"remi.8HeartsPart2.17": "I got the message, and I never went back here again.#$b#And would you believe she told me to go make some friends instead?$6#$b#Crazy, right? I can't do that when no one else can even remember my face.$11",
+"remi.8HeartsPart2.18": "Still, by some miraculous chance, I met my two closest friends.#$b#One has perfect memory. She literally can't forget anything.#$b#Five years later, I met Oarfish. She was especially made to not forget the faces of criminals.#$b#Hehe, and just as you would've guessed, she wouldn't leave me alone.$11",
+"remi.8HeartsPart2.19": "And then here you are which, for some strange reason, can see and remember me.",
+"remi.8HeartsPart2.20": "Due to my conditions, I probably wouldn't make another friend for a long while.#$b#But even if it's only you guys, it's more than enough to make me believe I \"exist\", hehe.$9",
+"remi.8HeartsPart2.21": "Whoops, was that too heavy? Sorry.$11#$b#But yeah, I'm fine with the whole world ignoring me, so long as there's you guys.#$b#You all mean a lot to me.",
+"remi.8HeartsPart2.22": "Now, about this place...",
+"remi.8HeartsPart2.23": "I'm sure this ol' garden still responds strongly to my desires.$11#$b#I mean, look at you. You're breathing fine.#$b#The garden still forms an atmosphere that allows life to breathe even now.",
+"remi.8HeartsPart2.24": "Hehe, forgot you're in space, @?$11",
+"remi.8HeartsPart2.25": "C'mon, follow me. I promise you won't fall off.",
+"remi.8HeartsPart2.26": "Here's the thing.#$b#I know for sure there's nothing but black emptiness out here, but watch this.",
+"remi.8HeartsPart2.27": "Mmm... something smells good.$u#$b#Oh right, I desired for them to be there.",
+"remi.8HeartsPart2.28": "The garden may be destroyed, but this place is still deeply connected to me and my mom's will.#$b#This place can still be whatever I desire it to be.",
+"remi.8HeartsPart2.29": "Look, you're a farmer. And you make things out of stuff you gather and grow out there.#$b#I think you can make use of this place better than I do.",
+"remi.8HeartsPart2.30": "Watch me.",
+"remi.8HeartsPart2.31": "I'm not falling, am I?$9#$b#If you will it, I'll will it, too. And this vast emptiness will listen.",
+"remi.8HeartsPart2.32": "Life still grows here. And I know you grow a lot of life.#$b#All I'm saying is, I want you to use this place.$11#$b#This void I'm standing on can become what you need it to be, like soil or oxygen, #$b#and the seeds you sow here will grow to become real produce.#$b#Super useful! Don't you think?$9",
+"remi.8HeartsPart2.33": "Come out in the void with me!$h",
+"remi.8HeartsPart2.34": "I promise you'll be fine.",
+"remi.8HeartsPart2.35": "See?$9",
+"remi.8HeartsPart2.36": "Right. I'll leave it to you how you'd like to fill the void.#$b#Just like how you filled up the void in my heart.$9",
+"remi.8HeartsPart2.37": "Yeah yeah, lame. I know. Hehe.$11",
+"remi.8HeartsPart2.38": "Remi: Hey, I know I've said it again and again but...",
+"remi.8HeartsPart2.39": "Remi: Thank you. I'm glad you found me.",
+
+
+// EVENT Remi 10 Hearts: Railroad Talk CODE: 10310010
+"remi.10Hearts.1": "Oh hey. You're finally here.",
+"remi.10Hearts.2": "So the reason I ask you to come here is...",
+"remi.10Hearts.3": "Sorry, I'm just so forgetful today.$11#$b#Alright, serious this time.",
+"remi.10Hearts.4": "Ten hearts means we're best friends, right?",
+"remi.10Hearts.5": "Well, it's just...$7#$b#I'm always so sure about what people desire, but I can never guess what you really want for some reason.$6#$b#And maybe I should've done my research before accepting it but...$7#$b#When you gave me those flowers, you meant to be platonic best friends, right?",
+"remi.10Hearts.6": "#Are we not an item?#Hm? Yeah, it's platonic.",
+"remi.10Hearts.7": "Well, that's a relief!$9#$b#Sorry if that was a weird way to start. Um...#$q 10311018 null#..You really mean that?#$r 10311018 0 Event_remiHadACrush#Maybe I had a little crush earlier on. But I got to like our friendship more.#$r 10311019 0 Event_remiCompletelyPlatonic#Yup. Those flowers are meant to be platonic.",
+"remi.10Hearts.8": "Oh boy, am I so happy!$h#$b#Don't get me wrong. I love Oarfish a lot, but just because you and I aren't smushing faces together doesn't mean you're any less precious to me.#$b#I know for sure my feelings for you aren't romantic... but I love you for real. You get me?",
+"remi.10Hearts.9": "I guess it's just a me-thing, but I always wanted this kind of friendship with you more than anything.$9#$b#I want to always be here for you, help you with anything, spoil you and make you happy and all that.$11",
+"remi.10Hearts.10": "I know it's such a silly reason to ask you to come all the way here, but it's still nice of you to show up.",
+"remi.10Hearts.11": "@?",
+"remi.10Hearts.12": "Sorry today isn't anything fancy like before.$11#$b#So uh, if it's worth anything...",
+"remi.10Hearts.13": "I love you, @!$h#$b#Thanks for being my best friend.",
+
+// Answers
+"remi.10Hearts.Answer1": "I'm... I'm sorry. I don't like you that way.$s",
+"remi.10Hearts.Answer2": "...$6#$b#Yeah, sounds nice.",
+"remi.10Hearts.Answer3": "Oh!$10#$b#Hehe, I guess it can happen. Fish tells me I look cute.$11#$b#Guess she's not lying, huh?",
+"remi.10Hearts.Answer4": "Well, this is fantastic!$h#$b#Gee, it sure feels great to \"hear\" it straight from you.",
+
+//other option
+"remi.10Hearts.14": "...Oh.$8",
+"remi.10Hearts.15": "I'm... sorry.$10",
+"remi.10Hearts.16": "I hope I didn't lead you on or anything.$6#$q 10311016 null#I thought I made myself clear right from the start...#$r 10311016 -250 Event_remiPushRomantic#But I really love you.#$r 10311017 -100 Event_remiWeCanBePlatonic#Oh? Then I'm fine with just being friends.",
+"remi.10Hearts.17": "...ugh, I feel awkward.$7",
+"remi.10Hearts.18": "Thanks for clearing it up for me.#$b#And um, just because I'm not as physical and romantic with you as I do with Fish,$9#$b#that doesn't mean you're any less precious to me.$9",
+"remi.10Hearts.19": "But I guess that's not how it works in your planet...$7",
+"remi.10Hearts.20": "Again, I'm sorry. But I think I want to be alone right now.$6",
+"remi.10Hearts.21": "U-um...!$10",
+"remi.10Hearts.22": "We're still friends, okay?#$b#Next time I smell you around, I promise we'd be like as we were before.$9",
+"remi.10Hearts.23": "...$6#$b#Huh? Oh, sorry. I'm still feeling a bit disappointed.$6",
+
+
+// EVENT Remi 14 Hearts: Patio Quest Part 1 CODE: 10310011
+"remi.14HeartsPart1.1": "Heya, smell something good?",
+"remi.14HeartsPart1.2": "Ehehe. Well, here you go.[201]$9",
+"remi.14HeartsPart1.3": "Actually...",
+"remi.14HeartsPart1.4": "I've been thinking. The patio could use a little something more to it, don't you think?#$b#Even I can smell it's kinda empty...$11",
+"remi.14HeartsPart1.5": "Hey, how about I ask you to get some stuff?$9",
+"remi.14HeartsPart1.6": "I know I can just sniff them up from the ground but I gotta involve you.#$b#And I know you got a knack for finding these special things even I can't get my hands on.$11",
+"remi.14HeartsPart1.7": "Right. To upgrade the patio, we'll need something from the desert.#$b#And then something from the forest, the mountains, and...$11",
+"remi.14HeartsPart1.8": "Whoops, almost spoiled you there! Hehe.$9",
+"remi.14HeartsPart1.9": "I'll get Fish to write the list for me.#$b#I promise, once this project is done, the patio's gonna be super useful to you.",
+
+
+// EVENT Remi 14 Hearts: Patio Quest Part 2 CODE: 10310012
+"remi.14HeartsPart2.1": "Thanks a lot for helping me with this!$9",
+"remi.14HeartsPart2.2": "Well, you're gonna benefit from this, too. So, even better, right?#$b#Anyways, you're going to see the patio change soon-ish. If not later, maybe tomorrow.#$b#After which, you should be able to teleport to convenient spots around the valley.$11",
+"remi.14HeartsPart2.3": "Didn't I tell ya this project is gonna be super useful?$h#$b#We've been real good housemates to each other for a while now, and I want to give you nothing but the best of the best.",
+
+
+
+
+
+// EVENT Oarfish 2 Hearts: Warp Prank at the Beach CODE: 10312001
+"oarfish.2Hearts.1": "...$7",
+"oarfish.2Hearts.2": "...!$h",
+"oarfish.2Hearts.3": "She seems intimidating at first...",
+"oarfish.2Hearts.4": "But she seems to only want to play harmless pranks on me.",
+
+
+// EVENT Oarfish 4 Hearts: Too Far CODE: 10312002
+"oarfish.4Hearts.1": "...$h#$b#%Oarfish beckons you to stand by her.",
+"oarfish.4Hearts.2": "...?$6",
+"oarfish.4Hearts.3": "...!$h",
+"oarfish.4Hearts.4": "...?$u",
+"oarfish.4Hearts.5": "...",
+"oarfish.4Hearts.6": "...",
+"oarfish.4Hearts.7": ".....$s",
+"oarfish.4Hearts.8": "...$s#$b#%Oarfish slowly gestured her hands that seemed like she's saying sorry.",
+"oarfish.4Hearts.9": "#You better be sorry. That really hurt!#I forgive you. Just please, no more painful pranks.",
+"oarfish.4Hearts.10": "...$s#$b#...$l",
+"oarfish.4Hearts.11": "...$7#$b#%Oarfish waves goodbye.",
+"oarfish.4Hearts.12": "...$l#$b#%Oarfish offers you a beautiful shell.[394]#$b#...!$h",
+"oarfish.4Hearts.13": "...$l#$b#%Oarfish waves you goodbye.",
+// harsh answer
+"oarfish.4Hearts.14": "...$s",
+"oarfish.4Hearts.15": "...$s#$b#%Oarfish offers you a spiraling shell.[392]#$b#...",
+"oarfish.4Hearts.16": "...$s#$b#%Oarfish weakly waves goodbye.",
+
+
+// EVENT Oarfish 6 Hearts: Part 1: Bombing Pierre CODE: 10312003
+"oarfish.6HeartsPart1.1": "Huh? No one's here.$4#$b#Is someone playing a prank on me? I swear those kids...$3",
+"oarfish.6HeartsPart1.2": "A bomb!?",
+"oarfish.6HeartsPart1.3": "%He's sweating bullets.",
+
+
+// EVENT Oarfish 6 Hearts: Part 2: Linus Rock CODE: 10312004
+"oarfish.6HeartsPart2.1": "...sigh.$2",
+
+
+// EVENT Oarfish 6 Hearts: Part 3: Remi at railroad CODE: 10312005
+"oarfish.6HeartsPart3.1": "...zzzZZzzzz...$u",
+"oarfish.6HeartsPart3.2": "...$8",
+"oarfish.6HeartsPart3.3": "Huh!?$8",
+"oarfish.6HeartsPart3.4": "...Ow.$6",
+
+
+// EVENT Oarfish 6 Hearts: Part 4: Farmer at the mines CODE: 10312006
+"oarfish.6HeartsPart4.1": "...$8",
+"oarfish.6HeartsPart4.2": "...?$u",
+
+
+// EVENT Oarfish 6 Hearts: Part 5: Clues at town CODE: 10312007
+// Lewis
+"oarfish.6HeartsPart5.1": "Yuck! What did I step on?$2",
+"oarfish.6HeartsPart5.2": "Who's responsible for this!?$4",
+// George
+"oarfish.6HeartsPart5.3": "Those nasty raccoons!$3",
+// Clint
+"oarfish.6HeartsPart5.4": "Hello? Is anyone out there?$2",
+"oarfish.6HeartsPart5.5": "...sigh.$2",
+//Piere
+"oarfish.6HeartsPart5.6": "What a waste of eggs!$2#$b#Whoever's doing this must be stopped!$3",
+"oarfish.6HeartsPart5.7": "Hey, you!$3",
+// Oarfish
+"oarfish.6HeartsPart5.8": "...?",
+// Pierre
+"oarfish.6HeartsPart5.9": "Did you spot whoever threw these eggs?$3",
+// Oarfish
+"oarfish.6HeartsPart5.10": "...",
+// Pierre
+"oarfish.6HeartsPart5.11": "I guess not.$2",
+// Message
+"oarfish.6HeartsPart5.12": "I get the feeling I know who it is...",
+
+
+// EVENT Oarfish 6 Hearts: Part 6: Confrontation at the beach CODE: 10312008
+"oarfish.6HeartsPart6.1": "...$7#$b#%Oarfish seems happy to see you.",
+"oarfish.6HeartsPart6.2": "$q 10313001 null#...?#$r 10313001 0 Event_oarfish6Hearts1#Oarfish, we need to talk.",
+"oarfish.6HeartsPart6.Answer1": "...$7#$b#%Oarfish is ready to listen.",
+
+"oarfish.6HeartsPart6.3": "$q 10313002 null#...#$r 10313002 0 Event_oarfish6Hearts2#Someone's been going around playing mean pranks on people...",
+"oarfish.6HeartsPart6.Answer2": "...",
+
+"oarfish.6HeartsPart6.4": "$q 10313003 null#...#$r 10313003 0 Event_oarfish6Hearts3#Was it you?#$r 10313004 0 Event_oarfish6Hearts4#I expected better of you!",
+"oarfish.6HeartsPart6.Answer3": "...$7#$b#%Oarfish gestures no.",
+"oarfish.6HeartsPart6.Answer4": "...#$b#%Oarfish gestures no, it wasn't her.",
+
+"oarfish.6HeartsPart6.5": "$q 10313005 null#...#$r 10313005 0 Event_oarfish6Hearts5#Then, who made that mess back in town?#$r 10313006 0 Event_oarfish6Hearts6#Stop lying. I know it was you.",
+"oarfish.6HeartsPart6.Answer5": "...!$3",
+"oarfish.6HeartsPart6.Answer6": "...!$3",
+
+"oarfish.6HeartsPart6.6": "...$s#$b#%Oarfish urges you to stand behind her.",
+"oarfish.6HeartsPart6.7": "...$a",
+"oarfish.6HeartsPart6.8": "...?",
+"oarfish.6HeartsPart6.9": "...",
+"oarfish.6HeartsPart6.10": "$q 10313007 null#...#$r 10313007 0 Event_oarfish6Hearts7#What's going on?#$r 10313008 0 Event_oarfish6Hearts8#There's two of you?",
+"oarfish.6HeartsPart6.Answer7": "...$a#$b#%Oarfish gestures the double is a threat.",
+"oarfish.6HeartsPart6.Answer8": "...$a#$b#%Oarfish gestures the double is a threat.",
+
+"oarfish.6HeartsPart6.11": "...Hehehe.$8",
+"oarfish.6HeartsPart6.12": "Bye bye!$h",
+"oarfish.6HeartsPart6.13": "...",
+"oarfish.6HeartsPart6.14": "Erm... you two better not stand on that spot.$6#$b#Come up over here.",
+"oarfish.6HeartsPart6.15": "...Hm. A doppelganger, huh?$6",
+"oarfish.6HeartsPart6.16": "Hey, @. Why don't you sit with us?",
+"oarfish.6HeartsPart6.17": "You can't?$6#$b#Well, that's another problem we'll tackle later.",
+"oarfish.6HeartsPart6.18": "...Now that I think about it, it wasn't Oarfish that pushed me into the train's way.$6",
+"oarfish.6HeartsPart6.19": "Yeah, it hurt a lot.#$b#But I'm fine, see?$11",
+"oarfish.6HeartsPart6.20": "...$s",
+"oarfish.6HeartsPart6.21": "I'd wake up in an instant if that was Oarfish, but apparently the doppelganger was able to hide its scent from me.$6",
+"oarfish.6HeartsPart6.22": "And based on your story, it isn't like Fish to consider making a mess infront of someone's house as a prank.#$b#Still, I wouldn't put it past her to push me into the train tracks.$7",
+"oarfish.6HeartsPart6.23": "...!$8#$b#%Oarfish silently giggles to herself.",
+"oarfish.6HeartsPart6.24": "Right. How about it, Fish?#$b#Let's go around town, find your double, and kick some doppelganger butt.$11",
+"oarfish.6HeartsPart6.25": "...$7",
+"oarfish.6HeartsPart6.26": "And you...",
+"oarfish.6HeartsPart6.27": "Sorry to be lame, @. But it's best you keep your head down for now.$6#$b#Sounds to me that double would not hesitate hurting you to get its way.$6",
+"oarfish.6HeartsPart6.28": "...$s",
+"oarfish.6HeartsPart6.29": "...$l#$b#%Oarfish vows to protect you.",
+"oarfish.6HeartsPart6.30": "Ehehe, this is awesome! It's gonna be like old times, eh Fish?$h",
+"oarfish.6HeartsPart6.31": "...!$h#$b#...$u",
+"oarfish.6HeartsPart6.32": "...?$7#$b#%Oarfish offers to warp you back home.",
+"oarfish.6HeartsPart6.33": "#Yes, please (warp back home).#No thanks.",
+"oarfish.6HeartsPart6.34": "...$l#$b#%Oarfish pats you on the shoulder.",
+"oarfish.6HeartsPart6.35": "See you around, @.",
+"oarfish.6HeartsPart6.36": "...I just hope it gets resolved soon.",
+
+
+// EVENT Oarfish 6 Hearts: Part 7: Stand-off CODE: 10312009
+"oarfish.6HeartsPart7.1": "Heh! Not so hot now, are ya?$12",
+"oarfish.6HeartsPart7.2": "...",
+"oarfish.6HeartsPart7.3": "Hmm?#$b#Hehe, smells like you wouldn't be around for much longer.$11",
+"oarfish.6HeartsPart7.4": "???: Admit it, it was funny.",
+"oarfish.6HeartsPart7.5": "???: So what if I'm wearing her skin?",
+"oarfish.6HeartsPart7.6": "???: She's a real troublemaker anyways. It doesn't make a difference if I go around spreading chaos with her looks.",
+"oarfish.6HeartsPart7.7": "...$a",
+"oarfish.6HeartsPart7.8": "???: Ugh... stop it already.",
+"oarfish.6HeartsPart7.9": "???: And you call yourselves the good guys?",
+"oarfish.6HeartsPart7.10": "???: Oof!",
+"oarfish.6HeartsPart7.11": "I can still smell your mouth flapping.$6#$b#Aren't you supposed to be... poofing right now?",
+"oarfish.6HeartsPart7.12": "???: I just wanted to have some fun.",
+"oarfish.6HeartsPart7.13": "???: But then here you are, beating me up like barbarians over some pranks.",
+"oarfish.6HeartsPart7.14": "...!$a",
+"oarfish.6HeartsPart7.15": "Yeah, they weren't just pranks.#$b#You could've blasted some people to bits.$6#$b#So, you absolutely deserve a beating~!$11",
+"oarfish.6HeartsPart7.16": "C'mon, turn to your original form already.$6",
+"oarfish.6HeartsPart7.17": "???: ...What's the point?",
+"oarfish.6HeartsPart7.18": "???: You're just gonna tear me apart...",
+"oarfish.6HeartsPart7.19": "...",
+"oarfish.6HeartsPart7.20": "???: I've changed my mind.",
+"oarfish.6HeartsPart7.21": "???: Heh, I'll never give you the satisfaction.",
+"oarfish.6HeartsPart7.22": "???: I don't care if you kill me. You both can go stick it where the sun don't shine!",
+"oarfish.6HeartsPart7.23": "...$a",
+"oarfish.6HeartsPart7.24": "Uh, Fish? I don't think-$8",
+"oarfish.6HeartsPart7.25": "Eck. Bad timing, @.$6",
+"oarfish.6HeartsPart7.26": "...!$u#$b#...$s",
+"oarfish.6HeartsPart7.27": "???: H-hey... kid.",
+"oarfish.6HeartsPart7.28": "???: Look at me.",
+"oarfish.6HeartsPart7.29": "Ermm... You shouldn't come any closer, @. She's pretty dangerous.$10",
+"oarfish.6HeartsPart7.30": "???: Your \"friends\" did this to me.",
+"oarfish.6HeartsPart7.31": "...$a",
+"oarfish.6HeartsPart7.32": "???: C'mon, kid. Think about it.",
+"oarfish.6HeartsPart7.33": "???: I was just fooling around. Those bombs aren't even real.",
+"oarfish.6HeartsPart7.34": "???: I just wanted to scare and annoy people for fun. Believe me, some of them had it coming.",
+"oarfish.6HeartsPart7.35": "???: But this? Kid, they're brutal.",
+"oarfish.6HeartsPart7.36": "???: You shouldn't trust them after seeing this. You'd be crazy to still hang out with them.",
+"oarfish.6HeartsPart7.37": "You're real talkative for someone \"dying\".$6#$b#C'mon, we didn't even hit you that hard.$11",
+"oarfish.6HeartsPart7.38": "???: You heard that?",
+"oarfish.6HeartsPart7.39": "???: Kid, if I were you, I'd turn around and run for it.",
+"oarfish.6HeartsPart7.40": "...$s",
+"oarfish.6HeartsPart7.41": "...?$l",
+"oarfish.6HeartsPart7.42": "...Fish?$10",
+"oarfish.6HeartsPart7.43": "???: ...",
+"oarfish.6HeartsPart7.44": "???: Gotcha.",
+"oarfish.6HeartsPart7.45": "???: ...You're all going with me.",
+"oarfish.6HeartsPart7.46": "Huh? What's going on?$8",
+"oarfish.6HeartsPart7.47": "Umm... guys?$10",
+"oarfish.6HeartsPart7.48": "(The mine's entrance has caved in.)",
+"oarfish.6HeartsPart7.49": "Remi: You guys!",
+"oarfish.6HeartsPart7.50": "Remi: I'll be fine!",
+"oarfish.6HeartsPart7.51": "Remi: I can just claw my way out through this entrance.",
+"oarfish.6HeartsPart7.52": "...$l#$b#%Oarfish sighs in relief.",
+"oarfish.6HeartsPart7.53": "Remi: Can't sniff out where our little runt went to, though.",
+"oarfish.6HeartsPart7.54": "Remi: Either she's dead, or we lost her.",
+"oarfish.6HeartsPart7.55": "...$s",
+"oarfish.6HeartsPart7.56": "Remi: We'll worry about that later.",
+"oarfish.6HeartsPart7.57": "Remi: Fish, take our friend somewhere safe for now.",
+"oarfish.6HeartsPart7.58": "Remi: I gotta stay here and clean up the place. 'Cause we're responsible like that, yeah?",
+"oarfish.6HeartsPart7.59": "...!$h",
+"oarfish.6HeartsPart7.60": "...$l#$b#%Oarfish seems relieved you're okay.",
+"oarfish.6HeartsPart7.61": "...We'll be fine, I think.",
+
+
+// EVENT Oarfish 8 Hearts: Calamari CODE: 10312013
+"oarfish.8Hearts.1": "...$7#$b#%Oarfish is happy you arrived.",
+"oarfish.8Hearts.2": "$q 10313009 null#...#$r 10313009 0 Event_oarfish8Hearts1#So, what is it you need help for?",
+"oarfish.8Hearts.Answer1": "...!$h",
+
+"oarfish.8Hearts.3": "...!$h#$b#%Oarfish caught a squid!",
+"oarfish.8Hearts.4": "...$7#$b#%Oarfish gestured you to follow her.",
+"oarfish.8Hearts.5": "...$7#$b#%Oarfish got wheat flour and a bottle of oil in her hands.#$b#%She seems to be done shopping.",
+"oarfish.8Hearts.6": "...$s",
+"oarfish.8Hearts.7": "...?$l#$b#%She gently hands you the wheat flour and oil before discreetly pointing at Pierre's direction.",
+"oarfish.8Hearts.8": "Oarfish hands you enough g to purchase the goods.",
+"oarfish.8Hearts.9": "Hey, @. Is that all?#$b#Here you go. Thanks for stopping by!$1#$b#Oh, and don't forget to check our seasonal seeds for sale.",
+"oarfish.8Hearts.10": "Huh?$6#$b#Oh, hey Fish. Of course it would be you.$11",
+"oarfish.8Hearts.11": "Can't forget @. So what do you need me for?",
+"oarfish.8Hearts.12": "Mmmm... smells good, doesn't it?$11",
+"oarfish.8Hearts.13": "...!$h",
+"oarfish.8Hearts.14": "What are you worried about?#$b#I'm sure the mayor wouldn't mind. You said he'd be out for another few hours, right?",
+"oarfish.8Hearts.15": "Then this is no issue. That fried calamari smell will be gone by then.$11",
+"oarfish.8Hearts.16": "...$s",
+"oarfish.8Hearts.17": "...?$l#$b#%Oarfish nudges the foodbox towards your hands. It seems like she wants you to be the one to hand Pierre her gift.",
+"oarfish.8Hearts.18": "#(Give the Fried Calamari to Pierre for Oarfish)#(Urge Oarfish to hand the gift to Pierre herself)",
+"oarfish.8Hearts.19": "...$s",
+"oarfish.8Hearts.20": "...$7#$b#%Oarfish nodded.",
+"oarfish.8Hearts.21": "Oh, hello! I don't see you around often.#$b#Feel free to browse!$1",
+"oarfish.8Hearts.22": "Mmmm, something smells good!$1#$b#Huh? What's that you're giving me?$4",
+"oarfish.8Hearts.23": "Fried Calamari? For me?$4#$b#How did you know I love this? Thank you!$1",
+"oarfish.8Hearts.24": "Say, weren't you the one who walked by my shop not long ago?#$b#Sorry you had to see the mess.$2",
+"oarfish.8Hearts.25": "I still don't know who caused all that chaos around town, but lately it's been really peaceful.#$b#I guess they got caught!$1",
+"oarfish.8Hearts.26": "...",
+"oarfish.8Hearts.27": "...$7",
+"oarfish.8Hearts.28": "$q 10313010 null#...#$r 10313010 100 Event_oarfish8Hearts2#See? That wasn't so bad. You did well, Oarfish.#$r 10313011 100 Event_oarfish8Hearts3#Would've been funny if you threw it at his face...",
+"oarfish.8Hearts.Answer2": "...$l#$b#...!!$h#$b#%Oarfish is beaming.",
+"oarfish.8Hearts.Answer3": "...$u#$b#...!!$h#$b#%Oarfish silently laughs at the thought.",
+
+"oarfish.8Hearts.29": "Oarfish seems really happy, at least.",
+// fork oarfish8hearts_givecalamari
+"oarfish.8Hearts.30": "...!$h#$b#%You take the calamari from Oarfish's hands.",
+"oarfish.8Hearts.31": "Oh, it's you again.#$b#Did you forget to buy something? Feel free to browse.",
+"oarfish.8Hearts.32": "Mmmmm, something smells good!$1#$b#Hey, what's that you're carrying, @?",
+"oarfish.8Hearts.33": "#It's a gift for you.#(Throw the calamari at his face.)",
+"oarfish.8Hearts.34": "Gah!!!$2",
+"oarfish.8Hearts.35": "...!$u",
+"oarfish.8Hearts.36": "...!!!$h",
+"oarfish.8Hearts.37": "@!!!$3#$b#That better had been a dare!$3#$b#Do that again and I'll charge you 140 percent on my wares!$3",
+"oarfish.8Hearts.38": "*huff!*",
+"oarfish.8Hearts.39": "Well that was fun!",
+// fork2 oarfish8hearts_goodgiftcalamari
+"oarfish.8Hearts.40": "For me? I love Fried Calamari! Thank you, @!$1",
+"oarfish.8Hearts.41": "Huh? It's from someone else?#$b#Well then, let them know they made me really happy with this gift!$1",
+"oarfish.8Hearts.42": "Why can't they give it to me personally, though?#$b#Oh! They're shy?$4#$b#Aww, well I hope to meet them in person one day.",
+"oarfish.8Hearts.43": "...!$h#$b#%Oarfish is grateful.",
+"oarfish.8Hearts.44": "Oarfish seems really happy, at least.",
+
+
+// EVENT Oarfish 10 Hearts: Gift CODE: 10312016
+"oarfish.10Hearts.1": "...$7#$b#%Oarfish beckons you to stand next to her.",
+"oarfish.10Hearts.2": "...$7",
+"oarfish.10Hearts.3": "...?$l",
+"oarfish.10Hearts.4": "...!$h#$b#%Oarfish pulled something from behind your ear.",
+"oarfish.10Hearts.5": "It was a small oyster shell!",
+"oarfish.10Hearts.6": "...$7",
+"oarfish.10Hearts.7": "Oarfish opens the shell.",
+"oarfish.10Hearts.8": "[797]...!$h#$b#%Oarfish hands you the pearl.",
+"oarfish.10Hearts.9": "...$l#$b#%Oarfish insists you keep the gift.",
+"oarfish.10Hearts.10": "%Holding both your hands, she clasped them closed around the pearl, like they were shells.",
+"oarfish.10Hearts.11": "...$l",
+"oarfish.10Hearts.12": "It was an unusually uneventful day, sitting and chatting with Oarfish.",
+"oarfish.10Hearts.13": "But uneventful is also nice, especially with someone like Oarfish...",
+
+
+// EVENT Oarfish 14 Hearts: Beat'Em Up CODE: 10312017
+"oarfish.14Hearts.1": "...$7#$b#%Oarfish greets you good morning.",
+"oarfish.14Hearts.2": "???: Hey! You think you've seen the last of me?",
+"oarfish.14Hearts.3": "???: I'm gonna tear this door down and pull your insides out!",
+"oarfish.14Hearts.4": "...$a",
+"oarfish.14Hearts.5": "...$s",
+"oarfish.14Hearts.6": "...?$l#$b#%Oarfish asks if you would allow her to \"investigate\"...",
+"oarfish.14Hearts.7": "#Why not? Beat 'em up.#Okay, but not too much force.",
+"oarfish.14Hearts.8": "...!$h",
+"oarfish.14Hearts.9": "...$7#$b#%Oarfish gestures they wouldn't come back in a while.",
+"oarfish.14Hearts.10": "...!$h#$b#%She reassures you that you'll be safe from them.",
+"oarfish.14Hearts.11": "Never a dull moment with Oarfish...",
+// Beat 'em up!
+"oarfish.14Hearts.12": "...!$h",
+"oarfish.14Hearts.13": "...$7#$b#%Oarfish grins triumphantly.",
+"oarfish.14Hearts.14": "Never a dull moment with Oarfish!",
+
+
+
+// ***** [MAIL] MAIL CONTENTS *****
+
+// General Gifts in MAIL
+"MAIL.General.Remi": "Hey, @!^^Fish helped me with writing this letter. I thought to send you something. Cheers!  ^^   -Remi %item object 303 1 459 1 %%[#]A Gift From Remi",
+"MAIL.General.Oarfish": "Dear @,^^I got this from the sea. Humans consider these treasures, but I have no use for Earthly riches. You can have it.^^   -Oarfish %item object 166 1 %%[#]A Gift From Oarfish",
+
+// Heart Events MAIL
+"MAIL.10HeartsLetter.Remi": "Hey, @!^^First, I'm super happy that we're best buds now. Second, if you got the time, could you visit me at the railroad?^As always, whatever day works. See ya.^^P.S. This is Oarfish's handwriting. Pretty, ain't it?^^   -Remi   [#]Remi's Note",
+
+"MAIL.6HeartsLetter.Oarfish": "To @,^^Remi and I found my double. The valley is safer now.^^   -Oarfish   [#]Oarfish - Double is caught",
+"MAIL.6HeartsLetterRemi.Oarfish": "Hey @!^^We work fast, don't we? Well, we could've worked faster and prevented more damage over at Pelican Town, but we try not to get too involved in human affairs until it's actually something supernatural and dangerous.^^We were too late to realize that. Sorry.^^^But anyways, you ought to know that Oarfish is our main officer back home. She and I are partners in crime, as well as partners in dealing with crime. Hehe.^^We're pretty good at our jobs, but this planet got different rules, you know? We can't just take matters into our own hands willy-nilly.^^Cave is all fixed up. Everything should be in order. Alright, take care!^^   -Remi   [#]Remi - Double is caught",
+
+"MAIL.8HeartsLetter.Oarfish": "Dear @,^^I need your assistance. When you have time, come see me at the beach on a sunny day.^^   -Oarfish   [#]Oarfish - Need Assistance",
+"MAIL.8HeartsLetterAfterEvent.Oarfish": "To @,^^Thank you for assisting me. I thoroughly enjoyed the process of preparing gifts for others, so yesterday was well spent.^^I'll be checking the town calendar frequently now. Feel free to come along with me when you have the time again.^^^Actually, I might need your assistance every now and then. I'm sorry to say I'm still not confident enough. Anyhow, cheers.^^   -Oarfish   [#]Oarfish - Thank you",
+
+"MAIL.10HeartsLetter.Oarfish": "To @,^^I'm happy we have become very close friends.^^However, while I have been preparing gifts the townspeople would love for their birthdays, yours is not on the calendar. If you have the time to chat, please come meet me at the beach. I would love to know more about you.^^   -Oarfish   [#]Oarfish - Invitation",
+
+
+
+
+
+
+
+
+// ***** [DIAL] GENERAL DIALOGUE *****
+// Remi Regular Dialogue
+// 0 Hearts
+"DIALOGUE.remi.Introduction": "You can see me?#$b#That's weird...",
+"DIALOGUE.remi.0Hearts.monday": "It's you again.$9#$b#...$6#$b#Oh, sorry. I can't sense the passing of time, so I can't tell when was the last time you've been here.#$b#Just so you know.",
+"DIALOGUE.remi.0Hearts.tuesday": "Have I told you that I'm blind and deaf?#$b#Well, that and I also have poor memory. So, excuse me if I repeat myself.",
+"DIALOGUE.remi.0Hearts.wednesday": "Heyo! Oddly, you don't smell as terrible as most humans.$9#$e#You smell more like... the earth. Yeah.",
+"DIALOGUE.remi.0Hearts.thursday": "My friend is at the beach. Have you met her?#$b#Don't hit on her though, she's taken. Hehe.$11",
+"DIALOGUE.remi.0Hearts.friday": "Do you smell that?#$b#Smells like... %favorite.#$e#What? Isn't that what you desire most?",
+"DIALOGUE.remi.0Hearts.saturday": "Hi.#$b#...#$b#Sorry. Lazy mood.$6",
+"DIALOGUE.remi.0Hearts.sunday": "How long has it been?#$b#A week? Gee, time sure flies.#$b#Not that I can tell.",
+// 2 Hearts
+"DIALOGUE.remi.2Hearts.wednesday": "Wednesday... Wensday... Wed-nes... day.$6#$b#Oh sorry, I almost didn't smell you there.$11#$e#It's Wednesday, right? So how's your Wednesday?",
+// 4 Hearts
+"DIALOGUE.remi.4Hearts.monday": "Is it... Sunday?$6#$b#No- Monday. It's Monday.$10#$e#Sorry if I threw you off. I know how important time is to you.",
+"DIALOGUE.remi.4Hearts.friday": "My eyes are in two different colors? I didn't know that.$6#$e#Are eyes supposed to look the same?#$b#Well, I figured most bodies of living beings are symmetrical, so that makes sense.",
+"DIALOGUE.remi.4Hearts.saturday": "Tonight's saloon night. Join us if you want. I'll even get you something from the menu.$11",
+// 6 Hearts
+"DIALOGUE.remi.6Hearts.friday": "Sorry if this is a stupid question but...$6#$b#is %favorite something you can eat in this planet?",
+"DIALOGUE.remi.6Hearts.sunday": "Another week has passed, huh?#$b#Heh, I think I'm getting better at it.$11#$e#Earth is a huge ball of randomness, but also manmade and naturally occurring patterns... I think.",
+// 8 Hearts
+"DIALOGUE.remi.8Hearts.spring.monday": "A lot of things smell so new and fresh this season.$9#$b#Like the wonderful scent of life springing out of the ground after being trapped under the cold for so long.$11#$e#Huh, is that exactly what's happening?$10#$b#Hm! Must be a beautiful thing to witness, then.$9",
+"DIALOGUE.remi.8Hearts.spring.tuesday": "Can't believe I'm saying this, but I love this planet.$11#$b#Getting past the smell, there's lots of fun to be had here.#$e#...hehehe, mommy was right.$u",
+"DIALOGUE.remi.8Hearts.spring.friday": "Do you smell that?#$b#Smells like... %favorite.#$e#What? Isn't that what you desire most?",
+"DIALOGUE.remi.8Hearts.spring.saturday": "Arcade night!$9#$b#Not that I can play any of the games, but just listening to Oarfish's turbulent desires is plenty entertaining enough for me.#$e#So, think you can beat Fish's high score?$12",
+"DIALOGUE.remi.8Hearts.spring.sunday": "Another week has passed, huh?#$b#Heh, I think I'm getting better at it.$11#$e#Earth is a huge ball of randomness, but also manmade and naturally occurring patterns... I think.",
+
+"DIALOGUE.remi.8Hearts.summer.monday": "Is it... Sunday?$6#$b#No- Monday. It's Monday.$10#$e#Sorry if I threw you off. I know how important time is to you.",
+"DIALOGUE.remi.8Hearts.summer.tuesday": "My eyes are in two different colors? I didn't know that.$6#$e#Are eyes supposed to look the same?#$b#Well, I figured most bodies of living beings are symmetrical, so that makes sense.",
+"DIALOGUE.remi.8Hearts.summer.friday": "So, do you always do something that involves %favorite or...?#$e#You don't have to elaborate if you don't want to.$11",
+"DIALOGUE.remi.8Hearts.summer.saturday": "Tonight's saloon night. Join us if you want. I'll even get you something from the menu.$11#$e#I'd gladly spoil my friends. Especially when I can only have so few in the span of eternity.",
+"DIALOGUE.remi.8Hearts.summer.sunday": "Hoo-wee! Another hot week.$11#$b#Ice cream sure is a great pleasure this season.#$e#By the way, did you know you can buy ice cream even without its vendor?#$b#Fish went around the counter and I \"bought\" the ice cream.$11#$e#I'm sure you can figure out how to get another living being to stand behind the counter, too.",
+
+"DIALOGUE.remi.8Hearts.fall.monday": "I don't hate humanity or anything. I just can't stand their odor for too long.$6#$e#If a human is in danger and I can do something about it, I'd gladly rescue them. But that's about it.#$e#Besides, it's not like they'll remember me.$7",
+"DIALOGUE.remi.8Hearts.fall.tuesday": "Fish and I will eat out at the saloon.#$b#See us this evening if you can. We'll get a third seat for you.$11#$e#On that note, what's your favorite meal?",
+"DIALOGUE.remi.8Hearts.fall.friday": "Sorry if this is a stupid question but...$6#$b#is %favorite something you can eat in this planet?",
+"DIALOGUE.remi.8Hearts.fall.saturday": "I'm not sure if the ordinary human can smell it, but you smell a lot like the forest magic that permeates this valley.$11#$e#It's why I can stand you. Besides you being able to see and remember me and all that.",
+"DIALOGUE.remi.8Hearts.fall.sunday": "I'm not sure if I told you about her yet... it's not Fish.$7#$b#She's a really good friend from back home. I love her so much.#$e#...$s#$b#Oh, sorry. I'm tearing up a little thinking of her. Haha.$9#$e#I know she still remembers me. Because I still remember her.",
+
+"DIALOGUE.remi.8Hearts.winter.monday": "Heya, so what do you do when crops don't grow this cold season?#$e#Invite me over sometime. I'd like to know how your farm smells like. Hehe.$11",
+"DIALOGUE.remi.8Hearts.winter.tuesday": "I never would've bothered coming to Earth, honestly. The way humans smell is already a huge dealbreaker for me.$7#$e#But here I am. Me and Fish against the rest of the world... except it's not like that anymore.",
+"DIALOGUE.remi.8Hearts.winter.friday": "%favorite!!!$h#$e#Hehehe, what? I just yelled what you desire most.#$b#Things I say are forgotten anyways, if that makes you feel any better.$11",
+"DIALOGUE.remi.8Hearts.winter.saturday": "You ever wanted to borrow my coat or something?#$b#You know, for warmth. It's pretty chilly out.$11",
+"DIALOGUE.remi.8Hearts.winter.sunday": "Looks like all those weeks of talking to you and giving you gifts paid off. We're best buds now!$h#$e#...What?#$b#Oh right, of course your talking and gift-giving to me are also part of why I'm very fond of you.$11#$e#I hope you've been doing the same with Fish. She and I want all three of us to be pals.#$e#It's really nostalgic... like how the three of us were back home.$9#$b#Hm? No, we're not treating you as a replacement third member or anything. We love you for you.",
+
+
+// Remi special dialogue on dated days "{{i18n:DIALOGUE.remi.{{season}}.{{day}}}}",
+"DIALOGUE.remi.spring.2": "My birthday?$6#$b#Yeah, I've heard of it from even way back home but we don't normally celebrate the day of our creation.#$e#Still, Fish and I decided to take a random day on the Earth calendar to fit in.#$e#And we'd react appropriately, too.$11",
+"DIALOGUE.remi.spring.12": "Tomorrow's Egg Festival? Yeah, no thanks. Fish and I don't go to human events.#$e#You know me. I don't like the smell.$11#$b#And Oarfish, well... she's shy.",
+"DIALOGUE.remi.spring.15": "You smell that? It's gonna be a free-for-all with all these berries ripe for the picking.$11",
+
+"DIALOGUE.remi.summer.11": "There's an event being held at the beach?$6#$b#In that case, Fish will be staying with me here all day. You go have fun there, though.#$e#Fish is too shy to be in crowded places.",
+"DIALOGUE.remi.summer.28": "Moonlight Jellies viewing?$6#$b#I'm good.#$e#Fish will be up here later. Too many people gathering in one place makes her nervous. Have I told you that?",
+
+"DIALOGUE.remi.fall.16": "A fair going on in town?$6#$b#Can't. Sorry.$11#$e#Actually, I think I could...#$b#Nevermind.$11",
+"DIALOGUE.remi.fall.27": "Ooooh, spooky times.$11#$b#I'm not into dressing up, though. But, the pumpkins smell great.#$e#Fish would love this time of the year, now if only her pranks aren't so... extreme. Hehe.$11",
+
+"DIALOGUE.remi.winter.8": "Fishing contest in the forest? Make us proud, @.#$e#Need a tip? Make sure you eat a fisher's meal to boost your performance. Always works.$11",
+"DIALOGUE.remi.winter.25": "Nice of you to come see me!$9#$b#Heh, you think I'd forget? Here's a present for you.[279]#$e#Been a great year, huh?",
+
+
+// Remi Quizing her name on the 5th day of summer
+"DIALOGUE.remi.question.summer.5": "Hmmm... #$q 10311001/10311002 summer_5_old#Surprise quiz. What's my name?#$r 10311001 50 summer_5_correct#It's Remi.#$r 10311002 0 summer_5_wrong#Remy?",
+"DIALOGUE.remi.question.summer.5.old": "#$p 10311001#Oh, don't mind me. Just thinking what I should do in this summer heat.$11|Hehe... Oh, it's nothing. Just that a particular sewer rat came to mind.$11",
+"DIALOGUE.remi.question.summer.5.correct": "That's right! Good job remembering my name, @. Now I know you're special, for sure.$9",
+"DIALOGUE.remi.question.summer.5.wrong": "Bzzz! Wrong. Of course I can feel the difference. Hehe.$11",
+
+
+// Remi Rainy Dialogue
+"DIALOGUE.remi.rainy.a": "Rain or shine, I'm still gonna go around the valley.#$b#So don't be surprised if you catch me out walking in the rain.$11#$e#Fish is the same way. We're not bothered by rain at all.",
+"DIALOGUE.remi.rainy.b": "Mmmm... do you smell that?$11#$e#Ahh, the smell of rain hitting the dry earth is so good.$u",
+"DIALOGUE.remi.rainy.c": "Watch your step, @.#$b#Don't want you to slip and have a head in worse condition than mine.",
+"DIALOGUE.remi.rainy.d": "So, do you normally just charge into the rain and get all soaking wet like that?$6#$e#That's sick.#$e#Don't get sick, though.$6",
+
+// Remi Engagement Dialogue
+"DIALOGUE.remi.engagement0": "You better watch for your snacks, though. Haha! Fish and I are gonna be double-teaming on those.$h",
+"DIALOGUE.remi.engagement1": "You having second thoughts? I mean, it's fine.#$b#I'll be over at your place soon if you haven't changed your mind.",
+
+// Remi Proposal Acceptance DIALOGUE
+"DIALOGUE.remi.engaged": "...This texture.$10#$b#...$10#$b#Yeah! Yeah, I'll crash over at your place, for sure!$h#$e#Hey so, now that we're gonna be closer than ever, since I'll literally be living with you, can Fish come along?#$b#We'll be super chill roommates, I promise!$9",
+"DIALOGUE.remi.engagedRoommate": "...This texture.$10#$b#...#$b#Yeah! Yeah, I'll crash over at your place, for sure!$h#$e#Hey so, now that we're gonna be closer than ever, since I'll literally be living with you, can Fish come along?#$b#We'll be super chill roommates, I promise!$9",
+"DIALOGUE.remi.afterWedding": "Hey, I just got here. Don't mind me if I stumble around your place for a while.#$b#I'll get used to it pretty quickly, I think.$11",
+
+// Remi Wedding Vows Fix (what Mayor Louis is saying)
+"WEDDING.remi.1": "@... Remi... #$b#As the mayor of Pelican Town, I hereby grant official recognition of your platonic union!$h",
+"WEDDING.remi.2": "@... Remi... #$b#As the mayor of Pelican Town, I hereby grant official recognition of your platonic union!$h",
+"WEDDING.remi.3": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#Today, the town welcomes a new commune consisting of @ and er...#$b#*Whispers* What's her name again?$s#$b#Oh! Right. It's Remi.",
+"WEDDING.remi.4": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#Today, the town welcomes a new commune consisting of @ and er...#$b#*Whispers* What's her name again?$s#$b#Oh! Right. It's Remi.",
+"WEDDING.remi.5": "You may embrace.",
+"WEDDING.remi.6": "Life is going to be different from now on...",
+"WEDDING.remi.7": "...But the future looks bright!",
+
+
+// Monsters in the FarmHouse
+"FARMHOUSE.remi.SpouseAttacked1": "Squishies!",
+"FARMHOUSE.remi.SpouseAttacked2": "Haha, go squish!",
+"FARMHOUSE.remi.SpouseAttacked3": "Well, this is fun!",
+"FARMHOUSE.remi.SpouseAttacked4": "Bye-bye!",
+"FARMHOUSE.remi.SpouseAttacked5": "Smells like candy!",
+"FARMHOUSE.remi.SpouseAttacked6": "Yum!",
+"FARMHOUSE.remi.SpouseAttacked7": "Haha, die!",
+"FARMHOUSE.remi.SpouseAttacked8": "Oooh! Slimey!",
+"FARMHOUSE.remi.SpouseAttacked9": "Squish!",
+"FARMHOUSE.remi.SpouseAttacked10": "*stomp!*",
+"FARMHOUSE.remi.SpouseAttacked11": "Boo! Haha!",
+"FARMHOUSE.remi.SpouseAttacked12": "Awesome!",
+
+
+// Remi Gift Reaction to specific items
+// LOVE Gifts
+"GIFT.remi.Beer.1": "Hey thanks! I really love this stuff.$9#$b#Don't worry. I'm a functional alcoholic. You'd be surprised of the kind of things I can get done while on a tipsy ride.",
+"GIFT.remi.Beer.2": "Ohh, that smell! I'm thirsty all of a sudden.$u#$b#Huh? It's for me?$10#$b#Well, thanks a lot!$9",
+"GIFT.remi.Beer.Birthday": "Birthday beer?$10#$b#Heck yeah! You're the best, @! Cheers!$h",
+
+"GIFT.remi.Mead.1": "You're giving this to me? Thanks!$h#$b#Mmm... smells amazing. Mead is something special, ain't it?$11",
+"GIFT.remi.Mead.Birthday": "I smell sweet and smooth honey brew...$11#$b#Oh! Mead for my birthday? Thanks!$h",
+
+"GIFT.remi.PaleAle.1": "Making good use of those hops, huh?#$b#Oh, it's for me? Thanks!$9",
+"GIFT.remi.PaleAle.Birthday": "Pale ale for a birthday gift? Heck yeah!$h#$b#I bet you made this one extra special to impress me. Let's just say you make me real proud.$9",
+
+"GIFT.remi.Wine.1": "Mmm, smells like fermented heaven.$11#$b#Oh, it's for me? Haha! Thank you! It means a lot that you're offering me some of your finest crafts.$h",
+"GIFT.remi.Wine.Birthday": "Fancy wine for me? Thank you! Now I know how I'll spend my birthday night with Fish.$9#$b#Heh, you're invited, y'know? Don't get all flustered, it's all casual stuff.",
+
+"GIFT.remi.Orange.1": "Orange!$h#$b#This brings back good memories. Thanks a lot.$11",
+"GIFT.remi.Orange.Birthday": "Orange! This brings back good memories!$h#$b#Thanks a lot. You made my day real special.$9#$e#Mmmm, reminds me of mommy...$u",
+
+"GIFT.remi.Pearl.1": "What is this... a salty jaw breaker?$6#$b#Huh? A pearl?$10#$b#A treasure of the sea, huh. I'll cherish it, thank you.",
+"GIFT.remi.Pearl.Birthday": "Huh? A birthday gift? How thoughtful. Thanks!$9#$b#It feels... cool and smooth, like Fi...#$b#...!$10#$b#Thanks again.$11",
+
+"GIFT.remi.CrabSticks.1": "Well well! Look who prepared the recipe I sent you.#$b#And it's for me? Thanks. Take a stick if you wanna.$9",
+"GIFT.remi.CrabSticks.Birthday": "Mmm, I can smell that lovely wasabi spice in the air...$u#$b#Oh, you actually made Crab Sticks.#$b#Eh? A birthday gift for me? Buddy, you're awesome! Thanks!$h",
+
+// LIKE Gifts
+"GIFT.remi.Flowers.1": "Aww, I love all kinds of flowers, thanks!$9#$e#I used to stay around a garden a lot, so this one brings back good memories.",
+"GIFT.remi.Flowers.Birthday": "Aww, I love all kinds of flowers, thanks!$9#$e#I used to stay around a garden a lot, so this one brings back good memories.",
+"GIFT.remi.Fish.1": "Oh hey, I can make a decent sashimi with this one, thanks!$9#$e#...Or maybe some fish sticks. Or fish fillet...#$e#Mmmmmm...$u",
+"GIFT.remi.Cooking.1": "Mmmm, might as well try the human cuisine while I'm here, right? Thanks.$11",
+"GIFT.remi.Mineral.1": "...$6#$b#Hm? Oh it's nothing. Just checking if it's alive. Thanks.#$e#It doesn't contain any sort of consciousness if you're wondering. Which is a good thing.$11#$b#If we got one that's living, we'll have to take it back home for rescue. It's the least me and Fish could do for the fallen.",
+
+// NEUTRAL Gifts
+"GIFT.remi.MapleSyrup.1": "Hm? Oh, thanks.#$b#*Gulp*...!$10#$b#...$6#$b#Sweet.",
+"GIFT.remi.OakResin.1": "Hm? Oh, thanks.#$b#*Gulp*...!$10#$b#Huh? I'm not supposed to drink this? I guess you're right.$6",
+"GIFT.remi.PineTar.1": "Hm? Oh, thanks.#$b#*Gulp*...!$10#$b#Huh? I'm not supposed to drink this? I guess you're right.$6",
+"GIFT.remi.Forage.1": "Oh, you're giving this to me?#$b#I can find a lot of these on the ground when I'm on my sniffing spree, but thanks anyways.$11",
+
+// HATE Gifts
+"GIFT.remi.JojaCola.1": "[167]No thanks. Even I know that drink is trash.$6",
+"GIFT.remi.Trash.1": "[168]Take it out yourself.$6",
+"GIFT.remi.Driftwood.1": "[169]Take it out yourself.$6",
+"GIFT.remi.BrokenGlasses.1": "[170]Take it out yourself.$6",
+"GIFT.remi.BrokenCD.1": "[171]Take it out yourself.$6",
+"GIFT.remi.Soggy_Newspaper.1": "[172]Take it out yourself.$6",
+"GIFT.remi.Trash.2": "[168]Too lazy to find the bin, kid?$6",
+"GIFT.remi.Driftwood.2": "[169]Too lazy to find the bin, kid?$6",
+"GIFT.remi.BrokenGlasses.2": "[170]Too lazy to find the bin, kid?$6",
+"GIFT.remi.BrokenCD.2": "[171]Too lazy to find the bin, kid?$6",
+"GIFT.remi.Soggy_Newspaper.2": "[172]Too lazy to find the bin, kid?$6",
+"GIFT.remi.RabbitsFoot.1": "...$a#$b#Oh, sorry. I almost puked.$6#$b#[446]Please have it back.$6",
+"GIFT.remi.RabbitsFoot.Birthday": "...$a#$b#Oh, sorry. I almost puked.$6#$b#[446]Please have it back.$6#$e#I really don't like the foot of... anything. Just so you know.$6",
+
+
+
+// Remi repeatable Saloon Dialogue every Saturday after seeing 3 Heart Event with both Remi and Oarfish
+"DIALOGUE.remi.saloon.saturday": "Hey. #$q 10311003/10311004/10311005/10311006/10311007/10311008 Saloon_Sat_old#Want anything from the menu?#$r 10311003 0 Saloon_Sat_Beer#Beer would be nice.#$r 10311004 0 Saloon_Sat_Salad#A salad, please.#$r 10311005 0 Saloon_Sat_Spaghetti#Spaghetti sounds delicious.#$r 10311006 0 Saloon_Sat_Pizza#A whole pizza for the party.#$r 10311007 0 Saloon_Sat_Coffee#Just some coffee.#$r 10311008 0 Saloon_Sat_None#No thanks, I'm good.",
+"DIALOGUE.remi.saloon.saturday.old": "Enjoying the night?",
+"DIALOGUE.remi.saloon.saturday.Beer": "[346]Heh, here's your drink.$11",
+"DIALOGUE.remi.saloon.saturday.Salad": "[196]Yum. Those leaves sure are crunchy.$11",
+"DIALOGUE.remi.saloon.saturday.Spaghetti": "[224]Yummy spaghetti, am I right?.$11",
+"DIALOGUE.remi.saloon.saturday.Pizza": "[206]I'll just have a slice if you don't mind.$11",
+"DIALOGUE.remi.saloon.saturday.Coffee": "[395]Coffee at the saloon, eh? I like your style.",
+"DIALOGUE.remi.saloon.saturday.None": "Hmm? Okay. You do you.",
+
+
+// Remi stealing from Pierre repeatable Dialogue every Thursday 
+"DIALOGUE.remi.question.thursday": "...It's hardly stealing if I'm only taking trash from Pierre's.$7#$q 10311011/10311012 Thu4Old#But if it'll affect our friendship then... I guess I'll quit it.#$r 10311011 20 ThuStopStealing#Yes. Please stop stealing from Pierre.#$r 10311012 30 ThuKeepStealing#Steal from Pierre all you want. Heck, take even the good stuff.",
+"DIALOGUE.remi.question.thursday.old": "#$p 10311011#But since you told me not to, I won't take anything from his shop, rotting or not.|[245 246 247 419 423]Buuuut, I suppose it wouldn't hurt him too much if I take some... fresher goods. Hehehe.$12",
+"DIALOGUE.remi.question.thursday.stopStealing": "Yeah, gotcha.$9#$b#I'm glad we had this talk. I wouldn't want you to dislike me for it.#$b#...I mean, I can do whatever I want but our friendship has been going well so far, I think.$11#$b#Don't wanna put all that to waste.",
+"DIALOGUE.remi.question.thursday.keepStealing": "Woah! Heck yeah, \"heard\" you loud and clear!$h#$b#You got beef with him or something? 'Cause I'm here for it.#$b#I won't be stealing to the point I ruin his livelihood, though. I mean, how can I steal from him if he had to close up shop?$11",
+
+
+// Remi seen 7 hearts at the mines, lollipop offer
+"DIALOGUE.remi.mine.friday": "Oh, hey.#$q 10311020/10311021 Mine_Fri_old#I bought an extra lollipop from that merchant over there. Wanna have it?#$r 10311020 0 Mine_Fri_Yes#(Take the Miner's Treat)#$r 10311021 0 Mine_Fri_No#No thanks.",
+"DIALOGUE.remi.mine.friday.old": "How's the mining going for ya?",
+"DIALOGUE.remi.mine.friday.yes": "[243]Here you go!$9#$b#Pretty sweet, huh?",
+"DIALOGUE.remi.mine.friday.no": "Not much of a sweet tooth, huh?#$b#More for me then.$11",
+
+
+// Remi gifts every Wednesday after seeing 4th Heart event at Town
+"DIALOGUE.remi.wednesdayGift.spring.3": "Happy new year!$9#$b#Erm, have I said that already? I can't tell.$6",
+"DIALOGUE.remi.wednesdayGift.spring.17": "[257]This mushroom smells uncommon. I figured you're into uncommon stuff. You can have it.#$e#Doing good this cherry-smelling season?",
+"DIALOGUE.remi.wednesdayGift.spring.24": "What are you doing here? Aren't you supposed to be at the Flower Dance?$9#$b#Still, it's nice of you to come see me here.#$b#Going by the theme of flowers, I plucked this one out. You can have it.[421]$11#$e#What do you mean it's not in season yet?$6#$e#Semi-unrelated but... if you spot a green-haired woman wearing red plaid coming towards you, run.$6",
+
+"DIALOGUE.remi.wednesdayGift.summer.3": "[259]I found this one in the forest. I know you can make use of this.#$b#So, got any stories to tell? Had any adventures recently?$11",
+"DIALOGUE.remi.wednesdayGift.summer.10": "[266]Here, you can have this.#$b#So, wanna have a chat?#$e#What? You wondering where I got that?#$b#I go from place to place and stumble upon things sometimes. Probably from a community farm in another town.$11",
+"DIALOGUE.remi.wednesdayGift.summer.17": "[88]Coconut!$9#$b#It's getting really warm. I figured there would be ripe coconuts outside of town.#$e#Got time to chat? Got work to do? Either way is fine.",
+"DIALOGUE.remi.wednesdayGift.summer.24": "[90]Have a cactus fruit. Don't prick yourself.#$e#Come sit in the shade if you like.",
+
+"DIALOGUE.remi.wednesdayGift.fall.3": "[613]It's apple season! I got these straight from a community orchard at another town. You can have this sweet-smelling one.$9#$b#Wanna sit and relax for a bit? It gets pretty dusty around here, though.",
+"DIALOGUE.remi.wednesdayGift.fall.10": "[637]Pom pom. Hehe, get it?$11#$b#Lame? Yeah, I agree with you.#$e#Got a story to tell? I'll listen.#$b#Yeah, even if I'm deaf I can lend you an ear. I have my ways.$11",
+"DIALOGUE.remi.wednesdayGift.fall.17": "[194]Umm, I tried frying an egg.$6#$b#Wildman style.#$e#I'd like to have access to an actual kitchen. Maybe then I can prepare you gourmet meals.#$e#You heard me. I can cook. Ever heard of deaf-blind chefs?",
+"DIALOGUE.remi.wednesdayGift.fall.24": "[348]Wine!$h#$b#This one isn't as aged as the others, but it's ready to drink.#$e#So um, do you drink or... I should've asked that first, huh?$6#$b#You can always give it to someone else if you don't want it.",
+
+"DIALOGUE.remi.wednesdayGift.winter.3": "[446]Here's a mutilated foot of a small furry animal. The say it's lucky.#$e#...When I heard humans are into this stuff, I kinda gagged.$6#$e#How is it lucky anyways? The practice sounds too awful to be anything good.$7#$e#Sorry. I'm rambling too much.#$b#So, what about you? How are you doing in this cold season?",
+"DIALOGUE.remi.wednesdayGift.winter.10": "[228]Maki Roll!$9#$b#Fish and I snuck in the Mayor's kitchen to make some meals.#$b#Don't worry. We brought in our own ingredients and cleaned up after ourselves.$11#$e#So uhh, is it still any good?",
+"DIALOGUE.remi.wednesdayGift.winter.17": "[444]Hm? No no, I didn't pluck this off of a poor duck. I found it on the ground outside of town.#$b#Texture's all nice, huh?$11",
+"DIALOGUE.remi.wednesdayGift.winter.24": "[445]Here's some fancy-schmancy caviar. Fish is great when it comes to harvesting roes... and pretty much anything fish-related.$11#$e#That would do great with fancy wine. You got kegs in your farm?#$e#I used to brew a lot of alcohol. It's pretty easy when time doesn't matter so much.$11",
+
+
+// OARFISH regular dialogue
+// 0 Hearts
+"DIALOGUE.oarfish.Introduction": "...$7",
+"DIALOGUE.oarfish.0Hearts.monday": "...$7#$b#%Oarfish waves hello at you.",
+"DIALOGUE.oarfish.0Hearts.tuesday": "...$7#$b#%Oarfish smiles and silently greets you.",
+"DIALOGUE.oarfish.0Hearts.wednesday": "...$7#$b#%She seems to not mind your company.",
+"DIALOGUE.oarfish.0Hearts.thursday": "...#$b#%Oarfish seems neutral today.#$b#...?$7#$b#%Oarfish noticed you.",
+"DIALOGUE.oarfish.0Hearts.friday": "...$7#$b#%Oarfish glances at you, acknowledging your presence.",
+"DIALOGUE.oarfish.0Hearts.saturday": "...$7#$b#%She seems attentive of you.",
+"DIALOGUE.oarfish.0Hearts.sunday": "...$h#$b#%Oarfish seems very happy today. She's holding what seems to be a beautiful shell in her hands.",
+// 4 Hearts
+"DIALOGUE.oarfish.4Hearts.thursday": "[392]...$h#$b#%Oarfish offers you a spiraling shell.",
+"DIALOGUE.oarfish.4Hearts.sunday": "[394]...$h#$b#%Oarfish offers you a beautiful shell.",
+// 8 Hearts
+"DIALOGUE.oarfish.8Hearts.spring.monday": "...$7#$b#%Oarfish waves hello at you.#$e#...?$7#$b#%She wonders about how your week went.",
+"DIALOGUE.oarfish.8Hearts.spring.tuesday": "...$7#$b#%Oarfish smiles and silently greets you.#$e#...$7#$b#%She seems to be admiring the ocean waves this spring.",
+"DIALOGUE.oarfish.8Hearts.spring.wednesday": "...$7#$b#%Oarfish seems to enjoy your company.#$e#...!$h",
+"DIALOGUE.oarfish.8Hearts.spring.friday": "...$7#$b#%Oarfish acknowledes your presence.",
+"DIALOGUE.oarfish.8Hearts.spring.saturday": "...$a#$b#%Oarfish looks determined. Perhaps she's looking forward to hitting the arcades tonight?#$e#...$a#$b#%You wonder if she'll finally beat the game...",
+
+"DIALOGUE.oarfish.8Hearts.summer.monday": "...$7#$b#%Oarfish waves hello at you. Afterwards she resumes fanning herself with a palm leaf.",
+"DIALOGUE.oarfish.8Hearts.summer.tuesday": "...$7#$b#%Oarfish smiles and silently greets you.#$e#...?$7#$b#%She wonders if you're up for a swim in the ocean.",
+"DIALOGUE.oarfish.8Hearts.summer.wednesday": "...$u#$b#%Oarfish seems concerned. She points at some of your burnt skin.#$e#...$s",
+"DIALOGUE.oarfish.8Hearts.summer.friday": "...#$b#%Oarfish is fanning herself. She has her mining gear closeby.#$e#...$7#$b#%Perhaps a good way to escape the summer heat is to dive into the underground.",
+"DIALOGUE.oarfish.8Hearts.summer.saturday": "...$h#$b#%Oarfish seems very happy today. She's holding what seems to be a beautiful shell in her hands.",
+
+"DIALOGUE.oarfish.8Hearts.fall.monday": "...$7#$b#%Oarfish waves hello at you.",
+"DIALOGUE.oarfish.8Hearts.fall.tuesday": "...#$b#%Oarfish seems to be holding a torn piece of Remi's coat... you wonder what happened.#$e#...$7#$b#%Oarfish assures you that Remi is okay.",
+"DIALOGUE.oarfish.8Hearts.fall.wednesday": "...$7#$b#%She seems to enjoy your company.#$e#...!$h",
+"DIALOGUE.oarfish.8Hearts.fall.friday": "...!$u#$b#%Oarfish points behind you with a wary look on her face.#$e#...!$8#$b#%It appears she was just trying to scare you...",
+"DIALOGUE.oarfish.8Hearts.fall.saturday": "...$s#$b#%Oarfish seems sad today...#$e#...$s#$b#...?$l#$b#%She looks at you and smiles. But a moment after she frowns again.#$e#...$s",
+
+"DIALOGUE.oarfish.8Hearts.winter.monday": "...!!$u#$b#%Oarfish sneezed.#$e#...#$b#...?$7",
+"DIALOGUE.oarfish.8Hearts.winter.tuesday": "...#$b#%Oarfish brushes snow off her shoulders.#$e#...?$7",
+"DIALOGUE.oarfish.8Hearts.winter.wednesday": "...$7#$b#%She seems to enjoy your company.#$e#...!$h",
+"DIALOGUE.oarfish.8Hearts.winter.friday": "...$7#$b#%Oarfish has her mining gear out. Winter really is a good season to take on the mines.#$e#...$l#$b#%Oarfish reminds you to be careful.",
+"DIALOGUE.oarfish.8Hearts.winter.saturday": "...$s#$b#%Oarfish seems to be holding something small... it's shivering!#$e#...?$l#$b#%It was a small, drenched animal. Perhaps it fell in the frozen waters?",
+
+
+// Oarfish fishing on Thursdays and Sundays on Beach coordinate 52 24
+"FISHING.oarfish.beach.spring": "...$7#$b#%Oarfish offers you one of her catches.[148 267 708]",
+"FISHING.oarfish.beach.summer": "...$7#$b#%Oarfish offers you one of her catches.[128 130 150 701]",
+"FISHING.oarfish.beach.fall": "...$7#$b#%Oarfish offers you one of her catches.[155 701 154 705]",
+"FISHING.oarfish.beach.winter": "...$7#$b#%Oarfish offers you one of her catches.[151 154 130]",
+
+// Oarfish Rainy Dialogue
+"DIALOGUE.oarfish.rainy": "...$7#$b#%Oarfish seems to be enjoying the rain.",
+
+// Oarfish Engagement Dialogue
+"DIALOGUE.oarfish.engagement0": "...!$h#$b#%Oarfish is looking forward to moving in with you.",
+"DIALOGUE.oarfish.engagement1": "...$u#$b#%Oarfish scans your face if you're having second thoughts...#$e#...$7",
+
+// Oarfish Proposal Acceptance Dialogue
+"DIALOGUE.oarfish.engaged": "...!?$u#$b#!!!$h#$b#%Oarfish accepts!#$e#...?$l#$b#%Oarfish gestures Remi's name. You assume she also wants her to move in with you.",
+"DIALOGUE.oarfish.engagedRoommate": "...!?$u#$b#!!!$h#$b#%Oarfish accepts!#$e#...?$l#$b#%Oarfish gestures Remi's name. You assume she also wants her to move in with you.",
+"DIALOGUE.oarfish.afterWedding": "...!$h#$b#%Oarfish seems to be enjoying her new home.",
+
+
+// Oarfish Wedding Vows Fix (what Mayor Louis says)
+"WEDDING.oarfish.1": "@... Oarfish... #$b#As the mayor of Pelican Town, I hereby grant official recognition of your platonic union!$h",
+"WEDDING.oarfish.2": "@... Oarfish... #$b#As the mayor of Pelican Town, I hereby grant official recognition of your platonic union!$h",
+"WEDDING.oarfish.3": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#Today, the town welcomes a new commune consisting of @ and er...#$b#*Whispers* Is this right? Her name's really Oarfish?$s#$b#Ahem! Excuse me... of @ and Oarfish.",
+"WEDDING.oarfish.4": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#Today, the town welcomes a new commune consisting of @ and er...#$b#*Whispers* Is this right? Her name's really Oarfish?$s#$b#Ahem! Excuse me... of @ and Oarfish.",
+"WEDDING.oarfish.5": "You may embrace.",
+"WEDDING.oarfish.6": "Life is going to be different from now on...",
+"WEDDING.oarfish.7": "...But the future looks bright!",
+
+
+// Oarfish monsters in the house
+"FARMHOUSE.oarfish.SpouseAttacked1": "...!!",
+"FARMHOUSE.oarfish.SpouseAttacked2": "...!?",
+"FARMHOUSE.oarfish.SpouseAttacked3": "...!!",
+"FARMHOUSE.oarfish.SpouseAttacked4": "...!?",
+"FARMHOUSE.oarfish.SpouseAttacked5": "...!!",
+"FARMHOUSE.oarfish.SpouseAttacked6": "...!?",
+"FARMHOUSE.oarfish.SpouseAttacked7": "...!!",
+"FARMHOUSE.oarfish.SpouseAttacked8": "...!?",
+"FARMHOUSE.oarfish.SpouseAttacked9": "...!!",
+"FARMHOUSE.oarfish.SpouseAttacked10": "...!?",
+"FARMHOUSE.oarfish.SpouseAttacked11": "...!!",
+"FARMHOUSE.oarfish.SpouseAttacked12": "...!?",
+
+
+// Oarfish GIFT REACTION to specific items
+// LOVE Gifts
+"GIFT.oarfish.Pizza.1": "...!$u#$b#%Oarfish is drooling. You offer her the pizza.#$b#...!$h#$b#%She scarfed down the whole pie... She must really love pizza.",
+"GIFT.oarfish.Pizza.Birthday": "...!$u#$b#%Oarfish is drooling. You offer her the pizza.#$b#...!$h#$b#%She scarfed down the whole pie... She must really love pizza.#$e#...$7#$b#%She gestures thank you for the birthday pizza.",
+
+"GIFT.oarfish.Pearl.1": "...!$h#$b#%Oarfish gently held the pearl in her hands.",
+"GIFT.oarfish.Pearl.Birthday": "...!$h#$b#%Oarfish gently held the pearl in her hands.",
+
+"GIFT.oarfish.AncientDoll.1": "...$l#$b#%Oarfish admires the dirty, old doll in your hands.#$b#...?$u#$b#...!$h#$b#%She gladly takes the doll off your hands. Good riddance.",
+"GIFT.oarfish.SpookFish.1": "...!$l#$b#%Oarfish lovingly admires the \"beautiful\" fish in your hands.#$b#...!$h#$b#%She's happy to take it from you.",
+"GIFT.oarfish.BlobFish.1": "...!$l#$b#%Oarfish lovingly admires the \"beautiful\" fish in your hands.#$b#...!$h#$b#%She's happy to take it from you.",
+
+"GIFT.oarfish.Tempura.1": "...!$h#$b#%Oarfish is happy you prepared her the recipe she sent you.",
+"GIFT.oarfish.Tempura.Birthday": "...!$h#$b#%Oarfish is happy you prepared her the recipe she sent you.",
+
+// LIKE Gifts
+"GIFT.oarfish.JojaCola.1": "...$7#$b#%Oarfish gladly accepts the Joja Cola. She empties the can in one continuous chug.",
+"GIFT.oarfish.Mineral.1": "...$u#$b#%Oarfish carefully inspects the mineral. A moment later, she sighs in relief.#$e#...$l#$b#%She thanks you for the gift regardless.",
+"GIFT.oarfish.Fish.1": "...$7#$b#%Oarfish appreciates the fish offering.",
+
+// HATE Gifts
+"GIFT.oarfish.Vegetables.1": "...$a#$b#%She grimaces at the sight of vegetables...",
+
+
+// Oarfish offers you a mineral every friday at the mines after seeing 7 Heart event
+"DIALOGUE.oarfish.mine.friday": "...$7#$q 10313014/10313015 Mine_Fri_old#Oarfish asks if you want to take a piece from their haul:#$r 10313014 0 Mine_Fri_Yes#(Take a gemstone)#$r 10313015 0 Mine_Fri_No#No thanks.",
+"DIALOGUE.oarfish.mine.friday.old": "...!$h#$b#%Oarfish seems proud of their loot.",
+"DIALOGUE.oarfish.mine.friday.yes": "[60 62 64 66 68 70 72]...!$h",
+"DIALOGUE.oarfish.mine.friday.no": "...$7",
+
+
+// Oarfish birthday gifts after seeing her 8th heart event, resued in Marriage dialogue
+"DIALOGUE.oarfish.birthdayGift.spring.2": "[459]...$h#$b#%Oarfish smiles knowingly at you. She closed her eyes and pretends to be asleep while standing upright. Snoring and all...",
+"DIALOGUE.oarfish.birthdayGift.spring.4": "[607]...$h#$b#%Oarfish smiles knowingly at you. She straightened her back and gestured a mock salute.",
+"DIALOGUE.oarfish.birthdayGift.spring.7": "[200]...$h#$b#%Oarfish smiles knowingly at you. She twirled an invisible mustache.",
+"DIALOGUE.oarfish.birthdayGift.spring.8": "[213]...$h#$b#%Oarfish smiles knowingly at you. She pantomimes a stocky chef.",
+"DIALOGUE.oarfish.birthdayGift.spring.10": "[221]...$h#$b#%Oarfish smiles knowingly at you. She flattened her hand horizontally on the air, indicating the height of a child.",
+"DIALOGUE.oarfish.birthdayGift.spring.14": "[610]...$h#$b#%Oarfish smiles knowingly at you. She held up an invisible camera over her face.",
+"DIALOGUE.oarfish.birthdayGift.spring.18": "[199]...$h#$b#%Oarfish smiles knowingly at you. She steers an invisible wheel as if she's driving a vehicle.",
+"DIALOGUE.oarfish.birthdayGift.spring.20": "[215]...$h#$b#%Oarfish smiles knowingly at you. She made a drinking motion and then sported a very depressed face.",
+"DIALOGUE.oarfish.birthdayGift.spring.26": "[202]...$h#$b#%Oarfish smiles knowingly at you. She signed the universal symbol for money, and then adjusted invisible glasses.",
+"DIALOGUE.oarfish.birthdayGift.spring.27": "[241]...$h#$b#%Oarfish smiles knowingly at you. She pulled several small gemstones out of her pockets and pretends to revere them.",
+
+"DIALOGUE.oarfish.birthdayGift.summer.4": "[221]...$h#$b#%Oarfish smiles knowingly at you. She flattened her hand horizontally on the air, indicating the height of a child.",
+"DIALOGUE.oarfish.birthdayGift.summer.10":  "[197]...$h#$b#%Oarfish smiles knowingly at you. She pantomimes gazing through an invisible telescope.",
+"DIALOGUE.oarfish.birthdayGift.summer.13": "[201]...$h#$b#%Oarfish smiles knowingly at you. She flexes her arms and sported a cocky grin.",
+"DIALOGUE.oarfish.birthdayGift.summer.17": "[206]...$h#$b#%Oarfish smiles knowingly at you. She strums an air guitar.",
+"DIALOGUE.oarfish.birthdayGift.summer.22": "[554]...$h#$b#%Oarfish smiles knowingly at you. She bends her knees to seem smaller, and then started swinging an invisible pickaxe.",
+"DIALOGUE.oarfish.birthdayGift.summer.24": "[143]...$h#$b#%Oarfish smiles knowingly at you. She started reeling in an invisible fishing pole.",
+"DIALOGUE.oarfish.birthdayGift.summer.26": "[906]...$h#$b#%Oarfish smiles knowingly at you. She ruffles her own hair and gestured a flying bird with her hands.",
+
+"DIALOGUE.oarfish.birthdayGift.fall.2": "[230]...$h#$b#%Oarfish smiles knowingly at you. She pulled out a pocketbook and started to daintily turn the pages.",
+"DIALOGUE.oarfish.birthdayGift.fall.5": "[218]...$h#$b#%Oarfish smiles knowingly at you. She flips her hair fabulously and pretended to write on an invisible parchment.",
+"DIALOGUE.oarfish.birthdayGift.fall.11": "[220]...$h#$b#%Oarfish smiles knowingly at you. She wore a stressed look on her face while gesturing dishwashing motions.",
+"DIALOGUE.oarfish.birthdayGift.fall.13": "[611]...$h#$b#%Oarfish smiles knowingly at you. She started swinging an invisible sword.",
+"DIALOGUE.oarfish.birthdayGift.fall.15": "[905]...$h#$b#%Oarfish smiles knowingly at you. She pantomimes a fancy shopkeeper, before fanning herself as if the temperature is hot.",
+"DIALOGUE.oarfish.birthdayGift.fall.18": "[608]...$h#$b#%Oarfish smiles knowingly at you. She shuffles her hands which seemed like she's milking a cow.",
+"DIALOGUE.oarfish.birthdayGift.fall.21": "[224]...$h#$b#%Oarfish smiles knowingly at you. She started swinging an invisible axe against invisible wood.",
+"DIALOGUE.oarfish.birthdayGift.fall.24": "[205]...$h#$b#%Oarfish smiles knowingly at you. She wore a grumpy look and hunched her back.",
+
+"DIALOGUE.oarfish.birthdayGift.winter.1": "[276]...$h#$b#%Oarfish smiles knowingly at you. She forms a round figure with her hand shadow.",
+"DIALOGUE.oarfish.birthdayGift.winter.3": "[234]...$h#$b#%Oarfish smiles knowingly at you. She was about to dig in the trash, but recoiled and stopped mid-motion.",
+"DIALOGUE.oarfish.birthdayGift.winter.7": "[614]...$h#$b#%Oarfish smiles knowingly at you. She pretends to sip tea, before sporting a very relaxed look on her face.",
+"DIALOGUE.oarfish.birthdayGift.winter.10": "[227]...$h#$b#%Oarfish smiles knowingly at you. She pantomimes smoking a cigarette.",
+"DIALOGUE.oarfish.birthdayGift.winter.14": "[237]...$h#$b#%Oarfish smiles knowingly at you. She pretended to inspect you with a stethoscope.",
+"DIALOGUE.oarfish.birthdayGift.winter.17": "[155]...$h#$b#%Oarfish smiles knowingly at you. She rubs her chin as if she has a beard, and then wiggled her fingers.",
+"DIALOGUE.oarfish.birthdayGift.winter.20": "[220]...$h#$b#%Oarfish smiles knowingly at you. She hunched her back and pantomimes watering flowers.",
+"DIALOGUE.oarfish.birthdayGift.winter.23": "[196]...$h#$b#%Oarfish smiles knowingly at you. She held an invisible palette and drew brushstrokes on an invisible canvas.",
+"DIALOGUE.oarfish.birthdayGift.winter.26": "[605]...$h#$b#%Oarfish smiles knowingly at you. She wore a depressed look and starting hammering on an invisible anvil.",
+
+
+
+
+
+
+
+// ***** [MARR] MARRIAGE DIALOGUE *****
+// Remi Marriage Dialogue
+"MARRIAGE.remi.patio": "Feels nice out here on the patio.$9#$b#I wish I could see what your farm looks like. Fish tells me it fits your personality.",
+"MARRIAGE.remi.funLeave": "I'll be going somewhere.#$b#Dunno where I'll end up, but I'm sure it'll be something... or nothing.#$e#Either way, I'll have fun for sure.$9",
+"MARRIAGE.remi.funReturn": "[346 394 257 259]I'm home! Here's a souvenir for ya.$9",
+"MARRIAGE.remi.jobLeave": "Gonna do some errands today. You do what you gotta do.",
+"MARRIAGE.remi.jobReturn": "I'm back. Had a productive time. You?$9",
+"MARRIAGE.remi.spouseRoom": "I don't really know what my room looks like, but it sure feels comfy.$11",
+
+"MARRIAGE.remi.rainy_day.1": "The air feels really nice when it rains.$9#$e#I just wanna snuggle on a warm body and do nothing all day.$11",
+"MARRIAGE.remi.rainy_day.2": "[730]This is good to eat on a rainy day, trust me. Dig in.",
+"MARRIAGE.remi.rainy_day.3": "Going out in this weather? At least wear a raincoat so we don't worry about you.#$e#But I'm sure you'll be fine. You're built different.$11",
+"MARRIAGE.remi.rainy_day.4": "Water's dropping from the sky. That means less work for you, right?#$e#So, what do you do when the rain takes care a part of your workload?#$b#More work?$6#$b#...$6#$b#Well, you do you.$11",
+"MARRIAGE.remi.rainy_day.5": "The soil outside smells nice right now.$u#$e#I just really love the smell of petrichor.",
+"MARRIAGE.remi.rainy_day.6": "Gonna work in the rain? Don't catch a cold, y'hear?#$e#Do you even get sick?$6#$e#Ah well, better that than being sick, right?$9",
+"MARRIAGE.remi.rainy_day.7": "[730 732]Here's something to fill you up quick.#$e#Feels humid around here. Is it raining?$6#$e#Yep. It's raining. Watch your step out there.",
+
+"MARRIAGE.remi.rainy_night.1": "Welcome back. Here's a towel. Rub yourself dry.#$e#Hm? Oh, me and Fish are fine. Day well spent.",
+"MARRIAGE.remi.rainy_night.2": "You're wet. I'll fetch you a change of clothes.#$e#So how did your day go?",
+"MARRIAGE.remi.rainy_night.3": "[236 231]I prepared something hot tonight. It's pretty good to eat in a weather like this.",
+"MARRIAGE.remi.rainy_night.4": "Can't really hug you when you're drenched.#$b#So get yourself dry soon, okay?$9",
+"MARRIAGE.remi.rainy_night.5": "$c 0.5#You smell like petrichor. I love it.$11#I wonder how my sewer friend is doing? I know he loves the rain.$11",
+"MARRIAGE.remi.rainy_night.6": "You're wondering how I'm able to cook, right?#$b#There are such things as blind chefs. And my nose is unparalleled when it comes to sniffing out the best flavors.#$e#Fish helps me out, too.$11",
+"MARRIAGE.remi.rainy_night.7": "Feels real nice to sleep during this weather.$9#$b#I think I'm gonna tuck in soon.",
+
+"MARRIAGE.remi.indoor_day.1": "Good morning.#$b#...Is it morning?$6#$b#[201 215 240]Yep. It's morning. Enjoy your breakfast.",
+"MARRIAGE.remi.indoor_day.2": "$c 0.5#Oh, hey. You started moving. That means it's morning, right?#Hey, thanks for letting me use the kitchen. Don't worry about the ingredients. Fish and I have our ways.$11",
+"MARRIAGE.remi.indoor_day.3": "[204 226 732]It's your lucky day! Here's some grub.$9#$b#Go get 'em, tiger.",
+"MARRIAGE.remi.indoor_day.4": "Mmmm... smells good. What's cooking?$u#$b#Oh wait, I'm cooking.$6#$e#[201 215 240]When I say I'm forgetful, I mean I'm reaally forgetful. Here's your grub.",
+"MARRIAGE.remi.indoor_day.5": "Fish told me it's morning.#$b#She also wanted me to tell you she greeted you good morning.#$e#Although she did that while you're still asleep. Silly gal.$11",
+"MARRIAGE.remi.indoor_day.6": "[265]I tried something different in the kitchen today.#$b#This one will get you into a real fishing kick for sure.$9#$e#Have I told you I love fishing? Odd since I don't like the deep waters, but it's my favorite thing to do back then.",
+"MARRIAGE.remi.indoor_day.7": "*Yaaawn*, is it morning? Can't really tell.$6#$b#[201 215 240]Anyways, here's breakfast. Have a good day out there.",
+
+"MARRIAGE.remi.indoor_night.1": "Good work out there. Now get some well-deserved rest.#$b#What? Want me to tuck you in? Hehe.$11#$e#I'd actually do that if you want me to by the way.",
+"MARRIAGE.remi.indoor_night.2": "[236 244 205 729 213 235]Tonight's special. Dig in.#$e#So, tell me about your day.$9",
+"MARRIAGE.remi.indoor_night.3": "$c 0.5#Yeah, I can cook. My nose leads me to the tastiest outcomes. I have Oarfish help me with the knifework, though.#Have I told you about that weird smell coming from the backwoods?$6",
+"MARRIAGE.remi.indoor_night.4": "$c 0.5#You smell sweaty. Worked hard, huh?#Hey, I prepared the bath ahead of time. You smell like you need it.$11",
+"MARRIAGE.remi.indoor_night.5": "Air feels cooler. Good evening.",
+"MARRIAGE.remi.indoor_night.6": "I feel like tucking in soon. You should, too.",
+"MARRIAGE.remi.indoor_night.7": "I'm guessing it's nighttime. Feels cooler out.#$e#Wanna tell me the details about how your day went? Maybe over dinner?$9",
+
+"MARRIAGE.remi.outdoor.1": "It doesn't matter if people can see me.$6#$b#The moment they look away, I am forgotten.$6#$e#It got its pros and cons.",
+"MARRIAGE.remi.outdoor.2": "You really love working, huh?#$b#I can waft a bit of your scent everywhere out here.$9",
+"MARRIAGE.remi.outdoor.3": "Just doing my thing out here.#$e#You know what's great? The fact that you're always so busy working out there that Fish and I can- er...$11#$e#Nothing. Nevermind.",
+"MARRIAGE.remi.outdoor.4": "What's up?#$e#Me? I'm good. Fish, too.#$e#Yeah, I got nothing much to say today. But standing out here feels great.$11",
+"MARRIAGE.remi.outdoor.5": "Got a recipe to suggest for later? I'm down to experiment, too.#$e#Hmm... you think I make too much seafood? Well, it's my favorite.#$e#Maybe something with kale? ...Nah.",
+"MARRIAGE.remi.outdoor.6": "I can't really see what your farm looks like, but it's yours so it gotta be good.",
+"MARRIAGE.remi.outdoor.7": "Hey! Come and stretch with me out here for a bit!$h#$e#Oh right, you're always breaking your back out there working.#$b#We appreciate the work you do, just wanted to say.",
+
+"MARRIAGE.remi.OneKid.1": "Your kid pinched my finger. So cute.$9",
+"MARRIAGE.remi.OneKid.2": "Aha, your kid got tiny hands.$11",
+"MARRIAGE.remi.OneKid.3": "You think the kid needs a playmate?",
+"MARRIAGE.remi.OneKid.4": "Never thought I'd be raising a kid, never thought I'd enjoy it either.",
+"MARRIAGE.remi.TwoKid.1": "Your kids are getting along, thankfully. The house is a lot smellier now.$11",
+"MARRIAGE.remi.TwoKid.2": "Smells poopy around here sometimes, but that's what happens when you got kids.",
+"MARRIAGE.remi.TwoKid.3": "They smell like you, which is good. I don't have to cringe at the awful human smell too much.$11",
+"MARRIAGE.remi.TwoKid.4": "Kids have really strange desires...#$b#Some too disturbing to let anyone else know.$6",
+
+"MARRIAGE.remi.Good.1": "How's my favorite, least smelliest person?$9#$e#If you need my help just let me know, okay?#$e#Fish is here for you, too.$11",
+"MARRIAGE.remi.Good.2": "[346 394 257 259]Fish and I had our midnight walk a few days ago. I forgot to hand you this souvenir.",
+"MARRIAGE.remi.Good.3": "[346 459 303 348]Hehe, I haven't lost my magic touch. Enjoy.$11",
+"MARRIAGE.remi.Good.4": "I love you!$9.#$b#Thought that might perk you up. I mean it, though.#$e#Fish loves you, too.",
+"MARRIAGE.remi.Good.5": "It's really comfy here. I don't regret crashing in with you at all.$9#$e#Really, I mean it. Thanks for everything, @.",
+"MARRIAGE.remi.Good.6": "$c 0.5#I'm in the mood to show off some culinary skills. Request me anything.#Hey uh, don't be shy if you want a hug, or if you want to hug me for no reason. Some simple contact is good for your sanity, as they say.",
+"MARRIAGE.remi.Good.7": "Ehehehe...$u#$e#I'm just really happy. Don't mind me.$11",
+"MARRIAGE.remi.Good.8": "Want me to help you out? I'm down.#$e#I can't do much of visual work, though. Gotta be something I can feel around to.$6",
+"MARRIAGE.remi.Good.9": "Hey, hey. Stand still for a bit, will ya?#$b#%*hug*#$b#There. Off you go.$9",
+"MARRIAGE.remi.Good.10": "Good work out there.#$e#I know I say that a lot, but I sincerely appreciate the work you do around here.",
+
+"MARRIAGE.remi.Neutral.1": "I wonder what your grandpa smell like?#$b#What? Too weird?$11",
+"MARRIAGE.remi.Neutral.2": "You good? Me? I'm okay.#$e#Fish is okay, too.",
+"MARRIAGE.remi.Neutral.3": "If you feel like heading to the mines, don't hesitate to tag one of us along.#$b#Doesn't hurt to have a backup, and we could use the exercise.$11",
+"MARRIAGE.remi.Neutral.4": "Nice crib. Just wanted to say.",
+"MARRIAGE.remi.Neutral.5": "Feeling... neutral.#$b#At least that's what Ms. Luck Lady says for me, according to Fish.",
+"MARRIAGE.remi.Neutral.6": "Lucky day? Unlucky day? What does it matter?#$b#The day is in your hands.$11",
+"MARRIAGE.remi.Neutral.7": "What recipes do you know? Thinking about exchanging notes.",
+"MARRIAGE.remi.Neutral.8": "Dunno what to do for the day... maybe I'll lounge around.$11",
+"MARRIAGE.remi.Neutral.9": "I'm down for some conversations.#$e#So, what topic do you like?#$e#I know I said I can read desires, but I can never be exactly sure what YOU desire. You surprise me sometimes, even.$11#$b#So, instead of making assumptions, I think it's nicer to just ask you.",
+"MARRIAGE.remi.Neutral.10": "Sorry if I repeat myself sometimes. I got a bad memory.$6",
+
+"MARRIAGE.remi.Bad.1": "You're starting to smell awful. Dunno why.$6",
+"MARRIAGE.remi.Bad.2": "...you're boring.$7",
+"MARRIAGE.remi.Bad.3": "You're bored of me, aren't you?$6",
+"MARRIAGE.remi.Bad.4": "Get lost.$6",
+"MARRIAGE.remi.Bad.5": "Kinda wanna go back to the railroads...$7",
+"MARRIAGE.remi.Bad.6": "...$a",
+"MARRIAGE.remi.Bad.7": "Can't deal with you right now. Don't you got work to do?$6",
+"MARRIAGE.remi.Bad.8": "...sigh.$s",
+"MARRIAGE.remi.Bad.9": "Don't wanna hug you.$7",
+"MARRIAGE.remi.Bad.10": "You make me sad.$7",
+
+"MARRIAGE.remi.NoBed.1": "The floor doesn't feel nice to sleep on...$7",
+"MARRIAGE.remi.NoBed.2": "Sigh... I miss a comfy bed.$s",
+"MARRIAGE.remi.NoBed.3": "I patted around everwhere and there is no bed. Where did it go?$s",
+"MARRIAGE.remi.NoBed.4": "I feel really groggy. Need bed.$s",
+
+"MARRIAGE.remi.spring": "The cherries smell lovely at this time of year.$11#$e#Fish tells me how the cherry tree petals have the same color as my skin.#$e#Is that a good thing?$6",
+"MARRIAGE.remi.summer": "Fish sometimes tell me about fireflies. If only I could witness them.#$e#I'm not really bitter about being blind, though. I'm fine with the way I am.$11",
+"MARRIAGE.remi.fall": "The season smells like crimson and gold. Fantastic.#$e#Yeah, I can sort of smell colors.",
+"MARRIAGE.remi.winter": "It's really cold even with my coat on. Ah well.",
+
+// Remi Seasonal dialogue for events said in marriage
+"MARRIAGE.remi.spring.1": "Smells like spring. Which means a whole year has passed.#$b#So what's your resolution?#$e#Haha, I'll try to remember. You better do something about that this year, though!$h",
+"MARRIAGE.remi.spring.2": "Y'know, Oarfish's hobby is looking over at the calendar and preparing something nice for whoever's having their birthday soon.#$b#Problem is, she never got the courage to just walk up to someone and hand 'em a gift. So I do that for her.#$b#Spooks people out, though. I mean, they couldn't remember where the gift came from.$6#$e#...So, you down to do the gift giving this year? Fish would really appreciate it.",
+"MARRIAGE.remi.spring.8": "Lots of work to do now that winter's over. That means you're gonna get sweatier, huh?",
+"MARRIAGE.remi.spring.15": "You smell that? It's gonna be a free-for-all with all these berries ripe for the picking.$11",
+"MARRIAGE.remi.spring.23": "Flower dance, eh? Fish and I are too old for that.#$e#Go to the dance tomorrow, though.#$b#Me and Fish got... other plans. Hehe.$12",
+
+"MARRIAGE.remi.spring.15": "A lot of things smell so new and fresh this season.$9#$b#Like the wonderful scent of life springing out of the ground after being trapped under the cold for so long.$11#$e#Huh, is that exactly what's happening?$10#$b#Hm! Must be a beautiful thing to witness, then.$9",
+"MARRIAGE.remi.spring.9": "Can't believe I'm saying this, but I love this planet.$11#$b#Getting past the smell, there's lots of fun to be had here.#$e#...hehehe, mommy was right.$u",
+"MARRIAGE.remi.spring.12": "Tomorrow's Egg Festival? Yeah, no thanks. Fish and I don't go to human events.#$e#You know me. I don't like the smell.$11#$b#And Oarfish, well... she's shy.",
+"MARRIAGE.remi.spring.19": "Do you smell that?#$b#Smells like... %favorite.#$e#What? Isn't that what you desire most?",
+"MARRIAGE.remi.spring.27": "Arcade night!$9#$b#Not that I can play any of the games, but just listening to Oarfish's turbulent desires is plenty entertaining enough for me.#$e#So, think you can beat Fish's high score?$12",
+
+"MARRIAGE.remi.summer.1": "Feels hotter than usual. Guess it's summer.#$e#That means more flies, and cold summer treats.$11",
+"MARRIAGE.remi.summer.8": "You're a lot sweatier than usual. Lucky you don't smell too human, huh?",
+"MARRIAGE.remi.summer.15": "Some tiny things are landing on me.$7#$b#Flies? Yeah flies.$6",
+
+"MARRIAGE.remi.summer.11": "The luau, huh?#$b#A single whiff and I'll know exactly what that vat of soup needs.$11#$b#Although you can never go wrong with good-quality cauliflower.#$e#You think you can bring home some for us? Or do only attendees get a taste?",
+"MARRIAGE.remi.summer.22": "Is it... Sunday?$6#$b#No- Monday. It's Monday.$10#$e#Sorry if I threw you off. I know how important time is to you.",
+"MARRIAGE.remi.summer.16": "My eyes are in two different colors? I didn't know that.$6#$e#Are eyes supposed to look the same?#$b#Well, I figured most bodies of living beings are symmetrical, so that makes sense.",
+"MARRIAGE.remi.summer.12": "So, do you always do something that involves %favorite or...?#$e#You don't have to elaborate if you don't want to.$11",
+"MARRIAGE.remi.summer.27": "Tonight's saloon night. Join us if you want. I'll even get you something from the menu.$11#$e#I'd gladly spoil my friends. Especially when I can only have so few in the span of eternity.",
+"MARRIAGE.remi.summer.21": "Hoo-wee! Another hot week.$11#$b#Ice cream sure is a great pleasure this season.#$e#By the way, did you know you can buy ice cream even without its vendor?#$b#Fish went around the counter and I \"bought\" the ice cream.$11#$e#I'm sure you can figure out how to get another living being to stand behind the counter, too.",
+"MARRIAGE.remi.summer.28": "Moonlight Jellies viewing?$6#$b#We're good.#$e#Fish probably had plenty of encounters with ocean-life at the beach already.",
+
+"MARRIAGE.remi.fall.1": "Feels crunchy outside. Probably fall.#$e#By the way, the start of fall is Fish's birthday.#$e#I already got something for her later. But feel free to treat her with something nice.$11#$b#She'll appreciate it for sure.",
+"MARRIAGE.remi.fall.8": "It's getting chilly now. Wear something thicker, y'hear?",
+"MARRIAGE.remi.fall.15": "Grange display? I can't do much of anything about any sort of display, but oh well.#$e#Fish is willing to help out, though. Have I told her she has an eye for style and color? They say she's quite the artist. Wish I could see 'em...$11#$e#Anyways, good luck tomorrow. We're rooting for ya.",
+"MARRIAGE.remi.fall.26": "Spirit's Eve, huh? You go on your own.#$b#Me and Fish got other ways to spend the night. Heh.$12#$e#Here's a tip. Some things are not what they seem.#$b#And when that happens, you gotta feel around the walls.$11",
+
+"MARRIAGE.remi.fall.22": "I don't hate humanity or anything. I just can't stand their odor for too long.$6#$e#If a human is in danger and I can do something about it, I'd gladly rescue them. But that's about it.#$e#Besides, it's not like they'll remember me.$7",
+"MARRIAGE.remi.fall.9": "Fish and I will eat out at the saloon.#$b#See us this evening if you can. We'll get a third seat for you.$11#$e#On that note, what's your favorite meal?",
+"MARRIAGE.remi.fall.19": "Sorry if this is a stupid question but...$6#$b#is %favorite something you can eat in this planet?",
+"MARRIAGE.remi.fall.20": "I'm not sure if the ordinary human can smell it, but you smell a lot like the forest magic that permeates this valley.$11#$e#It's why I can stand you. Besides you being able to see and remember me and all that.",
+"MARRIAGE.remi.fall.7": "I don't remember if I told you about her yet... it's not Fish.$7#$b#She's a really good friend from back home. I love her so much.#$e#...$s#$b#Oh, sorry. I'm tearing up a little thinking of her. Haha.$9#$e#I know she still remembers me. Because I still remember her.",
+"MARRIAGE.remi.fall.27": "Ooooh, spooky times.$11#$b#I'm not into dressing up, though. But, the pumpkins smell great.#$e#Fish would love this time of the year, now if only her pranks aren't so... extreme. Hehe.$11",
+
+"MARRIAGE.remi.winter.1": "Brrrr... Getting really cold now.$10#$b#Hehe, that just means I'll snuggle more than usual.$11",
+"MARRIAGE.remi.winter.7": "Fishing contest? Make me proud.#$e#[265]Maybe this dish can help.#$b#Eat it before entering the forest, though. Don't want others to catch you getting a boost.$12",
+"MARRIAGE.remi.winter.25": "Heh, you think I'd forget? Here's a present for you.[279]#$e#Been a great year, huh? We love you, @.$9",
+"MARRIAGE.remi.winter.28": "The year is ending soon. I can smell spring from just around the corner.#$e#Thanks for making it a good one. Me and Fish had a blast living another year with you.$9",
+
+"MARRIAGE.remi.winter.22": "I never would've bothered coming to Earth, honestly. The way humans smell is already a huge dealbreaker for me.$7#$e#But here I am. Me and Fish against the rest of the world... except it's not like that anymore.",
+"MARRIAGE.remi.winter.12": "%favorite!!!$h#$e#Hehehe, what? I just yelled what you desire most.#$b#Things I say are forgotten anyways, if that makes you feel any better.$11",
+"MARRIAGE.remi.winter.6": "You ever wanted to borrow my coat or something?#$b#You know, for warmth. It's pretty chilly out.$11",
+"MARRIAGE.remi.winter.21": "Looks like all those weeks of talking to you and giving you gifts paid off. We're best buds now!$h#$e#...What?#$b#Oh right, of course your talking and gift-giving to me are also part of why I'm very fond of you.$11#$e#It's really nostalgic... like how the three of us were back home.$9#$b#Hm? No, we're not treating you as a replacement third member or anything. We love you for you.",
+
+
+// Remi gifts every wednesday during marriage
+"MARRIAGE.remi.wednesdayGift.spring.3": "Happy new year!$9#$b#Erm, have I said that already? I can't tell.$6",
+"MARRIAGE.remi.wednesdayGift.spring.17": "[257]This mushroom smells uncommon. I figured you're into uncommon stuff. You can have it.",
+"MARRIAGE.remi.wednesdayGift.spring.24": "What are you doing here? Aren't you supposed to be at the Flower Dance?$9#$b#You go on now. Fish and I will be having our own flower dance. Hehe...$12#$b#Actually, you could use this sunflower to wear on your hair.[421]$11#$e#What do you mean it's not in season yet?$6#$e#Semi-unrelated but... if you spot a green-haired woman wearing red plaid coming towards you, run the other way.$6",
+
+"MARRIAGE.remi.wednesdayGift.summer.3": "[259]I found this one in the forest. I know you can make use of this.",
+"MARRIAGE.remi.wednesdayGift.summer.10": "[266]Here, you can have this.#$b#So, wanna have a chat?#$e#What? You wondering where I got that?#$b#I go from place to place and stumble upon things sometimes. Probably from a community farm in another town.$11",
+"MARRIAGE.remi.wednesdayGift.summer.17": "[88]Coconut!$9#$b#It's getting really warm. I figured there would be ripe coconuts outside of town.#$e#Got time to chat? Got work to do? Either way is fine.",
+"MARRIAGE.remi.wednesdayGift.summer.24": "[90]Have a cactus fruit. Don't prick yourself.#$e#How about you take a break for a bit?",
+
+"MARRIAGE.remi.wednesdayGift.fall.3": "[613]It's apple season! You can have this sweet-smelling one.$9",
+"MARRIAGE.remi.wednesdayGift.fall.10": "[637]Pom pom. Hehe, get it?$11#$b#Lame? Yeah, I agree with you.#$e#Got a story to tell? I'll listen.#$b#Yeah, even if I'm deaf I can lend you an ear. I have my ways.$11",
+"MARRIAGE.remi.wednesdayGift.fall.17": "[194]Decided to go simple and fried an egg. I've been wanting to see if I can still perfect the sunny-side up.#$b#Hope you don't mind a simple breakfast.$11",
+"MARRIAGE.remi.wednesdayGift.fall.24": "[348]Wine!$h#$b#This one isn't as aged as the others, but it's ready to drink.#$e#So um, do you drink or... I keep forgetting.$6#$b#You can always give it to someone else if you don't want it.",
+
+"MARRIAGE.remi.wednesdayGift.winter.3": "[446]Here's a mutilated foot of a small furry animal. The say it's lucky.#$e#...When I heard humans are into this stuff, I kinda gagged.$6#$e#How is it lucky anyways? The practice sounds too awful to be anything good.$7#$e#Sorry. I'm rambling too much.#$b#So, what's your opinion about it?",
+"MARRIAGE.remi.wednesdayGift.winter.10": "[228]Maki Roll!$9#$b#Thanks for letting me use your kitchen. I've been having a blast cooking with the equipment you got here.",
+"MARRIAGE.remi.wednesdayGift.winter.17": "[444]Hm? No no, I didn't pluck this off of a poor duck. I found it on the ground outside of town.#$b#Texture's all nice, huh?$11",
+"MARRIAGE.remi.wednesdayGift.winter.24": "[445]Here's some fancy-schmancy caviar. Fish is great when it comes to harvesting roes... and pretty much anything fish-related.$11#$e#That would do great with fancy wine.#$e#I also used to brew a lot of alcohol. It's pretty easy when time doesn't matter so much.$11",
+
+
+
+
+// Oarfish Marriage Dialogue
+"MARRIAGE.oarfish.patio": "...$7#$b#%Oarfish seems to enjoy the view outside.#$e#...$l#$b#%Oarfish gestures how much the farm fits your personality.#$b#...!$h",
+"MARRIAGE.oarfish.funLeave": "...$7#$b#%Oarfish seems ready to head out with Remi.",
+"MARRIAGE.oarfish.funReturn": "...!$h#$b#%Oarfish seems satisfied with their outing.",
+"MARRIAGE.oarfish.jobLeave": "...$7#$b#%Oarfish seems ready to head out.",
+"MARRIAGE.oarfish.jobReturn": "...!$h#$b#%Oarfish seems happy to be back home.",
+"MARRIAGE.oarfish.spouseRoom": "[903 728 732 204]...$7#$b#%Oarfish hands you some packed lunch and refreshments for the day.#$e#...$7#$b#%Oarfish resumes on cleaning and organizing her and Remi's collection of loot and knick-knacks. The chain on the wall is completely rust-free...",
+
+"MARRIAGE.oarfish.rainy_day.1": "[903 728 732 204]...$l#$b#%Oarfish gestures you to try not to catch a cold.",
+"MARRIAGE.oarfish.rainy_day.2": "[903 728 732 204]...$7#$b#%Oarfish returns to where she was scaling a fish. So that was that fishy smell...",
+"MARRIAGE.oarfish.rainy_day.3": "[903 728 732 204]...$7#$b#%Oarfish returns to the blanket where she was snuggled in.",
+"MARRIAGE.oarfish.rainy_day.4": "[903 728 732 204]...$7#$b#%Oarfish resumes watching the rain from a window.",
+"MARRIAGE.oarfish.rainy_day.5": "[903 728 732 204]...$7#$b#%Oarfish returns to where she was poking Remi.",
+"MARRIAGE.oarfish.rainy_day.6": "[903 728 732 204]...$7#$b#%Oarfish pats your shoulder.",
+"MARRIAGE.oarfish.rainy_day.7": "[903 728 732 204]...$7#$b#%Oarfish gestured to stay safe out there in the rain.",
+
+"MARRIAGE.oarfish.rainy_night.1": "...$7#$b#%Oarfish seems to be carrying a box of... questionable toys. There is a small label saying \"For Remi only.\"",
+"MARRIAGE.oarfish.rainy_night.2": "...!$u#$b#%Oarfish quickly hid something behind her back.#$e#...$s#$b#%She doesn't want to show you.#$e#...$l#$b#%She reassures you it's nothing dangerous.",
+"MARRIAGE.oarfish.rainy_night.3": "...$7#$b#%Oarfish was just done storing ingredients in the fridge. They all have labels saying \"For Remi's use.\".",
+"MARRIAGE.oarfish.rainy_night.4": "...#$b#%Oarfish was pulling on Remi to snuggle with her. A moment later she slaps Remi's face... yikes.",
+"MARRIAGE.oarfish.rainy_night.5": "...$7#$b#%Oarfish seems to be enjoying the rainy night, wearing a content smile and nibbling on a piece of plain tortilla...",
+"MARRIAGE.oarfish.rainy_night.6": "...$7#$b#%Oarfish was just done eating a whole pizza pie.#$b#...!$u#$b#...$s#$b#%She feels guilty for not saving at least one slice for you.",
+"MARRIAGE.oarfish.rainy_night.7": "...$l#$b#%Oarfish seems ready to tuck in with Remi. The rain is making her eyes droopy.",
+
+"MARRIAGE.oarfish.indoor_day.1": "[903 728 732 204]...$7#$b#%Oarfish gestures you to stay safe out there.",
+"MARRIAGE.oarfish.indoor_day.2": "[903 728 732 204]...$7#$b#%Oarfish wishes you good luck for the rest of the day.",
+"MARRIAGE.oarfish.indoor_day.3": "[903 728 732 204]...$7#$b#%Oarfish returns right to what she was working on. An explosive...?",
+"MARRIAGE.oarfish.indoor_day.4": "[903 728 732 204]...$7#$b#%Oarfish squeezes your shoulder. Her hands felt cold, yet has a bit of warmth to it.",
+"MARRIAGE.oarfish.indoor_day.5": "[903 728 732 204]...$7#$b#%Oarfish resumes to poke Remi.",
+"MARRIAGE.oarfish.indoor_day.6": "[903 728 732 204]...$7#$b#%Oarfish resumes to check for snacks in the fridge every 10 minutes.",
+"MARRIAGE.oarfish.indoor_day.7": "[903 728 732]...$7#$b#%Oarfish gestured to stay safe out there.",
+
+"MARRIAGE.oarfish.indoor_night.1": "...$7#$b#%Oarfish was just done finishing a bag of chips. She went to the fridge and ripped open another one...",
+"MARRIAGE.oarfish.indoor_night.2": "...$7#$b#%Oarfish was just done storing more groceries into the fridge. Are those... Joja Cola cans?",
+"MARRIAGE.oarfish.indoor_night.3": "...$7#$b#%Oarfish was just done finishing a can of Joja Cola. She went to the fridge and took another one...",
+"MARRIAGE.oarfish.indoor_night.4": "...$7#$b#%Oarfish looked like she had a busy, productive day.",
+"MARRIAGE.oarfish.indoor_night.5": "...#$b#%Oarfish looked like she had a lazy day.",
+"MARRIAGE.oarfish.indoor_night.6": "...$7#$b#%Oarfish seems to be enjoying the night, wearing a content smile and sipping on fizzy soda.",
+"MARRIAGE.oarfish.indoor_night.7": "...$l#$b#%Oarfish seems ready to tuck in with Remi.",
+
+"MARRIAGE.oarfish.outdoor.1": "...$7#$b#%Oarfish sighs in contentment.",
+"MARRIAGE.oarfish.outdoor.2": "...$l#$b#%Oarfish marvels at the way your farm looks.",
+"MARRIAGE.oarfish.outdoor.3": "...$7#$b#%Oarfish was staring at the clouds in the sky, her hands absentmindedly gesturing the shapes she sees.#$b#...!$u#$b#%She caught you watching her.",
+"MARRIAGE.oarfish.outdoor.4": "...$u#$b#%Oarfish seems like she wants to step into the fields and help, but her eyes frantically shift from one place to another, not knowing where to start.",
+"MARRIAGE.oarfish.outdoor.5": "...$7#$b#%Oarfish's eyes are unfocused, but she seems content.",
+"MARRIAGE.oarfish.outdoor.6": "...$7#$b#%Oarfish looks like she's having fun.",
+"MARRIAGE.oarfish.outdoor.7": "...$7#$b#%Oarfish is enjoying her little corner.",
+
+"MARRIAGE.oarfish.OneKid.1": "...$7#$b#%Oarfish gestures that %kid1 is doing fine.",
+"MARRIAGE.oarfish.OneKid.2": "...#$b#%While watching over %kid1, Oarfish's nose crinkle. She's not looking forward to her next task...#$e#...$s#$b#%Oarfish seems like she's pleading you to do it for her, at least this one time.",
+"MARRIAGE.oarfish.OneKid.3": "...$u#$b#%Oarfish seems anxious about %kid1. She's watching the child intently. You've seen her do this for hours per day.",
+"MARRIAGE.oarfish.OneKid.4": "...$7#$b#%Oarfish was just finished feeding %kid1 mashed fish fillet... quite the choice for baby-food.",
+"MARRIAGE.oarfish.TwoKid.1": "...$s#$b#%Oarfish seems worried. She gestures that she's questioning whether she's showing a good example to the kids or not...#$e#...$l#$b#%She gestures that regardless of what she thinks, she'll try her best to contribute to %kid1 and %kid2's growth in positive ways.",
+"MARRIAGE.oarfish.TwoKid.2": "...$8#$b#%Oarfish seems like she can quite easily match %kid1 and %kid2's energy and mischievousness.#$e#...!$h#$b#%A little bit of harmless tomfoolery can't be too bad, right?",
+"MARRIAGE.oarfish.TwoKid.3": "...$u#$b#%One of the kids is crying. Oarfish inspects the child for whatever is causing the discomfort.#$e#...$s#$b#%She picked up the first-aid kit and treated the child's scraped knee.#$e#...$l#$b#%She pats the child on the head. Oarfish is doing fine as a guardian.",
+"MARRIAGE.oarfish.TwoKid.4": "...$7#$b#%Oarfish seems like she's taking a break from entertaining the kids. Can't blame her...",
+
+"MARRIAGE.oarfish.Good.1": "...!$6#$b#%Oarfish hugs you. She seems happy to be here.#$b#...!$h",
+"MARRIAGE.oarfish.Good.2": "...!$l#$b#%Oarfish momentarily pulled you to face her and started fussing over you.#$b#...!$h",
+"MARRIAGE.oarfish.Good.3": "...$7#$b#%[253]Oarfish hands you a cup of hot espresso.",
+"MARRIAGE.oarfish.Good.4": "...!$u#$b#%Oarfish spotted a nasty scratch on your skin. She seems worried.#$e#...?$s#$b#%She lifted a first-aid kit. She ask for your permission to treat you.#$e#...$l",
+"MARRIAGE.oarfish.Good.5": "...!$h#$b#%Oarfish gestures \"thank you\".#$e#...$l",
+"MARRIAGE.oarfish.Good.6": "...!$h#$b#%Oarfish gestured that she loves you.#$e#...$l",
+"MARRIAGE.oarfish.Good.7": "...$7#$b#[392 394]%Oarfish hands you a souvenir from the beach.",
+"MARRIAGE.oarfish.Good.8": "...$8#$b#%[288]Oarfish hands you a mega bomb. She winks at you.",
+"MARRIAGE.oarfish.Good.9": "...$8#$b#%Oarfish seems to be planning another mean prank to play on Remi...",
+"MARRIAGE.oarfish.Good.10": "...!$h#$b#%Oarfish was just done embracing Remi, walks towards you, and pulled you in for a hug as well.#$e#...$l",
+
+"MARRIAGE.oarfish.Neutral.1": "...$7#$b#%Oarfish was cleaning and sharpening her collection of swords and knives.#$e#...$7#$b#%She catches you watching. She smirked proudly at her work.",
+"MARRIAGE.oarfish.Neutral.2": "...$7#$b#%Oarfish washes her hands clean of blood at the sink. You look at the counter and there are several scaled, gutted and deboned raw fish.",
+"MARRIAGE.oarfish.Neutral.3": "...$s#$b#%Oarfish was holding a bowl of plain kale salad.#$b#%Her trembling hand slowly lifts up a spoonful, only for her to grimace and put the bowl back on the table.#$b#...$a#$e#.....#$b#%She really doesn't like greens, huh?",
+"MARRIAGE.oarfish.Neutral.4": "...$6#$b#%Oarfish was browsing through an online menu. The food she added in her cart were mostly pizzas, nachos, french-fries, burgers, and fizzy sodas...#$e#...?$7#$b#%Oarfish gestures if you want to order something along with hers.",
+"MARRIAGE.oarfish.Neutral.5": "...#$b#%Oarfish's hands looked like they were dipped in pitch-black ink.#$b#%The black liquid drips from her fingertips, but the droplets disappear before hitting the floor.#$e#...$7#$b#%She reassures you that this is part of her and Remi's routine. You don't want to know more about the details...",
+"MARRIAGE.oarfish.Neutral.6": "...$7#$b#%Oarfish looks up from where she was drawing a sketch on a small, lineless notebook.#$b#%Upon closer inspection, it was a very detailed sketch of Remi's eyeballs skewered on a barbecue stick...",
+"MARRIAGE.oarfish.Neutral.7": "...?$7#$b#%Oarfish looks up from where she was drawing a sketch on a small, lineless notebook.#$b#%Upon closer inspection, it is a very detailed sketch of Remi's sleeping form... peaceful and content.",
+"MARRIAGE.oarfish.Neutral.8": "...#$b#%Oarfish seems focused on picking and organizing pieces of gemstones and ores, color-coded and ordered according to the colors of the rainbow...#$e#...?$7#$b#%Oarfish notices you watching her.",
+"MARRIAGE.oarfish.Neutral.9": "...#$b#%Oarfish is feeling neutral...#$e#...?$7",
+"MARRIAGE.oarfish.Neutral.10": "...$7#$b#%Oarfish seems ready to assist you.",
+
+"MARRIAGE.oarfish.Bad.1": "...$a#$b#%Oarfish glares at you.",
+"MARRIAGE.oarfish.Bad.2": "...$s#$b#%Oarfish regretfully sighs...",
+"MARRIAGE.oarfish.Bad.3": "...$a#$b#%Oarfish signed you a rude gesture.",
+"MARRIAGE.oarfish.Bad.4": "...#$b#%Oarfish ignores you.",
+"MARRIAGE.oarfish.Bad.5": "...$s#$b#%Oarfish sadly signs how you're not like you used to.",
+"MARRIAGE.oarfish.Bad.6": "...$s#$b#%Oarfish looks sad.",
+"MARRIAGE.oarfish.Bad.7": "...$s#$b#%Oarfish was sadly leaning on Remi until she caught you looking.#$e#...$a",
+"MARRIAGE.oarfish.Bad.8": "...#$b#%Oarfish dismissively waved you off.",
+"MARRIAGE.oarfish.Bad.9": "...$s#$b#%Oarfish seems like she doesn't have the appetite to eat.",
+"MARRIAGE.oarfish.Bad.10": "...$s#$b#%Oarfish looks despondent, eyes absently staring at the outdoors through a window.",
+
+"MARRIAGE.oarfish.NoBed.1": "...$s#$b#%Oarfish looks groggy...",
+"MARRIAGE.oarfish.NoBed.2": "...$a#$b#%Oarfish seems cranky...",
+"MARRIAGE.oarfish.NoBed.3": "...#$b#%Oarfish is not impressed.",
+"MARRIAGE.oarfish.NoBed.4": "...$s#$b#%Oarfish looks tired.",
+
+"MARRIAGE.oarfish.spring": "...$h#$b#%Oarfish is simply happy. Spring seems to be her favorite.",
+"MARRIAGE.oarfish.summer": "...$s#$b#%Oarfish seems to struggle in the heat. Summer seems to be her least favorite season.",
+"MARRIAGE.oarfish.fall": "...$h#$b#%Oarfish looks like she's having fun this season.",
+"MARRIAGE.oarfish.winter": "...!!$u#$b#%Oarfish sneezed.#$e#...#$b#...?$7",
+
+// Oarfish seasonal dialogue during marriage
+"MARRIAGE.oarfish.spring.1": "...!$h#$b#%Oarfish seems to enjoy the start of spring. She breathes in deeply and exhales in contentment.",
+"MARRIAGE.oarfish.spring.8": "...$l#$b#%Oarfish seems to enjoy admiring the pink cherry trees outside.",
+"MARRIAGE.oarfish.spring.13": "...!$h#$b#%Oarfish gave you a thumbs-up. She's rooting for you at the Egg Festival!",
+"MARRIAGE.oarfish.spring.23": "...$7#$b#%Oarfish gave you a thumbs-up. She's wishing you luck for tomorrow's dance.",
+"MARRIAGE.oarfish.spring.24": "...$u#$b#%Oarfish fusses over you, adjusting your collar and primping your hair.#$b#...!$h#$b#%You look sharp.",
+
+"MARRIAGE.oarfish.summer.1": ".....$s#$b#%Oarfish seems sluggish from the hot weather...",
+"MARRIAGE.oarfish.summer.11": "...!$6#$b#%Oarfish gestures a large cauldron before patting her stomach. You assume she wants you to take some of the soup home.",
+"MARRIAGE.oarfish.summer.15": ".....$a#$b#%Oarfish is glaring angrily at a buzzing fly.#$b#%...$a#$b#%Somehow, just by staring at a fly, it dropped dead onto the floor.#$e#...?$7",
+
+"MARRIAGE.oarfish.fall.1": "...!!$6#$b#%Oarfish seems excited to go outside and crunch some dead leaves.",
+"MARRIAGE.oarfish.fall.8": "...$u#$b#%Oarfish is rubbing her arms. It must be getting chilly now.",
+"MARRIAGE.oarfish.fall.16": "...$7#$b#%Oarfish gave you a thumbs-up. She's rooting for you at the grange display!",
+"MARRIAGE.oarfish.fall.26": "...$7#$b#%[746]Oarfish hands you a carved pumpkin.",
+"MARRIAGE.oarfish.fall.27": ".....$8#$b#...!!$h#$b#%Oarfish tried to spook you. She quietly laughed to herself.",
+
+"MARRIAGE.oarfish.winter.8": "...!$h#$b#%Oarfish gave you a thumbs-up. She's wishes you good luck for the fishing contest!",
+"MARRIAGE.oarfish.winter.25": "...!$l#$b#[797 373]%Oarfish hands you a gift. She hopes you like it.",
+"MARRIAGE.oarfish.winter.28": "...!$l#$b#%Oarfish hugs you. She's looking forward to another great year.",
+
+
+
+
+// ***** [CUST] CUSTOM FIXED DIALOGUE *****
+// Remi Divorce Dialogue
+"CUSTOM.remi.WipedMemory": "Huh? Hmm... I don't know you.$6",
+"CUSTOM.remi.Divorced_bouquet": "...you smell awful.$6",
+"CUSTOM.remi.Divorced_gift": "...Nah, don't want it.$7",
+
+// Remi Movie Invite
+"CUSTOM.remi.InvitedBySomeoneElse": "Um, sorry. But I already got handed a ticket by someone else.#$b#...Not sure how I'll be entertained by the movie itself, though.$7",
+"CUSTOM.remi.AlreadySeen": "Hey, I went to this before.#$b#...Still don't know that the movie's about, though.$6",
+"CUSTOM.remi.MovieInvite_Invited": "Huh? You know I'm deaf-blind right?$6#$b#Well, why the heck not. I'll go with you.",
+"CUSTOM.remi.MovieInvite_Invited_Rude": "Huh? You know I'm deaf-blind right?$6#$b#Well, why the heck not. I'll go with you.",
+"CUSTOM.remi.MovieInvite_Invited_Child": "Huh? You know I'm deaf-blind right?$6#$b#Well, why the heck not. I'll go with you.",
+"CUSTOM.remi.MovieInvite_Reject_Child": "Sorry, don't wanna go. Besides, I wouldn't be able to enjoy it.$7",
+"CUSTOM.remi.MovieInvite_Reject": "Sorry, don't wanna go. Besides, I wouldn't be able to enjoy it.$7",
+
+// Remi Bouquet Denial
+"CUSTOM.remi.bouquet_denial.1": "Umm... I don't think so.$6",
+"CUSTOM.remi.bouquet_denial.2": "Is this a joke? I don't get it.$6",
+"CUSTOM.remi.bouquet_denial.3": "...I don't really know you well enough...$s",
+"CUSTOM.remi.bouquet_denial.4": "Umm... I don't think so.$6",
+"CUSTOM.remi.bouquet_denial.5": "Nah.$6",
+"CUSTOM.remi.bouquet_denial.6": "Sorry. No.$6",
+
+// Remi wilted bouquet break up
+"CUSTOM.remi.breakUp": "Hmm? That smell...$8#$b#...$s#$b#Yeah. Gotcha.$6",
+
+// Remi Bouquet Acceptance 2 variations
+"CUSTOM.remi.bouquet_acceptance.1": "Hmm?? That smell! Could that mean you...$10#$b#Yeah! Sure! I'm down. Let's be besties!$h#$e#So, I wonder what naughty fun I can get you into...$12#$e#You know, like pantsing someone in the middle of town and then making a run for it.$11",
+"CUSTOM.remi.bouquet_acceptance.2": "You wanna be closer? For real?$10#$b#...$10#$b#Haha! I've always desired to be closer friends with you! It's official. We're best buds now!$h#$e#Anyways, you already know that I can get really weird, right? I hope that isn't a dealbreaker for you.",
+
+// Remi - Proposing with another pendant when already engage
+"CUSTOM.remi.pendant_denial.1": "Huh? I can't keep track of two. Just one pendant is enough.$11",
+"CUSTOM.remi.pendant_denial.2": "Nope. I'm not playing your kind of game.$6",
+"CUSTOM.remi.pendant_denial.3": "Um, aren't you already married?$6",
+"CUSTOM.remi.pendant_denial.4": "You're already married, you weirdo!$a",
+"CUSTOM.remi.pendant_denial.5": "{0} doesn't want to marry you right now.",
+"CUSTOM.remi.pendant_denial.6": "You're strange. And that's saying something, coming from me.$6",
+"CUSTOM.remi.pendant_denial.7": "Heh. Funny joke.",
+"CUSTOM.remi.pendant_denial.8": "!! Er... I'm sorry, I don't feel that way about you...$s",
+"CUSTOM.remi.pendant_denial.9": "!! Er... I'm sorry, I don't feel that way about you...$s",
+"CUSTOM.remi.pendant_denial.10": "Do you know what 'no' means, pal? It means turn around and walk away.$6",
+"CUSTOM.remi.pendant_denial.11": "Do you know what 'no' means, pal? It means turn around and walk away.$6",
+
+// Remi Jealousy dialogue
+"CUSTOM.remi.jealousy": "Well well, look who's everyone's sugardaddy.^Well well, look who's everyone's sugarmommy.#$b#Hehe, just kidding. You're a super cool friend, though, and not just to me. I admire that.$9",
+
+// Remi Starfruit
+"CUSTOM.remi.starFruit": "That fruit's real special. I would know.$9#$b#And I gave it to you 'cause you're special too, or something like that.#$b#What? Too lame? Whatever. I care about you lots so there.",
+
+// Remi BIRTHDAY GIFT
+"CUSTOM.remi.Birthday.1": "What? It's my birthday today? Well how did you know that?#$b#Thanks anyways, I appreciate it! $9",
+"CUSTOM.remi.Birthday.2": "Huh? It's my birthday?$10#$b#Haha! Guess you're right. This is great, I love it! $h", //Like, Love
+"CUSTOM.remi.Birthday.3": "Oh, is it my birthday today? I guess it is. Thanks. This is nice./Oh, is it my birthday today? I guess it is. Thanks. This is nice.",
+"CUSTOM.remi.Birthday.4": "You remembered my birthday! Thank you. This is great.", //Like, Love
+"CUSTOM.remi.Birthday.5": "...is this some kind of prank? $6",
+"CUSTOM.remi.Birthday.6": "...huh. Uh, thanks.", //hate, dislike
+"CUSTOM.remi.Birthday.7": "For my birthday? Thanks.",
+"CUSTOM.remi.Birthday.8": "Oh, a birthday gift! Thank you./Oh, a birthday gift! Thank you.", //neutral
+
+// Remi GETTING HIT BY SLINGSHOT
+"CUSTOM.remi.slingshot.1": "Yeouch! Quit it! $a",
+"CUSTOM.remi.slingshot.2": "Hey, that hurt. Like for real. $a",
+
+// Remi MARRIED CHORES AND NAVIGATION
+"CUSTOM.remi.chores.1": "Some of the plants were dying to get watered. So I did just that.#$b#Enjoy your free time.",
+"CUSTOM.remi.chores.2": "#$e#I also filled {0}'s water bowl. Little thing's getting thirsty.",
+"CUSTOM.remi.chores.3": "Fish told me the crops are already watered. Nice job automating the place!$9",
+"CUSTOM.remi.chores.4": "Animal are taken cared of. That should give you some free time for other stuff.",
+"CUSTOM.remi.chores.5": "Some fences broke. Me and Fish fixed 'em. No need to thank us.#$e#Don't you just love it when your housemates are practical and useful?$11",
+"CUSTOM.remi.decor.1": "Oh hey, I kinda did something in your house.",
+"CUSTOM.remi.decor.2": "I just placed something in the middle of the room to help me navigate.#$b#I wouldn't need it for long though. So you can remove it if you want.",
+"CUSTOM.remi.decor.3": "I just placed something random in the middle of the room on a whim... dunno if you'd like it though.#$b#Get rid of it if you don't want it, I wouldn't care.$11",
+"CUSTOM.remi.navigationProblem.1": "Don't feel like helping out right now.$a",
+"CUSTOM.remi.decor.4": "Fish told me I was sleep walking and plastered wallpaper on a random room. Sorry about that.",
+"CUSTOM.remi.decor.5": "Fish told me I was sleep walking and shuffled the flooring. Sorry about that.",
+"CUSTOM.remi.navigationProblem.2": "It's getting really difficult to navigate around here. Could you maybe clean up a bit?$s",
+"CUSTOM.remi.navigationProblem.3": "I can't navigate to where I wanna go... Do something about it, will ya?$s",
+
+// Remi parenthood
+"CUSTOM.remi.parenthood.1": "You think the human infant is gonna change a lot of how things go around here?$6",
+"CUSTOM.remi.parenthood.2": "I wonder if the person handling those adoption papers questions our living arrangements...$6#$b#Nah, things will all be fine.",
+"CUSTOM.remi.parenthood.3": "Fish handled the adoption papers. Now we wait.#$b#Hoo-boy, babies... I can't wait to give my nose a beating...$7#$b#Just kidding! I'm fine with this.$9",
+"CUSTOM.remi.parenthood.4": "I wonder if the person handling those adoption papers questions our living arrangements...$6#$b#Nah, things will all be fine.",
+"CUSTOM.remi.parenthood.5": "Fish handled the adoption papers. Now we wait.#$b#Hoo-boy, babies... I can't wait to give my nose a beating...$7#$b#Just kidding! I'm fine with this.$9",
+"CUSTOM.remi.parenthood.6": "Baby's gonna be here soooon! Are you excited?$h#$b#I'm not.$6#$e#I'm joking, I'm joking! I'm looking forward to getting my nose readjust to the smell, too.$h",
+"CUSTOM.remi.parenthood.7": "Baby's gonna be here soooon! Are you excited?$h#$b#I'm not.$6#$e#I'm joking, I'm joking! I'm looking forward to getting my nose readjust to the smell, too.$h",
+"CUSTOM.remi.parenthood.8": "I just feel like snoozing today. Just kinda sluggish, I guess.$6",
+"CUSTOM.remi.parenthood.9": "Baby's gonna be here soooon! Are you excited?$h#$b#I'm not.$6#$e#I'm joking, I'm joking! I'm looking forward to getting my nose readjust to the smell, too.$h",
+"CUSTOM.remi.parenthood.10": "Baby's gonna be here soooon! Are you excited?$h#$b#I'm not.$6#$e#I'm joking, I'm joking! I'm looking forward to getting my nose readjust to the smell, too.$h",
+"CUSTOM.remi.parenthood.11": "Being a parent is tiresome...$6#$b#I'm glad Oarfish is here.",
+"CUSTOM.remi.parenthood.12": "I can't with the kids today, sorry...$7",
+"CUSTOM.remi.parenthood.13": "I was going to make you breakfast, but I changed my mind.$7",
+
+"CUSTOM.remi.LostItemQuest_DefaultThankYou": "Hey, you fount it. Thanks a lot.",
+
+"CUSTOM.remi.NewChild_SecondChild1": "You, me, Fish, and two little human meatbags. Quite the odd arrangement we got here.#$b#I wonder how these kids are gonna turn out with grownups like us?$11",
+"CUSTOM.remi.NewChild_SecondChild2": "Two kids... Gee, where do you get the energy to keep track of more than one?$11",
+"CUSTOM.remi.NewChild_Adoption": "Looks like those papers pulled through. Little {0} is here.$11#$b#Congrats to your new human family life.",
+"CUSTOM.remi.NewChild_FirstChild": "Looks like those papers pulled through. Little {0} is here.$11#$b#Congrats to your new human family life.",
+"CUSTOM.remi.Spouse_KitchenBlocked": "Something's keeping me from the kitchen and I can't find my way around it.$s#$b#Can you clear the way for me?$6",
+"CUSTOM.remi.Spouse_MonstersInHouse": "He-hey! We got squishy company!$h",
+"CUSTOM.remi.Wizard_Hatch": "What just happened?$8",
+
+// Remi playerkilled dialogue
+"CUSTOM.remi.PlayerKilled.1": "You got me worried! Something felt off and I searched for your scent.$8#$b#...$s#$b#I know you're human and one day you'll die, but not too soon, okay?$s",
+"CUSTOM.remi.PlayerKilled.2": "You got me worried! Something felt off and I searched for your scent.$8#$b#...$s#$b#I know you're human and one day you'll die, but not too soon, okay?$s",
+
+// Remi BOUGHT ITEMS FROM SHOP DIALOGUE
+"CUSTOM.remi.purchasedItem.1": "I sniffed something real good from the store today, so I bought it.",
+"CUSTOM.remi.purchasedItem.2": "Ugh, this one smells awful. I don't know how it got in my hands...$s",
+"CUSTOM.remi.purchasedItem.3": "I sniffed something real good from the store today, so I bought it.",
+"CUSTOM.remi.purchasedItem.4": "Ugh, this one smells awful. I don't know how it got in my hands...$s",
+"CUSTOM.remi.purchasedItem.5": "Ugh, this one smells awful. I don't know how it got in my hands...$s",
+"CUSTOM.remi.purchasedItem.6": "I sniffed something real good from the store today, so I bought it.",
+"CUSTOM.remi.purchasedItem.7": "I sniffed something decent from the store today, so I bought it.",
+"CUSTOM.remi.purchasedItem.8": "I sniffed something decent from the store today, so I bought it.",
+"CUSTOM.remi.purchasedItem.9": "I sniffed some good veggies from the store today, so I bought it.",
+"CUSTOM.remi.purchasedItem.10": "I sniffed some good takeouts today, so I bought it.",
+"CUSTOM.remi.purchasedItem.11": "I sniffed something good from the ground, so I took it.",
+"CUSTOM.remi.purchasedItem.12": "I sniffed something decent from the store today, so I bought it.",
+
+// Remi caught you DIGGING IN THE TRASH
+"CUSTOM.remi.caughtTrashDigging.1": "Digging in the trash? I like your style!$h",
+"CUSTOM.remi.caughtTrashDigging.2": "Digging in the trash? I like your style!$h",
+"CUSTOM.remi.caughtTrashDigging.3": "Digging in the trash? I like your style!$h",
+
+
+// Remi Summit Comment
+"CUSTOM.remi.SummitEvent_Intro_Spouse": "Hey, got here before you did.",
+"CUSTOM.remi.SummitEvent_Intro2_Spouse": "You did pretty good! Congrats. You made me real proud.$9",
+"CUSTOM.remi.SummitEvent_Intro2_Spouse_Gruff": "You did pretty good! Congrats. You made me real proud.$9",
+"CUSTOM.remi.SummitEvent_Dialogue1_Spouse": "Well, well, look who conquered the valley? You've done everything and been everywhere.",
+"CUSTOM.remi.SummitEvent_Dialogue2_Spouse": "Although, you never had to do all that and we'd still think you're a pretty amazing farmer.$9",
+"CUSTOM.remi.SummitEvent_Dialogue3_Remi": "But seriously, you should be proud of yourself. I know I am.#$b#And I'm happy to have witnessed little bits of your progress everyday. Well, in a way that I can.$11#$b#So how about it? Food and drinks are on me, let's go back in town and celebrate!$h",
+
+// Remi baby arriving from adoption agency
+"CUSTOM.remi.BirthMessage_Adoption": "During the night, the adoption agency dropped off your new baby {0}.",
+"CUSTOM.remi.BirthMessage_PlayerMother": "During the night, the adoption agency dropped off your new baby {0}.",
+"CUSTOM.remi.BirthMessage_SpouseMother": "During the night, the adoption agency dropped off your new baby {0}.",
+"CUSTOM.remi.HaveBabyQuestion": "Hey, you thinking about adopting a kid? Dunno if my nose will like it, though...",
+"CUSTOM.remi.HaveBabyQuestion_Adoption": "Hey, you thinking about adopting a kid? Dunno if my nose will like it, though...",
+
+
+
+
+// Oarfish Divorce Dialogue
+"CUSTOM.oarfish.WipedMemory": "...?",
+"CUSTOM.oarfish.Divorced_bouquet": "...$a",
+"CUSTOM.oarfish.Divorced_gift": "...$a#$b#%Oarfish raises a palm, rejecting your gift.",
+
+// Oarfish movie invite
+"CUSTOM.oarfish.MovieInvite_InvitedBySomeoneElse": "...#$b#%Oarfish shows you she already got a movie ticket from someone else.",
+"CUSTOM.oarfish.MovieInvite_AlreadySeen": "...$7#$b#%Oarfish gestures minor details about the movie, showing she has seen it before.",
+"CUSTOM.oarfish.MovieInvite_Invited": "...$h#$b#%Oarfish is happy to be invited to the movie theater.",
+"CUSTOM.oarfish.MovieInvite_Invited_Rude": "...$h#$b#%Oarfish is happy to be invited to the movie theater.",
+"CUSTOM.oarfish.MovieInvite_Invited_Child": "...$h#$b#%Oarfish is happy to be invited to the movie theater.",
+"CUSTOM.oarfish.MovieInvite_Reject_Child": "...$7#$b#%Oarfish politely declines your invitation.",
+"CUSTOM.oarfish.MovieInvite_Reject": "...$7#$b#%Oarfish politely declines your invitation.",
+
+// Oarfish bouquet and proposal
+"CUSTOM.oarfish.NotImpressed": "...#$b#%Oarfish is not impressed.",
+"CUSTOM.oarfish.breakUp": "...$s#$b#%Oarfish looks heartbroken.",
+"CUSTOM.oarfish.bouquet_accept.1": "...!!$6#$b#!!!$h#$b#%Oarfish looks really happy.",
+"CUSTOM.oarfish.bouquet_accept.2": "...!$h#$b#%Oarfish is beaming. She must be really happy.",
+
+"CUSTOM.oarfish.proposal_denial.1": "{0} doesn't want to marry you right now.",
+"CUSTOM.oarfish.proposal_denial.2": "...$s#$b#%Oarfish seems unsure about that.",
+"CUSTOM.oarfish.proposal_denial.3": "...$s#$b#%Oarfish seems unsure about that.",
+"CUSTOM.oarfish.proposal_denial.4": "...$a#$b#%Oarfish gestures you to go away.",
+"CUSTOM.oarfish.proposal_denial.5": "...$a#$b#%Oarfish gestures you to go away.",
+
+// oarfish jealousy
+"CUSTOM.oarfish.jealousy": "...$7#$b#%Oarfish gave you a thumbs-up.",
+
+// oarfish starFruit
+"CUSTOM.oarfish.starFruit": "...$l#$b#%Oarfish is happy to have given you a precious stardrop. She gestures that you mean a lot to her.",
+
+// oarfish birthday Gift
+"CUSTOM.oarfish.birthday.1": "...!$h#$b#%Oarfish is happy you remembered her birthday. She loves her gift.",
+"CUSTOM.oarfish.birthday.2": "...$7#$b#%Oarfish thanks you for the gift.",
+
+// oarfish getting hit by slingshot
+"CUSTOM.oarfish.slingshot.1": "...!$a#$b#%Oarfish pointed at the bruise you caused.",
+"CUSTOM.oarfish.slingshot.2": "...$s#$b#%Oarfish pointed at the bruise you caused.",
+
+// oarfish chores and navigation
+"CUSTOM.oarfish.chores_and_nav.1": "...!$h#$b#%Oarfish gestured over the crops with a watering can, showing you that she has done some of the work in your stead.",
+"CUSTOM.oarfish.chores_and_nav.2": "...$7#$b#%Oarfish points at {0}'s water bowl,  having taken cared of that, too.",
+"CUSTOM.oarfish.chores_and_nav.3": "...!$h#$b#%Oarfish seems impressed with the automation done in your farm.",
+"CUSTOM.oarfish.chores_and_nav.4": "...!$h#$b#%Oarfish points at where your animals are and smiled brightly.",
+"CUSTOM.oarfish.chores_and_nav.5": "...$7#$b#%Oarfish points at the fences with a proud look on her face.",
+"CUSTOM.oarfish.chores_and_nav.6": "...$7",
+"CUSTOM.oarfish.chores_and_nav.7": "...$7#$b#%Oarfish points at the new furniture. She looks at you expectingly.",
+"CUSTOM.oarfish.chores_and_nav.8": "...$7#$b#%Oarfish points at the new furniture. She looks at you expectingly.",
+"CUSTOM.oarfish.chores_and_nav.9": "...$a",
+"CUSTOM.oarfish.chores_and_nav.10": "...$7#$b#%Oarfish points at the new wallpaper. She looks at you expectingly.",
+"CUSTOM.oarfish.chores_and_nav.11": "...$7#$b#%Oarfish points at the new flooring. She looks at you expectingly.",
+"CUSTOM.oarfish.chores_and_nav.12": "...$s#$b#%Oarfish seems to struggle navigating through your house.",
+"CUSTOM.oarfish.chores_and_nav.13": "...$s#$b#%Oarfish seems to struggle navigating through your house.",
+
+
+// oarfish parenthood
+"CUSTOM.oarfish.parenthood.1": "...$7#$b#%Oarfish seems confident about your future of having a child.",
+"CUSTOM.oarfish.parenthood.2": "...$h#$b#%Oarfish is hopeful the adoption papers get approved.",
+"CUSTOM.oarfish.parenthood.3": "...$7#$b#%Oarfish is done filing the adoption papers. Now we all wait...",
+"CUSTOM.oarfish.parenthood.4": "...$h#$b#%Oarfish is hopeful the adoption papers get approved.",
+"CUSTOM.oarfish.parenthood.5": "...$7#$b#%Oarfish is done filing the adoption papers. Now we all wait...",
+"CUSTOM.oarfish.parenthood.6": "...$7#$b#%Oarfish looks forward to seeing the child you adopted.",
+"CUSTOM.oarfish.parenthood.7": "...$7#$b#%Oarfish looks forward to seeing the child you adopted.",
+"CUSTOM.oarfish.parenthood.8": "...$a#$b#%Oarfish looks like she's about to clock out...",
+"CUSTOM.oarfish.parenthood.9": "...$s#$b#%Oarfish seems anxious. She hopes the baby arrives safely.#$b#...$l",
+"CUSTOM.oarfish.parenthood.10": "...$s#$b#%Oarfish seems anxious. She hopes the baby arrives safely.#$b#...$l",
+"CUSTOM.oarfish.parenthood.11": "...#$b#%Oarfish doesn't feel like getting up.",
+"CUSTOM.oarfish.parenthood.12": "...#$b#%Oarfish looks sluggish and tired. She looks like she needs to rest.",
+"CUSTOM.oarfish.parenthood.13": "...$a#$b#%Oarfish doesn't seem to be in a good mood to prepare you anything this morning.",
+
+// oarfish lost item
+"CUSTOM.oarfish.LostItemQuest_DefaultThankYou": "...$h#$b#%Oarfish thanks you for finding her lost item.",
+
+// oarfish about kids
+"CUSTOM.oarfish.aboutkids.1": "...$l#$b#%Oarfish marvels at the odd but happy living arrangements we have.",
+"CUSTOM.oarfish.aboutkids.2": "...!!$h#$b#%Oarfish seems to enjoy entertaining both children.#$b#...#$b#%One of them flicked her nose.",
+"CUSTOM.oarfish.aboutkids.3": "...!$h#$b#%Oarfish is happy about the child's arrival to your doorstep.",
+"CUSTOM.oarfish.aboutkids.4": "...!$h#$b#%Oarfish is happy about the child's healthy arrival.",
+
+// oarfish mishaps
+"CUSTOM.oarfish.mishap.1": "...",
+"CUSTOM.oarfish.mishap.2": "...!!$a",
+"CUSTOM.oarfish.mishap.3": "...",
+
+// oarfish playerkilled dialogue
+"CUSTOM.oarfish.playerKilled.1": ".....$s#$b#%You made Oarfish worry! Be more careful, please.",
+"CUSTOM.oarfish.playerKilled.2": ".....$s#$b#%You made Oarfish worry! Be more careful, please.",
+
+// summit dialogue
+"CUSTOM.oarfish.Intro_Spouse": "...$7",
+"CUSTOM.oarfish.Intro2_Spouse": "...!$h",
+"CUSTOM.oarfish.Intro2_Spouse_Gruff": "...$h",
+"CUSTOM.oarfish.Dialogue1_Spouse": "...$7",
+"CUSTOM.oarfish.Dialogue2_Spouse": "...$h",
+"CUSTOM.oarfish.Dialogue3_Oarfish": "...$l#$b#%Oarfish is really proud of you.",
+
+// oarfish about adoption arriving
+"CUSTOM.oarfish.Adoption": "During the night, the adoption agency dropped off your new baby {0}.",
+"CUSTOM.oarfish.PlayerMother": "During the night, the adoption agency dropped off your new baby {0}.",
+"CUSTOM.oarfish.SpouseMother": "During the night, the adoption agency dropped off your new baby {0}.",
+"CUSTOM.oarfish.HaveBabyQuestion": "Oarfish gestures if you want to adopt a baby...",
+"CUSTOM.oarfish.HaveBabyQuestion_Adoption": "Oarfish gestures if you want to adopt a baby...",
+
+
+
+
+// ***** [SCHED] SCHEDULE DIALOGUE *****
+// Remi Schedule Dialogue
+"SCHEDULE.remi.sleep": "zzzZZZZZzzzz...$u",
+
+// Oarfish Schedule Dialogue
+"SCHEDULE.oarfish.arcade": "$c 0.5#...$a#$b#%Oarfish is deeply engrossed in the arcade game. She seems to be losing lives...#...$6#$b#%Oarfish is deeply engrossed in the arcade game. She made it to the next stage!",
+
+// MONDAYS
+// Remi Schedule Mondays (sitting at the Beach with Oarfish)
+"SCHEDULE.remi.monday": "Hey, you caught us on a good time. Wanna sit down with us?",
+"SCHEDULE.remi.Marriage.spring.1": "Whoo, nice to walk out here and smell the fresh scent of spring.$11#$e#Gonna be extra busy again since the snow melted, huh? Everyone smells pretty hectic during the start of every season.#$e#And that means a lot of people smelling like sweat... sigh.$6",
+"SCHEDULE.remi.Marriage.spring.8": "At least the flowers smell nice around town. I missed those when winter came around.$11#$e#Oarfish smells good all year round, though. Ehehe...$11#$e#...Mmmmm.$u#$b#Ow! Okay, I'll stop.$8",
+"SCHEDULE.remi.Marriage.spring.15": "This week is filled with alcoholic desires. Get some beer ready if you wanna make some friends.#$e#Dunno what I mean? Check the calendar.$11",
+"SCHEDULE.remi.Marriage.spring.22": "You're acting weird, Fish. You seeing someone else in this town or something.$6#$e#You're somewhat fond of that glasses guy. Pierre was it?$a#$e#C'mooon, he's a sleaze. He's nothing but selfish desires and he's married. The man smells greasy like the fried calamari he likes so much.$a#$e#Fish, come on now. Look at me.$6#$e#Look at me, Fish. Turn your head my way. Come on, I can't smell your eyes on me yet.$6",
+"SCHEDULE.remi.Marriage.summer.1": "Hoo boy, it's getting really hot. Maybe I should shed my coat...$6#$e#...Nah.#$e#The upside of this hot summer season is that there's ice cream being sold for cheap.$11#$e#Actually, have I told you about the Ice Cream Bypass?#$e#Basically, you get someone else to stand on the otherside of the ice cream stand, and you'd be able to buy ice cream in any season. Neat, huh?#$e#You probably need to get your own companion to do it for you, though... Maybe a loyal steed.",
+"SCHEDULE.remi.Marriage.summer.8": "Hey, you caught us on a good time. Wanna sit down with us?",
+"SCHEDULE.remi.Marriage.summer.15": "Geez, must be the middle of summer. It's so hot out here.$6#$e#Eh, what do you mean it's just you? It's the pesky sun, silly!$h",
+"SCHEDULE.remi.Marriage.summer.22": "Ooooh...$10#$e#...Wow.$10#$e#Hehe, these feel really nice, Oarfish. Any more shells to show me?$11#$e#Hey, @. I can smell the end of summer just by the edge of the calendar. Looking forward to spooky season?",
+"SCHEDULE.remi.Marriage.fall.1": "Can you smell that? It's the start of something great.$11#$e#Gonna be a busy season for farmers. What about you? Planning something big?#$e#Fish and I are just gonna enjoy the autumn atmosphere for as long as it lasts.$11",
+"SCHEDULE.remi.Marriage.fall.8": "I've told you about my best friend back home, right?#$b#She's not with us, but she can keep up to speed with us easily. And I bet she knows a thing or two about you already.#$e#She can see through Oarfish's eyes. It's how our small, independent group do operations.#$e#She's the smart gal that gives us orders and intel all the way from base, and Fish and I do the butt-whooping.#$e#Of course, she telepathically asks Fish for permission before that happens. Don't want her to see \"everything\", hehe.$11",
+"SCHEDULE.remi.Marriage.fall.15": "Mmmm, I can smell ripe patches of pumpkin in the air. It's gonna be a good harvest.$11#$e#Oh, right. Tomorrow's the fair, right? Good luck and have fun.",
+"SCHEDULE.remi.Marriage.fall.22": "There's a chill in the air, fall is almost over.$6#$e#Fish and I are gonna miss it.",
+"SCHEDULE.remi.Marriage.winter.1": "...A....Ah...$8#$b#AA-CHOO!!$13#$e#Gee, Oarfish. Still hanging out here even when it's freezing?$6#$e#...Yeah, I know. We do this all the time.#$e#Oh hey, @. Feel like sitting in the freezing cold with us? Hehe.$11",
+"SCHEDULE.remi.Marriage.winter.8": "Brrrr... it's cold. Oarfish can we please hold han-$6#$b#Oh geez!! @, you almost walked in on us.$8#$e#...Huh? Yeah, I agree. It's way too lewd of a public display. What was I thinking...$6",
+"SCHEDULE.remi.Marriage.winter.15": "%Remi is leaning comfortably on Oarfish's shoulder.#$e#...Hehehe.$u#$e#Hm, shoo. Get your own cuddle-buddy.$6#$e#Whaa?? Oarfish no, what are you doing? Only *I* can lean on you!$13",
+"SCHEDULE.remi.Marriage.winter.22": "So, Fish. The year is gonna end in a week I think.$6#$b#Should we stay around for another year?#$e#Oh. Geez, @. Can't say anything without you being within earshot.$11#$e#Oarfish and I just agreed we are staying for as long as we still like hanging out around here.#$e#Still, when you grow old and die, Fish and I will probably go back home.$6#$b#Your human lifespan is probably enough time to say we had a short vacation, I think.",
+
+// Oarfish Schedule Mondays (sitting at the Beach with Remi)
+"SCHEDULE.oarfish.Marriage.spring.1": "...$7#$b#%Oarfish briefly greets you. She seems contemplative on how she've spent the last year, and how she'll spend this new year.#$e#...!$h#$b#%Ultimately, she shrugs it away. Anything goes!",
+"SCHEDULE.oarfish.Marriage.spring.8": "...#$b#%Oarfish stares at Remi perversely sniffing at her transparent shawl.#$e#...$a#$b#%Oarfish glares at Remi as she got up sniffing on her shoulder.#$b#%She swatted Remi away.",
+"SCHEDULE.oarfish.Marriage.spring.15": "...#$b#%Oarfish advices you not to prepare beer this week, turning your attention to pizzas and parsnips.",
+"SCHEDULE.oarfish.Marriage.spring.22": "...#$b#%Oarfish has absolutely no idea what Remi is talking about.#$e#...$7#$b#%Oarfish turns her attention to you, showing interest in what you have to say instead.",
+"SCHEDULE.oarfish.Marriage.summer.1": "...$h#$b#%Oarfish is enjoying a cone of ice cream.",
+"SCHEDULE.oarfish.Marriage.summer.8": "...$7#$b#%Oarfish pats on the empty spot next to her.",
+"SCHEDULE.oarfish.Marriage.summer.15": "...#$b#%Oarfish is fanning herself with a palm leaf.#$e#%A large crab scuttled out from the waters and right towards Oarfish.#$b#...$7#$b#%Oarfish handed the palm leaf to the crab, letting it fan both her and Remi.#$e#...?$7",
+"SCHEDULE.oarfish.Marriage.summer.22": "...$7#$b#%Oarfish hands Remi some seashells, each a different shape, size, texture and color.#$e#...$7#$b#%Oarfish greets you. She laid out the seashells on her palms for you to see.",
+"SCHEDULE.oarfish.Marriage.fall.1": "...!$h#$b#%Oarfish smiles. She seems the happiest once the leaves turn orange.#$e#...$7",
+"SCHEDULE.oarfish.Marriage.fall.8": "...$7#$b#...!$u#$b#%Oarfish paused, and then nodded at no one. It seems like she's subtly communicating with someone who isn't here.#$e#...$7#$b#%Oarfish gestures her other friend is presently \"here\", and that she's saying hello to you.",
+"SCHEDULE.oarfish.Marriage.fall.15": "...$7#$b#%Oarfish rapidly gestures the letters \"GLHF tomorrow\" with one hand. You miraculously got all of that.",
+"SCHEDULE.oarfish.Marriage.fall.22": "...$l#$b#%Oarfish stares lovingly at the orange leaves, savoring them before everything turns white and blue.",
+"SCHEDULE.oarfish.Marriage.winter.1": "...$u#$b#%Oarfish sneezed.#$e#...#$b#%Oarfish grabbed at Remi's large sleeves and wiped her pointy nose with it.#$e#...#$b#...?$7",
+"SCHEDULE.oarfish.Marriage.winter.8": "...#$b#%Oarfish stares at Remi, judging her indecent attempt to hold her hand.#$e#...$s#$b#...#$b#%Oarfish held Remi's hand. She gestures that she admits she's no better.",
+"SCHEDULE.oarfish.Marriage.winter.15": "...$7#$b#%Oarfish invites you to sit by her otherside. She gestures that you're free to rest on her shoulder.",
+"SCHEDULE.oarfish.Marriage.winter.22": "...$s#$b#%Oarfish seems contemplative. She looks up at you with a sad look in her eye.#$e#...$l#$b#%Oarfish reassures you that she and Remi will accompany you for the entire duration of your lifetime. For as long as you want them around.",
+
+
+// TUESDAYS
+// Remi Schedule Tuesdays (eating at the private dinner table at the Saloon with Oarfish)
+"SCHEDULE.remi.tuesday": "Hey, good to see you. Fish and I wanted to have some girls' night out.#$e#We come here on Tuesdays and Saturdays. Less humans that way.#$e#Want me to buy us a meal or something? Don't be shy, you can join us.$11",
+"SCHEDULE.remi.Marriage.tuesday": "Hey, the whole party's here! Now what do you guys want to order?$9#$e#Me? A simple beer would do.",
+"SCHEDULE.remi.Marriage.spring.2": "Hey, @! Wanna eat with us?$9#$b#Order anything you want. It's still a brand new year.#$e#By the way, Fish is looking forward to this coming Thursday and Sunday. I can figure you know why.#$e#Say, come along with us here every Tuesday. I bet you and Fish can exchange notes about the people in town.",
+"SCHEDULE.remi.Marriage.spring.9": "Still waiting for our orders. Why don't you join us? It's our treat.#$e#Hmm... eggs are on the menu.#$b#Oh, that reminds me. If you're missing out on strawberries this Spring you can get them this Saturday. Don't miss it.",
+"SCHEDULE.remi.Marriage.spring.16": "Beer night!$h#$b#Yup, this week reeks with the stench of beer.#$b#Wanna make friends easy around here? Give 'em a beer.$11#$e#Except, you know. People who don't like beer.",
+"SCHEDULE.remi.Marriage.spring.23": "@! Take a seat with us!$h#$e#Huh? There isn't a third seat?$6#$b#Well, I guess we could request another from Chef Gus.#$e#Flowers' been blooming a lot lately. I can smell an event coming very soon.#$e#Flower Dance?$6#$b#Nah. We ain't going. That's for the young'uns wanting to find love. We're way over that.",
+"SCHEDULE.remi.Marriage.summer.2": "...$a#$b#Oh, @!$10#$b#Don't mind me, I'm just scouting the enemy.$11#$e#Chef Gus is a formidable rival. You could say our weekly dinner dates also doubles as studying the opposition.#$b#I gotta keep up if I still want to call myself a chef.$11",
+"SCHEDULE.remi.Marriage.summer.9": "I was hoping I wouldn't smell sweaty people from here.$6#$b#Oh hey, @. You mind closing the door for us? It would really help my nose.#$e#I'm craving something cheesy tonight. Like Pepper Poppers and Cheesy Cauli.#$b#What about you, Fish?$11",
+"SCHEDULE.remi.Marriage.summer.16": "I wonder if there are any more of those fruity selections in Chef Gus' menu?$11#$b#I feel like going for a strawberry shake.#$e#Say, @. You got a blender at home? We could try making experimental shakes with the stuff you grow.#$e#Cave carrot juice? Hmmm...",
+"SCHEDULE.remi.Marriage.summer.23": "Whoo! Summer nights are making me want a cold one.$9#$b#Come on, let's get ourselves a sundae.$11#$e#Huh? That's not on the menu?$6#$b#Oh well, guess I'll go with beer, then.#$e#Say, @. What's your favorite summer dish?",
+"SCHEDULE.remi.Marriage.fall.2": "Ahaaa, Fall's really here.$11#$b#You can just taste the crunch in the air.",
+"SCHEDULE.remi.Marriage.fall.9": "Mmmm... This season's making me want hot soup.$11#$e#You growing pumpkins on your farm? Pumpkin soup's gonna be really popular this season. And well, just pumpkins in general.#$e#Stock up on a few pumpkins this year. You never know.",
+"SCHEDULE.remi.Marriage.fall.16": "Heya, any luck at the games?",
+"SCHEDULE.remi.Marriage.fall.23": "Brrr... I felt that cold evening bite outside earlier.$11#$b#Sit down with us and have a hot soup or drink or something.#$e#So, how's harvest? Selling good this season?",
+"SCHEDULE.remi.Marriage.winter.2": "@! Glad you can make it!$h#$b#It's really cold out tonight. Stick around and have something warm y'hear?",
+"SCHEDULE.remi.Marriage.winter.9": "So, did you attend the fishing contest yesterday? How was it?#$e#Heh, Willy sure is formidable, huh? I can respect his affinity with the ocean.$11",
+"SCHEDULE.remi.Marriage.winter.16": "Hey, @. We'll check out the Night Market in a bit.#$b#Fish has been telling me to see the mermaid.$11#$e#Wait, how will I even see the mermaid?$6#$b#And she sings too, huh?$6#$e#Yeah, I don't think I'm going tonight after all. Sorry, Fish.",
+"SCHEDULE.remi.Marriage.winter.23": "Hey, the whole party's here! Now what do you guys want to order?$9#$e#Year's about to end, so let's make tonight a feast! Cheers!$h",
+
+// Oarfish Schedule Tuesdays (eating at the private dinner table at the Saloon with Remi)
+"SCHEDULE.oarfish.tuesday": "...$7#$b#%Oarfish invites you to eat with them.",
+"SCHEDULE.oarfish.Marriage.tuesday": "...$7#$b#%Oarfish invites you to eat with them.",
+
+"SCHEDULE.oarfish.Marriage.spring.2": "...$7#$b#%Oarfish briefly waves at you, before returning to her sketchbook.#$e#...?$7#$b#%You can spot familiar faces in her sketchbook. Particularly, Kent and Louis.#$e#...!$h#$b#%Upon closer inspection are notes of Oarfish's observations about them.#$b#%Mr. Kent: No bombs. No surprises. Fiddlehead Risotto, Roasted Hazelnuts.#$b#%Mayor Louis: Try to audit taxes. Autumn's Bounty, Glazed Yams, Green Tea, Vegetable Medley.",
+
+"SCHEDULE.oarfish.Marriage.spring.9": "...$7#$b#%Oarfish briefly greets you, before returning to her sketchbook.#$e#...$7#$b#%You can spot familiar faces in her sketchbook. Vincent is on one page, and Haley is on the other.#$e#...!$h#$b#%Upon closer inspection are notes of Oarfish's observations about them.#$b#%Vincent: Check for parasites. Pink Cake, Cranberry Candy, Ginger Ale.#$b#%Haley: Include glitter. Pink Cake, Fruit Salad.",
+
+"SCHEDULE.oarfish.Marriage.spring.16": "...$7#$b#%Oarfish briefly gestures hello, before returning to her sketchbook.#$e#...$s#$b#%The sketches seem lifeless than usual. You can spot Pam and Shane.#$e#...#$b#%Upon closer inspection, there are notes detailing their favorite dishes.#$b#%Pam: Parsnip Soup#$b#%Shane: Pepper Poppers, Pizza#$e#...#$b#%There's more.#$b#%Pam: No alcohol.#$b#%Shane: No. Alcohol.",
+
+"SCHEDULE.oarfish.Marriage.spring.23": "...$h#$b#%Oarfish smiles at you, and then returns to her sketchbook.#$e#...$7#$b#%You can spot a sketch of Pierre and Emily surrounded by flowers in separate pages.#$e#...!$h#$b#%There are more notes here.#$b#%Pierre: Fried Calamari. Catch a squid later.#$b#%Emily: Is aware of us... friend? Friend. Loves Survival Burger the most.",
+
+"SCHEDULE.oarfish.Marriage.summer.2": "...$h#$b#%Oarfish smiles at you. She leans back and lets you take a peek at her sketchbook.#$e#...$7#$b#%On one page is a sketch of Jas playing with cows. On another page is Gus with a flattering mustache.#$e#...!$h#$b#%There are more notes here.#$b#%Jas: Pink Cake, Plum Pudding. Plant fairy roses in Fall.#$b#%Gus: Escargot, Fish Taco, Tropical Curry. Remi, take notes.",
+
+"SCHEDULE.oarfish.Marriage.summer.9": "...$7#$b#%Oarfish greets you. She leans back and lets you take a peek at her sketchbook.#$e#...$7#$b#%The theme appears to be clashing interests in science and sports, but drawn to fit together. Maru and Alex are giving each other competitive smirks.#$e#...!$h#$b#%There are more notes here.#$b#%Maru: Cheese Cauliflower, Pepper Poppers, Rhubarb Pie. Boss likes her.#$b#%Alex: Complete Breakfast, Salmon Dinner. Takes a lot of effort.",
+
+"SCHEDULE.oarfish.Marriage.summer.16": "...$7#$b#%Oarfish notices you approaching. She leans back and lets you take a peek at her sketchbook.#$e#...$7#$b#%The theme appears to be of contrasting personalities. Sam and Demetrius complement each other with their respective playfulness and seriousness.#$e#...!$h#$b#%Upon closer inspection, there are small notes of Oarfish's thoughts around them.#$b#%Sam: Maple Bar, Pizza. Forgetful. Uses rubber bands as reminders. Maybe Remi would like to try that.#$b#%Demetrius: Bean Hotpot, Ice Cream, Rice Pudding. Reminds me of Boss.#$e#...$7#$b#%Oh, there's another page. A doodle of Dwarf and a few notes.#$b#%Dwarf: Lemon Stone. Murderer.#$b#...!$h",
+
+"SCHEDULE.oarfish.Marriage.summer.23": "...$7#$b#%Oarfish looks up from her sketchbook. She leans back and lets you take a peek.#$e#...$7#$b#%It is a sketch of a man with a fishing rod and a child with ruffled hair standing by the docks and admiring the Moonlight Jellies. The man appears to be Willy.#$e#...!$h#$b#%There are more notes here.#$b#%Willy: Mead. Can take fish raw.#$b#%Child: Poi. Need to learn his name.",
+
+"SCHEDULE.oarfish.Marriage.fall.2": "...$7#$b#%Oarfish looks up from her sketchbook and smiled.#$e#...$7#$b#%The theme appears to be about literature. Penny and Elliott are drawn as the reader and writer respectively.#$e#...!$h#$b#%Upon closer inspection, there are more notes surrounding them.#$b#%Penny: Poppyseed Muffin, Red Plate, Roots Platter, Tom Kha Soup. Tiny book lady.#$b#%Elliott: Crab Cakes, Tom Kha Soup. Tall book man.",
+
+"SCHEDULE.oarfish.Marriage.fall.9": "...$7#$b#%Oarfish looks up from her sketchbook and smiled. There are a lot of them in a page this time.#$e#...$7#$b#%The first page constrasts Abigail's adventurous youth and Jodi's monotonous life as a mother.#$b#%The second page is a sketch Robin and Marnie and their harmonious professions. Robin builds a barn and Marnie fills it up completely with nothing but pigs...#$e#...!$h#$b#%Along with descriptions are notes detailing their favorite dishes.#$b#%Jodi: Stressed mom. Loves Chocolate Cake and Crispy Bass. Also Pancakes.#$b#%Abigail: Digests rocks. Loves Banana Pudding, Blackberry Cobbler, Chocolate Cake and Spicy Eel. Don't give blackberries by itself.#$b#%Marnie: No meat. Loves Farmer's Lunch, Pink Cake, and Pumpkin Pie.#$b#%Robin: Strong arms. Spaghetti lover. I can respect that.#$e#%There's another page entirely dedicated to Sandy and the desert. You can spot the desert trader and her camel waving from the background.#$b#%Sandy: Not her real name. Mango Sticky Rice. Might need to swim to the next island to get those.",
+
+"SCHEDULE.oarfish.Marriage.fall.16": "...$7",
+
+"SCHEDULE.oarfish.Marriage.fall.23": "...$7#$b#%Oarfish looks up from her sketchbook. She leans back and lets you take a peek at a page.#$e#...$7#$b#%It's George with his usual grumpy look. The sketch is very detailed and realistic, showing off his wrinkles and eyebags.#$e#...!$h#$b#%Along with descriptions are notes detailing his favorite dish.#$b#%George: Don't bring up mining. Loves Fried Mushroom.#$e#...$7#$b#%Oh, there's another page. It was a picturesque sketch of the sewers; dark and humid.#$b#%Void Spirit: Friendly. Thanks for taking care of Remi back then! Void Mayonnaise.",
+
+"SCHEDULE.oarfish.Marriage.winter.2": "...$7#$b#%Oarfish greets you. She moved her hand away from the page for you to see.#$e#...$7#$b#%It is a sketch contrasting the wild forests and a well-kept personal garden. Linus and Caroline are both enjoying tea in the middle of the metaphorical greenery.#$e#...!$h#$b#%Along with descriptions are notes detailing their favorite dishes.#$b#%Linus: Early man. Loves Blueberry Tart and Dish O' The Sea.#$b#%Caroline: The way to her heart is Green Tea. Also Loves Fish Taco and Tropical Curry.",
+
+"SCHEDULE.oarfish.Marriage.winter.9": "...$7#$b#%Oarfish smiles at you. She moved her hand away from the page for you to see.#$e#...$7#$b#%It is a sketch contrasting the personal and impersonal professions of Harvey and Sebastian respectively. There is warmth and coldness in their eyes.#$e#...!$h#$b#%Along with descriptions are notes detailing their favorite dishes.#$b#%Sebastian: Needs more Vitamin D. Loves Pumpkin Soup and Sashimi. Easy prep.#$b#%Harvey: Needs more exercise. Loves Coffee and a Super Meal.",
+
+"SCHEDULE.oarfish.Marriage.winter.16": "...$7#$b#%Oarfish waves at you. She moved her hand away from the page for you to see.#$e#...$7#$b#%It is a sketch of two elderly people; one of magic, and one of the mundane. Evelyn's side of the page appears to have more flair to it than the Wizard's.#$e#...!$h#$b#%Along with descriptions are notes detailing their favorite dishes.#$b#%Wizard: Magic man still needs to eat. He can always chew on a Super Cucumber.#$b#%Evelyn: Only the sweetest will suffice. Loves Chocolate Cake and Stuffing.",
+
+"SCHEDULE.oarfish.Marriage.winter.23": "...$7#$b#%Oarfish gestures hello. She moved her hand away from the page for you to see..#$e#...$7#$b#%It is a sketch contrasting passion and lifeless profession. On one page, Leah is a sparkling fire of artistic passion. On the other page is Clint striking at the anvil with apathy.#$e#...!$h#$b#%Along with descriptions are notes detailing their favorite dishes.#$b#%Leah: Avoid using additives. Salad, Stir Fry, and Vegetable Medley.#$b#%Clint: Could use a cola. Artichoke Dip and Fiddlehead Risotto",
+
+
+// WEDNESDAYS
+// Remi Schedule Wednesdays (standing by the docks at the Forest)
+"SCHEDULE.remi.Marriage.spring.a": "Everything smells so alive around here...$11#$b#Oh hey, you here to relax with us?#$e#Feels nice and breezy out here, huh?",
+"SCHEDULE.remi.Marriage.spring.b": "Hey, @.#$e#Have you ever thought of growing rows of cherry trees?#$b#Oarfish tells me they look pretty during Spring.#$e#Can't see 'em, but they do have a nice, faint scent once they start blooming. Heh, guess even the blind can enjoy Flower Viewings.$11",
+"SCHEDULE.remi.Marriage.spring.c": "Nice of you to come here, @.$9#$e#So, what's your favorite season?",
+"SCHEDULE.remi.Marriage.spring.d": "Good evening, @.#$e#Hm? Yeah. Spring is my birth month. I just like spring.#$e#Hehe, actually, there's a reason why I picked spring to be my birth month. But it's more of an inside joke than anything.$11",
+"SCHEDULE.remi.Marriage.summer.a": "Here to relax by the pond? Feel free to join us.#$e#I don't like deep waters, but the pond doesn't smell like the ocean, so I'm not as nervous.#$e#...Fish might push me, though.$7#$b#Hey, while you're here, can you keep her from doing that? Thanks.",
+"SCHEDULE.remi.Marriage.summer.b": "Hooboy, it's getting hot.#$b#No, it's not you, @. Hehehe.$11#$e#Seriously, it's hot. Kinda tempting to take a dip in the pond to cool off but...$6#$e#...Oarfish? You're not planning anything, are you?$7",
+"SCHEDULE.remi.Marriage.summer.c": "Hmm, what's good to eat on a warm summer night like this?$6#$b#Any ideas, @?#$e#Yeah, food is all I could think of most of the time.$11",
+"SCHEDULE.remi.Marriage.summer.d": "G'eve, @. Hot night, huh?$11#$b#Hmm? Take off my coat?$6#$b#This coat is part of my body, though.$6#$e#Fish is the same. Her shawl and everything is her body, too.",
+"SCHEDULE.remi.Marriage.fall.a": "Everythings smells like crunchy crimson and gold this season. I love it.$11#$e#Yeah, I can sort of smell colors, too.",
+"SCHEDULE.remi.Marriage.fall.b": "Evening. You smell crispy. I like it.#$e#Yup, Fall is Oarfish's birth month.#$b#Could've been winter, but she enjoyed the idea of watching things dying instead of things being already dead.#$e#Yup, that's what she told to me.$11",
+"SCHEDULE.remi.Marriage.fall.c": "Hey @, what's your favorite color?#$e#Yeah, I know it's a dumb question, but it gives me a taste of what you generally like.$11#$e#Hm? No, I can't taste colors.",
+"SCHEDULE.remi.Marriage.fall.d": "Hey, nice that it ain't so hot anymore, huh?#$e#You wearing something thick? Don't want you getting cold.",
+"SCHEDULE.remi.Marriage.winter.a": "Brrr... It's really cold, but not cold enough to keep us from doing our dock routine.$9#$e#Our bodies normally aren't bothered by extreme temperatures - we can swim in lava if we want to, but Fish and I chose to live out the full Earth experience.#$e#That means lowering the parameters of how much coldness our bodies can tolerate before it stings.$11#$b#...Actually, you know what? I'll stop boring you with the details.",
+"SCHEDULE.remi.Marriage.winter.b": "I wonder if I can eat the ice... it's just frozen water, right?#$e#Oh, hey @.#$e#What?$6",
+"SCHEDULE.remi.Marriage.winter.c": "Hey, @. Had dinner already?#$e#So, what hot meal can you recommend in a cold night like this?",
+"SCHEDULE.remi.Marriage.winter.d": "@, good evening.#$e#Good thing the rivers aren't frozen over, huh?#$e#Actually, I wish it was.$6#$b#...$7",
+
+// Oarfish Schedule Wednesdays (standing by the docks at the Forest)
+"SCHEDULE.oarfish.Marriage.spring.a": "...$7#$b#%Oarfish invites you to admire the pond.",
+"SCHEDULE.oarfish.Marriage.spring.b": "...$7#$b#%Oarfish is happy you're here.#$e#...?$7#$b#%Oarfish wonders if you also enjoy Flower Viewing.",
+"SCHEDULE.oarfish.Marriage.spring.c": "...$7#$b#%Oarfish gestures you to take it easy.",
+"SCHEDULE.oarfish.Marriage.spring.d": "...$7#$b#%Oarfish greets you.#$e#...!$h#$b#%Oarfish shows you a sketch of a springy, slinky toy. A note at the bottom says that this is something important to Remi.",
+"SCHEDULE.oarfish.Marriage.summer.a": "...$7#$b#%Oarfish greets you.#$e#...?#$b#%Oarfish seems puzzled at what Remi is saying.",
+"SCHEDULE.oarfish.Marriage.summer.b": "...#$b#%Oarfish seems bothered by the evening temperature.#$e#...?$7#$b#%Oarfish gestures she's not planning anything.#$e#...$8",
+"SCHEDULE.oarfish.Marriage.summer.c": "...$7#$b#%Oarfish seems to be sipping on a Joja can.",
+"SCHEDULE.oarfish.Marriage.summer.d": "...#$b#%Oarfish seems to be watching the pond intently.#$e#...!$a#$b#%Suddenly, her shawl moved like two arms quickly snatching a fish out of the water.#$e#...?$7#$b#%Oarfish wonders why you're staring at her like that.",
+"SCHEDULE.oarfish.Marriage.fall.a": "...$7#$b#%Oarfish seems to enjoy the quiet Autumn night.",
+"SCHEDULE.oarfish.Marriage.fall.b": "...!$h#$b#%Oarfish seems to be in a good mood this evening.",
+"SCHEDULE.oarfish.Marriage.fall.c": "...$7#$b#%Oarfish is quietly enjoying the night.",
+"SCHEDULE.oarfish.Marriage.fall.d": "...$7#$b#%Oarfish is watching the midnight carps swimming in the pond.",
+"SCHEDULE.oarfish.Marriage.winter.a": "...#$b#%Oarfish seems like she's shivering.",
+"SCHEDULE.oarfish.Marriage.winter.b": "...!$h#$b#%Oarfish seems to be forming a perfect ball out of ice with her hands.#$e#...$7#$b#%Oarfish hands Remi the snowball. Remi took a bite.#$b#%Remi: OW!#$b#%There was a rock under the ice.#$e#...?$7",
+"SCHEDULE.oarfish.Marriage.winter.c": "...$7#$b#%Oarfish has a lava eel wrapped around her arms like a snake. It seems to be exuding heat from its body.#$e#...?$7",
+"SCHEDULE.oarfish.Marriage.winter.d": "...$7#$b#%Oarfish greets you.#$e#...?$7#$b#%Oarfish stares back at you.",
+
+
+// FRIDAYS
+// Remi Schedule Friday (Question lollipop override once seen 7 hearts event)
+"SCHEDULE.remi.mine": "Fish and I were in a mining mood.#$b#Wanna take a peek at our haul?",
+
+// Oarfish Schedule Friday (Question freebie override once seen 7 hearts event)
+"SCHEDULE.oarfish.mine": "...$7#$b#%Oarfish's iridium sword shines a tiny glint on the blade. It looks very well-kept and sharp!",
+
+
+
+// ***** [MOVIE] MOVIE DIALOGUE *****
+// Remi reactions
+"MOVIE.remi.general.1": "...Yeah. I'm just gonna sit and be as quiet as possible. Okay?",
+"MOVIE.remi.general.2": "(Remi fell asleep.)",
+"MOVIE.remi.general.3": "...zzzZzzZZzzzzz...$u",
+"MOVIE.remi.general.4": "Sorry I couldn't talk about the movie with you, but at least I got to accompany you, right?",
+
+"MOVIE.remi.whitelistOarfish.1": "Hey, I can smell Fish from here! Hehe, coming here was worth it!$h",
+"MOVIE.remi.whitelistOarfish.2": "(Remi is enjoying Oarfish's presence more than the movie...)",
+"MOVIE.remi.whitelistOarfish.3": "Mhmm hm hm...$l",
+"MOVIE.remi.whitelistOarfish.4": "Hehe, sorry about the drool.$11",
+
+// Oarfish reactions
+"MOVIE.oarfish.general.1": "...$7#$b#%Oarfish is looking forward to seeing the motion picture.",
+"MOVIE.oarfish.general.2": "...!$6#$b#%Oarfish is staring intently at the screen.",
+"MOVIE.oarfish.general.3": "...!$h#$b#%Oarfish seemed to had lots of fun.",
+
+
+
+
+// ***** [ADD] ADDITIONAL DIALOGUE FROM OTHER MODS *****
+// RESTAURANTEER MOD - serve dishes to NPCs in the Saloon
+"RESTAURANTEER.remi.loved.1": "Hey, this is exactly what I ordered! Thanks, @!",
+"RESTAURANTEER.remi.loved.2": "Look at you serving customers. Thanks, @!",
+"RESTAURANTEER.remi.loved.3": "Mmmm, smells good! Yup, that's my order. Thanks.",
+"RESTAURANTEER.remi.liked.1": "Yum, I'm digging in. Thanks, @!",
+"RESTAURANTEER.remi.liked.2": "About time I try this dish. Thanks a lot.",
+"RESTAURANTEER.remi.liked.3": "Down the haaatch!",
+
+"RESTAURANTEER.oarfish.loved.1": "...!$h#$b#%This is exactly what Oarfish ordered.",
+"RESTAURANTEER.oarfish.loved.2": "...!$h#$b#%This is exactly what Oarfish ordered.",
+"RESTAURANTEER.oarfish.loved.3": "...!$h#$b#%This is exactly what Oarfish ordered.",
+"RESTAURANTEER.oarfish.liked.1": "...!$h#$b#%This is exactly what Oarfish ordered.",
+"RESTAURANTEER.oarfish.liked.2": "...!$h#$b#%This is exactly what Oarfish ordered.",
+"RESTAURANTEER.oarfish.liked.3": "...!$h#$b#%This is exactly what Oarfish ordered.",
+
+
+}

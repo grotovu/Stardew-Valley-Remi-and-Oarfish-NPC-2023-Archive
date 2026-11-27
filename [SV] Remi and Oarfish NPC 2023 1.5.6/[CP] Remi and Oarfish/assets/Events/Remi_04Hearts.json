@@ -1,0 +1,33 @@
+{
+"Changes": [
+
+	{
+	"Action": "EditData",
+	"Target": "Data/Events/SeedShop",
+	"Entries": {
+		//Remi - 4 Hearts: Stealing from Pierre part 1
+        "10310004/e 10310001 10310002 10310003/w sunny/c 1/f Remi 1000": "crane_game/-1000 -1000/farmer -1000 -1000 0 Pierre 4 17 2 Remi 6 23 2/skippable/viewport 8 21 true/pause 1000/speak Pierre \"{{i18n:remi.4HeartsPart1.1}}\"/jump Remi 8/faceDirection Remi 0/pause 200/speak Remi \"{{i18n:remi.4HeartsPart1.2}}\"/speak Pierre \"{{i18n:remi.4HeartsPart1.3}}\"/playMusic crane_game_fast/speed Remi 3/advancedMove Remi false 10 0 0 -1/speed Pierre 3/move Pierre -2 0 3/speed Pierre 3/move Pierre 0 2 2/speed Pierre 3/move Pierre 4 0 1/speed Pierre 3/move Pierre 0 3 2/playSound doorClose/warp farmer 6 29/stopMusic/faceDirection Remi 2/showFrame Remi 0/move farmer 0 -5 0 true/emote Pierre 16/stopAdvancedMoves/speak Pierre \"{{i18n:remi.4HeartsPart1.4}}\"/pause 500/faceDirection Pierre 1/pause 200/faceDirection Pierre 3/pause 200/faceDirection Pierre 1/pause 500/speak Pierre \"{{i18n:remi.4HeartsPart1.5}}\"/emote farmer 8/faceDirection Pierre 2/pause 200/speak Pierre \"{{i18n:remi.4HeartsPart1.6}}\"/advancedMove Pierre false 0 -3 -4 0 0 -2 2 0 0 0 2 1000/pause 2000/speed Remi 2/advancedMove Remi false 0 1 -3 0 0 0 3 1000/pause 2000/speak Remi \"{{i18n:remi.4HeartsPart1.7}}\"/playMusic crane_game/faceDirection farmer 1/pause 500/move farmer 0 -1 0/move farmer 6 0 1/pause 200/speak Remi \"{{i18n:remi.4HeartsPart1.8}}\"/faceDirection Remi 2/emote Remi 56/emote farmer 8/faceDirection Remi 3/pause 200/stopAdvancedMoves/speak Remi \"{{i18n:remi.4HeartsPart1.9}}\"/warp Remi 13 23/move Remi 0 1 2 true/faceDirection farmer 2/move Remi -7 0 3/faceDirection Remi 0/faceDirection farmer 3/pause 200/speak Remi \"{{i18n:remi.4HeartsPart1.10}}\"/emote Pierre 8/speak Pierre \"{{i18n:remi.4HeartsPart1.11}}\"/pause 200/move Remi 0 4 2/stopMusic/playSound doorClose/warp Remi 1000 1000/emote farmer 40/pause 1000/globalFade/viewport -1000 -1000/end",
+	},
+	},
+
+	{
+	"Action": "EditData",
+	"Target": "Data/Events/Town",
+	"Entries": {
+		//Remi - 4 Hearts: Stealing from Pierre part 2
+        "10310005/e 10310004/w sunny/c 1": "sweet/-1000 -1000/farmer -1000 1000 2 Remi 39 57 2 Harvey 38 64 3/skippable/viewport 40 57 true/pause 500/playSound doorClose/warp farmer 43 57/positionOffset farmer 0 20/pause 200/faceDirection Remi 1/pause 100/faceDirection farmer 3/pause 200/speak Remi \"{{i18n:remi.4HeartsPart2.1}}\"/pause 100/viewport move -2 0 5000/advancedMove Remi false -9 0 0 0 1 1000/advancedMove farmer false -12 0 0 0 3 1000/pause 6000/stopAdvancedMoves/stopAnimation farmer/pause 200/speak Remi \"{{i18n:remi.4HeartsPart2.2}}\"/emote farmer 16/emote Remi 56/pause 100/speak Remi \"{{i18n:remi.4HeartsPart2.3}}\"/pause 500/speak Remi \"{{i18n:remi.4HeartsPart2.4}}\"/pause 200/faceDirection Remi 2/pause 200/speak Remi \"{{i18n:remi.4HeartsPart2.5}}\"/faceDirection farmer 2/move Harvey 0 -7 0/move Harvey -2 0 3/faceDirection farmer 1/pause 200/speak Harvey \"{{i18n:remi.4HeartsPart2.6}}\"/pause 500/move Harvey 0 -1 0/playSound doorClose/warp Harvey 1000 1000/stopMusic/pause 200/speak Remi \"{{i18n:remi.4HeartsPart2.7}}\"/faceDirection farmer 3/pause 200/faceDirection Remi 1/pause 500/speak Remi \"{{i18n:remi.4HeartsPart2.8}}\"/pause 1000/playMusic sadpiano/speak Remi \"{{i18n:remi.4HeartsPart2.9}}\"/pause 200/speak Remi \"{{i18n:remi.4HeartsPart2.10}}\"/pause 300/faceDirection Remi 2/pause 1000/faceDirection Remi 1/pause 200/speak Remi \"{{i18n:remi.4HeartsPart2.11}}\"/emote farmer 32/emote Remi 56/pause 1000/globalFade/viewport -1000 -1000/end",
+	},
+	},
+
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Remi",
+	"Entries": {
+		//event dialogue for questions in Remi's 2nd heart event in town after stealing from pierre
+		"Event_remisteal1": "{{i18n:remi.4HeartsPart2.Answer1}}",
+		"Event_remisteal2": "{{i18n:remi.4HeartsPart2.Answer2}}",
+	},
+	},
+
+]
+}

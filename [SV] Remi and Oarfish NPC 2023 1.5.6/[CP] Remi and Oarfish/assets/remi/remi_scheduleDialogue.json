@@ -1,0 +1,33 @@
+{
+"Changes": [
+
+	{
+	"LogName": "Remi Regular Schedule",
+	"Action": "EditData",
+	"Target": "Strings/schedules/Remi",
+	"Entries": {
+		//REMI SCHEDULE DIALOGUE
+		"sleep.000": "{{i18n:SCHEDULE.remi.sleep}}",
+
+		// Mondays
+		"Mon.000": "{{i18n:SCHEDULE.remi.monday}}",
+		"unlock_Mon.000": "{{i18n:SCHEDULE.remi.Marriage.{{season}}.{{day}}}}",
+		"marriage_Mon.000": "{{i18n:SCHEDULE.remi.Marriage.{{season}}.{{day}}}}",
+
+		// Tuesdays
+		"Tue.000": "{{i18n:SCHEDULE.remi.tuesday}}",
+		"unlock_Tue.000": "{{i18n:SCHEDULE.remi.Marriage.{{season}}.{{day}}}}",
+		"marriage_Tue.000": "{{i18n:SCHEDULE.remi.Marriage.{{season}}.{{day}}}}",
+
+		// Wednesdays
+		"Wed.000": "{{i18n:SCHEDULE.remi.Marriage.{{season}}.a}}",
+		"unlock_Wed.000": "{{i18n:SCHEDULE.remi.Marriage.{{season}}.{{Random:a, b, c, d |key=wednesday}}}}",
+		"marriage_Wed.000": "{{i18n:SCHEDULE.remi.Marriage.{{season}}.{{Random:a, b, c, d |key=wednesday}}}}",
+
+		// Fridays
+		"mine.000": "{{i18n:SCHEDULE.remi.mine}}",
+	},
+	},
+
+]
+}

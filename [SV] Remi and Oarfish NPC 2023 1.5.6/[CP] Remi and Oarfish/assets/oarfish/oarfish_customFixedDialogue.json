@@ -1,0 +1,201 @@
+{
+"Changes": [
+
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Oarfish",
+	"Entries": {
+		//Divorce Dialogue
+		"Characters_WipedMemory": "{{i18n:CUSTOM.oarfish.WipedMemory}}",
+		"Characters_Divorced_bouquet": "{{i18n:CUSTOM.oarfish.Divorced_bouquet}}",
+		"Characters_Divorced_gift": "{{i18n:CUSTOM.oarfish.Divorced_gift}}",
+
+		//Saloon Event??
+		"Characters_Saloon_goodEvent_0": "...!$h",
+		"Characters_Saloon_goodEvent_1": "...!$h",
+		"Characters_Saloon_goodEvent_2": "...!$h",
+		"Characters_Saloon_goodEvent_3": "...!$h",
+		"Characters_Saloon_goodEvent_4": "...!$h",
+		"Characters_aloon_badEvent_0": "...",
+		"Characters_Saloon_badEvent_1": "...",
+		"Characters_Saloon_badEvent_2": "...",
+		"Characters_Saloon_badEvent_3": "...",
+		"Characters_Saloon_badEvent_4": "...",
+		"Characters_Saloon_neutralEvent_0": "...$7",
+		"Characters_Saloon_neutralEvent_1": "...$7",
+		"Characters_Saloon_neutralEvent_2": "...$7",
+		"Characters_Saloon_neutralEvent_3": "...$7",
+		"Characters_Saloon_neutralEvent_4": "...$7",
+
+		//Movie Invite
+		"Characters_MovieInvite_InvitedBySomeoneElse": "{{i18n:CUSTOM.oarfish.MovieInvite_InvitedBySomeoneElse}}",
+		"Characters_MovieInvite_AlreadySeen": "{{i18n:CUSTOM.oarfish.MovieInvite_AlreadySeen}}",
+		"Characters_MovieInvite_Invited": "{{i18n:CUSTOM.oarfish.MovieInvite_Invited}}",
+		"Characters_MovieInvite_Spouse_Oarfish": "{{i18n:CUSTOM.oarfish.MovieInvite_Invited}}",
+		"Characters_MovieInvite_Invited_Rude": "{{i18n:CUSTOM.oarfish.MovieInvite_Invited_Rude}}",
+		"Characters_MovieInvite_Invited_Child": "{{i18n:CUSTOM.oarfish.MovieInvite_Invited_Child}}",
+		"Characters_MovieInvite_Reject_Child": "{{i18n:CUSTOM.oarfish.MovieInvite_Reject_Child}}",
+		"Characters_MovieInvite_Reject": "{{i18n:CUSTOM.oarfish.MovieInvite_Reject}}",
+
+		//BOUQUET and PROPOSAL
+		"NPC.cs.3956": "{{i18n:CUSTOM.oarfish.NotImpressed}}",
+		"NPC.cs.3957": "{{i18n:CUSTOM.oarfish.NotImpressed}}",
+		"NPC.cs.3958": "{{i18n:CUSTOM.oarfish.NotImpressed}}",
+		"NPC.cs.3959": "{{i18n:CUSTOM.oarfish.NotImpressed}}",
+		"NPC.cs.3960": "{{i18n:CUSTOM.oarfish.NotImpressed}}",
+		"NPC.cs.3961": "{{i18n:CUSTOM.oarfish.NotImpressed}}",
+		"breakUp": "{{i18n:CUSTOM.oarfish.breakUp}}",
+		"NPC.cs.3962": "{{i18n:CUSTOM.oarfish.bouquet_accept.1}}",
+		"NPC.cs.3963": "{{i18n:CUSTOM.oarfish.bouquet_accept.2}}",
+
+		"NPC.cs.3965": "{{i18n:CUSTOM.oarfish.NotImpressed}}",
+		"NPC.cs.3966": "{{i18n:CUSTOM.oarfish.NotImpressed}}",
+		"NPC.cs.3967": "{{i18n:CUSTOM.oarfish.NotImpressed}}",
+		"NPC.cs.3968": "{{i18n:CUSTOM.oarfish.NotImpressed}}",
+		"NPC.cs.3969": "{{i18n:CUSTOM.oarfish.proposal_denial.1}}",
+		"NPC.cs.3970": "{{i18n:CUSTOM.oarfish.NotImpressed}}",
+		"NPC.cs.3971": "{{i18n:CUSTOM.oarfish.NotImpressed}}",
+		"NPC.cs.3972": "{{i18n:CUSTOM.oarfish.proposal_denial.2}}",
+		"NPC.cs.3973": "{{i18n:CUSTOM.oarfish.proposal_denial.3}}",
+		"NPC.cs.3974": "{{i18n:CUSTOM.oarfish.proposal_denial.4}}",
+		"NPC.cs.3975": "{{i18n:CUSTOM.oarfish.proposal_denial.5}}",
+
+		//Jealousy Dialogue
+		"NPC.cs.3985": "{{i18n:CUSTOM.oarfish.jealousy}}",
+
+		//STARFRUIT
+		"NPC.cs.4001": "{{i18n:CUSTOM.oarfish.starFruit}}",
+
+		//BIRTHDAY GIFT
+		"NPC.cs.4274": "{{i18n:CUSTOM.oarfish.birthday.1}}",
+		"NPC.cs.4275": "{{i18n:CUSTOM.oarfish.birthday.1}}",
+		"NPC.cs.4276": "{{i18n:CUSTOM.oarfish.birthday.1}}",
+		"NPC.cs.4277": "{{i18n:CUSTOM.oarfish.birthday.1}}",
+		"NPC.cs.4278": "{{i18n:CUSTOM.oarfish.NotImpressed}}",
+		"NPC.cs.4279": "{{i18n:CUSTOM.oarfish.NotImpressed}}",
+		"NPC.cs.4280": "{{i18n:CUSTOM.oarfish.birthday.2}}",
+		"NPC.cs.4281": "{{i18n:CUSTOM.oarfish.birthday.2}}",
+
+		//GETTING HIT BY SLINGSHOT
+		"NPC.cs.4293": "{{i18n:CUSTOM.oarfish.slingshot.1}}",
+		"NPC.cs.4294": "{{i18n:CUSTOM.oarfish.slingshot.2}}",
+
+		//MARRIED CHORES AND NAVIGATION
+		"NPC.cs.4462": "{{i18n:CUSTOM.oarfish.chores_and_nav.1}}",
+		"NPC.cs.4463": "{{i18n:CUSTOM.oarfish.chores_and_nav.2}}",
+		"NPC.cs.4470": "{{i18n:CUSTOM.oarfish.chores_and_nav.3}}",
+		"NPC.cs.4474": "{{i18n:CUSTOM.oarfish.chores_and_nav.4}}",
+		"NPC.cs.4481": "{{i18n:CUSTOM.oarfish.chores_and_nav.5}}",
+		"NPC.cs.4486": "{{i18n:CUSTOM.oarfish.chores_and_nav.6}}",
+		"NPC.cs.4488": "{{i18n:CUSTOM.oarfish.chores_and_nav.7}}",
+		"NPC.cs.4489": "{{i18n:CUSTOM.oarfish.chores_and_nav.8}}",
+		"NPC.cs.4490": "{{i18n:CUSTOM.oarfish.chores_and_nav.9}}",
+		"NPC.cs.4496": "{{i18n:CUSTOM.oarfish.chores_and_nav.10}}",
+		"NPC.cs.4497": "{{i18n:CUSTOM.oarfish.chores_and_nav.11}}",
+		"NPC.cs.4500": "{{i18n:CUSTOM.oarfish.chores_and_nav.12}}",
+		"PathFindController.cs.4579": "{{i18n:CUSTOM.oarfish.chores_and_nav.13}}",
+
+		//About babies
+		"NPC.cs.4439": "{{i18n:CUSTOM.oarfish.parenthood.1}}",
+		"NPC.cs.4440": "{{i18n:CUSTOM.oarfish.parenthood.2}}",
+		"NPC.cs.4441": "{{i18n:CUSTOM.oarfish.parenthood.3}}",
+		"NPC.cs.4442": "{{i18n:CUSTOM.oarfish.parenthood.4}}",
+		"NPC.cs.4443": "{{i18n:CUSTOM.oarfish.parenthood.5}}",
+		"NPC.cs.4444": "{{i18n:CUSTOM.oarfish.parenthood.6}}",
+		"NPC.cs.4445": "{{i18n:CUSTOM.oarfish.parenthood.7}}",
+		"NPC.cs.4446": "{{i18n:CUSTOM.oarfish.parenthood.8}}",
+		"NPC.cs.4447": "{{i18n:CUSTOM.oarfish.parenthood.9}}",
+		"NPC.cs.4448": "{{i18n:CUSTOM.oarfish.parenthood.10}}",
+		"NPC.cs.4449": "{{i18n:CUSTOM.oarfish.parenthood.11}}",
+		"NPC.cs.4452": "{{i18n:CUSTOM.oarfish.parenthood.12}}",
+		"NPC.cs.4455": "{{i18n:CUSTOM.oarfish.parenthood.13}}",
+
+		"ExtraDialogue_LostItemQuest_DefaultThankYou": "{{i18n:CUSTOM.oarfish.LostItemQuest_DefaultThankYou}}",
+
+		// about kids
+		"ExtraDialogue_NewChild_SecondChild1": "{{i18n:CUSTOM.oarfish.aboutkids.1}}",
+		"ExtraDialogue_NewChild_SecondChild2": "{{i18n:CUSTOM.oarfish.aboutkids.2}}",
+		"ExtraDialogue_NewChild_Adoption": "{{i18n:CUSTOM.oarfish.aboutkids.3}}",
+		"ExtraDialogue_NewChild_FirstChild": "{{i18n:CUSTOM.oarfish.aboutkids.4}}",
+
+		// house mishaps
+		"ExtraDialogue_Spouse_KitchenBlocked": "{{i18n:CUSTOM.oarfish.mishap.1}}",
+		"ExtraDialogue_Spouse_MonstersInHouse": "{{i18n:CUSTOM.oarfish.mishap.2}}",
+		"ExtraDialogue_Wizard_Hatch": "{{i18n:CUSTOM.oarfish.mishap.3}}",
+
+		//PLAYERKILLED DIALOGUE
+		"ExtraDialogue_Mines_PlayerKilled_Spouse_PlayerMale": "{{i18n:CUSTOM.oarfish.playerKilled.1}}",
+		"ExtraDialogue_Mines_PlayerKilled_Spouse_PlayerFemale": "{{i18n:CUSTOM.oarfish.playerKilled.1}}",
+
+		//BOUGHT ITEMS FROM SHOP DIALOGUE
+		"ExtraDialogue_PurchasedItem_1_QualityHigh": "...$7",
+		"ExtraDialogue_PurchasedItem_1_QualityLow": "...",
+		"ExtraDialogue_PurchasedItem_2_QualityHigh": "...$7",
+		"ExtraDialogue_PurchasedItem_2_QualityLow": "...",
+		"ExtraDialogue_PurchasedItem_3_QualityLow_Rude": "...",
+		"ExtraDialogue_PurchasedItem_3_QualityHigh_Rude": "...$7",
+		"ExtraDialogue_PurchasedItem_3_NonRude": "...$7",
+		"ExtraDialogue_PurchasedItem_4": "...",
+		"ExtraDialogue_PurchasedItem_5_VegetableOrFruit": "...",
+		"ExtraDialogue_PurchasedItem_5_Cooking": "...",
+		"ExtraDialogue_PurchasedItem_5_Foraged": "...",
+		"ExtraDialogue_PurchasedItem_Teen": "...",
+
+		//DIGGING IN THE TRASH
+		"ExtraDialogue_Town_DumpsterDiveComment_Child": "...",
+		"ExtraDialogue_Town_DumpsterDiveComment_Teen": "...",
+		"ExtraDialogue_Town_DumpsterDiveComment_Adult": "...",
+
+		//SUMMIT DIALOGUE
+		"SummitEvent_Intro_Spouse": "{{i18n:CUSTOM.oarfish.Intro_Spouse}}",
+		"SummitEvent_Intro2_Spouse": "{{i18n:CUSTOM.oarfish.Intro2_Spouse}}",
+		"SummitEvent_Intro2_Spouse_Gruff": "{{i18n:CUSTOM.oarfish.Intro2_Spouse_Gruff}}",
+		"SummitEvent_Dialogue1_Spouse": "{{i18n:CUSTOM.oarfish.Dialogue1_Spouse}}",
+		"SummitEvent_Dialogue2_Spouse": "{{i18n:CUSTOM.oarfish.Dialogue2_Spouse}}",
+		"SummitEvent_Dialogue3_Oarfish": "{{i18n:CUSTOM.oarfish.Dialogue3_Oarfish}}",
+
+		"Event.cs.1497": "...$7",
+		"Event.cs.1498": "...$7",
+		"Event.cs.1499": "...$7",
+		"Event.cs.1500": "...$7",
+		"Event.cs.1501": "...$7",
+		"Event.cs.1503": "...",
+		"Event.cs.1504": "...$h",
+		"Event.cs.1632": "...$h",
+		"Event.cs.1633": "...$h",
+		"Event.cs.1634": "...$h",
+		"Event.cs.1635": "...$s",
+		"Event.cs.1736": "$q -1 null#...?#$r -1 0 danceAsk#(Ask {0} to be your dance partner)#$r -1 0 null#Nevermind...",
+		"Event.cs.1738": "$q -1 null#...?#$r -1 0 danceAsk#(Ask {0} to be your dance partner)#$r -1 0 null#Nevermind...",
+		"Event.cs.1801": "...!$h",
+	},
+	},
+
+	//Having babies Event strings edit
+	{
+	"Action": "EditData",
+	"Target": "Strings/Events",
+	"When": {
+		"Spouse": "Oarfish",
+	},
+	"Update": "OnLocationChange, OnTimeChange",
+	"Entries": {
+		"BirthMessage_Adoption": "{{i18n:CUSTOM.oarfish.Adoption}}",
+		"BirthMessage_PlayerMother": "{{i18n:CUSTOM.oarfish.PlayerMother}}",
+		"BirthMessage_SpouseMother": "{{i18n:CUSTOM.oarfish.SpouseMother}}",
+		"HaveBabyQuestion": "{{i18n:CUSTOM.oarfish.HaveBabyQuestion}}",
+		"HaveBabyQuestion_Adoption": "{{i18n:CUSTOM.oarfishHaveBabyQuestion_AdoptionAdoption}}",
+	},
+	},
+
+	// Movie invite when spouse
+	{
+	"Action": "EditData",
+	"Target": "Strings/Characters",
+	"Entries": {
+		"MovieInvite_Spouse_Oarfish": "{{i18n:CUSTOM.oarfish.MovieInvite_Invited}}",
+	},
+	},
+
+]
+}

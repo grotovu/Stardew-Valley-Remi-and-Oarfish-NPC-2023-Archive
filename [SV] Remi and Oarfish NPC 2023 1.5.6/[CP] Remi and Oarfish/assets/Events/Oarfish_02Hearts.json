@@ -1,0 +1,14 @@
+{
+"Changes": [
+
+	{
+	"Action": "EditData",
+	"Target": "Data/Events/Beach",
+	"Entries": {
+		//Oarfish - 2 Hearts: Warp Prank
+        "10312001/e 10310001 10310002/f Oarfish 500/w sunny/t 600 1600": "none/-1000 -1000/farmer 45 12 2 Oarfish 51 29 2/skippable/animate Oarfish false true 100 20/viewport 51 25 true/move farmer 6 0 1/move farmer 0 11 2/showFrame farmer 94/jump farmer/playSound batScreech/startJittering/pause 1100/stopJittering/showFrame 0/stopAnimation Oarfish/playSound dwop/pause 2000/faceDirection Oarfish 0/pause 1000/speak Oarfish \"{{i18n:oarfish.2Hearts.1}}\"/faceDirection Oarfish 2/screenFlash .50/warp Oarfish 51 22/playSound wand/pause 500/faceDirection farmer 0/jump farmer 6/playMusic ragtime/pause 500/emote Oarfish 56/speak Oarfish \"{{i18n:oarfish.2Hearts.2}}\"/pause 500/animate Oarfish false true 150 21 22/faceDirection farmer 2/emote farmer 28/pause 2000/globalFade/viewport -1000 -1000/message \"{{i18n:oarfish.2Hearts.3}}\"/pause 1000/message \"{{i18n:oarfish.2Hearts.4}}\"/pause 1000/end",
+	},
+	},
+
+]
+}

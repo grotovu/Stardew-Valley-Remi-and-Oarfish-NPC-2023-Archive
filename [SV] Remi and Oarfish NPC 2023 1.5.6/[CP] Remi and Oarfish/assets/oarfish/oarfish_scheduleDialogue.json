@@ -1,0 +1,37 @@
+{
+"Changes": [
+
+	{
+	"LogName": "Oarfish Regular Schedule",
+	"Action": "EditData",
+	"Target": "Strings/schedules/Oarfish",
+	"Entries": {
+		//OARFISH SCHEDULE DIALOGUE
+		"spring.000": "...",
+		"summer.000": "...",
+		"fall.000": "...",
+		"winter.000": "...",
+
+		"saloonArcade.000": "{{i18n:SCHEDULE.oarfish.arcade}}",
+
+		//MONDAYS
+		"unlock_Mon.000": "{{i18n:SCHEDULE.oarfish.Marriage.{{season}}.{{day}}}}",
+		"marriage_Mon.000": "{{i18n:SCHEDULE.oarfish.Marriage.{{season}}.{{day}}}}",
+
+		//TUESDAYS
+		"Tue.000": "{{i18n:SCHEDULE.oarfish.tuesday}}",
+		"unlock_Tue.000": "{{i18n:SCHEDULE.oarfish.Marriage.{{season}}.{{day}}}}",
+		"marriage_Tue.000": "{{i18n:SCHEDULE.oarfish.Marriage.{{season}}.{{day}}}}",
+
+		//WEDNESDAYS
+		"Wed.000": "{{i18n:SCHEDULE.oarfish.Marriage.spring.a}}",
+		"unlock_Wed.000": "{{i18n:SCHEDULE.oarfish.Marriage.{{season}}.{{Random:a, b, c, d |key=wednesday}}}}",
+		"marriage_Wed.000": "{{i18n:SCHEDULE.oarfish.Marriage.{{season}}.{{Random:a, b, c, d |key=wednesday}}}}",
+
+		//FRIDAYS
+		"Fri.000": "{{i18n:SCHEDULE.oarfish.mine}}",
+	},
+	},
+
+]
+}

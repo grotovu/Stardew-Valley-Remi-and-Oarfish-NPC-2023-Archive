@@ -1,0 +1,22 @@
+﻿{
+  "Name": "Remi and Oarfish Mobile Phone Events",
+  "Author": "grotovu",
+  "Version": "1.0.0",
+  "Description": "Adds Remi and Oarfish Events for Mobile Phone",
+  "UniqueID": "grotovu.remiandoarfishmobilephone",
+  "MinimumApiVersion": "3.5.0",
+  "ContentPackFor": {
+    "UniqueID": "aedenthorn.MobilePhone",
+    "MinimumVersion": "1.23.1"
+  },
+  "Dependencies": [
+   {
+      "UniqueID": "aedenthorn.MobilePhone",
+      "IsRequired": true
+   },
+   {
+      "UniqueID": "grotovu.remiandoarfishnpc",
+      "IsRequired": true
+   }
+  ]
+}

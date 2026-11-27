@@ -1,0 +1,12 @@
+﻿{
+  "Name": "NPC Adventures - Remi and Oarfish",
+  "Author": "grotovu",
+  "Version": "1.0.0",
+  "Description": "NPC Adventures for Remi and Oarfish",
+  "UniqueID": "grotovu.NpcAdventure.RemiandOarfish",
+  "MinimumApiVersion": "3.13.0",
+  "ContentPackFor": {
+    "UniqueID": "purrplingcat.npcadventure",
+	"MinimumVersion": "1.0.0-alpha"
+  },
+}

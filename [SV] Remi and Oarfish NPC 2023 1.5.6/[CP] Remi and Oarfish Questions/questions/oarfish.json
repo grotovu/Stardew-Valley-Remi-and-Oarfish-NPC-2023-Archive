@@ -1,0 +1,26 @@
+{
+"Changes": [
+
+	// Any thoughts? (some date specific in Dynamic Tokens)
+	{
+	"Action": "EditData",
+	"Target": "spacechase0.BackstoryQuestionsFramework/Questions",
+	"TargetField": [ "Oarfish" ],
+	"When": {
+		"HasSeenEvent": "10310002",
+		"Hearts:Oarfish": "{{Range: 4, 14}}",
+	},
+	"Entries": {
+		"oarfish.thoughts": {
+			"ID": "oarfishthoughts",
+			"Weight": 10,
+			"QuestionText": "{{OarfishThoughtsQuestion}}",
+			"AnswerText": "{{OarfishThoughts}}",
+			"CanRepeatQuestion": true,
+			"FriendshipModifier": 0,
+		},
+	},
+	},
+
+]
+}

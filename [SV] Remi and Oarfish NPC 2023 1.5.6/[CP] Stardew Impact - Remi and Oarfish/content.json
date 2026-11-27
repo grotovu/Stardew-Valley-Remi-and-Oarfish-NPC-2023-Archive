@@ -1,0 +1,29 @@
+{
+	"Format": "1.23.0",
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "aedenthorn.StardewImpact/characters",
+			"Entries": {
+				"Remi": {
+					"name": "Remi",
+					"characterColor": {
+						"R": 255,
+						"G": 0,
+						"B": 255,
+						"A": 255
+					}
+				},
+				"Oarfish": {
+					"name": "Oarfish",
+					"characterColor": {
+						"R": 0,
+						"G": 0,
+						"B": 255,
+						"A": 255
+					}
+				},
+			}
+		}
+	]
+}

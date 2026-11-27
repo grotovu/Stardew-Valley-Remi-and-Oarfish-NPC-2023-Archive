@@ -1,0 +1,10 @@
+﻿{
+  "Name": "SDI Remi",
+  "Author": "grotovu",
+  "Version": "0.0.1",
+  "Description": "SDI Remi.",
+  "UniqueID": "grotovu.SDIRemi",
+  "EntryDll": "SDIRemi.dll",
+  "MinimumApiVersion": "3.15.0",
+  "UpdateKeys": []
+}

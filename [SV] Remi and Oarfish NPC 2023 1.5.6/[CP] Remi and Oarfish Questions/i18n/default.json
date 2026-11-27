@@ -1,0 +1,347 @@
+{
+
+// Table of Contents
+// REMI_QUESTIONS
+// OARFISH_QUESTIONS
+
+	
+// ***** REMI_QUESTIONS *****
+// How are you feeling? [GOOD FEELING] Disabled for now
+"remi.feeling.question": "How are you feeling?",
+// 0 Hearts
+"remi.feeling.answer.good.a": "I'm good. Thanks for asking. You?",
+"remi.feeling.answer.good.b": "Feeling... generally good. Yeah. What about you?",
+// 2 Hearts
+"remi.feeling.answer.good.c": "I'm okay...#$b#I'm really okay. Not saying that 'cause I'm actually not or anything.$11",
+"remi.feeling.answer.good.d": "Mmmm, neutral. Well, it's more good than bad, I guess.#$b#But yeah, mostly good.$11",
+// 4 Hearts
+"remi.feeling.answer.good.e": "I exist and it's going neat so far. Yup.",
+"remi.feeling.answer.good.f": "Totally not stealing anything today. Nope.$11",
+// 6 Hearts
+"remi.feeling.answer.good.g": "Good now that you're here. How about you?$9",
+"remi.feeling.answer.good.h": "Hehe, feeling pretty excited actually.$h#$b#Something good will happen, I can just smell it.$11",
+// 8 Hearts
+"remi.feeling.answer.good.i": "I'm just glad you're here. Your smells is reassuring to me, you know?",
+"remi.feeling.answer.good.j": "Feeling pretty fantastic! Thanks for asking.$9",
+// 10 Hearts
+"remi.feeling.answer.good.k": "Pretty stoked now that you're back. What about you, buddy?$9",
+"remi.feeling.answer.good.l": "Feeling like hugging you actually, if that's alright with you.$9",
+
+// Raining
+"remi.feeling.answer.rain.good.a": "It smells really good right now. That's what I'm feelin'.$11",
+"remi.feeling.answer.rain.good.b": "Pretty happy, actually. I love the rain. Do you?$9",
+"remi.feeling.answer.rain.good.c": "Feeling like doing nothing and smelling the air all day.$u",
+"remi.feeling.answer.rain.good.d": "Rain is the best. It even masks that nasty human smell, which is great!$9",
+
+
+
+// Questions by date
+// SPRING
+"remi.thoughts.question.spring.1": "Happy New Year!",
+"remi.thoughts.answer.spring.1": "Hehe, Happy New Year!$9#$b#Smells like the world has gone through full circle.#$b#Although the seasons will repeat, it's still gonna be a whole new year, right?$11",
+
+"remi.thoughts.question.spring.12": "Tomorrow's Egg Festival.",
+"remi.thoughts.answer.spring.12": "Is that so?#$b#Well then, go out there and crush some kids in the Egg Hunt tomorrow. Fish and I will be rooting for ya from a distance.$11",
+
+"remi.thoughts.question.spring.15": "Any thoughts?",
+"remi.thoughts.answer.spring.15": "Salmon berries! And lots of 'em, too.$h#$b#You're not the only forager around, @. How about you and I go on a competition who gets to pick up the most berries?$12",
+
+"remi.thoughts.question.spring.18": "How's Salmon Berry picking?",
+"remi.thoughts.answer.spring.18": "I got about 150 berries on a good day.#$b#When you're an expert forager, numbers like those are easy. My average is 70 berries.$11#$b#So, how about you? How many berries you got this season?",
+
+"remi.thoughts.question.spring.23": "Tomorrow's Flower Dance.",
+"remi.thoughts.answer.spring.23": "Oh, really? You got someone to dance with yet?$11#$b#Fish and I won't be attending. Events with a lot of people are just not our thing.#$b#I do love flowers, though. Used to a have a garden full of 'em.$11",
+
+// SUMMER
+"remi.thoughts.question.summer.10": "Tomorrow's the Luau.",
+"remi.thoughts.answer.summer.10": "Yeah, been smelling a lot of good summer harvests, too.#$b#So, what'chu planning to put in there?",
+
+"remi.thoughts.question.summer.12": "Any thoughts?",
+"remi.thoughts.answer.summer.12": "The beach smells extra salty. I can smell it from all the way over here.$6#$b#Dunno what's going on but maybe you should check it out.",
+
+"remi.thoughts.question.summer.15": "Any thoughts?",
+"remi.thoughts.answer.summer.15": "Whoo! The beach doesn't smell too much anymore.$h#$b#Honestly, it was making me nervous. I kept thinking I'm next to the ocean or something.$6",
+
+"remi.thoughts.question.summer.28": "Tonight's Dance of the Moonlight Jellies",
+"remi.thoughts.answer.summer.28": "Ooh boy, I'm sure jelly of ya.$11#$b#Just kidding. I'm planning to stay far and away from the ocean anyways.#$b#You go enjoy the night.",
+
+// FALL
+"remi.thoughts.question.fall.8": "Any thoughts?",
+"remi.thoughts.answer.fall.8": "It's Blackberry season!$h#$b#Part two of this year's foraging contest. You up for it?$12",
+
+"remi.thoughts.question.fall.11": "How's Blackberry picking?",
+"remi.thoughts.answer.fall.11": "...Not good.$6#$b#Eeehhh, some days you just get unlucky.$7",
+
+"remi.thoughts.question.fall.15": "Tomorrow's the Stardew Valley Fair.",
+"remi.thoughts.answer.fall.15": "Too many people and games require vision. No thank you.$11#$b#You go on ahead and have fun tomorrow. Fish and I will be here the whole day.",
+
+"remi.thoughts.question.fall.27": "Today's Spirit's Eve",
+"remi.thoughts.answer.fall.27": "Sounds fun. But you know the drill. We ain't going.#$b#I'm sure the food Chef Gus will prepare will be great though. The air smells like bountiful harvest.$11",
+
+// WINTER
+"remi.thoughts.question.winter.7": "Tomorrow's Festival of Ice",
+"remi.thoughts.answer.winter.7": "In that case, fishing contest. That's the main event of the er... event.#$b#Oarfish can catch fish by just desiring them to come to her.#$b#So, good thing she doesn't attend festivals, huh?$11",
+
+"remi.thoughts.question.winter.24": "Tomorrow's Feast of the Winter Star",
+"remi.thoughts.answer.winter.24": "Gift exchange, then? Hope you get a good one.#$b#Well, can't expect much from humans, but make sure to come back tomorrow. I'll have something good for ya.$11",
+
+
+
+
+
+
+// Questions Random before marriage
+"remi.thoughts.question.random": "Any thoughts?",
+
+// Spring
+"remi.thoughts.answer.spring.a": "Spring, spring, spring...$11#$b#Everything springs right back up right after the snow melts away. I just love the concept of it.",
+"remi.thoughts.answer.spring.b": "Everything smells like pink.#$b#And green... yeah, green.$11",
+"remi.thoughts.answer.spring.c": "Hmm, thoughts, thoughts...$6#$b#Sorry, I got nothing right now.",
+"remi.thoughts.answer.spring.d": "Let's see...#$b#I'm thinking about how good the grass smells this season.$11",
+"remi.thoughts.answer.spring.e": "Hmmmmmm.....$6#$b#My mom comes to mind.",
+"remi.thoughts.answer.spring.rain.a": "It smells really good right now. That's what I'm thinkin'.$11",
+"remi.thoughts.answer.spring.rain.b": "Rain in the spring smells fresh, no? It's really refreshing.$11",
+
+// Summer
+"remi.thoughts.answer.summer.a": "Urrmmm... it's too hot to think of anything else.$6",
+"remi.thoughts.answer.summer.b": "Hmmm, I remember not moving for an entire season. Until you found me, that is.",
+"remi.thoughts.answer.summer.c": "Ehhh... everything smells like baked corn...#$b#Which is not that bad.$11",
+"remi.thoughts.answer.summer.d": "Thinking about ice cream. You got cows on your farm?",
+"remi.thoughts.answer.summer.e": "Ehh... looking forward to getting a cold drink, I guess.",
+"remi.thoughts.answer.summer.rain.a": "Aaah, summer rain. The best feeling in the world!$h",
+"remi.thoughts.answer.summer.rain.b": "Don't you just love it, when the dryness of the earth gets wet and oozes out that wonderful petrichor smell?$11",
+
+// Fall
+"remi.thoughts.answer.fall.a": "Fall, fall, fall...$11#$b#Fall asleep and hibernate until spring.$11#$b#Sounds nice. But if I'm not careful, I might be asleep for years and I wouldn't know.",
+"remi.thoughts.answer.fall.b": "Hmmm, this season is making me sleepy.$11#$b#Can't really tell if I'm awake or dreaming sometimes...$6",
+"remi.thoughts.answer.fall.c": "Everything smells orange, red, and gold. Yup.#$b#With a dash of purple, too.$11",
+"remi.thoughts.answer.fall.d": "I think I might go for fancy wine this season. The air just smells right for it.$11",
+"remi.thoughts.answer.fall.e": "Things crunch under my feet when I walk sometimes.#$b#Just hoping those things weren't alive at that point.$6",
+"remi.thoughts.answer.fall.rain.a": "Feeling like doing nothing and smelling the air all day.$u",
+"remi.thoughts.answer.fall.rain.b": "Mmmm... the smell of golden rain.$11#$b#Wait, no. That's bad.$6",
+
+// Winter
+"remi.thoughts.answer.winter.a": "Everything smells blue.#$b#And white... yeah, white.$11",
+"remi.thoughts.answer.winter.b": "My fingers are getting numb.$6",
+"remi.thoughts.answer.winter.c": "Ah...!$8#$b#AAACHOO!!$13#$b#*sniffle*, sorry.$6",
+"remi.thoughts.answer.winter.d": "Kinda hard to walk around this season. Snow every step of the way.$6",
+"remi.thoughts.answer.winter.e": "Thinking about making hot soup. You in?",
+"remi.thoughts.answer.winter.rain.a": "Does it even rain in winter? Oh well.",
+"remi.thoughts.answer.winter.rain.b": "This is impossible weather, right?$6",
+
+// NON-SEASON SPECIFIC
+"remi.thoughts.answer.a": "I'm wondering if you know anything about braille.#$b#Although, I guess it's easier to just ask Oarfish to write for me. I'm really lazy and all that.$11",
+"remi.thoughts.answer.b": "Hmm...$6#$b#My friend from back home comes to mind.",
+"remi.thoughts.answer.c": "Let's see...$11#$b#Oh, don't give Oarfish any kind of vegetable. She hates those.$6",
+"remi.thoughts.answer.d": "If any sort of event is going on in town, you bet we're not going.$11",
+"remi.thoughts.answer.e": "You smell more than usual.#$b#I mean, you smell more like the life you grow. You know, like soil and animals?$11#$b#It's not a bad scent.",
+"remi.thoughts.answer.f": "Thinking about tempura. I'm already missing that good crunch.$11#$b#Say, how about a seafood boil party? Fish would love it.",
+"remi.thoughts.answer.g": "I'm not into that trash cola. Even I have standards.$6#$b#You can give those to Fish, though. She loves those sugar bombs.$11",
+"remi.thoughts.answer.h": "You haven't seen any other weird space aliens have you?$6#$b#Report them to us. Most of the time they're fugitives from where we came from.#$b#Haha! And I'm saying that being a fugitive myself!$h#$b#But seriously, Fish is an officer back home, so report about it when you see a weirdo like us, alright?$9",
+"remi.thoughts.answer.i": "Sometimes, I can smell that bittersweet orange peel on my nose.$11#$b#Mwehehehe...$u#$b#*slurp* sorry. I was drooling.$6",
+"remi.thoughts.answer.j": "Human cuisine is a worthwhile hobby. Especially when you can grow your own ingredients or pick them fresh from the wild.#$b#Have you been cooking, @? I'd love to be your taste tester.$9",
+
+
+
+
+
+
+
+
+
+// ***** OARFISH_QUESTIONS *****
+// Any thoughts?
+"oarfish.thoughts.question": "Any thoughts?",
+"oarfish.thoughts.answer.1": "...#$b#%Oarfish gestures her mind is empty at the moment.",
+"oarfish.thoughts.answer.2": "...#$b#%Oarfish points at a blank page of her sketchbook.",
+"oarfish.thoughts.answer.3": "...#$b#%Oarfish shrugged.",
+"oarfish.thoughts.answer.4": "...$7#$b#%Oarfish opens her sketchbook. She pointed at a sketch of Remi's portrait.",
+"oarfish.thoughts.answer.5": "...$7#$b#%Oarfish opens her sketchbook. She pointed at a simple doodle of you.",
+"oarfish.thoughts.answer.6": "...$7#$b#%Oarfish opens her sketchbook. She pointed at a rather realistic sketch of pepperoni pizza.",
+"oarfish.thoughts.answer.7": "...$7#$b#%Oarfish opens her sketchbook. She pointed at a rather neatly written to-do list.#$b#%1) Sell mine loot at shop¶2) Go to grocery store¶3) Stockpile on Joja Cola this week¶#$b#%You stopped reading.",
+"oarfish.thoughts.answer.8": "...#$b#%Oarfish opens her sketchbook. It was nothing but a single dot on the page.",
+"oarfish.thoughts.answer.9": "...$7#$b#%Oarfish opens her sketchbook. She shows you a page of very detailed sketches of various fish.",
+"oarfish.thoughts.answer.10": "...$7#$b#%Oarfish opens her sketchbook. It was a sketch of an old, worn out doll.",
+"oarfish.thoughts.answer.11": "...!$h#$b#%Oarfish opens her sketchbook. It was a rather terrifying charcoal sketch of a deep sea fish.",
+"oarfish.thoughts.answer.12": "...$7#$b#%Oarfish opens her sketchbook. It was a sketch of various alien-like figures. Some more humanoid than others.",
+"oarfish.thoughts.answer.13": "...$7#$b#%Oarfish opens her sketchbook. It was a realistic pencil sketch of an orange tree. You can spot a small doodle of Remi lazily reaching up to one of the low hanging fruits.",
+
+
+
+// Opinion on townsfolk
+// Kent
+"oarfish.thoughts.question.spring.4": "What do you think of Kent?",
+"oarfish.thoughts.answer.spring.4": "...$7#$b#%Oarfish shows you a page in her sketchbook. It is a realistic sketch of Kent with a hardened look in his eyes.",
+
+// Lewis
+"oarfish.thoughts.question.spring.7": "What do you think of Lewis?",
+"oarfish.thoughts.answer.spring.7": "...$7#$b#%Oarfish shows you a page in her sketchbook. It is a wacky caricature sketch of Mayor Lewis staring at a statue of himself...",
+
+// Vincent
+"oarfish.thoughts.question.spring.10": "What do you think of Vincent?",
+"oarfish.thoughts.answer.spring.10": "...$7#$b#%Oarfish shows you a page in her sketchbook. It is a scenic sketch of the forest with Vincent picking up snails by their shells.",
+
+// Haley
+"oarfish.thoughts.question.spring.14": "What do you think of Haley?",
+"oarfish.thoughts.answer.spring.14": "...$7#$b#%Oarfish shows you a page in her sketchbook. It is a bright, pastel piece of Haley at the beach, basking in the sun.",
+
+// Pam
+"oarfish.thoughts.question.spring.18": "What do you think of Pam?",
+"oarfish.thoughts.answer.spring.18": "...$7#$b#%Oarfish shows you a page in her sketchbook. It is a simple hatch sketch of Pam leaning by her bus with her arms crossed.",
+
+// Shane
+"oarfish.thoughts.question.spring.20": "What do you think of Shane?",
+"oarfish.thoughts.answer.spring.20": "...$7#$b#%Oarfish shows you a page in her sketchbook. It is a rather messy and blotted sketch of Shane's portrait, his eyes drawn baggy and tired.",
+
+// Pierre
+"oarfish.thoughts.question.spring.26": "What do you think of Pierre?",
+"oarfish.thoughts.answer.spring.26": "...$7#$b#%Oarfish shows you a page in her sketchbook. It is a cartoony sketch of Pierre dreaming about himself swimming in gold.",
+
+// Emily
+"oarfish.thoughts.question.spring.27": "What do you think of Emily?",
+"oarfish.thoughts.answer.spring.27": "...$7#$b#%Oarfish shows you a page in her sketchbook. It is a rather charming oil painting of Emily tending to the Stardrop Saloon regulars.",
+
+// Jas
+"oarfish.thoughts.question.summer.4": "What do you think of Jas?",
+"oarfish.thoughts.answer.summer.4": "...$7#$b#%Oarfish shows you a page in her sketchbook. It is a colorful picture of little Jas riding a cow.",
+
+// Gus
+"oarfish.thoughts.question.summer.8": "What do you think of Gus?",
+"oarfish.thoughts.answer.summer.8": "...$7#$b#%Oarfish shows you a page in her sketchbook. It is a monochromatic coffee painting of Gus in his usual orange jacket.",
+
+// Maru
+"oarfish.thoughts.question.summer.10": "What do you think of Maru?",
+"oarfish.thoughts.answer.summer.10": "...$7#$b#%Oarfish shows you a page in her sketchbook. It seems like a sketch focusing on reflective surfaces, with Maru piloting a battle robot... battle robot?",
+
+// Alex
+"oarfish.thoughts.question.summer.13": "What do you think of Alex?",
+"oarfish.thoughts.answer.summer.13": "...$7#$b#%Oarfish shows you a page in her sketchbook. It seems like an anatomy study of muscular forms with Alex as the subject. He would be flattered to see this.",
+
+// Sam
+"oarfish.thoughts.question.summer.17": "What do you think of Sam?",
+"oarfish.thoughts.answer.summer.17": "...$7#$b#%Oarfish shows you a page in her sketchbook. It is a gesture sketch featuring Sam on his skateboard.",
+
+// Demetrius
+"oarfish.thoughts.question.summer.19": "What do you think of Demetrius?",
+"oarfish.thoughts.answer.summer.19": "...$7#$b#%Oarfish shows you a page in her sketchbook. It is a sketch of Demetrius performing surgery on a strawberry.",
+
+// Dwarf
+"oarfish.thoughts.question.summer.22": "What do you think of Dwarf?",
+"oarfish.thoughts.answer.summer.22": "...$7#$b#%Oarfish shows you a page in her sketchbook. It is a charcoal sketch of a small figure in the dark mines. You recognize the shadow to be Dwarf's.",
+
+// Willy
+"oarfish.thoughts.question.summer.24": "What do you think of Willy?",
+"oarfish.thoughts.answer.summer.24": "...$7#$b#%Oarfish shows you a page in her sketchbook. It is a rather detailed, thin pencil sketch of aquatic lifeforms. Oh, there's a little doodle of Willy at the corner.",
+
+// Leo
+"oarfish.thoughts.question.summer.26": "What do you think of Leo?",
+"oarfish.thoughts.answer.summer.26": "...$7#$b#%Oarfish shows you a page in her sketchbook. It is a picturesque piece of the island. You can spot Leo under the foliage.",
+
+// Penny
+"oarfish.thoughts.question.fall.2": "What do you think of Penny?",
+"oarfish.thoughts.answer.fall.2": "...$7#$b#%Oarfish shows you a page in her sketchbook. It is a graphite sketch of Penny's portrait. Oarfish managed to capture her smile.",
+
+// Elliott
+"oarfish.thoughts.question.fall.5": "What do you think of Elliott?",
+"oarfish.thoughts.answer.fall.5": "...$7#$b#%Oarfish shows you a page in her sketchbook. It is a rather fancy pencil sketch of a man with long flowing hair standing by the shore, almost like the cover of a romance novel. Oh, it's Elliott.",
+
+// Jodi
+"oarfish.thoughts.question.fall.11": "What do you think of Jodi?",
+"oarfish.thoughts.answer.fall.11": "...$7#$b#%Oarfish shows you a page in her sketchbook. The sketch looks like a candid photo taken of Jodi washing the dishes from the side. You can spot small details of stress and wrinkles on her face.",
+
+// Abigail
+"oarfish.thoughts.question.fall.13": "What do you think of Abigail?",
+"oarfish.thoughts.answer.fall.13": "...$7#$b#%Oarfish shows you a page in her sketchbook. It is a rather comic-like sketch of Abigail in action, brandishing a sword at bats and slimes.",
+
+// Sandy
+"oarfish.thoughts.question.fall.15": "What do you think of Sandy?",
+"oarfish.thoughts.answer.fall.15": "...$7#$b#%Oarfish shows you a page in her sketchbook. It looks like a postcard of the desert with Sandy at the corner, wearing sunglasses.",
+
+// Marnie
+"oarfish.thoughts.question.fall.18": "What do you think of Marnie?",
+"oarfish.thoughts.answer.fall.18": "...$7#$b#%Oarfish shows you a page in her sketchbook. The realistic sketch looks like an old photograph of Marnie in her 20s... You wonder how she knows that.",
+
+// Robin
+"oarfish.thoughts.question.fall.21": "What do you think of Robin?",
+"oarfish.thoughts.answer.fall.21": "...$7#$b#%Oarfish shows you a page in her sketchbook. It looks like a study of wood textures. Oh, there's a doodle of Robin at the corner with a speech bubble saying \"I < wood\"...",
+
+// George
+"oarfish.thoughts.question.fall.24": "What do you think of George?",
+"oarfish.thoughts.answer.fall.24": "...$7#$b#%Oarfish shows you a page in her sketchbook. It is a realistic, charcoal sketch of a man in mining gear, holding a stick of dynamite. You squint and spot the name \"George\" hidden within the details.",
+
+// Krobus
+"oarfish.thoughts.question.winter.1": "What do you think of Krobus?",
+"oarfish.thoughts.answer.winter.1": "...$7#$b#%Oarfish shows you a page in her sketchbook. It is a messy, inky drawing of the dark sewers and the shadow of a round creature. Oh, it's Krobus selling his usual wares.",
+
+// Linus
+"oarfish.thoughts.question.winter.3": "What do you think of Linus?",
+"oarfish.thoughts.answer.winter.3": "...$7#$b#%Oarfish shows you a page in her sketchbook. It is a sketch of a man you've never seen before, wearing a business suit and tie.#$b#%Wait, the letters in his name tag spells out \"Linus\".",
+
+// Caroline
+"oarfish.thoughts.question.winter.7": "What do you think of Caroline?",
+"oarfish.thoughts.answer.winter.7": "...$7#$b#%Oarfish shows you a page in her sketchbook. It is a rather bright and colorful painting of green leaves and shades swirling to the center where Caroline is sitting, drinking tea. After a bit of staring, it's giving you a headache.",
+
+// Sebastian
+"oarfish.thoughts.question.winter.10": "What do you think of Sebastian?",
+"oarfish.thoughts.answer.winter.10": "...$7#$b#%Oarfish shows you a page in her sketchbook. It is a rather detailed character sheet of Sebastian dressed like a sorcerer.",
+
+// Harvey
+"oarfish.thoughts.question.winter.14": "What do you think of Harvey?",
+"oarfish.thoughts.answer.winter.14": "...$7#$b#%Oarfish shows you a page in her sketchbook. It looks like a very detailed anatomical study with medical terms of Harvey's mustache.",
+
+// Wizard
+"oarfish.thoughts.question.winter.17": "What do you think of Rasmodius?",
+"oarfish.thoughts.answer.winter.17": "...$7#$b#%Oarfish shows you a page in her sketchbook. It is a very wacky and cartoony pen drawing of the wizard surrounded by sparkly magic.",
+
+// Evelyn
+"oarfish.thoughts.question.winter.20": "What do you think of Evelyn?",
+"oarfish.thoughts.answer.winter.20": "...$7#$b#%Oarfish shows you a page in her sketchbook. It is a classic, realistic graphite sketch of Evelyn smiling at the camera.",
+
+// Leah
+"oarfish.thoughts.question.winter.23": "What do you think of Leah?",
+"oarfish.thoughts.answer.winter.23": "...$7#$b#%Oarfish shows you a page in her sketchbook. It is a drawing of Leah drawing on her sketchbook about someone drawing someone drawing on a sketchbook about... it seems to go on forever.",
+
+// Clint
+"oarfish.thoughts.question.winter.26": "What do you think of Clint?",
+"oarfish.thoughts.answer.winter.26": "...$7#$b#%Oarfish shows you a page in her sketchbook. It is a charcoal sketch of Clint sitting alone at the bar.",
+
+
+// Oarfish Specific Dates Thoughts
+"oarfish.thoughts.question.spring.12": "Tomorrow's Egg Festival",
+"oarfish.thoughts.answer.spring.12": "...#$b#%Oarfish shrugged. She gestures that as long as it's not being held at the beach, she doesn't mind.#$b#%It doesn't seem like she's interested in attending...",
+
+"oarfish.thoughts.question.spring.23": "Tomorrow's Flower Dance",
+"oarfish.thoughts.answer.spring.23": "...$s#$b#%Oarfish seems nervous. She gestured she won't be attending.",
+
+"oarfish.thoughts.question.summer.11": "Today's the Luau",
+"oarfish.thoughts.answer.summer.11": "...#$b#%Oarfish doesn't seem interest about it.#$b#...!$3#$b#%[287]Oarfish hands you a bomb.#$b#.....$8",
+
+"oarfish.thoughts.question.summer.12": "Any thoughts?",
+"oarfish.thoughts.answer.summer.12": "...!$h#$b#%Oarfish gestured about the ocean and how green it is today.",
+
+"oarfish.thoughts.question.summer.27": "Tomorrow's the Dance of the Moonlight Jellies",
+"oarfish.thoughts.answer.summer.27": "...$7#$b#%Oarfish declines. She gestured she sees enough ocean life from her day to day already.",
+
+"oarfish.thoughts.question.fall.16": "Today's the Stardew Valley Fair",
+"oarfish.thoughts.answer.fall.16": "...$7#$b#%Oarfish gestured she won't be going, but she'll be rooting for you.",
+
+"oarfish.thoughts.question.fall.26": "Tomorrow's Spirit's Eve",
+"oarfish.thoughts.answer.fall.26": "...!$h#$b#%Oarfish seems excited.#$b#...$7#$b#%However, she gestured that she won't be attending, and that she's fine watching from a distance.",
+
+"oarfish.thoughts.question.winter.8": "Today's the Festival of Ice",
+"oarfish.thoughts.answer.winter.8": "...$7#$b#%Oarfish is rooting for you.",
+
+"oarfish.thoughts.question.winter.15": "It's Night Market tonight",
+"oarfish.thoughts.answer.winter.15": "...!$h#$b#%Oarfish seems excited. She gestured she's been looking forward to the pretty lights.",
+
+"oarfish.thoughts.question.winter.24": "Tomorrow's Feast of the Winter Star",
+"oarfish.thoughts.answer.winter.24": "...!$h#$b#%Oarfish gestured you to make sure you come see her tomorrow.#$b#...$l",
+
+"oarfish.thoughts.question.winter.25": "I'm here.",
+"oarfish.thoughts.answer.winter.25": "...!$l#$b#[797 373]%Oarfish hands you a gift. She hopes you like it.",
+
+
+
+
+
+}

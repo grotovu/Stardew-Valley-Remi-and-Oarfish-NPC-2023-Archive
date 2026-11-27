@@ -1,0 +1,113 @@
+{
+"Changes": [
+
+	// Remi_00Intro EVENT ID: 10310001
+	{
+	"Action": "Include",
+	"FromFile": "assets/Events/Remi_00Intro.json"
+	},
+	
+	// RemiOarfish_00Intro EVENT ID: 10310002
+	{
+	"Action": "Include",
+	"FromFile": "assets/Events/RemiOarfish_00Intro.json"
+	},
+	
+	// Remi_02Hearts EVENT ID: 10310003
+	{
+	"Action": "Include",
+	"FromFile": "assets/Events/Remi_02Hearts.json"
+	},
+	
+	// Remi_04Hearts EVENT ID: Part 1: 10310004 and Part 2: 10310005
+	{
+	"Action": "Include",
+	"FromFile": "assets/Events/Remi_04Hearts.json"
+	},
+	
+	// Remi_06Hearts EVENT ID: 10310006
+	{
+	"Action": "Include",
+	"FromFile": "assets/Events/Remi_06Hearts.json"
+	},
+	
+	// Remi_08Hearts EVENT ID: Part 1: 10310007 and Part 2: 10310008
+	{
+	"Action": "Include",
+	"FromFile": "assets/Events/Remi_08Hearts.json"
+	},
+	
+	// Remi_10Hearts EVENT ID: Non-Event Mail: 10310009 and Event: 10310010
+	{
+	"Action": "Include",
+	"FromFile": "assets/Events/Remi_10Hearts.json"
+	},
+	
+	// Remi_14Hearts EVENT ID: 10310011, 10310012, 10310013, 10310014 - ties in with Quest Framework
+	{
+	"Action": "Include",
+	"FromFile": "assets/Events/Remi_14Hearts.json"
+	},
+	
+	// Oarfish_02Hearts EVENT ID: 10312001
+	{
+	"Action": "Include",
+	"FromFile": "assets/Events/Oarfish_02Hearts.json"
+	},
+	
+	// Oarfish_04Hearts EVENT ID: 10312002
+	{
+	"Action": "Include",
+	"FromFile": "assets/Events/Oarfish_04Hearts.json"
+	},
+	
+	// Oarfish_06Hearts EVENT ID: 10312003, 10312004, 10312005, 10312006, 10312007, 10312008, 10312009, Non-Event Mail: 10312010, 10312011
+	{
+	"Action": "Include",
+	"FromFile": "assets/Events/Oarfish_06Hearts.json"
+	},
+	
+	// Oarfish_08Hearts EVENT ID: Before-Letter: 10312012, Event: 10312013, After-Letter: 10312014
+	{
+	"Action": "Include",
+	"FromFile": "assets/Events/Oarfish_08Hearts.json"
+	},
+	
+	// Oarfish_10Hearts EVENT ID: Letter: 10312015, Event: 10312016
+	{
+	"Action": "Include",
+	"FromFile": "assets/Events/Oarfish_10Hearts.json"
+	},
+	
+	// Oarfish_14Hearts EVENT ID: 10312017
+	{
+	"Action": "Include",
+	"FromFile": "assets/Events/Oarfish_14Hearts.json"
+	},
+	
+	// RemiOarfish_03Hearts EVENT ID: 10314001
+	{
+	"Action": "Include",
+	"FromFile": "assets/Events/RemiOarfish_03Hearts.json"
+	},
+	
+	// RemiOarfish_05Hearts EVENT ID: 10314002
+	{
+	"Action": "Include",
+	"FromFile": "assets/Events/RemiOarfish_05Hearts.json"
+	},
+	
+	// RemiOarfish_07Hearts EVENT ID: 10314003
+	{
+	"Action": "Include",
+	"FromFile": "assets/Events/RemiOarfish_07Hearts.json"
+	},
+	
+	// RemiOarfish_09Hearts EVENT ID: 10314004
+	{
+	"Action": "Include",
+	"FromFile": "assets/Events/RemiOarfish_09Hearts.json"
+	},
+
+]
+}

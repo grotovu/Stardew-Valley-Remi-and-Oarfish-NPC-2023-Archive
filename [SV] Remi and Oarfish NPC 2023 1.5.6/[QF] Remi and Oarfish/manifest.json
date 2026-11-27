@@ -1,0 +1,12 @@
+{
+  "Name": "[QF] Remi and Oarfish Quests",
+  "Author": "grotovu",
+  "Version": "1.0.0",
+  "Description": "Adds robust quests support for Remi and Oarfish",
+  "UniqueID": "qf.grotovu.remiandoarfishnpc",
+  "MinimumApiVersion": "3.6.0",
+  "ContentPackFor": {
+    "UniqueID": "PurrplingCat.QuestFramework",
+    "MinimumVersion": "1.2.0"
+  }
+}

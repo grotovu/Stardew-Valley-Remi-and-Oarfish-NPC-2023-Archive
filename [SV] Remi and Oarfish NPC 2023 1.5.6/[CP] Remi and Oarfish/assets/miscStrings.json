@@ -1,0 +1,15 @@
+{
+"Changes": [
+
+	//Strings from Map
+	{
+	"Action": "EditData",
+	"Target": "strings/StringsFromMaps",
+	"Entries": {
+		"Custom_grotovu_LostGarden.1": "A worn pillar...",
+	},
+	},
+
+]
+}
+

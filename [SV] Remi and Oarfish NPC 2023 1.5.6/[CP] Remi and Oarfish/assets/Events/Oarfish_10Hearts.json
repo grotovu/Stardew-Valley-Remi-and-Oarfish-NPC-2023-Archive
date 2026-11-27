@@ -1,0 +1,34 @@
+{
+"Changes": [
+
+	{
+	"Action": "EditData",
+	"Target": "Data/Events/Farm",
+	"Entries": {
+		//10 Hearts with Oarfish, invitation letter, only after seeing pierre gifting event
+		"10312015/e 10312013/f Oarfish 2500/x oarfish_10HeartsLetter": "null",
+	},
+	},
+
+	//MAIL
+	{
+	"LogName": "Remi and Oarfish Mail",
+	"Action": "EditData",
+	"Target": "Data/mail",
+	"Entries": {
+		//Heart events mail	
+		"oarfish_10HeartsLetter": "{{i18n:MAIL.10HeartsLetter.Oarfish}}",
+	}
+	},
+	
+	{
+	"Action": "EditData",
+	"Target": "Data/Events/Beach",
+	"Entries": {
+		//Oarfish - 10 Hearts, gifting player a pearl
+		"10312016/e 10312013/f Oarfish 2500/w sunny/c 1/n oarfish_10HeartsLetter": "50s/-1000 -1000/farmer 43 14 2 Oarfish 49 19 2/skippable/viewport 49 19 true/move farmer 0 5 1/pause 400/faceDirection Oarfish 3/pause 500/speak Oarfish \"{{i18n:oarfish.10Hearts.1}}\"/pause 100/emote farmer 32/pause 200/move farmer 5 0 1/pause 600/faceDirection Oarfish 2/pause 200/faceDirection farmer 2/pause 1000/faceDirection Oarfish 3/pause 500/speak Oarfish \"{{i18n:oarfish.10Hearts.2}}\"/pause 300/faceDirection farmer 1/pause 100/emote farmer 8/pause 200/playSound dwoop/showFrame Oarfish 38/pause 800/speak Oarfish \"{{i18n:oarfish.10Hearts.3}}\"/pause 500/showFrame 35/pause 200/playSound openBox/pause 800/showFrame 6/showFrame Oarfish 12/faceDirection Oarfish 3/pause 800/faceDirection farmer 2/pause 400/faceDirection farmer 3/pause 400/faceDirection farmer 1/pause 400/emote farmer 8/pause 200/speak Oarfish \"{{i18n:oarfish.10Hearts.4}}\"/pause 300/playSound coin/message \"{{i18n:oarfish.10Hearts.5}}\"/pause 100/jump farmer 5/pause 200/emote Oarfish 56/pause 200/speak Oarfish \"{{i18n:oarfish.10Hearts.6}}\"/playSound openChest/message \"{{i18n:oarfish.10Hearts.7}}\"/pause 300/speak Oarfish \"{{i18n:oarfish.10Hearts.8}}\"/pause 100/emote farmer 16/pause 400/playSound dwop/showFrame 35/pause 800/showFrame Oarfish 38/pause 500/speak Oarfish \"{{i18n:oarfish.10Hearts.9}}\"/pause 1000/speak Oarfish \"{{i18n:oarfish.10Hearts.10}}\"/pause 400/speak Oarfish \"{{i18n:oarfish.10Hearts.11}}\"/pause 600/showFrame Oarfish 12/faceDirection Oarfish 3/pause 300/showframe 6/pause 400/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/message \"{{i18n:oarfish.10Hearts.12}}\"/pause 500/message \"{{i18n:oarfish.10Hearts.13}}\"/end",
+	},
+	},
+
+]
+}

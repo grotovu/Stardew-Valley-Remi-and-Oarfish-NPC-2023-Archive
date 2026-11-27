@@ -1,0 +1,53 @@
+{
+"Changes": [
+
+	{
+	//RAILROAD EVENTS
+	"LogName": "Railroad Events SVE Version",
+	"Action": "EditData",
+	"Target": "Data/Events/Railroad",
+	"Entries": {
+		//Oarfish - 6 Hearts part 3: Railroad, TO-DO: Oarfish will get stuck if not changed //done
+		"10312005/e 10312004/w sunny/f Oarfish 1500/t 900 1800": "none/-1000 -1000/farmer 1000 1000 0 Oarfish 37 41 1 Remi 41 41 2/skippable/viewport 41 42 true/animate Remi false true 1500 16 17/emote Remi 24/move Oarfish 3 0 1/pause 1000/speak Remi \"{{i18n:oarfish.6HeartsPart3.1}}\"/emote Oarfish 40/pause 1000/playSound trainWhistle/pause 500/faceDirection Oarfish 3/pause 1000/faceDirection Oarfish 1/pause 500/playSound wand/screenFlash .50/warp Oarfish 41 40/faceDirection Oarfish 2/pause 1000/speak Oarfish \"{{i18n:oarfish.6HeartsPart3.2}}\"/pause 300/playSound trainWhistle/pause 100/playSound distantTrain/pause 500/playSound hammer/stopAnimation Remi/shake Remi 500/jump Remi 10/pause 500/viewport -1000 -1000/pause 200/playSound clubhit/pause 1000/speak Remi \"{{i18n:oarfish.6HeartsPart3.3}}\"/playSound trainWhistle/pause 3000/playSound slimedead/pause 3000/globalFade/viewport -1000 -1000/end dialogue Remi \"{{i18n:oarfish.6HeartsPart3.4}}\"",
+	}
+	},
+	
+	{
+	//MINE EVENTS
+	"LogName": "Mine Events SVE Version",
+	"Action": "EditData",
+	"Target": "Data/Events/Mine",
+	"Entries": {
+		//Oarfish - 6 Hearts part 7: Stand-off, TO-DO need to change location to the new outside map of the mines, as well as positioning and movement.
+		"10312009/e 10312008/f Oarfish 1500": "none/-1000 -1000/farmer 1000 1000 0 Remi 17 6 1 Oarfish 20 6 3 Lewis 18 6 2/skippable/makeInvisible 12 4 13 10/changeName Lewis Oarfish??/changePortrait Lewis Oarfish/changeSprite Lewis Oarfish/showframe Lewis 18/positionOffset Lewis 0 20/viewport 19 7 true/pause 2000/jump Remi 6/pause 500/speak Remi \"{{i18n:oarfish.6HeartsPart7.1}}\"/pause 300/emote Oarfish 40/pause 200/speak Oarfish \"{{i18n:oarfish.6HeartsPart7.2}}\"/pause 300/playSound shadowpeep/shake Lewis 400/pause 1000/speak Remi \"{{i18n:oarfish.6HeartsPart7.3}}\"/pause 400/message \"{{i18n:oarfish.6HeartsPart7.4}}\"/pause 500/playSound shadowpeep/message \"{{i18n:oarfish.6HeartsPart7.5}}\"/message \"{{i18n:oarfish.6HeartsPart7.6}}\"/pause 400/move Oarfish -1 0 3/pause 500/speak Oarfish \"{{i18n:oarfish.6HeartsPart7.7}}\"/pause 200/playSound clubSmash/shake Oarfish 100/pause 100/shake Lewis 300/pause 1000/message \"{{i18n:oarfish.6HeartsPart7.8}}\"/message \"{{i18n:oarfish.6HeartsPart7.9}}\"/pause 300/playSound clubSmash/shake Remi 100/pause 100/shake Lewis 300/pause 400/message \"{{i18n:oarfish.6HeartsPart7.10}}\"/speak Remi \"{{i18n:oarfish.6HeartsPart7.11}}\"/pause 300/playSound shadowpeep/shake Lewis 100/pause 200/message \"{{i18n:oarfish.6HeartsPart7.12}}\"/message \"{{i18n:oarfish.6HeartsPart7.13}}\"/pause 200/playSound clubSmash/shake Oarfish 100/pause 100/shake Lewis 300/pause 400/speak Oarfish \"{{i18n:oarfish.6HeartsPart7.14}}\"/speak Remi \"{{i18n:oarfish.6HeartsPart7.15}}\"/pause 300/playSound clubSmash/shake Remi 100/pause 100/playSound shadowHit/shake Lewis 300/pause 400/speak Remi \"{{i18n:oarfish.6HeartsPart7.16}}\"/message \"{{i18n:oarfish.6HeartsPart7.17}}\"/message \"{{i18n:oarfish.6HeartsPart7.18}}\"/pause 300/speak Oarfish \"{{i18n:oarfish.6HeartsPart7.19}}\"/pause 200/faceDirection Oarfish 2/pause 300/message \"{{i18n:oarfish.6HeartsPart7.20}}\"/pause 300/faceDirection Oarfish 3/pause 1000/playSound shadowpeep/shake Lewis 200/pause 300/message \"{{i18n:oarfish.6HeartsPart7.21}}\"/message \"{{i18n:oarfish.6HeartsPart7.22}}\"/pause 200/speak Oarfish \"{{i18n:oarfish.6HeartsPart7.23}}\"/pause 400/playSound serpentDie/shake Oarfish 500/pause 400/emote Remi 16/pause 100/speak Remi \"{{i18n:oarfish.6HeartsPart7.24}}\"/playSound stairsdown/warp farmer 18 12/pause 800/jump farmer 6/emote farmer 16/pause 400/faceDirection Oarfish 2/pause 200/faceDirection Remi 2/pause 500/speak Remi \"{{i18n:oarfish.6HeartsPart7.25}}\"/speak Oarfish \"{{i18n:oarfish.6HeartsPart7.26}}\"/pause 400/message \"{{i18n:oarfish.6HeartsPart7.27}}\"/pause 500/message \"{{i18n:oarfish.6HeartsPart7.28}}\"/emote farmer 8/pause 200/move farmer 0 -2 0/emote Remi 28/pause 200/speak Remi \"{{i18n:oarfish.6HeartsPart7.29}}\"/message \"{{i18n:oarfish.6HeartsPart7.30}}\"/pause 100/emote farmer 40/pause 200/faceDirection Oarfish 3/pause 200/speak Oarfish \"{{i18n:oarfish.6HeartsPart7.31}}\"/pause 400/message \"{{i18n:oarfish.6HeartsPart7.32}}\"/message \"{{i18n:oarfish.6HeartsPart7.33}}\"/message \"{{i18n:oarfish.6HeartsPart7.34}}\"/pause 800/message \"{{i18n:oarfish.6HeartsPart7.35}}\"/message \"{{i18n:oarfish.6HeartsPart7.36}}\"/pause 300/faceDirection Remi 1/pause 200/speak Remi \"{{i18n:oarfish.6HeartsPart7.37}}\"/pause 400/message \"{{i18n:oarfish.6HeartsPart7.38}}\"/message \"{{i18n:oarfish.6HeartsPart7.39}}\"/pause 300/faceDirection Oarfish 2/pause 500/speak Oarfish \"{{i18n:oarfish.6HeartsPart7.40}}\"/pause 200/move Oarfish 0 1 2/pause 300/speak Oarfish \"{{i18n:oarfish.6HeartsPart7.41}}\"/pause 300/faceDirection Remi 2/pause 200/emote Remi 8/pause 200/speak Remi \"{{i18n:oarfish.6HeartsPart7.42}}\"/pause 300/playSound shadowpeep/shake Lewis 300/pause 400/emote farmer 16/pause 100/message \"{{i18n:oarfish.6HeartsPart7.43}}\"/message \"{{i18n:oarfish.6HeartsPart7.44}}\"/playSound openBox/pause 400/faceDirection Oarfish 3/pause 200/playSound openBox/pause 100/message \"{{i18n:oarfish.6HeartsPart7.45}}\"/playSound openBox/pause 200/jump Oarfish 6/pause 300/speak Remi \"{{i18n:oarfish.6HeartsPart7.46}}\"/pause 200/playSound openBox/pause 200/speed Oarfish 3/move Oarfish -1 0 3/speed Oarfish 3/move Oarfish 0 2 2/pause 300/jump farmer 6/pause 300/playSound openBox/speed farmer 3/move farmer 0 2 2/playSound stairsdown/warp farmer 1000 1000/speed Oarfish 3/move Oarfish 0 3 2/pause 300/playSound stairsdown/warp Oarfish 1000 1000/pause 200/playSound openBox/pause 400/speak Remi \"{{i18n:oarfish.6HeartsPart7.47}}\"/viewport -1000 -1000/pause 2000/playSound openBox/pause 1000/playSound explosion/pause 2000/warp Oarfish 19 16/warp farmer 20 17/faceDirection Oarfish 0/faceDirection farmer 0/changeToTemporaryMap Custom_AdventurerSummit/viewport 19 17 true/pause 1500/emote Oarfish 8/pause 300/move Oarfish 0 -1 0/playSound clubSmash/shake Oarfish 300/pause 400/message \"{{i18n:oarfish.6HeartsPart7.48}}\"/emote farmer 28/pause 2000/message \"{{i18n:oarfish.6HeartsPart7.49}}\"/pause 100/jump Oarfish 6/jump farmer 6/pause 400/message \"{{i18n:oarfish.6HeartsPart7.50}}\"/message \"{{i18n:oarfish.6HeartsPart7.51}}\"/pause 300/speak Oarfish \"{{i18n:oarfish.6HeartsPart7.52}}\"/pause 400/message \"{{i18n:oarfish.6HeartsPart7.53}}\"/message \"{{i18n:oarfish.6HeartsPart7.54}}\"/pause 100/emote Oarfish 28/pause 200/speak Oarfish \"{{i18n:oarfish.6HeartsPart7.55}}\"/pause 300/message \"{{i18n:oarfish.6HeartsPart7.56}}\"/message \"{{i18n:oarfish.6HeartsPart7.57}}\"/message \"{{i18n:oarfish.6HeartsPart7.58}}\"/pause 400/emote Oarfish 20/pause 100/speak Oarfish \"{{i18n:oarfish.6HeartsPart7.59}}\"/pause 400/move Oarfish 0 2 1/faceDirection farmer 3/pause 800/speak Oarfish \"{{i18n:oarfish.6HeartsPart7.60}}\"/pause 100/emote farmer 32/pause 1000/advancedMove Oarfish false 0 4 3 0 0 4 2 1000/pause 400/speed farmer 2/advancedMove farmer false 0 3 3 0 0 4 2 1000/pause 1000/globalFade/viewport -1000 -1000/stopAnimation farmer/stopAdvancedMoves/changeLocation FarmHouse/warp farmer 64 16/message \"{{i18n:oarfish.6HeartsPart7.61}}\"/pause 1000/end warpOut",
+	}
+	},
+	
+	{
+	//SALOON EVENTS
+	"LogName": "Saloon Events SVE Version",
+	"Action": "EditData",
+	"Target": "Data/Events/Saloon",
+	"Entries": {
+		//Remi and Oarfish - 3 Hearts: hanging out at the saloon on Saturday, moved remi and viewport // done
+		"10314001/e 10310001 10310002/f Remi 750 Oarfish 750/d Mon Wed Thu Fri Sun/p Remi Oarfish": "Saloon1/-1000 -1000/farmer 24 19 1 Remi 36 17 2 Oarfish 35 18 0 Gus 11 18 2 Pam 7 18 1/skippable/viewport 34 19 true/move farmer 12 0 0/pause 1000/speak Remi \"{{i18n:both.saloonOnSaturday.1}}\"/emote Oarfish 12/shake Oarfish 200/playSound clubSmash/pause 300/shake Oarfish 200/playSound clubSmash/pause 500/shake Oarfish 200/playSound clubSmash/pause 500/speak Oarfish \"{{i18n:both.saloonOnSaturday.2}}\"/emote farmer 28/speak Remi \"{{i18n:both.saloonOnSaturday.3}}\"/pause 500/shake Oarfish 200/playSound clubSmash/pause 500/speak Oarfish \"{{i18n:both.saloonOnSaturday.4}}\"/emote Remi 28/pause 500/speak Remi \"{{i18n:both.saloonOnSaturday.5}}\"/pause 300/shake Oarfish 200/playSound clubSmash/pause 500/shake Oarfish 200/playSound clubSmash/pause 1000/playSound jingle1/emote Oarfish 16/speak Oarfish \"{{i18n:both.saloonOnSaturday.6}}\"/emote Oarfish 32/pause 500/speak Remi \"{{i18n:both.saloonOnSaturday.7}}\"/shake Oarfish 200/playSound fishEscape/pause 1000/speak Oarfish \"{{i18n:both.saloonOnSaturday.8}}\"/pause 300/faceDirection Oarfish 1/pause 300/speak Remi \"{{i18n:both.saloonOnSaturday.9}}\"/pause 500/faceDirection Oarfish 0/pause 500/shake Oarfish 200/playSound clubSmash/pause 300/shake Oarfish 200/playSound clubSmash/pause 1000/playSound fishEscape/emote Oarfish 12/pause 500/speak Remi \"{{i18n:both.saloonOnSaturday.10}}\"/emote farmer 40/pause 200/speak Remi \"{{i18n:both.saloonOnSaturday.11}}\"/shake Oarfish 200/playSound clubSmash/pause 500/shake Oarfish 200/playSound clubSmash/globalFade/viewport -1000 -1000/end",
+	}
+	},
+
+	// SVE Version of Remi's Schedule at the Saloon because that darn third arcade machine blocks the way...
+	{
+	"LogName": "Remi Regular Schedule SVE Version",
+	"Action": "EditData",
+	"Target": "Characters/schedules/Remi",
+	"When": {
+		"HasSeenEvent": "10310001",
+	},
+	"Entries": {
+		//Saturdays: Remi's dialogue is in her normal dialogue, triggering the saloon menu question
+		"Sat": "610 Railroad 41 41 2 remi_idle \"Strings\\schedules\\Remi:sleep.000\"/800 Railroad 39 40 2 remi_sitting/1400 Beach 54 6 2 remi_sitting/1800 Saloon 36 17 2/2300 Beach 54 6 2 remi_sitting",
+		"marriage_Sat": "1800 Saloon 36 17 2/2210 BusStop -1 23 3",
+	},
+	},
+
+]
+}

@@ -1,0 +1,22 @@
+{
+   "Name": "Remi and Oarfish Mobile Phone Greetings",
+   "Author": "grotovu",
+   "Description": "Dialogues for Remi and Oarfish on the phone",
+   "Version": "1.0.0",
+   "UniqueID": "grotovu.RemiandOarfishMobilePhoneGreetings",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher",
+       "MinimumVersion": "1.20.0" 		     
+      }, 
+   "UpdateKeys": [],
+   "Dependencies": [
+    {
+        "UniqueID": "aedenthorn.MobilePhone",
+        "IsRequired": true
+    },
+   {
+      "UniqueID": "grotovu.remiandoarfishnpc",
+      "IsRequired": true
+   }
+]
+}

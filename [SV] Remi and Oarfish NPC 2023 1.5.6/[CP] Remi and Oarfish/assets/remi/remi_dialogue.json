@@ -1,0 +1,472 @@
+{
+"Changes": [
+
+	// Regular Dialogue
+	{
+	"LogName":"Remi's Regular Dialogue",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Remi",
+	"Entries": {
+		"Introduction": "{{i18n:DIALOGUE.remi.Introduction}}",
+		"Mon": "{{RemiNormalDialogue}}",
+		"Tue": "{{RemiNormalDialogue}}",
+		"Wed": "{{RemiNormalDialogue}}",
+		"Thu": "{{RemiNormalDialogue}}",
+		"Fri": "{{RemiNormalDialogue}}",
+		"Sat": "{{RemiNormalDialogue}}",
+		"Sun": "{{RemiNormalDialogue}}",
+
+		//Special dialogue on dated days
+		"spring_2": "{{i18n:DIALOGUE.remi.{{season}}.{{day}}}}",
+		"spring_12": "{{i18n:DIALOGUE.remi.{{season}}.{{day}}}}",
+		"spring_15": "{{i18n:DIALOGUE.remi.{{season}}.{{day}}}}",
+
+		"summer_11": "{{i18n:DIALOGUE.remi.{{season}}.{{day}}}}",
+		"summer_28": "{{i18n:DIALOGUE.remi.{{season}}.{{day}}}}",
+
+		"fall_16": "{{i18n:DIALOGUE.remi.{{season}}.{{day}}}}",
+		"fall_27": "{{i18n:DIALOGUE.remi.{{season}}.{{day}}}}",
+
+		"winter_8": "{{i18n:DIALOGUE.remi.{{season}}.{{day}}}}",
+		"winter_25": "{{i18n:DIALOGUE.remi.{{season}}.{{day}}}}",
+
+		//question: quizing her name
+		"summer_5": "{{i18n:DIALOGUE.remi.question.summer.5}}",
+		"summer_5_old": "{{i18n:DIALOGUE.remi.question.summer.5.old}}",
+		"summer_5_correct": "{{i18n:DIALOGUE.remi.question.summer.5.correct}}",
+		"summer_5_wrong": "{{i18n:DIALOGUE.remi.question.summer.5.wrong}}",
+	},
+	},
+
+
+	//RAINY DIALOGUE
+	{
+	"LogName": "NPC Rainy Dialogue",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/rainy",
+	"Entries": {
+		"Remi": "{{i18n:DIALOGUE.remi.rainy.{{Random:a, b, c, d}}}}",
+	}
+	},
+
+
+	//Engagement Dialogue
+	{
+	"LogName": "Engagement Dialogue",
+	"Action": "EditData",
+	"Target": "Data/EngagementDialogue",
+	"Entries": {
+		"Remi0": "{{i18n:DIALOGUE.remi.engagement0}}",
+		"Remi1": "{{i18n:DIALOGUE.remi.engagement1}}",
+	}
+	},
+
+
+	//Proposal Acceptance Dialogue
+	{
+	"LogName": "Remi proposal acceptance",
+	"Action": "EditData",
+	"Target": "Strings/StringsFromCSFiles",
+	"Entries": {
+		"Remi_Engaged": "{{i18n:DIALOGUE.remi.engaged}}",
+		"Remi_EngagedRoommate": "{{i18n:DIALOGUE.remi.engagedRoommate}}",
+		"Remi_AfterWedding": "{{i18n:DIALOGUE.remi.afterWedding}}",
+	},
+	},
+
+
+	//wedding vows fix
+	{
+	"Action": "EditData",
+	"Target": "strings/StringsFromCSFiles",
+	"Entries": {
+		"Utility.cs.5371": "{{i18n:WEDDING.remi.1}}",
+		"Utility.cs.5377": "{{i18n:WEDDING.remi.2}}",
+
+		"Utility.cs.5367": "{{i18n:WEDDING.remi.3}}",
+		"Utility.cs.5369": "{{i18n:WEDDING.remi.4}}",
+		"Utility.cs.5379": "{{i18n:WEDDING.remi.5}}",
+		"Utility.cs.5381": "{{i18n:WEDDING.remi.6}}",
+		"Utility.cs.5383": "{{i18n:WEDDING.remi.7}}",
+	},
+	"When": { "Relationship:Remi": "Engaged", },
+	},
+
+
+	//Monsters in the FarmHouse
+	{
+	"Action": "EditData",
+	"Target": "strings/Locations",
+	"Update": "OnTimeChange",
+	"Entries": {
+		"FarmHouse_SpouseAttacked1": "{{i18n:FARMHOUSE.remi.SpouseAttacked1}}",
+		"FarmHouse_SpouseAttacked2": "{{i18n:FARMHOUSE.remi.SpouseAttacked2}}",
+		"FarmHouse_SpouseAttacked3": "{{i18n:FARMHOUSE.remi.SpouseAttacked3}}",
+		"FarmHouse_SpouseAttacked4": "{{i18n:FARMHOUSE.remi.SpouseAttacked4}}",
+		"FarmHouse_SpouseAttacked5": "{{i18n:FARMHOUSE.remi.SpouseAttacked5}}",
+		"FarmHouse_SpouseAttacked6": "{{i18n:FARMHOUSE.remi.SpouseAttacked6}}",
+		"FarmHouse_SpouseAttacked7": "{{i18n:FARMHOUSE.remi.SpouseAttacked7}}",
+		"FarmHouse_SpouseAttacked8": "{{i18n:FARMHOUSE.remi.SpouseAttacked8}}",
+		"FarmHouse_SpouseAttacked9": "{{i18n:FARMHOUSE.remi.SpouseAttacked9}}",
+		"FarmHouse_SpouseAttacked10": "{{i18n:FARMHOUSE.remi.SpouseAttacked10}}",
+		"FarmHouse_SpouseAttacked11": "{{i18n:FARMHOUSE.remi.SpouseAttacked11}}",
+		"FarmHouse_SpouseAttacked12": "{{i18n:FARMHOUSE.remi.SpouseAttacked12}}",
+	},
+	"When": { "Spouse": "Remi", },
+	},
+
+
+	//GIFT REACTIOMS
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Remi",
+	"Entries": {
+		//Love
+		"GiftReaction_Beer": "{{i18n:GIFT.remi.Beer.1}}",
+		"GiftReaction_Beer~1": "{{i18n:GIFT.remi.Beer.2}}",
+		"GiftReaction_Beer_Birthday": "{{i18n:GIFT.remi.Beer.Birthday}}",
+
+		"GiftReaction_Mead": "{{i18n:GIFT.remi.Mead.1}}",
+		"GiftReaction_Mead_Birthday": "{{i18n:GIFT.remi.Mead.Birthday}}",
+
+		"GiftReaction_Pale_Ale": "{{i18n:GIFT.remi.PaleAle.1}}",
+		"GiftReaction_Pale_Ale_Birthday": "{{i18n:GIFT.remi.PaleAle.Birthday}}",
+
+		"GiftReactionPreserved_Wine": "{{i18n:GIFT.remi.Wine.1}}",
+		"GiftReactionPreserved_Wine_Birthday": "{{i18n:GIFT.remi.Wine.Birthday}}",
+
+		"GiftReaction_Orange": "{{i18n:GIFT.remi.Orange.1}}",
+		"GiftReaction_Orange_Birthday": "{{i18n:GIFT.remi.Orange.Birthday}}",
+
+		"GiftReaction_Pearl": "{{i18n:GIFT.remi.Pearl.1}}",
+		"GiftReaction_Pearl_Birthday": "{{i18n:GIFT.remi.Pearl.Birthday}}",
+
+		"GiftReaction_Crab_Sticks": "{{i18n:GIFT.remi.CrabSticks.1}}",
+		"GiftReaction_Crab_Sticks_Birthday": "{{i18n:GIFT.remi.CrabSticks.Birthday}}",
+
+		//Like
+		"GiftReactionCategory_-80": "{{i18n:GIFT.remi.Flowers.1}}",
+		"GiftReactionCategory_-80_Birthday": "{{i18n:GIFT.remi.Flowers.Birthday}}",
+		"GiftReactionCategory_-4": "{{i18n:GIFT.remi.Fish.1}}",
+		"GiftReactionCategory_-7": "{{i18n:GIFT.remi.Cooking.1}}",
+		"GiftReactionCategory_-12": "{{i18n:GIFT.remi.Mineral.1}}",
+
+		//Neutral
+		"GiftReaction_Maple_Syrup": "{{i18n:GIFT.remi.MapleSyrup.1}}",
+		"GiftReaction_Oak_Resin": "{{i18n:GIFT.remi.OakResin.1}}",
+		"GiftReaction_Pine_Tar": "{{i18n:GIFT.remi.PineTar.1}}",
+		"GiftReactionCategory_-81": "{{i18n:GIFT.remi.Forage.1}}",
+
+		//Hate
+		"GiftReaction_Joja_Cola": "{{i18n:GIFT.remi.JojaCola.1}}",
+		"GiftReaction_Trash": "{{i18n:GIFT.remi.Trash.1}}",
+		"GiftReaction_Driftwood": "{{i18n:GIFT.remi.Driftwood.1}}",
+		"GiftReaction_Broken_Glasses": "{{i18n:GIFT.remi.BrokenGlasses.1}}",
+		"GiftReaction_Broken_CD": "{{i18n:GIFT.remi.BrokenCD.1}}",
+		"GiftReaction_Soggy_Newspaper": "{{i18n:GIFT.remi.Soggy_Newspaper.1}}",
+
+		"GiftReaction_Trash~1": "{{i18n:GIFT.remi.Trash.2}}",
+		"GiftReaction_Driftwood~1": "{{i18n:GIFT.remi.Driftwood.2}}",
+		"GiftReaction_Broken_Glasses~1": "{{i18n:GIFT.remi.BrokenGlasses.2}}",
+		"GiftReaction_Broken_CD~1": "{{i18n:GIFT.remi.BrokenCD.2}}",
+		"GiftReaction_Soggy_Newspaper~1": "{{i18n:GIFT.remi.Soggy_Newspaper.2}}",
+
+		"GiftReaction_Rabbit's_Foot": "{{i18n:GIFT.remi.RabbitsFoot.1}}",
+		"GiftReaction_Rabbit's_Foot_Birthday": "{{i18n:GIFT.remi.RabbitsFoot.Birthday}}",
+	},
+	},
+
+
+	//Saloon dialogue after seeing 3rd Hearts for both Remi and Oarfish at the Saloon
+	{
+	"LogName":"Remi Wednesday Gifts Dialogue Inclusion after seeing 4th heart event at Town",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Remi",
+	"Update": "OnTimeChange",
+	"When": {
+		"HasSeenEvent": "10314001",
+	},
+	"Entries": {
+		//saloon free meal repeatable with the event repeater mod, happens once every Saturday at the saloon even when married
+		"Saloon_Sat": "{{i18n:DIALOGUE.remi.saloon.saturday}}",
+		"Saloon_Sat_old": "{{i18n:DIALOGUE.remi.saloon.saturday.old}}",
+		"Saloon_Sat_Beer": "{{i18n:DIALOGUE.remi.saloon.saturday.Beer}}",
+		"Saloon_Sat_Salad": "{{i18n:DIALOGUE.remi.saloon.saturday.Salad}}",
+		"Saloon_Sat_Spaghetti": "{{i18n:DIALOGUE.remi.saloon.saturday.Spaghetti}}",
+		"Saloon_Sat_Pizza": "{{i18n:DIALOGUE.remi.saloon.saturday.Pizza}}",
+		"Saloon_Sat_Coffee": "{{i18n:DIALOGUE.remi.saloon.saturday.Coffee}}",
+		"Saloon_Sat_None": "{{i18n:DIALOGUE.remi.saloon.saturday.None}}",
+	},
+	},
+
+
+	//Stealing from Pierre repeatable question
+	{
+	"LogName":"Remi stealing from pierre",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Remi",
+	"Update": "OnTimeChange",
+	"When": {
+		"HasSeenEvent": "10310005",
+	},
+	"Entries": {
+		"Thu4": "{{i18n:DIALOGUE.remi.question.thursday}}",
+		"Thu4Old": "{{i18n:DIALOGUE.remi.question.thursday.old}}",
+		"ThuStopStealing": "{{i18n:DIALOGUE.remi.question.thursday.stopStealing}}",
+		"ThuKeepStealing": "{{i18n:DIALOGUE.remi.question.thursday.keepStealing}}",
+	},
+	},
+
+	{
+	"LogName":"Remi stealing from pierre STOP stealing",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Remi",
+	"Update": "OnTimeChange",
+	"When": {
+		"HasSeenEvent": "10310005",
+		"HasDialogueAnswer": "10311011",
+		"RemiThursdayDialogueRandom": "a",
+	},
+	"Entries": {
+		"Thu4": "{{Random: {{i18n: DIALOGUE.remi.question.thursday.stopStealing.{{Random: a, b, c, d, e}}}} @@ {{RemiNormalDialogue}} |inputSeparator=@@}}",
+	},
+	},
+
+	{
+	"LogName":"Remi stealing from pierre KEEP stealing",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Remi",
+	"Update": "OnTimeChange",
+	"When": {
+		"HasSeenEvent": "10310005",
+		"HasDialogueAnswer": "10311012",
+		"RemiThursdayDialogueRandom": "a",
+	},
+	"Entries": {
+		"Thu4": "{{Random: {{i18n: DIALOGUE.remi.question.thursday.keepStealing.{{Random: a, b, c}}}} @@ {{RemiNormalDialogue}} |inputSeparator=@@}}",
+	},
+	},
+
+
+	//Has seen 7 hearts for both Remi and Oarfish. Oarfish gives a piece every friday.
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Remi",
+	"Update": "OnTimeChange, OnLocationChange",
+	"When": {
+		"HasSeenEvent": "10314003",
+	},
+	"Entries": {
+		"Mine_Fri": "{{i18n:DIALOGUE.remi.mine.friday}}",
+		"Mine_Fri_old": "{{i18n:DIALOGUE.remi.mine.friday.old}}",
+		"Mine_Fri_Yes": "{{i18n:DIALOGUE.remi.mine.friday.yes}}",
+		"Mine_Fri_No": "{{i18n:DIALOGUE.remi.mine.friday.no}}",
+	},
+	},
+
+
+	//Gifts every Wednesday after 4th heart event at town
+	{
+	"LogName":"Remi Wednesday Gifts Dialogue Inclusion after seeing 4th heart event at Town",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Remi",
+	"Update": "OnTimeChange",
+	"When": {
+		"HasSeenEvent": "10310005",
+	},
+	"Entries": {
+		"Wed4": "{{Random: {{i18n:DIALOGUE.remi.wednesdayGift.{{season}}.{{day}}}} @@ {{RemiNormalDialogue}} |inputSeparator=@@}}",
+	},
+	},
+
+
+	// Marriage Dialogue
+	{
+	"LogName":"Remi's Marriage Dialogue",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/MarriageDialogueRemi",
+	"Entries": {
+		"patio_Remi": "{{i18n:MARRIAGE.remi.patio}}",
+		"funLeave_Remi": "{{i18n:MARRIAGE.remi.funLeave}}",
+		"funReturn_Remi": "{{i18n:MARRIAGE.remi.funReturn}}",
+		"jobLeave_Remi": "{{i18n:MARRIAGE.remi.jobLeave}}",
+		"jobReturn_Remi": "{{i18n:MARRIAGE.remi.jobReturn}}",
+		"spouseRoom_Remi": "{{i18n:MARRIAGE.remi.spouseRoom}}",
+
+		"Rainy_Day_0": "{{i18n:MARRIAGE.remi.rainy_day.1}}",
+		"Rainy_Day_1": "{{i18n:MARRIAGE.remi.rainy_day.2}}",
+		"Rainy_Day_2": "{{i18n:MARRIAGE.remi.rainy_day.3}}",
+		"Rainy_Day_3": "{{i18n:MARRIAGE.remi.rainy_day.4}}",
+		"Rainy_Day_4": "{{i18n:MARRIAGE.remi.rainy_day.5}}",
+		"Rainy_Day_5": "{{i18n:MARRIAGE.remi.rainy_day.6}}",
+		"Rainy_Day_Remi": "{{i18n:MARRIAGE.remi.rainy_day.7}}",
+
+		"Rainy_Night_0": "{{i18n:MARRIAGE.remi.rainy_night.1}}",
+		"Rainy_Night_1": "{{i18n:MARRIAGE.remi.rainy_night.2}}",
+		"Rainy_Night_2": "{{i18n:MARRIAGE.remi.rainy_night.3}}",
+		"Rainy_Night_3": "{{i18n:MARRIAGE.remi.rainy_night.4}}",
+		"Rainy_Night_4": "{{i18n:MARRIAGE.remi.rainy_night.5}}",
+		"Rainy_Night_5": "{{i18n:MARRIAGE.remi.rainy_night.6}}",
+		"Rainy_Night_Remi": "{{i18n:MARRIAGE.remi.rainy_night.7}}",
+
+		"Indoor_Day_0": "{{i18n:MARRIAGE.remi.indoor_day.1}}",
+		"Indoor_Day_1": "{{i18n:MARRIAGE.remi.indoor_day.2}}",
+		"Indoor_Day_2": "{{i18n:MARRIAGE.remi.indoor_day.3}}",
+		"Indoor_Day_3": "{{i18n:MARRIAGE.remi.indoor_day.4}}",
+		"Indoor_Day_4": "{{i18n:MARRIAGE.remi.indoor_day.5}}",
+		"Indoor_Day_5": "{{i18n:MARRIAGE.remi.indoor_day.6}}",
+		"Indoor_Day_Remi": "{{i18n:MARRIAGE.remi.indoor_day.7}}",
+
+		"Indoor_Night_0": "{{i18n:MARRIAGE.remi.indoor_night.1}}",
+		"Indoor_Night_1": "{{i18n:MARRIAGE.remi.indoor_night.2}}",
+		"Indoor_Night_2": "{{i18n:MARRIAGE.remi.indoor_night.3}}",
+		"Indoor_Night_3": "{{i18n:MARRIAGE.remi.indoor_night.4}}",
+		"Indoor_Night_4": "{{i18n:MARRIAGE.remi.indoor_night.5}}",
+		"Indoor_Night_5": "{{i18n:MARRIAGE.remi.indoor_night.6}}",
+		"Indoor_Night_Remi": "{{i18n:MARRIAGE.remi.indoor_night.7}}",
+
+		"Outdoor_0": "{{i18n:MARRIAGE.remi.outdoor.1}}",
+		"Outdoor_1": "{{i18n:MARRIAGE.remi.outdoor.2}}",
+		"Outdoor_2": "{{i18n:MARRIAGE.remi.outdoor.3}}",
+		"Outdoor_3": "{{i18n:MARRIAGE.remi.outdoor.4}}",
+		"Outdoor_4": "{{i18n:MARRIAGE.remi.outdoor.5}}",
+		"Outdoor_5": "{{i18n:MARRIAGE.remi.outdoor.6}}",
+		"Outdoor_Remi": "{{i18n:MARRIAGE.remi.outdoor.7}}",
+
+		"OneKid_0": "{{i18n:MARRIAGE.remi.OneKid.1}}",
+		"OneKid_1": "{{i18n:MARRIAGE.remi.OneKid.2}}",
+		"OneKid_2": "{{i18n:MARRIAGE.remi.OneKid.3}}",
+		"OneKid_3": "{{i18n:MARRIAGE.remi.OneKid.4}}",
+		"TwoKid_0": "{{i18n:MARRIAGE.remi.TwoKid.1}}",
+		"TwoKid_1": "{{i18n:MARRIAGE.remi.TwoKid.2}}",
+		"TwoKid_2": "{{i18n:MARRIAGE.remi.TwoKid.3}}",
+		"TwoKid_3": "{{i18n:MARRIAGE.remi.TwoKid.4}}",
+
+		"Good_0": "{{i18n:MARRIAGE.remi.Good.1}}",
+		"Good_1": "{{i18n:MARRIAGE.remi.Good.2}}",
+		"Good_2": "{{i18n:MARRIAGE.remi.Good.3}}",
+		"Good_3": "{{i18n:MARRIAGE.remi.Good.4}}",
+		"Good_4": "{{i18n:MARRIAGE.remi.Good.5}}",
+		"Good_5": "{{i18n:MARRIAGE.remi.Good.6}}",
+		"Good_6": "{{i18n:MARRIAGE.remi.Good.7}}",
+		"Good_7": "{{i18n:MARRIAGE.remi.Good.8}}",
+		"Good_8": "{{i18n:MARRIAGE.remi.Good.9}}",
+		"Good_9": "{{i18n:MARRIAGE.remi.Good.10}}",
+
+		"Neutral_0": "{{i18n:MARRIAGE.remi.Neutral.1}}",
+		"Neutral_2": "{{i18n:MARRIAGE.remi.Neutral.2}}",
+		"Neutral_1": "{{i18n:MARRIAGE.remi.Neutral.3}}",
+		"Neutral_3": "{{i18n:MARRIAGE.remi.Neutral.4}}",
+		"Neutral_4": "{{i18n:MARRIAGE.remi.Neutral.5}}",
+		"Neutral_5": "{{i18n:MARRIAGE.remi.Neutral.6}}",
+		"Neutral_6": "{{i18n:MARRIAGE.remi.Neutral.7}}",
+		"Neutral_7": "{{i18n:MARRIAGE.remi.Neutral.8}}",
+		"Neutral_8": "{{i18n:MARRIAGE.remi.Neutral.9}}",
+		"Neutral_9": "{{i18n:MARRIAGE.remi.Neutral.10}}",
+
+		"Bad_0": "{{i18n:MARRIAGE.remi.Bad.1}}",
+		"Bad_1": "{{i18n:MARRIAGE.remi.Bad.2}}",
+		"Bad_2": "{{i18n:MARRIAGE.remi.Bad.3}}",
+		"Bad_3": "{{i18n:MARRIAGE.remi.Bad.4}}",
+		"Bad_4": "{{i18n:MARRIAGE.remi.Bad.5}}",
+		"Bad_5": "{{i18n:MARRIAGE.remi.Bad.6}}",
+		"Bad_6": "{{i18n:MARRIAGE.remi.Bad.7}}",
+		"Bad_7": "{{i18n:MARRIAGE.remi.Bad.8}}",
+		"Bad_8": "{{i18n:MARRIAGE.remi.Bad.9}}",
+		"Bad_9": "{{i18n:MARRIAGE.remi.Bad.10}}",
+
+		"NoBed_0": "{{i18n:MARRIAGE.remi.NoBed.1}}",
+		"NoBed_1": "{{i18n:MARRIAGE.remi.NoBed.2}}",
+		"NoBed_2": "{{i18n:MARRIAGE.remi.NoBed.3}}",
+		"NoBed_3": "{{i18n:MARRIAGE.remi.NoBed.4}}",
+
+		"Spring_Remi": "{{i18n:MARRIAGE.remi.{{season}}}}",
+		"Summer_Remi": "{{i18n:MARRIAGE.remi.{{season}}}}",
+		"Fall_Remi": "{{i18n:MARRIAGE.remi.{{season}}}}",
+		"Winter_Remi": "{{i18n:MARRIAGE.remi.{{season}}}}",
+
+
+		//Seasonal dialogue for events said in marriage///////////////////////////////////
+		//SPRING
+		"spring_1": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"spring_2": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"spring_8": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"spring_12": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"spring_15": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"spring_23": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+
+		//Spring repeat from before marriage dialogue
+		"spring_4": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"spring_9": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"spring_19": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"spring_27": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+
+
+		//SUMMER
+		"summer_1": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"summer_8": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"summer_11": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"summer_15": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"summer_28": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+
+		//Summer repeat from before marriage dialogue
+		"summer_22": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"summer_16": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"summer_12": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"summer_27": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"summer_21": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+
+
+		//FALL
+		"fall_1": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"fall_8": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"fall_15": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"fall_26": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"fall_27": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+
+		//Fall repeat from before marriage dialogue
+		"fall_22": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"fall_9": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"fall_19": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"fall_20": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"fall_7": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+
+
+		//WINTER
+		"winter_1": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"winter_7": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"winter_25": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"winter_28": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+
+		//Winter repeat from before marriage dialogue
+		"winter_22": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"winter_12": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"winter_6": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+		"winter_21": "{{i18n:MARRIAGE.remi.{{season}}.{{day}}}}",
+
+
+		//gifts every wednesday during marriage
+		"spring_3": "{{i18n:MARRIAGE.remi.wednesdayGift.{{season}}.{{day}}}}",
+		"spring_10": "{{i18n:MARRIAGE.remi.wednesdayGift.{{season}}.{{day}}}}",
+		"spring_17": "{{i18n:MARRIAGE.remi.wednesdayGift.{{season}}.{{day}}}}",
+		"spring_24": "{{i18n:MARRIAGE.remi.wednesdayGift.{{season}}.{{day}}}}",
+
+		"summer_3": "{{i18n:MARRIAGE.remi.wednesdayGift.{{season}}.{{day}}}}",
+		"summer_10": "{{i18n:MARRIAGE.remi.wednesdayGift.{{season}}.{{day}}}}",
+		"summer_17": "{{i18n:MARRIAGE.remi.wednesdayGift.{{season}}.{{day}}}}",
+		"summer_24": "{{i18n:MARRIAGE.remi.wednesdayGift.{{season}}.{{day}}}}",
+
+		"fall_3": "{{i18n:MARRIAGE.remi.wednesdayGift.{{season}}.{{day}}}}",
+		"fall_10": "{{i18n:MARRIAGE.remi.wednesdayGift.{{season}}.{{day}}}}",
+		"fall_17": "{{i18n:MARRIAGE.remi.wednesdayGift.{{season}}.{{day}}}}",
+		"fall_24": "{{i18n:MARRIAGE.remi.wednesdayGift.{{season}}.{{day}}}}",
+
+		"winter_3": "{{i18n:MARRIAGE.remi.wednesdayGift.{{season}}.{{day}}}}",
+		"winter_10": "{{i18n:MARRIAGE.remi.wednesdayGift.{{season}}.{{day}}}}",
+		"winter_17": "{{i18n:MARRIAGE.remi.wednesdayGift.{{season}}.{{day}}}}",
+		"winter_24": "{{i18n:MARRIAGE.remi.wednesdayGift.{{season}}.{{day}}}}",
+	},
+	},
+
+]
+}

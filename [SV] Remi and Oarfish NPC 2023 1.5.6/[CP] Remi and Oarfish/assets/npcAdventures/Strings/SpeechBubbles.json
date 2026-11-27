@@ -1,0 +1,30 @@
+{
+"Changes": [
+
+	{
+	"LogName": "Load NPC Adventures companion speech bubbles",
+	"Action": "EditData",
+	"Target": "Strings/SpeechBubbles",
+	"Entries": {
+		// Remi
+		"ambient_Mine_Remi": "{{i18n: npca.remi.speechbubble.ambient_Mine_Remi}}",
+		"fight_Remi": "{{i18n: npca.remi.speechbubble.fight_Remi}}",
+		"fight_Remi~1": "{{i18n: npca.remi.speechbubble.fight_Remi~1}}",
+		"fight_Remi~2": "{{i18n: npca.remi.speechbubble.fight_Remi~2}}",
+		"fight_Remi~3": "{{i18n: npca.remi.speechbubble.fight_Remi~3}}",
+		"fight_Remi~4": "{{i18n: npca.remi.speechbubble.fight_Remi~4}}",
+		"fight_Remi~5": "{{i18n: npca.remi.speechbubble.fight_Remi~5}}",
+		"fight_Remi~6": "{{i18n: npca.remi.speechbubble.fight_Remi~6}}",
+		"fight_Remi~7": "{{i18n: npca.remi.speechbubble.fight_Remi~7}}",
+		"fight_Remi~8": "{{i18n: npca.remi.speechbubble.fight_Remi~8}}",
+		"fight_Remi~9": "{{i18n: npca.remi.speechbubble.fight_Remi~9}}",
+		"fight_Remi~10": "{{i18n: npca.remi.speechbubble.fight_Remi~10}}",
+
+		// Oarfish
+		"ambient_Mine_Oarfish": "{{i18n: npca.oarfish.speechbubble.ambient_Mine_Oarfish}}",
+		"fight_Oarfish": "{{i18n: npca.oarfish.speechbubble.fight_Oarfish}}",
+	},
+	},
+
+]
+}

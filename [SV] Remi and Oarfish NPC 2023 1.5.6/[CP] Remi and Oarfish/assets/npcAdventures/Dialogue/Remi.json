@@ -1,0 +1,250 @@
+{
+"Changes": [
+
+	{
+	"LogName": "Companion dialogues for Remi",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Remi",
+	"Entries": {
+		// ***** BASICS *****
+		"companionAccepted": "{{i18n: npca.remi.dialogue.companionAccepted}}",
+		"companionAccepted_Spouse": "{{i18n: npca.remi.dialogue.companionAccepted_Spouse}}",
+		"companionRecruited": "{{i18n: npca.remi.dialogue.companionRecruited}}",
+		"companionRecruited_Spouse": "{{i18n: npca.remi.dialogue.companionRecruited_Spouse}}",
+		"companionRejected": "{{i18n: npca.remi.dialogue.companionRejected}}",
+		"companionRejectedNight": "{{i18n: npca.remi.dialogue.companionRejectedNight}}",
+		"companionRejectedNight_Spouse": "{{i18n: npca.remi.dialogue.companionRejectedNight_Spouse}}",
+		"companionDismiss": "{{i18n: npca.remi.dialogue.companionDismiss}}",
+		"companionDismiss_Spouse": "{{i18n: npca.remi.dialogue.companionDismiss_Spouse}}",
+		"companionDismissAuto": "{{i18n: npca.remi.dialogue.companionDismissAuto}}",
+		"companionDismissAuto_Spouse": "{{i18n: npca.remi.dialogue.companionDismissAuto_Spouse}}",
+		
+		"companionSuggest": "{{i18n: npca.remi.dialogue.companionSuggest}}",
+		"companionSuggest_Yes": "{{i18n: npca.remi.dialogue.companionSuggest_Yes}}",
+		"companionSuggest_No": "{{i18n: npca.remi.dialogue.companionSuggest_No}}",
+		
+		// ***** FORAGES *****
+		"giveForages": "{{i18n: npca.remi.dialogue.giveForages}}",
+		
+		// AdventureGuild
+		"companion_AdventureGuild": "{{i18n: npca.remi.dialogue.companion_AdventureGuild}}",
+		"companion_AdventureGuild~1": "{{i18n: npca.remi.dialogue.companion_AdventureGuild~1}}",
+		
+		// AnimalShop
+		"companion_AnimalShop": "{{i18n: npca.remi.dialogue.companion_AnimalShop}}",
+		
+		// ArchaeologyHouse
+		"companion_ArchaeologyHouse": "{{i18n: npca.remi.dialogue.companion_ArchaeologyHouse}}",
+		
+		// Backwoods
+		"companion_Backwoods": "{{i18n: npca.remi.dialogue.companion_Backwoods}}",
+		"companion_Backwoods8": "{{i18n: npca.remi.dialogue.companion_Backwoods8}}",
+		
+		// BathHouse_Entry
+		"companion_BathHouse_Entry": "{{i18n: npca.remi.dialogue.companion_BathHouse_Entry}}",
+		
+		// BathHouse_MensLocker
+		"companion_BathHouse_MensLocker": "{{i18n: npca.remi.dialogue.companion_BathHouse_MensLocker}}",
+		
+		// BathHouse_Pool
+		"companion_BathHouse_Pool": "{{i18n: npca.remi.dialogue.companion_BathHouse_Pool}}",
+		
+		// BathHouse_WomensLocker
+		"companion_BathHouse_WomensLocker": "{{i18n: npca.remi.dialogue.companion_BathHouse_WomensLocker}}",
+		
+		// Beach
+		"companion_Beach": "{{i18n: npca.remi.dialogue.companion_Beach}}",
+		"companion_Beach~1": "{{i18n: npca.remi.dialogue.companion_Beach~1}}",
+		"companion_Beach~2": "{{i18n: npca.remi.dialogue.companion_Beach~2}}",
+		"companion_Beach~3": "{{i18n: npca.remi.dialogue.companion_Beach~3}}",
+		
+		
+		// Blacksmith
+		"companion_Blacksmith": "{{i18n: npca.remi.dialogue.companion_Blacksmith}}",
+		"companion_Blacksmith~1": "{{i18n: npca.remi.dialogue.companion_Blacksmith~1}}",
+		
+		
+		// BoatTunnel
+		
+		
+		
+		// BugLand
+		
+		
+		
+		// BusStop
+		
+		
+		
+		// Club
+		"companion_Club": "{{i18n: npca.remi.dialogue.companion_Club}}",
+		"companion_Club~1": "{{i18n: npca.remi.dialogue.companion_Club~1}}",
+		"companion_Club~2": "{{i18n: npca.remi.dialogue.companion_Club~2}}",
+		
+		
+		// CommunityCenter_Joja
+		
+		
+		// CommunityCenter_Refurbished
+		
+		
+		// CommunityCenter_Ruins
+		
+		
+		// Darkroom
+		
+		
+		// Desert
+		"companion_Desert": "{{i18n: npca.remi.dialogue.companion_Desert}}",
+		"companion_Desert~1": "{{i18n: npca.remi.dialogue.companion_Desert~1}}",
+		
+		
+		// ElliottHouse
+		
+		
+		// Farm
+		"companion_Farm": "{{i18n: npca.remi.dialogue.companion_Farm}}",
+		"companion_Farm~1": "{{i18n: npca.remi.dialogue.companion_Farm~1}}",
+		
+		
+		// FarmHouse
+		
+		
+		// FishShop
+		
+		
+		// Forest
+		"companion_Forest": "{{i18n: npca.remi.dialogue.companion_Forest}}",
+		
+		
+		// HaleyHouse
+		
+		
+		// HarveyRoom
+		
+		
+		// Hospital
+		
+		
+		// JojaMart
+		
+		
+		// JoshHouse
+		
+		
+		// LeahHouse
+		
+		
+		// LeoTreeHouse
+		
+		
+		// ManorHouse
+		
+		
+		// MermaidHouse
+		
+		
+		//
+		
+		
+		// Mine
+		"companion_Mine": "{{i18n: npca.remi.dialogue.companion_Mine}}",
+		"companion_Mine~1": "{{i18n: npca.remi.dialogue.companion_Mine~1}}",
+		"companion_Mine~2": "{{i18n: npca.remi.dialogue.companion_Mine~2}}",
+		"companion_Mine~3": "{{i18n: npca.remi.dialogue.companion_Mine~3}}",
+		
+		
+		// MOUNTAIN
+		"companion_Mountain": "{{i18n: npca.remi.dialogue.companion_Mountain}}",
+		"companion_Mountain~1": "{{i18n: npca.remi.dialogue.companion_Mountain~1}}",
+		
+		
+		// QiNutRoom
+		"companion_QiNutRoom": "{{i18n: npca.remi.dialogue.companion_QiNutRoom}}",
+		"companion_QiNutRoom~1": "{{i18n: npca.remi.dialogue.companion_QiNutRoom~1}}",
+		"companion_QiNutRoom~2": "{{i18n: npca.remi.dialogue.companion_QiNutRoom~2}}",
+		
+		
+		// Railroad
+		"companion_Railroad": "{{i18n: npca.remi.dialogue.companion_Railroad}}",
+		"companion_Railroad_Spouse": "{{i18n: npca.remi.dialogue.companion_Railroad_Spouse}}",
+		"companion_Railroad_Spouse~1": "{{i18n: npca.remi.dialogue.companion_Railroad_Spouse~1}}",
+		
+		
+		// SALOON
+		"companion_Saloon": "{{i18n: npca.remi.dialogue.companion_Saloon}}",
+		"companion_Saloon_Night": "{{i18n: npca.remi.dialogue.companion_Saloon_Night}}",
+		"companion_Saloon_Night~1": "{{i18n: npca.remi.dialogue.companion_Saloon_Night~1}}",
+		
+		
+		// SamHouse
+		"companion_SamHouse": "{{i18n: npca.remi.dialogue.companion_SamHouse}}",
+		
+		
+		// SandyHouse
+		"companion_SandyHouse": "{{i18n: npca.remi.dialogue.companion_SandyHouse}}",
+		
+		// ScienceHouse
+		
+		
+		// SebastianRoom
+		
+		
+		// SEED SHOP
+		"companion_SeedShop": "{{i18n: npca.remi.dialogue.companion_SeedShop}}",
+		"companion_SeedShop_Tuesday": "{{i18n: npca.remi.dialogue.companion_SeedShop_Tuesday}}",
+		"companion_SeedShop_Wednesday^10": "{{i18n: npca.remi.dialogue.companion_SeedShop_Wednesday^10}}",
+		
+		
+		// SEWER
+		"companion_Sewer": "{{i18n: npca.remi.dialogue.companion_Sewer}}",
+		"companion_Sewer~1": "{{i18n: npca.remi.dialogue.companion_Sewer~1}}",
+		
+		
+		// SkullCave
+		
+		
+		// Summit
+		
+		
+		// Sunroom
+		"companion_Sunroom": "{{i18n: npca.remi.dialogue.companion_Sunroom}}",
+		"companion_Sunroom~1": "{{i18n: npca.remi.dialogue.companion_Sunroom~1}}",
+		
+		
+		// Town
+		"companion_Town": "{{i18n: npca.remi.dialogue.companion_Town}}",
+		"companion_Town_Night": "{{i18n: npca.remi.dialogue.companion_Town_Night}}",
+		"companion_Town_winter": "{{i18n: npca.remi.dialogue.companion_Town_winter}}",
+		
+		
+		// Trailer
+		
+		
+		// Trailer_big
+		"companion_Trailer_big": "{{i18n: npca.remi.dialogue.companion_Trailer_big}}",
+		
+		
+		// Tunnel
+		
+		
+		// WitchHut
+		"companion_WitchHut": "{{i18n: npca.remi.dialogue.companion_WitchHut}}",
+		
+		// WitchSwamp
+		
+		
+		// WizardHouse
+		"companion_WizardHouse": "{{i18n: npca.remi.dialogue.companion_WizardHouse}}",
+		"companion_WizardHouse~1": "{{i18n: npca.remi.dialogue.companion_WizardHouse~1}}",
+		
+		
+		// WizardHouseBasement
+		
+		
+		// Woods
+	},
+	},
+
+]
+}

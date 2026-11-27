@@ -1,0 +1,67 @@
+{
+"Changes": [
+
+	{
+	"Action": "EditData",
+	"Target": "Data/Events/Farm",
+	"Entries": {
+		//8 Hearts with Oarfish, sending mail before allowing event to trigger
+		"10312012/f Oarfish 2000/x oarfish_8HeartsLetter": "null",
+
+		//8 Hearts with Oarfish, thank you letter after event
+		"10312014/e 10312013/x oarfish_8HeartsLetterAfterEvent": "null",
+	},
+	},
+
+	//MAIL
+	{
+	"LogName": "Remi and Oarfish Mail",
+	"Action": "EditData",
+	"Target": "Data/mail",
+	"Entries": {
+		//Heart events mail
+		"oarfish_8HeartsLetter": "{{i18n:MAIL.8HeartsLetter.Oarfish}}",
+		"oarfish_8HeartsLetterAfterEvent": "{{i18n:MAIL.8HeartsLetterAfterEvent.Oarfish}}",
+	}
+	},
+
+	{
+	"Action": "EditData",
+	"Target": "Data/Events/Beach",
+	"Entries": {
+		//Oarfish - 8 Hearts: Gifting Pierre
+		"10312013/e 10312009/w sunny/f Oarfish 2000/n oarfish_8HeartsLetter/t 900 1800": "playful/-1000 -1000/farmer 45 18 2 Oarfish 51 23 2 Pierre 1000 1000 2 Remi 1000 1000 2/skippable/viewport 50 22 true/move farmer 0 5 2/move farmer 5 0 1/pause 300/faceDirection Oarfish 3/pause 200/emote Oarfish 32/pause 400/speak Oarfish \"{{i18n:oarfish.8Hearts.1}}\"/pause 200/emote farmer 32/pause 400/speak Oarfish \"{{i18n:oarfish.8Hearts.2}}\"/pause 300/faceDirection Oarfish 2/pause 500/shake Oarfish 300/playSound fishBite/pause 800/viewport -1000 -1000/pause 200/playSound pullItemFromWater/pause 1800/playSound jingle1/pause 500/viewport 50 22 true/pause 1000/faceDirection Oarfish 3/pause 300/speak Oarfish \"{{i18n:oarfish.8Hearts.3}}\"/pause 200/emote farmer 8/pause 200/faceDirection farmer 2/pause 400/faceDirection farmer 1/pause 500/move Oarfish 0 -1 0/move Oarfish -1 0 3/pause 100/faceDirection farmer 0/pause 100/faceDirection Oarfish 2/pause 200/speak Oarfish \"{{i18n:oarfish.8Hearts.4}}\"/pause 400/move Oarfish 0 -10 0 true/pause 200/move farmer 0 -10 0 true/pause 1000/globalFade/viewport -1000 -1000 true/halt/faceDirection farmer 1/faceDirection Oarfish 0/warp farmer 10 23/warp Oarfish 15 23/warp Pierre 4 17/pause 1000/changeToTemporaryMap SeedShop/viewport 8 20 true/pause 2000/playSound coin/pause 400/move Oarfish -4 0 0/pause 500/playSound coin/pause 400/faceDirection Oarfish 3/pause 400/speak Oarfish \"{{i18n:oarfish.8Hearts.5}}\"/pause 400/speak Oarfish \"{{i18n:oarfish.8Hearts.6}}\"/pause 100/emote Oarfish 28/pause 500/speak Oarfish \"{{i18n:oarfish.8Hearts.7}}\"/pause 100/playSound money/pause 300/message \"{{i18n:oarfish.8Hearts.8}}\"/pause 300/move farmer -4 0 3/move farmer 0 -3 0/move farmer -2 0 3/move farmer 0 -1 0/pause 500/speak Pierre \"{{i18n:oarfish.8Hearts.9}}\"/pause 300/faceDirection farmer 2/pause 200/move Oarfish -1 0 3/pause 100/emote Oarfish 32/pause 1000/globalFade/viewport -1000 -1000 true/warp Pierre 1000 1000/warp Remi 41 41/warp Oarfish 40 41/warp farmer 39 41/faceDirection Oarfish 1/faceDirection farmer 1/animate Remi false true 1500 16 17/pause 1000/changeToTemporaryMap Railroad/viewport 40 41 true/pause 3000/playSound clubhit/shake Oarfish 200/pause 100/shake Remi 300/stopAnimation Remi/pause 1000/faceDirection Remi 3/pause 800/speak Remi \"{{i18n:oarfish.8Hearts.10}}\"/pause 500/speak Remi \"{{i18n:oarfish.8Hearts.11}}\"/pause 1000/globalFade/viewport -1000 -1000 true/warp Remi 7 5/faceDirection Remi 0/warp Oarfish 6 5/warp farmer 5 7/faceDirection farmer 0/pause 1000/changeToTemporaryMap ManorHouse/viewport 7 5 true/pause 2200/playSound furnace/shake Remi 200/pause 1500/playSound clank/shake Remi 100/pause 500/playSound clank/shake Remi 100/pause 500/pause 1500/playSound crystal/shake Remi 100/pause 1500/faceDirection Remi 3/pause 400/speak Remi \"{{i18n:oarfish.8Hearts.12}}\"/pause 300/speak Oarfish \"{{i18n:oarfish.8Hearts.13}}\"/pause 800/faceDirection farmer 2/pause 800/faceDirection farmer 0/pause 300/faceDirection Remi 2/pause 400/speak Remi \"{{i18n:oarfish.8Hearts.14}}\"/pause 400/speak Remi \"{{i18n:oarfish.8Hearts.15}}\"/pause 300/faceDirection Oarfish 2/pause 200/faceDirection farmer 2/pause 200/emote farmer 28/pause 1000/globalFade/viewport -1000 -1000 true/warp Remi 1000 1000/warp Oarfish 46 57/faceDirection Oarfish 3/warp farmer 45 57/faceDirection farmer 3/pause 1000/changeLocation Town/viewport 44 57 true/pause 2000/faceDirection farmer 1/pause 300/emote farmer 8/pause 200/emote Oarfish 40/pause 400/speak Oarfish \"{{i18n:oarfish.8Hearts.16}}\"/pause 300/faceDirection Oarfish 2/pause 1000/faceDirection Oarfish 3/pause 400/speak Oarfish \"{{i18n:oarfish.8Hearts.17}}\"/pause 400/question fork0 \"{{i18n:oarfish.8Hearts.18}}\"/fork oarfish8hearts_givecalamari/pause 100/jump Oarfish 4/pause 800/shake Oarfish 300/emote Oarfish 28/pause 500/speak Oarfish \"{{i18n:oarfish.8Hearts.19}}\"/pause 200/faceDirection Oarfish 2/pause 1000/faceDirection Oarfish 3/pause 800/speak Oarfish \"{{i18n:oarfish.8Hearts.20}}\"/pause 100/emote farmer 32/pause 400/move farmer 0 1 0/pause 300/move Oarfish -2 0 0/pause 800/playSound doorClose/warp Oarfish 1000 1000/pause 1000/globalFade/viewport -1000 -1000/warp farmer 1000 1000/warp Pierre 5 22/changeToTemporaryMap SeedShop/viewport 8 22 true/playMusic jaunty/pause 2000/playSound doorClose/warp Oarfish 6 28/pause 300/faceDirection Pierre 2/pause 400/speak Pierre \"{{i18n:oarfish.8Hearts.21}}\"/pause 400/move Oarfish 0 -6 3/pause 300/faceDirection Pierre 1/pause 200/emote Pierre 8/pause 200/speak Pierre \"{{i18n:oarfish.8Hearts.22}}\"/pause 800/playSound give_gift/pause 200/emote Pierre 8/pause 200/jump Pierre 5/pause 400/speak Pierre \"{{i18n:oarfish.8Hearts.23}}\"/pause 100/emote Pierre 56/pause 200/faceDirection Pierre 2/pause 600/faceDirection Pierre 1/pause 400/speak Pierre \"{{i18n:oarfish.8Hearts.24}}\"/pause 400/speak Pierre \"{{i18n:oarfish.8Hearts.25}}\"/pause 200/faceDirection Oarfish 2/emote Oarfish 28/pause 1000/globalFade/viewport -1000 -1000/warp Pierre 1000 1000/warp Oarfish 1000 1000/faceDirection farmer 3/warp farmer 45 57/positionOffset farmer 0 20/stopMusic/playMusic kindadumbautumn/changeLocation Town/viewport 45 57 true/pause 1500/playSound doorClose/warp Oarfish 44 57/pause 700/shake Oarfish 500/textAboveHead Oarfish \"{{i18n:oarfish.8Hearts.26}}\"/pause 1500/faceDirection Oarfish 1/pause 400/speak Oarfish \"{{i18n:oarfish.8Hearts.27}}\"/pause 200/speak Oarfish \"{{i18n:oarfish.8Hearts.28}}\"/pause 1500/globalFade/viewport -1000 -1000/pause 500/message \"{{i18n:oarfish.8Hearts.29}}\"/pause 1000/changeLocation SeedShop/end warpOut",
+	},
+	},
+
+	{
+	"Action": "EditData",
+	"Target": "Data/Events/Town",
+	"Entries": {
+		//Oarfish - 8 Hearts: Give Calamari
+		"oarfish8hearts_givecalamari": "pause 100/emote Oarfish 32/pause 100/speak Oarfish \"{{i18n:oarfish.8Hearts.30}}\"/pause 800/move farmer -2 0 0/pause 500/playSound doorClose/warp farmer 1000 1000/pause 1000/globalFade/viewport -1000 -1000/warp Oarfish 1000 1000/warp farmer 1000 1000/warp Pierre 5 22/faceDirection Pierre 3/changeLocation SeedShop/viewport 8 22 true/pause 2000/playSound doorClose/warp farmer 6 28/pause 300/faceDirection Pierre 2/pause 500/speak Pierre \"{{i18n:oarfish.8Hearts.31}}\"/pause 200/move farmer 0 -6 3/pause 400/faceDirection Pierre 1/pause 200/emote Pierre 8/pause 200/speak Pierre \"{{i18n:oarfish.8Hearts.32}}\"/pause 800/question fork1 \"{{i18n:oarfish.8Hearts.33}}\"/fork oarfish8hearts_goodgiftcalamari/pause 1000/stopMusic/viewport -1000 -1000/pause 100/playSound slimedead/pause 500/speak Pierre \"{{i18n:oarfish.8Hearts.34}}\"/pause 300/playSound stairsdown/pause 1000/playSound doorClose/warp farmer 1000 1000/faceDirection Pierre 2/faceDirection farmer 2/warp Oarfish 44 57/faceDirection Oarfish 0/pause 1000/changeLocation Town/viewport 44 57 true/playMusic event1/pause 2000/speak Oarfish \"{{i18n:oarfish.8Hearts.35}}\"/pause 600/playSound serpentDie/shake Oarfish 300/pause 400/speak Oarfish \"{{i18n:oarfish.8Hearts.36}}\"/pause 500/playSound doorClose/warp farmer 43 57/positionOffset farmer 0 10/pause 100/faceDirection Oarfish 3/pause 200/faceDirection farmer 1/pause 100/jump farmer 5/pause 500/playSound wand/screenFlash .50/warp Oarfish 49 55/warp farmer 48 55/pause 500/faceDirection Oarfish 2/faceDirection farmer 2/pause 1000/playSound doorClose/warp Pierre 43 57/pause 500/speak Pierre \"{{i18n:oarfish.8Hearts.37}}\"/pause 200/shake Pierre 800/textAboveHead Pierre \"{{i18n:oarfish.8Hearts.38}}\"/pause 1200/faceDirection Pierre 0/pause 400/playSound doorClose/warp Pierre 1000 1000/pause 200/emote farmer 40/pause 800/animate Oarfish false true 150 21 22/animate farmer false true 100 102 103/pause 1500/globalFade/viewport -1000 -1000/stopAnimation Oarfish/stopAnimation farmer/halt/friendship Oarfish 100/pause 500/message \"{{i18n:oarfish.8Hearts.39}}\"/pause 1000/changeLocation Beach/end warpOut",
+	},
+	},
+
+	{
+	"Action": "EditData",
+	"Target": "Data/Events/SeedShop",
+	"Entries": {
+		//Oarfish - 8 Hearts: calmly give calamari
+		"oarfish8hearts_goodgiftcalamari": "pause 100/jump Pierre 5/pause 800/speak Pierre \"{{i18n:oarfish.8Hearts.40}}\"/friendship Pierre 125/pause 200/playSound give_gift/emote Pierre 56/pause 200/speak Pierre \"{{i18n:oarfish.8Hearts.41}}\"/pause 300/faceDirection Pierre 2/pause 800/faceDirection Pierre 1/pause 400/speak Pierre \"{{i18n:oarfish.8Hearts.42}}\"/pause 1000/globalFade/viewport -1000 -1000/warp Pierre 1000 1000/warp farmer 1000 1000/faceDirection farmer 2/warp Oarfish 45 57/changeToTemporaryMap Town/viewport 45 57 true/pause 2000/playSound doorClose/warp farmer 44 57/positionOffset farmer 0 20/pause 800/faceDirection farmer 1/pause 200/emote Oarfish 32/pause 200/friendship Oarfish 100/speak Oarfish \"{{i18n:oarfish.8Hearts.43}}\"/pause 200/emote farmer 32/pause 1000/globalFade/viewport -1000 -1000/pause 500/message \"{{i18n:oarfish.8Hearts.44}}\"/pause 1000/changeLocation SeedShop/end warpOut",
+	},
+	},
+
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Oarfish",
+	"Entries": {
+		//8 Heart event dialogue
+		"Event_oarfish8Hearts1": "{{i18n:oarfish.8Hearts.Answer1}}",
+		"Event_oarfish8Hearts2": "{{i18n:oarfish.8Hearts.Answer2}}",
+		"Event_oarfish8Hearts3": "{{i18n:oarfish.8Hearts.Answer3}}",
+	},
+	},
+
+]
+}

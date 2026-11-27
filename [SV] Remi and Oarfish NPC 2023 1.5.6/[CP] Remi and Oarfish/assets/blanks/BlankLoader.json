@@ -1,0 +1,63 @@
+{
+"Changes": [
+
+	// Schedules Blank Loader
+	{
+	"LogName": "Remi Schedules Blank",
+	"Action": "Load",
+	"Target": "Characters/schedules/Remi",
+	"FromFile": "Assets/blanks/blank.json",
+	},
+	{
+	"LogName": "Remi SchedulesDialogue Blank",
+	"Action": "Load",
+	"Target": "Strings/schedules/Remi",
+	"FromFile": "Assets/blanks/blank.json",
+	},
+
+
+	// Dialogue Blank Loader
+	{
+	"LogName": "Remi Dialogue Blank",
+	"Action": "Load",
+	"Target": "Characters/Dialogue/Remi",
+	"FromFile": "Assets/blanks/blank.json",
+	},
+	{
+	"LogName": "Remi MarriageDialogue Blank",
+	"Action": "Load",
+	"Target": "Characters/Dialogue/MarriageDialogueRemi",
+	"FromFile": "Assets/blanks/blank.json",
+	},
+
+	// Schedules Blank Loader
+	{
+	"LogName": "Oarfish Schedules Blank",
+	"Action": "Load",
+	"Target": "Characters/schedules/Oarfish",
+	"FromFile": "Assets/blanks/blank.json",
+	},
+	{
+	"LogName": "Oarfish SchedulesDialogue Blank",
+	"Action": "Load",
+	"Target": "Strings/schedules/Oarfish",
+	"FromFile": "Assets/blanks/blank.json",
+	},
+
+
+	// Dialogue Blank Loader
+	{
+	"LogName": "Oarfish Dialogue Blank",
+	"Action": "Load",
+	"Target": "Characters/Dialogue/Oarfish",
+	"FromFile": "Assets/blanks/blank.json",
+	},
+	{
+	"LogName": "Oarfish MarriageDialogue Blank",
+	"Action": "Load",
+	"Target": "Characters/Dialogue/MarriageDialogueOarfish",
+	"FromFile": "Assets/blanks/blank.json",
+	},
+
+]
+}

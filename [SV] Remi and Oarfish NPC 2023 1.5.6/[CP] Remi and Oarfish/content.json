@@ -1,0 +1,407 @@
+{
+"Format": "1.29.0",
+
+// ***** TABLE OF CONTENTS *****
+// [] CUSTOM MAPS - CustomLocations []
+// [] CHANGES []
+//	- // BLANKS LOADER
+//	- // MAP CHANGES
+//	- // DISPOSITIONS
+//	- // SPRITES
+//	- // PORTRAITS
+//	- // SCHEDULES
+//	- // DIALOGUE
+//	- // ANIMATION FRAMES
+//	- // EVENTS including MAIL
+//	- // MOVIES
+//	- // MISC STRINGS
+//	- // NPC EXCLUSION
+//	- // PLATONIC MOD ADDITION
+//	- // NPC Adventures Dialogues, Speechbubbles, Events and Mail
+//	- // OTHER MODS COMPATIBILITY PATCHES
+// [] EVENT REPEATER []
+// [] DYNAMIC TOKENS []
+//	- // Remi's Dialogue Tokens
+//	- // Oarfish's Dialogue Tokens
+
+
+"CustomLocations": [
+	{
+	"Name": "Custom_grotovu_LostGarden",
+	"FromMapFile": "assets/maps/LostGarden.tmx"
+	},
+	{
+	"Name": "Custom_grotovu_LostGardenSection00",
+	"FromMapFile": "assets/maps/LostGardenSection.tmx"
+	},
+],
+
+
+"Changes": [
+// BLANKS LOADER ****************************************************
+	{
+	"LogName": "Include BlankLoader",
+	"Action": "Include",
+	"FromFile": "assets/blanks/BlankLoader.json"
+	},
+
+
+// MAP CHANGES ****************************************************
+	{
+	"LogName": "Include Map Changes",
+	"Action": "Include",
+	"FromFile": "assets/mapPatches.json"
+	},
+
+
+// DISPOSITION ********************************
+	{
+	"LogName": "NPC Dispositions Remi and Oarfish",
+	"Action": "Include",
+	"FromFile": "assets/NPCDispositions.json"
+	},
+
+
+// SPRITES ****************************************************************
+	//REMI SPRITE
+	{
+	"LogName": "NPC Sprite",
+	"Action": "Load",
+	"Target": "Characters/Remi",
+	"FromFile": "assets/img/remi_spritesheet.png",
+	},
+	{
+	"LogName": "NPC Sprite shapeshifting Lewis to Oarfish",
+	"Action": "Load",
+	"Target": "Characters/Lewis_Oarfish",
+	"FromFile": "assets/img/oarfish_spritesheet.png",
+	},
+	//OARFISH SPRITE
+	{
+	"LogName": "NPC Sprite",
+	"Action": "Load",
+	"Target": "Characters/Oarfish",
+	"FromFile": "assets/img/oarfish_spritesheet.png",
+	},
+
+
+// PORTRAITS ****************************************************************
+	//REMI PORTRAIT
+	{
+	"LogName": "NPC Portrait",
+	"Action": "Load",
+	"Target": "Portraits/Remi",
+	"FromFile": "assets/img/remi_portrait.png",
+	},
+	{
+	"LogName": "NPC Portrait shapeshifting Lewis to Oarfish",
+	"Action": "Load",
+	"Target": "Portraits/Lewis_Oarfish",
+	"FromFile": "assets/img/oarfish_portrait.png",
+	},
+	//OARFISH PORTRAIT
+	{
+	"LogName": "NPC Portrait",
+	"Action": "Load",
+	"Target": "Portraits/Oarfish",
+	"FromFile": "assets/img/oarfish_portrait.png",
+	},
+
+
+// SCHEDULES ****************************************************************
+	//REMI SCHEDULES
+	{
+	"LogName": "Remi Schedule",
+	"Action": "Include",
+	"FromFile": "assets/remi/remi_schedule.json",
+	},
+	{
+	"LogName": "Remi Schedule Dialogue",
+	"Action": "Include",
+	"FromFile": "assets/remi/remi_scheduleDialogue.json",
+	},
+	{
+	"LogName": "Remi Addition Dialogue from Other Mods",
+	"Action": "Include",
+	"FromFile": "assets/remi/remi_additionDialogue.json",
+	},
+	//OARFISH SCHEDULES
+	{
+	"LogName": "Oarfish Schedule",
+	"Action": "Include",
+	"FromFile": "assets/oarfish/oarfish_schedule.json",
+	},
+	{
+	"LogName": "Oarfish Schedule Dialogue",
+	"Action": "Include",
+	"FromFile": "assets/oarfish/oarfish_scheduleDialogue.json",
+	},
+	{
+	"LogName": "Oarfish Addition Dialogue from Other Mods",
+	"Action": "Include",
+	"FromFile": "assets/oarfish/oarfish_additionDialogue.json",
+	},
+
+
+// DIALOGUE ****************************************************************
+	//GIFT TASTES
+	{
+	"LogName": "NPC Gift Tastes",
+	"Action": "EditData",
+	"Target": "Data/NPCGiftTastes",
+	"Entries": {
+		"Remi": "{{i18n: remi.giftlove}}/346 459 303 348 635/{{i18n: remi.giftlike}}/-80 -7 -12 -4/{{i18n: remi.giftdislike}}//{{i18n: remi.gifthate}}/-20 446/{{i18n: remi.giftneutral}}/-27 -81/",
+		"Oarfish": "{{i18n: oarfish.giftlove}}/206 103 800 799 796 795/{{i18n: oarfish.giftlike}}/393 397 372 233 394 392 167 -12 -4/{{i18n: oarfish.giftdislike}}//{{i18n: oarfish.gifthate}}/-20 -75/{{i18n: oarfish.giftneutral}}//",
+	}
+	},
+	//REMI DIALOGUE
+	{
+	"LogName": "Remi Custom Fixed Dialogue",
+	"Action": "Include",
+	"FromFile": "assets/remi/remi_customFixedDialogue.json"
+	},
+	{
+	"LogName": "Remi main dialogue file",
+	"Action": "Include",
+	"FromFile": "assets/remi/remi_dialogue.json",
+	},
+	//OARFISH DIALOGUE
+	{
+	"LogName": "Oarfish Custom Fixed Dialogue",
+	"Action": "Include",
+	"FromFile": "assets/oarfish/oarfish_customFixedDialogue.json"
+	},
+	{
+	"LogName": "Oarfish main dialogue file",
+	"Action": "Include",
+	"FromFile": "assets/oarfish/oarfish_dialogue.json",
+	},
+
+
+// ANIMATION FRAMES *************************************************
+	{
+	"LogName": "Animation Frames",
+	"Action": "Include",
+	"FromFile": "assets/Animations.json",
+	},
+
+
+// EVENTS including MAIL ******************************************
+	{
+	"LogName": "Include Events",
+	"Action": "Include",
+	"FromFile": "assets/Events/EventLoader.json",
+	},
+	{
+	"LogName": "Include Mail",
+	"Action": "Include",
+	"FromFile": "assets/Mail.json",
+	},
+
+
+// MOVIES *********************************************************
+	{
+	"LogName": "Include Movies",
+	"Action": "Include",
+	"FromFile": "assets/Movies.json"
+	},
+
+// MISC. STRINGS ****************************************************
+	{
+	"LogName": "Misc. Strings",
+	"Action": "Include",
+	"FromFile": "assets/miscStrings.json",
+	},
+
+// NPC EXCLUSION ****************************************************
+	{
+	"LogName": "Exclude Remi and Oarfish from certain events",
+	"Action": "EditData",
+	"Target": "Data/CustomNPCExclusions",
+	"When": {"HasMod |contains=Esca.CustomNPCExclusions": "true",},
+	"Entries": {
+		//Everything except the movies
+		"Remi": "TownQuest IslandEvent ShopDialog WinterStar Calendar ItemDelivery Socialize IslandVisit BeGreeted Greet PerfectFriend",
+		"Oarfish": "TownQuest IslandEvent ShopDialog WinterStar Calendar ItemDelivery Socialize IslandVisit BeGreeted Greet PerfectFriend",
+	},
+	},
+
+// PLATONIC MOD ADDITION ****************************************************
+	{
+	"LogName": "Enable friendship bracelet for Remi",
+	"Action": "EditData",
+	"Target": "Data/ObjectContextTags",
+	"When": {"HasMod |contains=Amaranthacyan.PPAFSMAPI": "true",},
+	"TextOperations": [
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "Friendship Bracelet"],
+		"Value": "propose_roommate_remi",
+		"Delimiter": ", "
+		}
+	],
+	},
+	{
+	"LogName": "Enable friendship bracelet for Oarfish",
+	"Action": "EditData",
+	"Target": "Data/ObjectContextTags",
+	"When": {"HasMod |contains=Amaranthacyan.PPAFSMAPI": "true",},
+	"TextOperations": [
+		{
+		"Operation": "Append",
+		"Target": ["Entries", "Friendship Bracelet"],
+		"Value": "propose_roommate_oarfish",
+		"Delimiter": ", "
+		}
+	],
+	},
+
+
+// NPC Adventures Dialogues, Speechbubbles, Events and Mail ****************************************************
+	// Companion Remi and Oarfish dialogues
+	{
+	"Action": "Include",
+	"FromFile": "assets/npcAdventures/Dialogue/Remi.json, assets/npcAdventures/Dialogue/Oarfish.json"
+	},
+	// Companion SpeechBubbles
+	{
+	"Action": "Include",
+	"FromFile": "assets/npcAdventures/Strings/SpeechBubbles.json"
+	},
+	// Companion Mail
+	{
+	"Action": "Include",
+	"FromFile": "assets/npcAdventures/NPCAMail.json"
+	},
+	// Companion Events, remove comment slashes when I put in an event
+	//{
+	// "Action": "Include",
+	//  "FromFile": "assets/npcAdventures/Events/npcaEvents.json"
+	//},
+
+
+// OTHER MODS COMPATIBILITY PATCHES ****************************************************
+	// SVE Compatibility Patches
+	{
+	"Action": "Include",
+	"FromFile": "assets/modcompatibility/SVE/SVE_Patches.json",
+	"When": {
+		"HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
+	},
+	},
+
+
+], //End of Changes ****************************************************
+
+
+//*************************** EVENT REPEATER **************************************************************
+
+//Repeat Remi's question at the Saloon every Saturday
+//"RepeatEvents": [],
+//"RepeatMail": [],
+"RepeatResponse": [
+	// Saloon menu question
+	10311003,
+	10311004,
+	10311005,
+	10311006,
+	10311007,
+	10311008,
+	// Friday Mining questions with Oarfish
+	10313014,
+	10313015,
+	// Friday Mining questions with Remi
+	10311020,
+	10311021,
+],
+
+
+//********************** DYNAMIC TOKENS *******************************************************************
+"DynamicTokens": [
+// Remi's Dialogue Tokens ///////////////////////////////////////////////////////////////////////////////
+	// Remi Dialogue Variation Tokens
+	{
+	"Name": "RemiNormalDialogueSeasonalDayofWeek",
+	"Value": "{{i18n:DIALOGUE.remi.0.{{season}}.{{dayofweek}}.{{Random: a, b}}}}",
+	"When": { "Hearts:Remi": "0, 1" }
+	},
+	{
+	"Name": "RemiNormalDialogueSeasonalDayofWeek",
+	"Value": "{{i18n:DIALOGUE.remi.{{Random: 2, 2, 0}}.{{season}}.{{dayofweek}}.{{Random: a, b}}}}",
+	"When": { "Hearts:Remi": "2, 3" }
+	},
+	{
+	"Name": "RemiNormalDialogueSeasonalDayofWeek",
+	"Value": "{{i18n:DIALOGUE.remi.{{Random: 4, 4, 4, 2, 0}}.{{season}}.{{dayofweek}}.{{Random: a, b}}}}",
+	"When": { "Hearts:Remi": "4, 5" }
+	},
+	{
+	"Name": "RemiNormalDialogueSeasonalDayofWeek",
+	"Value": "{{i18n:DIALOGUE.remi.{{Random: 6, 6, 6, 4, 4, 2, 0}}.{{season}}.{{dayofweek}}.{{Random: a, b}}}}",
+	"When": { "Hearts:Remi": "6, 7" }
+	},
+	{
+	"Name": "RemiNormalDialogueSeasonalDayofWeek",
+	"Value": "{{i18n:DIALOGUE.remi.{{Random: 8, 8, 8, 8, 6, 6, 4, 2, 0}}.{{season}}.{{dayofweek}}.{{Random: a, b}}}}",
+	"When": { "Hearts:Remi": "8, 9" }
+	},
+	{
+	"Name": "RemiNormalDialogueSeasonalDayofWeek",
+	"Value": "{{i18n:DIALOGUE.remi.{{Random: 10, 10, 8, 8, 8, 6, 6, 4, 2, 0}}.{{dayofweek}}.{{Random: a, b}}}}",
+	"When": { "Hearts:Remi": "10, 11, 12, 13, 14" }
+	},
+	// Remi MAIN DIALOGUE TOKEN from 0 to 10 hearts, use this one in the remi_dialogue file, this refers to normally speaking to Remi with right click.
+	{
+	"Name": "RemiNormalDialogue",
+	"Value": "{{RemiNormalDialogueSeasonalDayofWeek}}",
+	//"Value": "{{Random: {{RemiNormalDialogueSeasonalDayofWeek}} @@ {{RemiNormalDialogueSeasonalDayofWeek}} |inputSeparator=@@}}",
+	},
+
+	// Remi's Thursday Stealing Question Token *****
+	{
+	"Name": "RemiThursdayDialogueRandom",
+	"Value": "{{Random: a, b, b, b}}",
+	},
+
+
+// Oarfish's Dialogue Tokens ///////////////////////////////////////////////////////////////////////////////
+	// Oarfish Dialogue Variation Tokens
+	{
+	"Name": "OarfishNormalDialogueSeasonalDayofWeek",
+	"Value": "{{i18n:DIALOGUE.oarfish.0.{{season}}.{{dayofweek}}.{{Random: a, b}}}}",
+	"When": { "Hearts:Oarfish": "0, 1" }
+	},
+	{
+	"Name": "OarfishNormalDialogueSeasonalDayofWeek",
+	"Value": "{{i18n:DIALOGUE.oarfish.{{Random: 2, 2, 0}}.{{season}}.{{dayofweek}}.{{Random: a, b}}}}",
+	"When": { "Hearts:Oarfish": "2, 3" }
+	},
+	{
+	"Name": "OarfishNormalDialogueSeasonalDayofWeek",
+	"Value": "{{i18n:DIALOGUE.oarfish.{{Random: 4, 4, 4, 2, 0}}.{{season}}.{{dayofweek}}.{{Random: a, b}}}}",
+	"When": { "Hearts:Oarfish": "4, 5" }
+	},
+	{
+	"Name": "OarfishNormalDialogueSeasonalDayofWeek",
+	"Value": "{{i18n:DIALOGUE.oarfish.{{Random: 6, 6, 6, 4, 4, 2, 0}}.{{season}}.{{dayofweek}}.{{Random: a, b}}}}",
+	"When": { "Hearts:Oarfish": "6, 7" }
+	},
+	{
+	"Name": "OarfishNormalDialogueSeasonalDayofWeek",
+	"Value": "{{i18n:DIALOGUE.oarfish.{{Random: 8, 8, 8, 8, 6, 6, 4, 2, 0}}.{{season}}.{{dayofweek}}.{{Random: a, b}}}}",
+	"When": { "Hearts:Oarfish": "8, 9" }
+	},
+	{
+	"Name": "OarfishNormalDialogueSeasonalDayofWeek",
+	"Value": "{{i18n:DIALOGUE.oarfish.{{Random: 10, 10, 10, 8, 8, 8, 6, 6, 4, 2, 0}}.{{dayofweek}}.{{Random: a, b}}}}",
+	"When": { "Hearts:Oarfish": "10, 11, 12, 13, 14" }
+	},
+	// Oarfish MAIN DIALOGUE TOKEN from 0 to 10 hearts, use this one in the oarfish_dialogue file, this refers to normally speaking to Oarfish with right click.
+	{
+	"Name": "OarfishNormalDialogue",
+	"Value": "{{OarfishNormalDialogueSeasonalDayofWeek}}",
+	//"Value": "{{Random: {{OarfishNormalDialogueSeasonalDayofWeek}} @@ {{OarfishNormalDialogueSeasonalDayofWeek}} |inputSeparator=@@}}",
+	},
+
+],
+}

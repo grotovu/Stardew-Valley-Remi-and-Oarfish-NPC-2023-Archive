@@ -1,0 +1,300 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/MoviesReactions",
+      "Entries": {
+		//REMI MOVIE TASTES
+        "Remi": {
+        "NPCName": "Remi",
+		"Reactions":
+		[
+			//Remi's movie reaction if Oarfish is present
+			{
+			"Tag": "*",
+			"Response": "love",
+			"Whitelist": [
+			"Oarfish"
+			],
+			"SpecialResponses": {
+			"BeforeMovie": {
+				"ResponsePoint": null,
+				"Script": "",
+				"Text": "{{i18n:MOVIE.remi.whitelistOarfish.1}}"
+			},
+			"DuringMovie": {
+				"ResponsePoint": null,
+				"Script": "/emote Remi 20/message \"{{i18n:MOVIE.remi.whitelistOarfish.2}}\"",
+				"Text": "{{i18n:MOVIE.remi.whitelistOarfish.3}}"
+			},
+			"AfterMovie": {
+				"ResponsePoint": null,
+				"Script": "",
+				"Text": "{{i18n:MOVIE.remi.whitelistOarfish.4}}"
+			}
+			},
+			"ID": "reaction_0"
+			},
+			//Remi's reaction to everything else
+			{
+			"Tag": "*",
+			"Response": "like",
+			"Whitelist": [],
+			"SpecialResponses": {
+			"BeforeMovie": {
+				"ResponsePoint": null,
+				"Script": "",
+				"Text": "{{i18n:MOVIE.remi.general.1.{{Random: a, b, c |key=remimovie}}}}"
+			},
+			"DuringMovie": {
+				"ResponsePoint": null,
+				"Script": "/emote Remi 24/message \"{{i18n:MOVIE.remi.general.2}}\"",
+				"Text": "{{i18n:MOVIE.remi.general.3}}"
+			},
+			"AfterMovie": {
+				"ResponsePoint": null,
+				"Script": "",
+				"Text": "{{i18n:MOVIE.remi.general.4.{{Random: a, b, c |key=remimovie}}}}"
+			}
+			},
+			"ID": "reaction_1"
+			},
+		]
+        },
+		//OARFISH MOVIE TASTES
+		"Oarfish": {
+        "NPCName": "Oarfish",
+		"Reactions":
+		[
+			// The Brave Little Sappling
+			{
+			"Tag": "spring_movie_0",
+			"Response": "like",
+			"Whitelist": [],
+			"SpecialResponses": {
+			"BeforeMovie": {
+				"ResponsePoint": null,
+				"Script": "",
+				"Text": "{{i18n:MOVIE.oarfish.{{season}}.0.1}}"
+			},
+			"DuringMovie": {
+				"ResponsePoint": "sprout_leave",
+				"Script": "",
+				"Text": "{{i18n:MOVIE.oarfish.{{season}}.0.2}}"
+			},
+			"AfterMovie": {
+				"ResponsePoint": null,
+				"Script": "",
+				"Text": "{{i18n:MOVIE.oarfish.{{season}}.0.3}}"
+			}
+			},
+			"ID": "reaction_0"
+			},
+			// Journey of The Prairie King
+			{
+			"Tag": "summer_movie_0",
+			"Response": "love",
+			"Whitelist": [],
+			"SpecialResponses": {
+			"BeforeMovie": {
+				"ResponsePoint": null,
+				"Script": "",
+				"Text": "{{i18n:MOVIE.oarfish.{{season}}.0.1}}"
+			},
+			"DuringMovie": {
+				"ResponsePoint": "PK_villain",
+				"Script": "",
+				"Text": "{{i18n:MOVIE.oarfish.{{season}}.0.2}}"
+			},
+			"AfterMovie": {
+				"ResponsePoint": null,
+				"Script": "",
+				"Text": "{{i18n:MOVIE.oarfish.{{season}}.0.3}}"
+			}
+			},
+			"ID": "reaction_1"
+			},
+			// Mysterium
+			{
+			"Tag": "fall_movie_0",
+			"Response": "love",
+			"Whitelist": [],
+			"SpecialResponses": {
+			"BeforeMovie": {
+				"ResponsePoint": null,
+				"Script": "",
+				"Text": "{{i18n:MOVIE.oarfish.{{season}}.0.1}}"
+			},
+			"DuringMovie": {
+				"ResponsePoint": "mysterium_shadow",
+				"Script": "",
+				"Text": "{{i18n:MOVIE.oarfish.{{season}}.0.2}}"
+			},
+			"AfterMovie": {
+				"ResponsePoint": null,
+				"Script": "",
+				"Text": "{{i18n:MOVIE.oarfish.{{season}}.0.3}}"
+			}
+			},
+			"ID": "reaction_2"
+			},
+			// The Miracle at Coldstar Ranch
+			{
+			"Tag": "winter_movie_0",
+			"Response": "like",
+			"Whitelist": [],
+			"SpecialResponses": {
+			"BeforeMovie": {
+				"ResponsePoint": null,
+				"Script": "",
+				"Text": "{{i18n:MOVIE.oarfish.{{season}}.0.1}}"
+			},
+			"DuringMovie": {
+				"ResponsePoint": null,
+				"Script": "",
+				"Text": "{{i18n:MOVIE.oarfish.{{season}}.0.2}}"
+			},
+			"AfterMovie": {
+				"ResponsePoint": null,
+				"Script": "",
+				"Text": "{{i18n:MOVIE.oarfish.{{season}}.0.3}}"
+			}
+			},
+			"ID": "reaction_3"
+			},
+			// Natural Wonders: Exploring Our Vibrant World
+			{
+			"Tag": "spring_movie_1",
+			"Response": "love",
+			"Whitelist": [],
+			"SpecialResponses": {
+			"BeforeMovie": {
+				"ResponsePoint": null,
+				"Script": "",
+				"Text": "{{i18n:MOVIE.oarfish.{{season}}.1.1}}"
+			},
+			"DuringMovie": {
+				"ResponsePoint": null,
+				"Script": "",
+				"Text": "{{i18n:MOVIE.oarfish.{{season}}.1.2}}"
+			},
+			"AfterMovie": {
+				"ResponsePoint": null,
+				"Script": "",
+				"Text": "{{i18n:MOVIE.oarfish.{{season}}.1.3}}"
+			}
+			},
+			"ID": "reaction_4"
+			},
+			// Wumbus
+			{
+			"Tag": "summer_movie_1",
+			"Response": "love",
+			"Whitelist": [],
+			"SpecialResponses": {
+			"BeforeMovie": {
+				"ResponsePoint": null,
+				"Script": "",
+				"Text": "{{i18n:MOVIE.oarfish.{{season}}.1.1}}"
+			},
+			"DuringMovie": {
+				"ResponsePoint": null,
+				"Script": "",
+				"Text": "{{i18n:MOVIE.oarfish.{{season}}.1.2}}"
+			},
+			"AfterMovie": {
+				"ResponsePoint": null,
+				"Script": "",
+				"Text": "{{i18n:MOVIE.oarfish.{{season}}.1.3}}"
+			}
+			},
+			"ID": "reaction_5"
+			},
+			// It Howls In The Rain
+			{
+			"Tag": "fall_movie_1",
+			"Response": "dislike",
+			"Whitelist": [],
+			"SpecialResponses": {
+			"BeforeMovie": {
+				"ResponsePoint": null,
+				"Script": "",
+				"Text": "{{i18n:MOVIE.oarfish.{{season}}.1.1}}"
+			},
+			"DuringMovie": {
+				"ResponsePoint": null,
+				"Script": "",
+				"Text": "{{i18n:MOVIE.oarfish.{{season}}.1.2}}"
+			},
+			"AfterMovie": {
+				"ResponsePoint": null,
+				"Script": "",
+				"Text": "{{i18n:MOVIE.oarfish.{{season}}.1.3}}"
+			}
+			},
+			"ID": "reaction_6"
+			},
+			// The Zuzu City Express
+			{
+			"Tag": "winter_movie_1",
+			"Response": "love",
+			"Whitelist": [],
+			"SpecialResponses": {
+			"BeforeMovie": {
+				"ResponsePoint": null,
+				"Script": "",
+				"Text": "{{i18n:MOVIE.oarfish.{{season}}.1.1}}"
+			},
+			"DuringMovie": {
+				"ResponsePoint": "zuzucityexpress_mind_heart",
+				"Script": "",
+				"Text": "{{i18n:MOVIE.oarfish.{{season}}.1.2}}"
+			},
+			"AfterMovie": {
+				"ResponsePoint": null,
+				"Script": "",
+				"Text": "{{i18n:MOVIE.oarfish.{{season}}.1.3}}"
+			}
+			},
+			"ID": "reaction_7"
+			},
+		]
+        },
+      }
+    },
+
+    {
+      "LogName": "Concession Tastes",
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+        "Remi": {
+          "Name": "Remi",
+          "LovedTags": ["Black Licorice", "Chocolate Popcorn", "Stardrop Sorbet"],
+          "LikedTags": ["Cotton Candy", "Ice Cream Sandwich", "Cappuccino Mousse Cake", "Jawbreaker"],
+          "DislikedTags": [
+            "Kale Smoothie",
+			"Rock Candy",
+			"Sour Slimes",
+			"Star Cookie",
+			"Salted Peanuts",
+          ]
+        },
+		"Oarfish": {
+          "Name": "Oarfish",
+          "LovedTags": ["Personal Pizza", "Joja Cola", "JojaCorn", "Stardrop Sorbet"],
+          "LikedTags": ["Fries", "Nachos", "Popcorn"],
+          "DislikedTags": [
+            "Kale Smoothie",
+			"Apple Slices",
+			"Hummus Snack Pack",
+			"Panzanella Salad",
+          ]
+        },
+      }
+    },
+
+
+
+  ]
+}

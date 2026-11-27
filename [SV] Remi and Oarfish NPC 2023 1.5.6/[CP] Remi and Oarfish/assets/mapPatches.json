@@ -1,0 +1,109 @@
+{
+"Changes": [
+
+	//Backwoods warp to Lost Garden after seeing Remi's 8 heart event
+	{
+	"LogName": "Backwoods Patch",
+	"Action": "EditMap",
+	"Target": "Maps/Backwoods",
+	"FromFile": "assets/maps/Backwoods_warppatch.tmx",
+	"ToArea": { "X": 25, "Y": 8, "Width": 1, "Height": 1 },
+	"PatchMode": "Overlay",
+	"When": {
+		"HasSeenEvent": "10310007",
+	},
+	"Update": "OnLocationChange, OnTimeChange",
+	},
+
+	//Remi marriage warps, rooms and patios
+	{
+	"LogName": "Changes warp location from Lost Garden to Remi's patio when married to her",
+	"Action": "EditMap",
+	"Target": "Maps/Custom_grotovu_LostGarden",
+	"MapTiles": [
+		{
+		"Position": { "X": 36, "Y": 11 },
+		"Layer": "Back",
+		"SetProperties": {
+			"TouchAction": "MagicWarp Farm 64 15"
+		},
+		},
+	],
+	"When": {
+		"Spouse": "Remi, Oarfish",
+	},
+	"Update": "OnLocationChange, OnTimeChange",
+	},
+
+	// Adding Remi and Oarfish's spouse room in spouseRooms
+	{
+	"LogName": "Adding Remi's Spouse Room",
+	"Action": "EditMap",
+	"Target": "Maps/spouseRooms",
+	"FromFile": "assets/maps/spouseroomRemi.tmx",
+	"ToArea": { "X": 18, "Y": 18, "Width": 6, "Height": 9 },
+	},
+
+	//Patio before finishing quest
+	{
+	"LogName": "Adding Remi's Spouse Patio",
+	"Action": "EditMap",
+	"Target": "Maps/spousePatios",
+	"FromFile": "assets/maps/spousepatiosRemi.tmx",
+	"ToArea": { "X": 12, "Y": 8, "Width": 4, "Height": 4 },
+	"When": {
+		"HasSeenEvent |contains=10310012": "false",
+	},
+	},
+
+	//Upgraded Patio after completing quest part 1
+	{
+	"LogName": "Adding Upgraded Remi's Spouse Patio",
+	"Action": "EditMap",
+	"Target": "Maps/spousePatios",
+	"FromFile": "assets/maps/spousepatiosRemiUpgrade.tmx",
+	"ToArea": { "X": 12, "Y": 8, "Width": 4, "Height": 4 },
+	"Update": "OnLocationChange, OnTimeChange",
+	"When": {
+		"HasSeenEvent": "10310012",
+	},
+	},
+
+	//Upgraded Patio after completing quest part 2
+	{
+	"LogName": "Adding Upgraded Remi's Spouse Patio",
+	"Action": "EditMap",
+	"Target": "Maps/spousePatios",
+	"FromFile": "assets/maps/spousepatiosRemiUpgrade2.tmx",
+	"ToArea": { "X": 12, "Y": 8, "Width": 4, "Height": 4 },
+	"Update": "OnLocationChange, OnTimeChange",
+	"When": {
+		"HasSeenEvent": "10310014",
+	},
+	},
+
+	// SPOUSE ROOM in 13th slot (move in case of conflicting mod)
+	{
+	"LogName": "Adding Remi's Spouse Room in Data",
+	"Action": "EditData",
+	"Target": "Data/SpouseRooms",
+	"Entries": {
+		"Remi": "spouseRooms/13",
+		"Oarfish": "spouseRooms/13",
+	},
+	},
+
+	// SPOUSE PATIO in 13th slot (move in case of conflicting mod)
+	{
+	"LogName": "Adding Remi's Spouse Patio in Data",
+	"Action": "EditData",
+	"Target": "Data/SpousePatios",
+	"Entries": {
+		"Remi": "spousePatios/13",
+		"Oarfish": "spousePatios/13",
+	},
+	},
+
+]
+}
+

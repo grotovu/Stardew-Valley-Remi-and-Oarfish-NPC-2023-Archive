@@ -1,0 +1,188 @@
+{
+"Changes": [
+
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Remi",
+	"Entries": {
+		//Divorce Dialogue
+		"Characters_WipedMemory": "{{i18n:CUSTOM.remi.WipedMemory}}",
+		"Characters_Divorced_bouquet": "{{i18n:CUSTOM.remi.Divorced_bouquet}}",
+		"Characters_Divorced_gift": "{{i18n:CUSTOM.remi.Divorced_gift}}",
+
+		"Characters_Saloon_goodEvent_0": "Good show!$h",
+		"Characters_Saloon_goodEvent_1": "Good show!$h",
+		"Characters_Saloon_goodEvent_2": "Good show!$h",
+		"Characters_Saloon_goodEvent_3": "Good show!$h",
+		"Characters_Saloon_goodEvent_4": "Good show!$h",
+		"Characters_aloon_badEvent_0": "This is awful.$6",
+		"Characters_Saloon_badEvent_1": "This is awful.$6",
+		"Characters_Saloon_badEvent_2": "This is awful.$6",
+		"Characters_Saloon_badEvent_3": "This is awful.$6",
+		"Characters_Saloon_badEvent_4": "This is awful.$6",
+		"Characters_Saloon_neutralEvent_0": "Nice.",
+		"Characters_Saloon_neutralEvent_1": "Nice.",
+		"Characters_Saloon_neutralEvent_2": "Nice.",
+		"Characters_Saloon_neutralEvent_3": "Nice.",
+		"Characters_Saloon_neutralEvent_4": "Nice.",
+
+		//MOVIE INVITE
+		"Characters_MovieInvite_InvitedBySomeoneElse": "{{i18n:CUSTOM.remi.InvitedBySomeoneElse}}",
+		"Characters_MovieInvite_AlreadySeen": "{{i18n:CUSTOM.remi.AlreadySeen}}",
+		"Characters_MovieInvite_Invited": "{{i18n:CUSTOM.remi.MovieInvite_Invited}}",
+		"Characters_MovieInvite_Spouse_Remi": "{{i18n:CUSTOM.remi.MovieInvite_Invited}}",
+		"Characters_MovieInvite_Invited_Rude": "{{i18n:CUSTOM.remi.MovieInvite_Invited_Rude}}",
+		"Characters_MovieInvite_Invited_Child": "{{i18n:CUSTOM.remi.MovieInvite_Invited_Child}}",
+		"Characters_MovieInvite_Reject_Child": "{{i18n:CUSTOM.remi.MovieInvite_Reject_Child}}",
+		"Characters_MovieInvite_Reject": "{{i18n:CUSTOM.remi.MovieInvite_Reject}}",
+
+		//BOUQUET and PROPOSAL
+		"NPC.cs.3956": "{{i18n:CUSTOM.remi.bouquet_denial.1}}",
+		"NPC.cs.3957": "{{i18n:CUSTOM.remi.bouquet_denial.2}}",
+		"NPC.cs.3958": "{{i18n:CUSTOM.remi.bouquet_denial.3}}",
+		"NPC.cs.3959": "{{i18n:CUSTOM.remi.bouquet_denial.4}}", //this one
+		"NPC.cs.3960": "{{i18n:CUSTOM.remi.bouquet_denial.5}}",
+		"NPC.cs.3961": "{{i18n:CUSTOM.remi.bouquet_denial.6}}",
+
+		//Breakup from dating
+		"breakUp": "{{i18n:CUSTOM.remi.breakUp}}",
+
+		//2 Bouquet acceptance variation
+		"NPC.cs.3962": "{{i18n:CUSTOM.remi.bouquet_acceptance.1}}",
+		"NPC.cs.3963": "{{i18n:CUSTOM.remi.bouquet_acceptance.1}}",
+
+		//Proposing when already engaged.
+		"NPC.cs.3965": "{{i18n:CUSTOM.remi.pendant_denial.1}}", //showing pendant again
+		"NPC.cs.3966": "{{i18n:CUSTOM.remi.pendant_denial.2}}",
+		"NPC.cs.3967": "{{i18n:CUSTOM.remi.pendant_denial.3}}",
+		"NPC.cs.3968": "{{i18n:CUSTOM.remi.pendant_denial.4}}",
+		"NPC.cs.3969": "{{i18n:CUSTOM.remi.pendant_denial.5}}",
+		"NPC.cs.3970": "{{i18n:CUSTOM.remi.pendant_denial.6}}",
+		"NPC.cs.3971": "{{i18n:CUSTOM.remi.pendant_denial.7}}",
+		"NPC.cs.3972": "{{i18n:CUSTOM.remi.pendant_denial.8}}", //this one
+		"NPC.cs.3973": "{{i18n:CUSTOM.remi.pendant_denial.9}}",
+		"NPC.cs.3974": "{{i18n:CUSTOM.remi.pendant_denial.10}}",
+		"NPC.cs.3975": "{{i18n:CUSTOM.remi.pendant_denial.11}}", //this one
+
+		//Jealousy Dialogue
+		"NPC.cs.3985": "{{i18n:CUSTOM.remi.jealousy}}",
+
+		//STARFRUIT
+		"NPC.cs.4001": "{{i18n:CUSTOM.remi.starFruit}}",
+
+		//BIRTHDAY GIFT
+		"NPC.cs.4274": "{{i18n:CUSTOM.remi.Birthday.1}}",
+		"NPC.cs.4275": "{{i18n:CUSTOM.remi.Birthday.2}}", //Like, Love
+		"NPC.cs.4276": "{{i18n:CUSTOM.remi.Birthday.3}}",
+		"NPC.cs.4277": "{{i18n:CUSTOM.remi.Birthday.4}}", //Like, Love
+		"NPC.cs.4278": "{{i18n:CUSTOM.remi.Birthday.5}}",
+		"NPC.cs.4279": "{{i18n:CUSTOM.remi.Birthday.6}}", //hate, dislike
+		"NPC.cs.4280": "{{i18n:CUSTOM.remi.Birthday.7}}",
+		"NPC.cs.4281": "{{i18n:CUSTOM.remi.Birthday.8}}", //neutral
+
+		//GETTING HIT BY SLINGSHOT
+		"NPC.cs.4293": "{{i18n:CUSTOM.remi.slingshot.1}}",
+		"NPC.cs.4294": "{{i18n:CUSTOM.remi.slingshot.2}}",
+
+		//MARRIED CHORES AND NAVIGATION
+		"NPC.cs.4462": "{{i18n:CUSTOM.remi.chores.1}}",
+		"NPC.cs.4463": "{{i18n:CUSTOM.remi.chores.2}}",
+		"NPC.cs.4470": "{{i18n:CUSTOM.remi.chores.3}}",
+		"NPC.cs.4474": "{{i18n:CUSTOM.remi.chores.4}}",
+		"NPC.cs.4481": "{{i18n:CUSTOM.remi.chores.5}}",
+		"NPC.cs.4486": "{{i18n:CUSTOM.remi.decor.1}}",
+		"NPC.cs.4488": "{{i18n:CUSTOM.remi.decor.2}}",
+		"NPC.cs.4489": "{{i18n:CUSTOM.remi.decor.3}}",
+		"NPC.cs.4490": "{{i18n:CUSTOM.remi.navigationProblem.1}}",
+		"NPC.cs.4496": "{{i18n:CUSTOM.remi.decor.4}}",
+		"NPC.cs.4497": "{{i18n:CUSTOM.remi.decor.5}}",
+		"NPC.cs.4500": "{{i18n:CUSTOM.remi.navigationProblem.2}}",
+		"PathFindController.cs.4579": "{{i18n:CUSTOM.remi.navigationProblem.3}}",
+
+		//About babies
+		"NPC.cs.4439": "{{i18n:CUSTOM.remi.parenthood.1}}",
+		"NPC.cs.4440": "{{i18n:CUSTOM.remi.parenthood.2}}",
+		"NPC.cs.4441": "{{i18n:CUSTOM.remi.parenthood.3}}",
+		"NPC.cs.4442": "{{i18n:CUSTOM.remi.parenthood.4}}",
+		"NPC.cs.4443": "{{i18n:CUSTOM.remi.parenthood.5}}",
+		"NPC.cs.4444": "{{i18n:CUSTOM.remi.parenthood.6}}",
+		"NPC.cs.4445": "{{i18n:CUSTOM.remi.parenthood.7}}",
+		"NPC.cs.4446": "{{i18n:CUSTOM.remi.parenthood.8}}",
+		"NPC.cs.4447": "{{i18n:CUSTOM.remi.parenthood.9}}",
+		"NPC.cs.4448": "{{i18n:CUSTOM.remi.parenthood.10}}",
+		"NPC.cs.4449": "{{i18n:CUSTOM.remi.parenthood.11}}",
+		"NPC.cs.4452": "{{i18n:CUSTOM.remi.parenthood.12}}",
+		"NPC.cs.4455": "{{i18n:CUSTOM.remi.parenthood.13}}",
+
+		"ExtraDialogue_LostItemQuest_DefaultThankYou": "{{i18n:CUSTOM.remi.LostItemQuest_DefaultThankYou}}",
+
+		"ExtraDialogue_NewChild_SecondChild1": "{{i18n:CUSTOM.remi.NewChild_SecondChild1}}",
+		"ExtraDialogue_NewChild_SecondChild2": "{{i18n:CUSTOM.remi.NewChild_SecondChild2}}",
+		"ExtraDialogue_NewChild_Adoption": "{{i18n:CUSTOM.remi.NewChild_Adoption}}",
+		"ExtraDialogue_NewChild_FirstChild": "{{i18n:CUSTOM.remi.NewChild_FirstChild}}",
+		"ExtraDialogue_Spouse_KitchenBlocked": "{{i18n:CUSTOM.remi.Spouse_KitchenBlocked}}",
+		"ExtraDialogue_Spouse_MonstersInHouse": "{{i18n:CUSTOM.remi.Spouse_MonstersInHouse}}",
+		"ExtraDialogue_Wizard_Hatch": "{{i18n:CUSTOM.remi.Wizard_Hatch}}",
+
+		//PLAYERKILLED DIALOGUE
+		"ExtraDialogue_Mines_PlayerKilled_Spouse_PlayerMale": "{{i18n:CUSTOM.remi.PlayerKilled.1}}",
+		"ExtraDialogue_Mines_PlayerKilled_Spouse_PlayerFemale": "{{i18n:CUSTOM.remi.PlayerKilled.2}}",
+
+		//BOUGHT ITEMS FROM SHOP DIALOGUE
+		"ExtraDialogue_PurchasedItem_1_QualityHigh": "{{i18n:CUSTOM.remi.purchasedItem.1}}",
+		"ExtraDialogue_PurchasedItem_1_QualityLow": "{{i18n:CUSTOM.remi.purchasedItem.2}}",
+		"ExtraDialogue_PurchasedItem_2_QualityHigh": "{{i18n:CUSTOM.remi.purchasedItem.3}}",
+		"ExtraDialogue_PurchasedItem_2_QualityLow": "{{i18n:CUSTOM.remi.purchasedItem.4}}",
+		"ExtraDialogue_PurchasedItem_3_QualityLow_Rude": "{{i18n:CUSTOM.remi.purchasedItem.5}}",
+		"ExtraDialogue_PurchasedItem_3_QualityHigh_Rude": "{{i18n:CUSTOM.remi.purchasedItem.6}}",
+		"ExtraDialogue_PurchasedItem_3_NonRude": "{{i18n:CUSTOM.remi.purchasedItem.7}}",
+		"ExtraDialogue_PurchasedItem_4": "{{i18n:CUSTOM.remi.purchasedItem.8}}",
+		"ExtraDialogue_PurchasedItem_5_VegetableOrFruit": "{{i18n:CUSTOM.remi.purchasedItem.9}}",
+		"ExtraDialogue_PurchasedItem_5_Cooking": "{{i18n:CUSTOM.remi.purchasedItem.10}}",
+		"ExtraDialogue_PurchasedItem_5_Foraged": "{{i18n:CUSTOM.remi.purchasedItem.11}}",
+		"ExtraDialogue_PurchasedItem_Teen": "{{i18n:CUSTOM.remi.purchasedItem.12}}",
+
+		//DIGGING IN THE TRASH
+		"ExtraDialogue_Town_DumpsterDiveComment_Child": "{{i18n:CUSTOM.remi.caughtTrashDigging.1}}",
+		"ExtraDialogue_Town_DumpsterDiveComment_Teen": "{{i18n:CUSTOM.remi.caughtTrashDigging.1}}",
+		"ExtraDialogue_Town_DumpsterDiveComment_Adult": "{{i18n:CUSTOM.remi.caughtTrashDigging.1}}",
+
+
+		//SUMMIT DIALOGUE
+		"SummitEvent_Intro_Spouse": "{{i18n:CUSTOM.remi.SummitEvent_Intro_Spouse}}",
+		"SummitEvent_Intro2_Spouse": "{{i18n:CUSTOM.remi.SummitEvent_Intro2_Spouse}}",
+		"SummitEvent_Intro2_Spouse_Gruff": "{{i18n:CUSTOM.remi.SummitEvent_Intro2_Spouse_Gruff}}",
+		"SummitEvent_Dialogue1_Spouse": "{{i18n:CUSTOM.remi.SummitEvent_Dialogue1_Spouse}}",
+		"SummitEvent_Dialogue2_Spouse": "{{i18n:CUSTOM.remi.SummitEvent_Dialogue2_Spouse}}",
+		"SummitEvent_Dialogue3_Remi": "{{i18n:CUSTOM.remi.SummitEvent_Dialogue3_Remi}}",
+	},
+	},
+
+	//Having babies Event strings edit
+	{
+	"Action": "EditData",
+	"Target": "Strings/Events",
+	"When": {
+		"Spouse": "Remi",
+	},
+	"Update": "OnLocationChange, OnTimeChange",
+	"Entries": {
+		"BirthMessage_Adoption": "{{i18n:CUSTOM.remi.BirthMessage_Adoption}}",
+		"BirthMessage_PlayerMother": "{{i18n:CUSTOM.remi.BirthMessage_PlayerMother}}",
+		"BirthMessage_SpouseMother": "{{i18n:CUSTOM.remi.BirthMessage_SpouseMother}}",
+		"HaveBabyQuestion": "{{i18n:CUSTOM.remi.HaveBabyQuestion}}",
+		"HaveBabyQuestion_Adoption": "{{i18n:CUSTOM.remi.HaveBabyQuestion_Adoption}}",
+	},
+	},
+
+	// Movie invite when spouse
+	{
+	"Action": "EditData",
+	"Target": "Strings/Characters",
+	"Entries": {
+		"MovieInvite_Spouse_Remi": "{{i18n:CUSTOM.remi.MovieInvite_Invited}}",
+	},
+	},
+
+]
+}

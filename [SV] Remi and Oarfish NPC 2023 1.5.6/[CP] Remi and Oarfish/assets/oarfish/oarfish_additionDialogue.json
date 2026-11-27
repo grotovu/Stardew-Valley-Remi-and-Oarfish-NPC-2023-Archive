@@ -1,0 +1,22 @@
+{
+"Changes": [
+
+	{
+	"LogName":"Oarfish's Restauranteer Dialogue",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Oarfish",
+	"When": {
+		"HasMod": "aedenthorn.Restauranteer",
+	},
+	"Entries": {
+		"RestauranteerMod-Loved-1": "{{i18n:RESTAURANTEER.oarfish.loved.1}}",
+		"RestauranteerMod-Loved-2": "{{i18n:RESTAURANTEER.oarfish.loved.2}}",
+		"RestauranteerMod-Loved-3": "{{i18n:RESTAURANTEER.oarfish.loved.3}}",
+		"RestauranteerMod-Liked-1": "{{i18n:RESTAURANTEER.oarfish.liked.1}}",
+		"RestauranteerMod-Liked-2": "{{i18n:RESTAURANTEER.oarfish.liked.2}}",
+		"RestauranteerMod-Liked-3": "{{i18n:RESTAURANTEER.oarfish.liked.3}}",
+	},
+	},
+
+]
+}

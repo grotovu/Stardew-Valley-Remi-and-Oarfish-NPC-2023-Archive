@@ -1,0 +1,216 @@
+{
+"Changes": [
+
+	{
+	"LogName": "Companion dialogues for Oarfish",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Oarfish",
+	"Entries": {
+		"companionAccepted": "{{i18n: npca.oarfish.dialogue.companionAccepted}}",
+		"companionAccepted_Spouse": "{{i18n: npca.oarfish.dialogue.companionAccepted_Spouse}}",
+		"companionRejected": "{{i18n: npca.oarfish.dialogue.companionRejected}}",
+		"companionRejectedNight": "{{i18n: npca.oarfish.dialogue.companionRejectedNight}}",
+		"companionRejectedNight_Spouse": "{{i18n: npca.oarfish.dialogue.companionRejectedNight_Spouse}}",
+		"companionDismiss": "{{i18n: npca.oarfish.dialogue.companionDismiss}}",
+		"companionDismiss_Spouse": "{{i18n: npca.oarfish.dialogue.companionDismiss_Spouse}}",
+		"companionDismissAuto": "{{i18n: npca.oarfish.dialogue.companionDismissAuto}}",
+		"companionDismissAuto_Spouse": "{{i18n: npca.oarfish.dialogue.companionDismissAuto_Spouse}}",
+		"companionRecruited": "{{i18n: npca.oarfish.dialogue.companionRecruited}}",
+		"companionRecruited_Spouse": "{{i18n: npca.oarfish.dialogue.companionRecruited_Spouse}}",
+		"companionSuggest": "{{i18n: npca.oarfish.dialogue.companionSuggest}}",
+		"companionSuggest_Yes": "{{i18n: npca.oarfish.dialogue.companionSuggest_Yes}}",
+		"companionSuggest_No": "{{i18n: npca.oarfish.dialogue.companionSuggest_No}}",
+
+		// ***** FISHERMAN SKILL *****
+		"giveFishes": "{{i18n: npca.oarfish.dialogue.giveFishes}}",
+
+
+		// ***** LOCATIONS *****
+
+		// AdventureGuild
+
+
+		// AnimalShop
+
+
+		// ArchaeologyHouse
+
+
+		// Backwoods
+		"companion_Backwoods": "{{i18n: npca.oarfish.dialogue.companion_Backwoods}}",
+		"companion_Backwoods8": "{{i18n: npca.oarfish.dialogue.companion_Backwoods8}}",
+
+
+		// BathHouse_Entry
+
+
+		// BathHouse_MensLocker
+
+
+		// BathHouse_Pool
+
+
+		// BathHouse_WomensLocker
+
+
+		// Beach
+		"companion_Beach": "{{i18n: npca.oarfish.dialogue.companion_Beach}}",
+		"companion_Beach_Spouse": "{{i18n: npca.oarfish.dialogue.companion_Beach_Spouse}}",
+
+		// Blacksmith
+
+
+		// BoatTunnel
+
+
+		// BugLand
+
+
+		// BusStop
+
+
+		// Club
+		"companion_Club": "{{i18n: npca.oarfish.dialogue.companion_Club}}",
+
+
+		// CommunityCenter_Joja
+
+
+		// CommunityCenter_Refurbished
+
+
+		// CommunityCenter_Ruins
+
+
+		// Darkroom
+
+
+		// Desert
+		"companion_Desert": "{{i18n: npca.oarfish.dialogue.companion_Desert}}",
+		"companion_Desert_Night": "{{i18n: npca.oarfish.dialogue.companion_Desert_Night}}",
+
+		// ElliottHouse
+		"companion_ElliottHouse": "{{i18n: npca.oarfish.dialogue.companion_ElliottHouse}}",
+
+		// Farm
+		"companion_Farm": "{{i18n: npca.oarfish.dialogue.companion_Farm}}",
+		"companion_Farm_Spouse": "{{i18n: npca.oarfish.dialogue.companion_Farm_Spouse}}",
+
+		// FarmHouse
+		"companion_FarmHouse": "{{i18n: npca.oarfish.dialogue.companion_FarmHouse}}",
+		"companion_FarmHouse_Spouse": "{{i18n: npca.oarfish.dialogue.companion_FarmHouse_Spouse}}",
+
+		// FishShop
+		"companion_FishShop": "{{i18n: npca.oarfish.dialogue.companion_FishShop}}",
+		"companion_FishShop~1": "{{i18n: npca.oarfish.dialogue.companion_FishShop~1}}",
+
+		// Forest
+
+
+		// HaleyHouse
+
+
+		// HarveyRoom
+
+
+		// Hospital
+
+
+		// JojaMart
+
+
+		// JoshHouse
+
+
+		// LeahHouse
+
+
+		// LeoTreeHouse
+
+
+		// ManorHouse
+
+
+		// MermaidHouse
+		"companion_MermaidHouse": "{{i18n: npca.oarfish.dialogue.companion_MermaidHouse}}",
+
+
+		// Mine
+		"companion_Mine": "{{i18n: npca.oarfish.dialogue.companion_Mine}}",
+		"companion_Mine~1": "{{i18n: npca.oarfish.dialogue.companion_Mine~1}}",
+		"companion_Mine~2": "{{i18n: npca.oarfish.dialogue.companion_Mine~2}}",
+		"companion_Mine~3": "{{i18n: npca.oarfish.dialogue.companion_Mine~3}}",
+
+
+		// MOUNTAIN
+
+
+		// QiNutRoom
+		"companion_QiNutRoom": "{{i18n: npca.oarfish.dialogue.companion_QiNutRoom}}",
+		"companion_QiNutRoom~1": "{{i18n: npca.oarfish.dialogue.companion_QiNutRoom~1}}",
+
+		// Railroad
+		"companion_Railroad": "{{i18n: npca.oarfish.dialogue.companion_Railroad}}",
+
+
+		// SALOON
+		"companion_Saloon": "{{i18n: npca.oarfish.dialogue.companion_Saloon}}",
+		"companion_Saloon_Night": "{{i18n: npca.oarfish.dialogue.companion_Saloon_Night}}",
+
+		// SamHouse
+
+
+		// SandyHouse
+
+
+		// ScienceHouse
+
+
+		// SebastianRoom
+
+
+		// SEED SHOP
+
+
+		// SEWER
+
+
+		// SkullCave
+
+
+		// Summit
+
+
+		// Sunroom
+
+
+		// Town
+
+
+		// Trailer
+
+
+		// Trailer_big
+
+
+		// Tunnel
+
+
+		// WitchHut
+
+
+		// WitchSwamp
+
+
+		// WizardHouse
+
+
+		// WizardHouseBasement
+
+
+		// Woods
+	},
+	},
+
+]
+}

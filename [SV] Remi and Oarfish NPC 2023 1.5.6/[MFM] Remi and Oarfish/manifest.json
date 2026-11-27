@@ -1,0 +1,13 @@
+﻿{
+    "Name": "[MFM] Remi and Oarfish NPC",
+    "Author": "grotovu",
+    "Version": "1.0.0",
+    "Description": "Mail support for Remi and Oarfish.",
+    "UniqueID": "mfm.grotovu.remiandoarfishnpc",
+    "MinimumApiVersion": "3.8.0",
+    "UpdateKeys": [],
+    "ContentPackFor":
+    {
+        "UniqueID": "DIGUS.MailFrameworkMod"
+    }
+}

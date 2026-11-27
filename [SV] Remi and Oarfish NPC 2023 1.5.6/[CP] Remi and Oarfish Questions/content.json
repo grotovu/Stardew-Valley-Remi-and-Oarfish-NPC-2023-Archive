@@ -1,0 +1,95 @@
+{
+"Format": "1.25.0",
+
+// **** DYNAMIC TOKENS *******************************************************
+"DynamicTokens": [
+
+	// Remi Question random thoughts
+	{
+	"Name": "RemiThoughtsQuestion",
+	"Value": "{{i18n: remi.thoughts.question.random}}",
+	},
+	{
+	"Name": "RemiThoughtsAnswer",
+	"Value": "{{Random: {{i18n: remi.thoughts.answer.{{season}}.{{Random: a, b, c, d, e}}}} @@ {{i18n: remi.thoughts.answer.{{Random: a, b, c, d, e, f, g, h, i, j}}}} |inputSeparator=@@}}",
+	},
+	{
+	"Name": "RemiThoughtsAnswer",
+	"Value": "{{i18n: remi.thoughts.answer.{{season}}.rain.{{Random: a, b}}}}",
+	"When": { "Weather": "Rain, Storm" }
+	},
+
+	// Remi thoughts on specific days
+	{
+	"Name": "RemiThoughtsDates",
+	"Value": "spring 1, spring 12, spring 15, spring 18, spring 23, summer 10, summer 12, summer 15, summer 28, fall 8, fall 11, fall 15, fall 27, winter 7, winter 24",
+	},
+
+	// Remi Question specific dates thoughts
+	{
+	"Name": "RemiThoughtsQuestion",
+	"Value": "{{i18n: remi.thoughts.question.{{season}}.{{day}}}}",
+	"When": { "Render:{{season}} {{day}}": "{{RemiThoughtsDates}}" }
+	},
+	{
+	"Name": "RemiThoughtsAnswer",
+	"Value": "{{i18n: remi.thoughts.answer.{{season}}.{{day}}}}",
+	"When": { "Render:{{season}} {{day}}": "{{RemiThoughtsDates}}" }
+	},
+
+
+	// Oarfish Opinion on townsfolk on these dates
+	{
+	"Name": "OarfishThoughtsBirthdays",
+	"Value": "spring 4, spring 7, spring 10, spring 14, spring 18, spring 20, spring 26, spring 27, summer 4, summer 8, summer 10, summer 13, summer 17, summer 19, summer 22, summer 24, summer 6, fall 2, fall 5, fall 11, fall 13, fall 15, fall 18, fall 21, fall 24, winter 1, winter 3, winter 7, winter 10, winter 14, winter 17, winter 20, winter 23, winter 26",
+	},
+	{
+	"Name": "OarfishThoughtsDates",
+	"Value": "spring 12, spring 23, summer 11, summer 12, summer 27, fall 16, fall 26, winter 8, winter 15, winter 24, winter 25",
+	},
+	{
+	"Name": "OarfishThoughts",
+	"Value": "{{i18n: oarfish.thoughts.answer.{{Random: {{Range: 1, 13}}}}}}",
+	},
+	{
+	"Name": "OarfishThoughts",
+	"Value": "{{i18n: oarfish.thoughts.answer.{{season}}.{{day}}}}",
+	"When": { "Render:{{season}} {{day}}": "{{OarfishThoughtsBirthdays}}" }
+	},
+	{
+	"Name": "OarfishThoughts",
+	"Value": "{{i18n: oarfish.thoughts.answer.{{season}}.{{day}}}}",
+	"When": { "Render:{{season}} {{day}}": "{{OarfishThoughtsDates}}" }
+	},
+	// Question
+	{
+	"Name": "OarfishThoughtsQuestion",
+	"Value": "{{i18n: oarfish.thoughts.question}}",
+	},
+	{
+	"Name": "OarfishThoughtsQuestion",
+	"Value": "{{i18n: oarfish.thoughts.question.{{season}}.{{day}}}}",
+	"When": { "Render:{{season}} {{day}}": "{{OarfishThoughtsDates}}" }
+	},
+
+
+],
+// **** Dynamic Token ends here *********************************************
+
+
+// **** CHANGES **************************************************************
+"Changes": [
+
+	{
+	"LogName": "Include Remi Questions",
+	"Action": "Include",
+	"FromFile": "questions/remi.json"
+	},
+	{
+	"LogName": "Include Oarfish Questions",
+	"Action": "Include",
+	"FromFile": "questions/oarfish.json"
+	},
+
+]
+}

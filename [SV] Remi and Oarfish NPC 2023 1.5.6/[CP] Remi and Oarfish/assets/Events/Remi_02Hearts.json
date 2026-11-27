@@ -1,0 +1,14 @@
+{
+"Changes": [
+
+	{
+	"Action": "EditData",
+	"Target": "Data/Events/Railroad",
+	"Entries": {
+		//Remi - 2 Hearts: Only seen after 2nd part of intro at the beach
+		"10310003/e 10310001 10310002/f Remi 500": "none/-1000 -1000/farmer 38 41 1 Remi 41 41 2/skippable/animate Remi false true 1500 16 17/viewport 41 41 true/pause 2000/emote Remi 24/move farmer 2 0 1/showFrame 35/pause 1000/showFrame 6/pause 500/stopAnimation Remi/pause 2000/faceDirection Remi 3/pause 1000/speak Remi \"{{i18n:remi.2Hearts.1}}\"/pause 200/faceDirection Remi 2/pause 500/speak Remi \"{{i18n:remi.2Hearts.2}}\"/pause 500/faceDirection farmer 2/pause 500/faceDirection farmer 1/pause 300/faceDirection Remi 3/pause 200/speak Remi \"{{i18n:remi.2Hearts.3}}\"/pause 300/speak Remi \"{{i18n:remi.2Hearts.4}}\"/pause 300/speak Remi \"{{i18n:remi.2Hearts.5}}\"/pause 300/faceDirection Remi 2/pause 200/speak Remi \"{{i18n:remi.2Hearts.6}}\"/emote farmer 40/pause 300/faceDirection Remi 3/pause 200/speak Remi \"{{i18n:remi.2Hearts.7}}\"/pause 300/faceDirection Remi 2/emote Remi 40/pause 200/speak Remi \"{{i18n:remi.2Hearts.8}}\"/pause 500/animate Remi false true 1500 16 17/emote Remi 24/pause 2000/faceDirection farmer 3/move farmer -3 0 3/move farmer 0 -1 0/move farmer -8 0 3 true/globalFade/viewport -1000 -1000/end",
+	},
+	},
+
+]
+}

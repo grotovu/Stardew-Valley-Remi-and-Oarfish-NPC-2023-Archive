@@ -1,0 +1,26 @@
+{
+    "Format": "1.20.0",
+    "Changes": 
+	[
+	{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Remi",
+        "Entries":
+        {
+            "MobilePhoneGreeting": "Hmm? Huh? Why is my pocket vibrating?",
+            "MobilePhoneReminisce": "I feel like remembering stuff all of a sudden...", 
+            "MobilePhoneGoodBye": "%Remi was cut off.",
+        }
+	},
+	{
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Oarfish",
+        "Entries":
+        {
+            "MobilePhoneGreeting": "...",
+            "MobilePhoneReminisce": "...",
+            "MobilePhoneGoodBye": "%Oarfish texted good bye.",
+        }
+	}
+	]
+}

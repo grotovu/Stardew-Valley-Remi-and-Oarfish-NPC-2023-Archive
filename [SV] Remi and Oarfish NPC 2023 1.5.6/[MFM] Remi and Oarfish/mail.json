@@ -1,0 +1,41 @@
+[
+	//CRABSTICKS from Remi's 5th heart
+	{
+		"Id": "grotovu.remiandoarfishnpc.crabsticksrecipe",
+		"Title": "Remi's Crab Sticks Recipe",
+		"Text": "Hey @,^^About time I send you some recipes, eh? If you make decent use of crab pots, this recipe is perfect for you. Make sure you add some wasabi paste for that extra kick!^^P.S. Oarfish wrote this for me.^^   -Remi",
+		"Recipe": "Crab Sticks",
+		"Date": "1 spring Y1",
+		"Repeatable": false,
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Remi", "FriendshipLevel": 5 }
+		]
+	},
+	//Sniffer's Spirit from Remi's 7th heart
+	{
+		"Id": "grotovu.remiandoarfishnpc.sniffersspiritrecipe",
+		"Title": "Remi's Sniffer's Spirit Recipe",
+		"Text": "Hey @,^^Now, this one is extra special. An easy to prepare, non-alcoholic drink that'll send your nose into overdrive. This'll get you into the foraging spirit for sure!^^   -Remi",
+		"Recipe": "Sniffer's Spirit",
+		"Date": "1 spring Y1",
+		"Repeatable": false,
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Remi", "FriendshipLevel": 7 }
+		]
+	},
+	//Tempura from Oarfish's 5th heart
+	{
+		"Id": "grotovu.remiandoarfishnpc.tempurarecipe",
+		"Title": "Oarfish's Tempura Recipe",
+		"Text": "Dear @,^^Here's a recipe.^^   -Oarfish",
+		"Recipe": "Tempura",
+		"Date": "1 spring Y1",
+		"Repeatable": false,
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Oarfish", "FriendshipLevel": 5 }
+		]
+	},
+]

@@ -1,0 +1,124 @@
+﻿{
+	"events":
+	[
+		{
+			"name": "First meeting (0 Hearts)",
+			"location": "Railroad",
+			"eventId":"10310001",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Fleeting Company (2 Hearts)",
+			"location": "Railroad",
+			"eventId":"10310003",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Shoplifting Part 1 (4 Hearts)",
+			"location": "SeedShop",
+			"eventId":"10310004",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Shoplifting Part 2 (4 Hearts)",
+			"location": "Town",
+			"eventId":"10310005",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Dream Warping (6 Hearts)",
+			"location": "Farm",
+			"eventId":"10310006",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Backwoods (8 Hearts)",
+			"location": "Farm",
+			"eventId":"10310007",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Backwoods (8 Hearts)",
+			"location": "Backwoods",
+			"eventId":"10310008",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Railroad Confession (10 Hearts)",
+			"location": "Railroad",
+			"eventId":"10310010",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Patio Improvements Part 1 (14 Hearts)",
+			"location": "FarmHouse",
+			"eventId":"10310011",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Patio Improvements Part 2 (14 Hearts)",
+			"location": "FarmHouse",
+			"eventId":"10310012",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Patio Improvements Part 3 (14 Hearts)",
+			"location": "FarmHouse",
+			"eventId":"10310013",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Patio Improvements Part 4 (14 Hearts)",
+			"location": "FarmHouse",
+			"eventId":"10310014",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Remi and Oarfish (0 Hearts)",
+			"location": "Beach",
+			"eventId":"10310002",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Saloon Night (3 Hearts)",
+			"location": "Saloon",
+			"eventId":"10314001",
+      			"night": true,
+     			"mail": null
+		},
+		{
+			"name": "Shallow Shores (5 Hearts)",
+			"location": "Beach",
+			"eventId":"10314002",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Mining Diamonds (7 Hearts)",
+			"location": "Mine",
+			"eventId":"10314003",
+      			"night": false,
+     			"mail": null
+		},
+		{
+			"name": "Memory Check (9 Hearts)",
+			"location": "Forest",
+			"eventId":"10314004",
+      			"night": true,
+     			"mail": null
+		}
+	]
+}

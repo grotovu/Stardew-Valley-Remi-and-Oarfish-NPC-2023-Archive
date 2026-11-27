@@ -1,0 +1,15 @@
+{
+"Changes": [
+
+	{
+	"Action": "EditData",
+	"Target": "Data/Events/Beach",
+	"Entries": {
+		// Shows only after meeting Remi at railroad. Oarfish's nicer dialogue unlocks.
+		// Resets Oarfish hearts to 0 in case player has gifting her things while she doesn't care
+		"10310002/e 10310001/w sunny/f Remi 0 Oarfish 0": "continue/-1000 -1000/farmer 55 12 0 Remi 54 6 2 Oarfish 53 6 2/skippable/animate Remi false true 100 18 18/animate Oarfish false true 100 16 16/positionOffset Remi 0 16/positionOffset Oarfish 0 16/friendship Oarfish -2500/viewport 54 8 true/pause 1000/move farmer 0 -5 3/pause 500/speak Remi \"{{i18n:both.beachAfterIntro.1}}\"/pause 1000/speak Oarfish \"{{i18n:both.beachAfterIntro.2}}\"/pause 100/emote farmer 16/pause 500/speak Remi \"{{i18n:both.beachAfterIntro.3}}\"/pause 200/emote Oarfish 32/pause 200/emote Remi 56/pause 500/speak Remi \"{{i18n:both.beachAfterIntro.4}}\"/pause 200/emote farmer 40/pause 500/speak Remi \"{{i18n:both.beachAfterIntro.5}}\"/pause 1000/speak Remi \"{{i18n:both.beachAfterIntro.6}}\"/pause 100/emote farmer 28/pause 500/speak Remi \"{{i18n:both.beachAfterIntro.7}}\"/pause 100/emote farmer 16/speak Oarfish \"{{i18n:both.beachAfterIntro.8}}\"/speak Remi \"{{i18n:both.beachAfterIntro.9}}\"/pause 100/jump farmer 6/emote Oarfish 56/pause 500/speak Remi \"{{i18n:both.beachAfterIntro.10}}\"/pause 1000/speak Remi \"{{i18n:both.beachAfterIntro.11}}\"/pause 100/emote Oarfish 32/pause 1000/globalFade/viewport -1000 -1000/end",
+	},
+	},
+
+]
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Name": "SDI Oarfish",
+  "Author": "grotovu",
+  "Version": "0.0.1",
+  "Description": "SDI Oarfish.",
+  "UniqueID": "grotovu.SDIOarfish",
+  "EntryDll": "SDIOarfish.dll",
+  "MinimumApiVersion": "3.15.0",
+  "UpdateKeys": []
+}

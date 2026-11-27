@@ -1,0 +1,125 @@
+{
+  "Format": "1.0",
+  "Quests":
+    [
+	  // PATIO I
+      {
+        "Name": "Remi_Patio_Upgrade_1",
+        "Type": "ItemDelivery",
+        "Title": "%i18n:Remi_Patio_Upgrade_1.Title",
+        "Description": "%i18n:Remi_Patio_Upgrade_1.Description",
+        "Objective": "%i18n:Remi_Patio_Upgrade_1.Objective",
+        "Cancelable": false,
+        "Trigger": "Remi 259 1",		
+        "ReactionText": "%i18n:Remi_Patio_Upgrade_1.ReactionText",
+        "NextQuests": 
+        [
+          "Remi_Patio_Upgrade_2"
+        ]
+      },
+      {
+        "Name":"Remi_Patio_Upgrade_2",
+        "Type":"ItemDelivery",
+        "Title":"%i18n:Remi_Patio_Upgrade_1.Title",
+        "Description": "%i18n:Remi_Patio_Upgrade_1.Description",
+        "Objective":"%i18n:Remi_Patio_Upgrade_2.Objective",
+        "Cancelable":false,
+        "Trigger": "Remi 82 1",
+        "ReactionText":"%i18n:Remi_Patio_Upgrade_2.ReactionText",
+        "NextQuests":
+        [
+          "Remi_Patio_Upgrade_3"
+        ]
+      },
+      {
+        "Name":"Remi_Patio_Upgrade_3",
+        "Type":"ItemDelivery",
+        "Title":"%i18n:Remi_Patio_Upgrade_1.Title",
+        "Description":"%i18n:Remi_Patio_Upgrade_1.Description",
+        "Objective":"%i18n:Remi_Patio_Upgrade_3.Objective",
+        "Cancelable":false,
+        "Trigger": "Remi 88 1",
+        "ReactionText": "%i18n:Remi_Patio_Upgrade_3.ReactionText",
+		"AddMailOnComplete": "remi_patio_complete noletter",
+      },
+	  
+	  
+	  // PATIO II
+	  {
+        "Name": "Remi_Patio_Upgrade2_1",
+        "Type": "ItemDelivery",
+        "Title": "%i18n:Remi_Patio_Upgrade2_1.Title",
+        "Description": "%i18n:Remi_Patio_Upgrade2_1.Description",
+        "Objective": "%i18n:Remi_Patio_Upgrade2_1.Objective",
+        "Cancelable": false,
+        "Trigger": "Remi 829 1",
+        "ReactionText": "%i18n:Remi_Patio_Upgrade2_1.ReactionText",
+        "NextQuests": 
+        [
+          "Remi_Patio_Upgrade2_2"
+        ]
+      },
+	  {
+        "Name": "Remi_Patio_Upgrade2_2",
+        "Type": "ItemDelivery",
+        "Title": "%i18n:Remi_Patio_Upgrade2_1.Title",
+        "Description": "%i18n:Remi_Patio_Upgrade2_1.Description",
+        "Objective": "%i18n:Remi_Patio_Upgrade2_2.Objective",
+        "Cancelable": false,
+        "Trigger": "Remi 837 1",
+        "ReactionText": "%i18n:Remi_Patio_Upgrade2_2.ReactionText",
+        "NextQuests": 
+        [
+          "Remi_Patio_Upgrade2_3"
+        ]
+      },
+	  {
+        "Name": "Remi_Patio_Upgrade2_3",
+        "Type": "ItemDelivery",
+        "Title": "%i18n:Remi_Patio_Upgrade2_1.Title",
+        "Description": "%i18n:Remi_Patio_Upgrade2_1.Description",
+        "Objective": "%i18n:Remi_Patio_Upgrade2_3.Objective",
+        "Cancelable": false,
+        "Trigger": "Remi 791 1",
+        "ReactionText": "%i18n:Remi_Patio_Upgrade2_3.ReactionText",
+		"AddMailOnComplete": "remi_patio_complete2 noletter",
+      },
+    ],
+	
+	
+	
+	"Offers": 
+	[
+	
+	// PATIO I START
+    {
+      "QuestName": "Remi_Patio_Upgrade_1",
+      "OfferedBy": "Mail",
+      "OfferDetails": {
+        "Topic": "%i18n:Remi_Patio_Upgrade_1.Topic",
+        "Text": "%i18n:Remi_Patio_Upgrade_1.Text"
+      },
+      "When": {
+        "EventSeen": "10310011",
+		"not:MailReceived": "remi_patio_complete",
+      },
+    },
+	
+	// PATIO II START
+	{
+      "QuestName": "Remi_Patio_Upgrade2_1",
+      "OfferedBy": "Mail",
+      "OfferDetails": {
+        "Topic": "%i18n:Remi_Patio_Upgrade2_1.Topic",
+        "Text": "%i18n:Remi_Patio_Upgrade2_1.Text"
+      },
+      "When": {
+        "EventSeen": "10310013",
+		"not:MailReceived": "remi_patio_complete2",
+      },
+    },
+	
+	
+	
+	],
+}

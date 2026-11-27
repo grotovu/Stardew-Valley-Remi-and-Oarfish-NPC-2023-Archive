@@ -1,0 +1,17 @@
+{
+"Changes": [
+
+
+	{
+	"LogName": "Remi and Oarfish Mail",
+	"Action": "EditData",
+	"Target": "Data/mail",
+	"Entries": {
+		// NPC Adventures, forgetting things in their bag
+		"purrplingcat.npcadventure.bagItemsSentLetter_Remi": "{{i18n: npca.remi.forgotstuffmail}}",
+		"purrplingcat.npcadventure.bagItemsSentLetter_Oarfish": "{{i18n: npca.oarfish.forgotstuffmail}}",
+	},
+	},
+
+]
+}

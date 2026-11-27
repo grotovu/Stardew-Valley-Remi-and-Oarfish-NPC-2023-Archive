@@ -1,0 +1,36 @@
+{
+// Quests Themselves ***************************
+	// Remi Fetch Quest Part 1
+	"Remi_Patio_Upgrade_1.Title": "Patio Upgrade",
+	"Remi_Patio_Upgrade_1.Description": "Remi asks you to bring her the necessary items to upgrade the patio. She promises the end results will be useful to you.",
+	"Remi_Patio_Upgrade_1.Objective": "Bring Remi 1 Fiddlehead Fern.",
+	"Remi_Patio_Upgrade_1.ReactionText": "Yep. This fern definitely reeks of the forest.$11#$b#I'll get to work on this one while you get the other stuff.",
+	
+	"Remi_Patio_Upgrade_2.Objective": "Bring Remi 1 Fire Quartz.",
+	"Remi_Patio_Upgrade_2.ReactionText": "Woah, this stuff is hot!$10#$b#I'll get my magic working while you pick up the last item for now.",
+	
+	"Remi_Patio_Upgrade_3.Objective": "Bring Remi 1 Coconut.",
+	"Remi_Patio_Upgrade_3.ReactionText": "Awesome! I'll be able to finish the patio now.$h#$b#I'll let you know as soon as it's done, okay?",
+	
+	// Remi Fetch Quest Part 2
+	"Remi_Patio_Upgrade2_1.Title": "Patio Upgrade II",
+	"Remi_Patio_Upgrade2_1.Description": "Remi asks you to bring her the necessary items to upgrade the patio a second time.",
+	"Remi_Patio_Upgrade2_1.Objective": "Bring Remi 1 Ginger.",
+	"Remi_Patio_Upgrade2_1.ReactionText": "*sniff *sniff* Yup, this smells like island soil.$11#$b#Nice work, @. Keep it up.",
+	
+	"Remi_Patio_Upgrade2_2.Objective": "Bring Remi 1 Lionfish.",
+	"Remi_Patio_Upgrade2_2.ReactionText": "Well ain't this a feisty little fella!$h#$b#Ow!$10#$b#Hehe, nice going, @. Now all I need is a golden coconut.",
+	
+	"Remi_Patio_Upgrade2_3.Objective": "Bring Remi 1 Golden Coconut.",
+	"Remi_Patio_Upgrade2_3.ReactionText": "Wow, this is some heavy coconut.$10#$b#Yep, we're golden. Thanks, @. That's everything I need.",
+	
+	
+	
+// Offers ***************************
+	"Remi_Patio_Upgrade_1.Topic": "Remi's Patio Upgrade",
+	"Remi_Patio_Upgrade_1.Text": "Hey @,^^I got Fish to write this list of items for the patio upgrade. We figured it's easier to put it in your mailbox instead of chasing you during your busy days.^^    -Remi",
+	
+	"Remi_Patio_Upgrade2_1.Topic": "Remi's Patio Upgrade II",
+	"Remi_Patio_Upgrade2_1.Text": "Hey @, ready for part 2?^^Here's the list of what I need for the patio. Courtesy of our lovely Oarfish <^^    -Remi",
+	
+}

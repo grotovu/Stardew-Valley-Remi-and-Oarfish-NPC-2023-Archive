@@ -1,0 +1,45 @@
+{
+"Changes": [
+
+	{
+	"Action": "EditData",
+	"Target": "Data/Events/Farm",
+	"Entries": {
+		//10 Hearts with Remi, sending mail before allowing event to trigger
+		"10310009/e 10310008/f Remi 2500/x remi_10HeartsLetter": "null",
+	},
+	},
+
+	{
+	"Action": "EditData",
+	"Target": "Data/mail",
+	"Entries": {
+		// Need to read this first before Remi's 10 Hearts Event trigger at Railroad
+		"remi_10HeartsLetter": "{{i18n:MAIL.10HeartsLetter.Remi}}",
+	}
+	},
+
+	{
+	"Action": "EditData",
+	"Target": "Data/Events/Railroad",
+	"Entries": {
+		//Remi - 10 Hearts: Only seen after 10th heart mail is read
+		"10310010/e 10310008/f Remi 2500/n remi_10HeartsLetter": "50s/-1000 -1000/farmer 38 41 1 Remi 41 41 2/skippable/animate Remi false true 1500 16 17/viewport 41 41 true/pause 1000/emote Remi 24/move farmer 2 0 1/showFrame 35/pause 1000/showFrame 6/pause 500/stopAnimation Remi/pause 1000/faceDirection Remi 3/pause 500/speak Remi \"{{i18n:remi.10Hearts.1}}\"/pause 300/faceDirection Remi 2/pause 500/speak Remi \"{{i18n:remi.10Hearts.2}}\"/pause 500/emote Remi 40/pause 200/faceDirection farmer 2/pause 500/speak Remi \"{{i18n:remi.10Hearts.3}}\"/pause 300/faceDirection Remi 3/pause 300/faceDirection farmer 1/pause 500/speak Remi \"{{i18n:remi.10Hearts.4}}\"/pause 400/faceDirection farmer 2/pause 600/faceDirection farmer 1/pause 800/speak Remi \"{{i18n:remi.10Hearts.5}}\"/pause 1000/question fork0 \"{{i18n:remi.10Hearts.6}}\"/fork remi10hearts_romantic/pause 100/emote Remi 32/speak Remi \"{{i18n:remi.10Hearts.7}}\"/pause 100/emote Remi 56/speak Remi \"{{i18n:remi.10Hearts.8}}\"/pause 400/speak Remi \"{{i18n:remi.10Hearts.9}}\"/pause 1000/faceDirection Remi 2/pause 300/speak Remi \"{{i18n:remi.10Hearts.10}}\"/pause 300/faceDirection farmer 2/pause 1000/speak Remi \"{{i18n:remi.10Hearts.11}}\"/pause 200/faceDirection farmer 1/pause 300/faceDirection Remi 3/pause 500/speak Remi \"{{i18n:remi.10Hearts.12}}\"/pause 500/jump Remi 6/speak Remi \"{{i18n:remi.10Hearts.13}}\"/jump farmer 5/emote Remi 32/pause 1000/globalFade/viewport -1000 -1000/end",
+		"remi10hearts_romantic": "stopMusic/pause 1000/speak Remi \"{{i18n:remi.10Hearts.14}}\"/pause 1000/speak Remi \"{{i18n:remi.10Hearts.15}}\"/pause 300/faceDirection Remi 2/pause 300/emote Remi 28/speak Remi \"{{i18n:remi.10Hearts.16}}\"/pause 1000/speak Remi \"{{i18n:remi.10Hearts.17}}\"/emote Remi 40/pause 300/faceDirection Remi 3/pause 500/speak Remi \"{{i18n:remi.10Hearts.18}}\"/pause 500/faceDirection Remi 2/pause 200/emote Remi 28/pause 200/speak Remi \"{{i18n:remi.10Hearts.19}}\"/pause 400/faceDirection farmer 2/pause 500/speak Remi \"{{i18n:remi.10Hearts.20}}\"/pause 1000/faceDirection farmer 3/move farmer -3 0 3/faceDirection Remi 3/speak Remi \"{{i18n:remi.10Hearts.21}}\"/pause 300/faceDirection farmer 1/pause 500/speak Remi \"{{i18n:remi.10Hearts.22}}\"/pause 300/faceDirection Remi 2/pause 500/move farmer 0 -1 0/move farmer -13 0 3 true/pause 1000/globalFade/viewport -1000 -1000/end dialogue Remi \"{{i18n:remi.10Hearts.23}}\"",
+	},
+	},
+
+	{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Remi",
+	"Entries": {
+		//event dialogue for questions in Romantic Fork in Remi's 10th Heart Event
+		"Event_remiPushRomantic": "{{i18n:remi.10Hearts.Answer1}}",
+		"Event_remiWeCanBePlatonic": "{{i18n:remi.10Hearts.Answer2}}",
+		"Event_remiHadACrush": "{{i18n:remi.10Hearts.Answer3}}",
+		"Event_remiCompletelyPlatonic": "{{i18n:remi.10Hearts.Answer4}}",
+	},
+	},
+
+]
+}

@@ -1,0 +1,98 @@
+{
+"Changes": [
+
+	// Oarfish's spring schedule fallback
+	{
+	"Action": "EditData",
+	"Target": "Characters/schedules/Oarfish",
+	"Entries": {
+		"spring": "610 Beach 53 6 2 oarfish_sitting/2200 Beach 53 7 2",
+	},
+	},
+
+	// Oarfish's Regular schedule
+	{
+	"LogName": "Oarfish Regular Schedule",
+	"Action": "EditData",
+	"Target": "Characters/schedules/Oarfish",
+	"When": {
+		"HasSeenEvent": "10310001",
+	},
+	"Entries": {
+		//thursdays and sundays Oarfish goes fishing
+		//MONDAYS
+		"Mon": "610 Beach 53 6 2 oarfish_sitting/2600 Beach 53 7 2",
+		"marriage_Mon": "1200 Beach 53 6 2 oarfish_sitting \"Strings\\schedules\\Oarfish:marriage_Mon.000\"/1900 Beach 53 7 1/1910 BusStop -1 23 3",
+
+		//TUESDAYS
+		"Tue": "610 Beach 53 6 2 oarfish_sitting/1800 Saloon 5 5 1 oarfish_sittingfaceright \"Strings\\schedules\\Oarfish:Tue.000\"/2300 Beach 53 6 2 oarfish_sitting",
+		"marriage_Tue": "1800 Saloon 5 5 1 oarfish_sittingfaceright \"Strings\\schedules\\Oarfish:marriage_Tue.000\"/2210 BusStop -1 23 3",
+
+		//WEDNESDAY
+		"Wed": "610 Beach 53 6 2 oarfish_sitting/1600 Forest 35 25 2 \"Strings\\schedules\\Oarfish:Wed.000\"",
+		"marriage_Wed": "1800 Forest 35 25 2 \"Strings\\schedules\\Oarfish:marriage_Wed.000\"/2410 BusStop -1 23 3",
+
+		//THURSDAYS
+		"Thu": "610 Beach 53 6 2 oarfish_sitting/1800 Beach 52 24 2",
+
+		//FRIDAYS
+		"Fri": "610 Beach 53 6 2 oarfish_sitting/1200 Railroad 40 40 2 oarfish_sitting/1600 Mine 12 5 2 oarfish_sword \"Strings\\schedules\\Oarfish:Fri.000\"",
+		"marriage_Fri": "1800 Mine 12 5 2 oarfish_sword \"Strings\\schedules\\Oarfish:Fri.000\"/2210 BusStop -1 23 3",
+
+		//SATURDAYS
+		"Sat": "610 Beach 53 6 2 oarfish_sitting/1800 Saloon 35 18 0 \"Strings\\schedules\\Oarfish:saloonArcade.000\"/2300 Beach 53 6 2 oarfish_sitting",
+		"marriage_Sat": "1800 Saloon 35 18 0 \"Strings\\schedules\\Oarfish:saloonArcade.000\"/2210 BusStop -1 23 3",
+
+		//SUNDAYS
+		"Sun": "610 Beach 53 6 2 oarfish_sitting/1800 Beach 52 24 2",
+
+		//Special Schedule
+		"summer_11": "610 Railroad 40 40 2 oarfish_sitting/2600 Beach 53 7 2",
+		"summer_28": "610 Beach 53 6 2 oarfish_sitting/1600 Railroad 40 40 2 oarfish_sitting",
+		"winter_15": "610 Beach 53 6 2 oarfish_sitting/1600 Railroad 40 40 2 oarfish_sitting",
+		"winter_16": "610 Beach 53 6 2 oarfish_sitting/1600 Railroad 40 40 2 oarfish_sitting",
+		"winter_17": "610 Beach 53 6 2 oarfish_sitting/1600 Railroad 40 40 2 oarfish_sitting",
+	},
+	},
+
+	// Unlocks after seeing Remi and Oarfish 5 Hearts Event
+	{
+	"LogName": "Oarfish Schedule Mondays Unlock",
+	"Action": "EditData",
+	"Target": "Characters/schedules/Oarfish",
+	"When": {
+		"HasSeenEvent": "10314002",
+	},
+	"Entries": {
+		"Mon": "610 Beach 53 6 2 oarfish_sitting/1200 Beach 52 24 2/1600 Beach 53 6 2 oarfish_sitting \"Strings\\schedules\\Oarfish:unlock_Mon.000\"",
+	},
+	},
+
+	// Unlocks after seeing Oarfish's 8 Heart event gifting pierre
+	{
+	"LogName": "Oarfish Schedule Tuesdays Unlock",
+	"Action": "EditData",
+	"Target": "Characters/schedules/Oarfish",
+	"When": {
+		"HasSeenEvent": "10312013",
+	},
+	"Entries": {
+		"Tue": "610 Beach 53 6 2 oarfish_sitting/1800 Saloon 5 5 1 oarfish_sittingfaceright \"Strings\\schedules\\Oarfish:unlock_Tue.000\"/2300 Beach 53 6 2 oarfish_sitting",
+	},
+	},
+
+	// Unlocks after seeing Remi and Oarfish 9 Hearts Event
+	{
+	"LogName": "Oarfish Schedule Wednesdays Unlock",
+	"Action": "EditData",
+	"Target": "Characters/schedules/Oarfish",
+	"When": {
+		"HasSeenEvent": "10314004",
+	},
+	"Entries": {
+		"Wed": "610 Beach 53 6 2 oarfish_sitting/1600 Forest 35 25 2 \"Strings\\schedules\\Oarfish:unlock_Wed.000\"",
+	},
+	},
+
+]
+}

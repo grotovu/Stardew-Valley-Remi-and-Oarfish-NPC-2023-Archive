@@ -1,0 +1,22 @@
+{
+"Changes": [
+
+	{
+	"LogName":"Remi's Restauranteer Dialogue",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Remi",
+	"When": {
+		"HasMod": "aedenthorn.Restauranteer",
+	},
+	"Entries": {
+		"RestauranteerMod-Loved-1": "{{i18n:RESTAURANTEER.remi.loved.1}}",
+		"RestauranteerMod-Loved-2": "{{i18n:RESTAURANTEER.remi.loved.2}}",
+		"RestauranteerMod-Loved-3": "{{i18n:RESTAURANTEER.remi.loved.3}}",
+		"RestauranteerMod-Liked-1": "{{i18n:RESTAURANTEER.remi.liked.1}}",
+		"RestauranteerMod-Liked-2": "{{i18n:RESTAURANTEER.remi.liked.2}}",
+		"RestauranteerMod-Liked-3": "{{i18n:RESTAURANTEER.remi.liked.3}}",
+	},
+	},
+
+]
+}

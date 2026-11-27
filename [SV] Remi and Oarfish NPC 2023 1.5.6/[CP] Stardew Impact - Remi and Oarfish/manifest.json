@@ -1,0 +1,11 @@
+{
+    "Name": "[CP] SI - Remi and Oarfish",
+    "Author": "grotovu",
+    "Version": "1.0.0",
+    "Description": "Remi and Oarfish for Stardew Impact",
+    "UniqueID": "grotovu.StardewImpactRemiandOarfish",
+    "MinimumApiVersion": "3.15.0",
+    "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    }
+ }
